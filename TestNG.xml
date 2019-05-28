@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="OrangeHRM Test Suite" >
+    <listeners>
+        <listener class-name="utils.Listeners.TestListener"/>
+        <listener class-name="utils.Listeners.AnnotationTransformer"/>
+    </listeners>
+
+    <test name="Full Test">
+        <classes>
+            <class name="features.loginORMTest">
+            <methods>
+                <include name="TC01_login"/>
+                <include name="TC02_login"/>
+                <include name="TC03_login"/>
+                <include name="TC04_login"/>
+                <include name="TC05_login"/>
+                <include name="TC06_login"/>
+                <include name="TC07_login"/>
+                <include name="TC08_login"/>
+            </methods>
+        </class>
+            <class name="features.InquiryUserOHRMTest"/>
+        </classes>
+    </test>
+</suite>
