@@ -1,0 +1,183 @@
+{
+  "uid" : "f3e38680d4140484",
+  "name" : "User is inquiry with invalid name",
+  "fullName" : "features.InquiryUserOHRMTest.TC02_inquiry",
+  "historyId" : "edf1309ff9564e25d6da53eaa942d2d4",
+  "time" : {
+    "start" : 1559062877797,
+    "stop" : 1559062882393,
+    "duration" : 4596
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeMethodSetup",
+    "time" : {
+      "start" : 1559062875794,
+      "stop" : 1559062877787,
+      "duration" : 1993
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given - User is in the login Page",
+      "time" : {
+        "start" : 1559062877797,
+        "stop" : 1559062881839,
+        "duration" : 4042
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "User logs in to Portal",
+        "time" : {
+          "start" : 1559062879280,
+          "stop" : 1559062880246,
+          "duration" : 966
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "name",
+          "value" : "admin"
+        }, {
+          "name" : "pasword",
+          "value" : "admin"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "User Management"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "When - User Search by Name",
+      "time" : {
+        "start" : 1559062881839,
+        "stop" : 1559062882362,
+        "duration" : 523
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "userName",
+        "value" : "RLEZ4O"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Then - User name is NOT in the table list",
+      "time" : {
+        "start" : 1559062882363,
+        "stop" : 1559062882393,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "randomName",
+        "value" : "RLEZ4O"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "closeBrowser",
+    "time" : {
+      "start" : 1559062882400,
+      "stop" : 1559062883140,
+      "duration" : 740
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "features.InquiryUserOHRMTest"
+  }, {
+    "name" : "testClass",
+    "value" : "features.InquiryUserOHRMTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC02_inquiry"
+  }, {
+    "name" : "parentSuite",
+    "value" : "OrangeHRM Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Full Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "features.InquiryUserOHRMTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-1DCFOTD"
+  }, {
+    "name" : "thread",
+    "value" : "8756@DESKTOP-1DCFOTD.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Tests"
+  }, {
+    "name" : "feature",
+    "value" : "Inquiry User Name"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f3e38680d4140484.json",
+  "parameterValues" : [ ]
+}

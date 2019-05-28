@@ -1,0 +1,276 @@
+{
+  "uid" : "3ed5ce0ecccc227a",
+  "name" : "User is inquiry with invalid name",
+  "fullName" : "features.InquiryUserOHRMTest.TC02_inquiry",
+  "historyId" : "edf1309ff9564e25d6da53eaa942d2d4",
+  "time" : {
+    "start" : 1559081068467,
+    "stop" : 1559081079078,
+    "duration" : 10611
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeMethodSetup",
+    "time" : {
+      "start" : 1559081066413,
+      "stop" : 1559081068459,
+      "duration" : 2046
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given - User is landing to expected page - User Management",
+      "time" : {
+        "start" : 1559081068468,
+        "stop" : 1559081075563,
+        "duration" : 7095
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "User logs in to Portal",
+        "time" : {
+          "start" : 1559081070083,
+          "stop" : 1559081072902,
+          "duration" : 2819
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "name",
+          "value" : "admin"
+        }, {
+          "name" : "pasword",
+          "value" : "admin"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "When - User Go To User Form",
+        "time" : {
+          "start" : 1559081072902,
+          "stop" : 1559081075563,
+          "duration" : 2661
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "User Management"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "When - User Search by Name",
+      "time" : {
+        "start" : 1559081075563,
+        "stop" : 1559081078303,
+        "duration" : 2740
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "userName",
+        "value" : "UY1KLBZ"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Then - User name is NOT in the table list",
+      "time" : {
+        "start" : 1559081078303,
+        "stop" : 1559081078342,
+        "duration" : 39
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "randomName",
+        "value" : "UY1KLBZ"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "84513b784a091080",
+      "name" : "Page screenshot",
+      "source" : "84513b784a091080.png",
+      "type" : "image/png",
+      "size" : 79477
+    }, {
+      "uid" : "a83da34738fad537",
+      "name" : "Page screenshot",
+      "source" : "a83da34738fad537.png",
+      "type" : "image/png",
+      "size" : 79477
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "closeBrowser",
+    "time" : {
+      "start" : 1559081079084,
+      "stop" : 1559081079783,
+      "duration" : 699
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "features.InquiryUserOHRMTest"
+  }, {
+    "name" : "testClass",
+    "value" : "features.InquiryUserOHRMTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC02_inquiry"
+  }, {
+    "name" : "parentSuite",
+    "value" : "OrangeHRM Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Full Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "features.InquiryUserOHRMTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-1DCFOTD"
+  }, {
+    "name" : "thread",
+    "value" : "13552@DESKTOP-1DCFOTD.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Tests"
+  }, {
+    "name" : "feature",
+    "value" : "Inquiry User Name"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "67e8a52206156220",
+      "status" : "passed",
+      "time" : {
+        "start" : 1559066654942,
+        "stop" : 1559066660631,
+        "duration" : 5689
+      }
+    }, {
+      "uid" : "7f42231b0512fd94",
+      "status" : "passed",
+      "time" : {
+        "start" : 1559066371157,
+        "stop" : 1559066376243,
+        "duration" : 5086
+      }
+    }, {
+      "uid" : "f489b5b51a2c12e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1559066091978,
+        "stop" : 1559066098556,
+        "duration" : 6578
+      }
+    }, {
+      "uid" : "4db7141675d0e50",
+      "status" : "passed",
+      "time" : {
+        "start" : 1559065723973,
+        "stop" : 1559065729696,
+        "duration" : 5723
+      }
+    }, {
+      "uid" : "f6b4c752f14a0a12",
+      "status" : "passed",
+      "time" : {
+        "start" : 1559064640522,
+        "stop" : 1559064646707,
+        "duration" : 6185
+      }
+    }, {
+      "uid" : "f76e5d840f70377f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1559063483338,
+        "stop" : 1559063488179,
+        "duration" : 4841
+      }
+    }, {
+      "uid" : "f3e38680d4140484",
+      "status" : "passed",
+      "time" : {
+        "start" : 1559062877797,
+        "stop" : 1559062882393,
+        "duration" : 4596
+      }
+    }, {
+      "uid" : "37c107507e80dee5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1559062032735,
+        "stop" : 1559062037834,
+        "duration" : 5099
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3ed5ce0ecccc227a.json",
+  "parameterValues" : [ ]
+}

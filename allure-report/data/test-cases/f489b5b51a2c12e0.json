@@ -1,0 +1,195 @@
+{
+  "uid" : "f489b5b51a2c12e0",
+  "name" : "User is inquiry with invalid name",
+  "fullName" : "features.InquiryUserOHRMTest.TC02_inquiry",
+  "historyId" : "edf1309ff9564e25d6da53eaa942d2d4",
+  "time" : {
+    "start" : 1559066091978,
+    "stop" : 1559066098556,
+    "duration" : 6578
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeMethodSetup",
+    "time" : {
+      "start" : 1559066089988,
+      "stop" : 1559066091970,
+      "duration" : 1982
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given - User is landing to expected page - User Management",
+      "time" : {
+        "start" : 1559066091978,
+        "stop" : 1559066097174,
+        "duration" : 5196
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "User logs in to Portal",
+        "time" : {
+          "start" : 1559066093488,
+          "stop" : 1559066094865,
+          "duration" : 1377
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "name",
+          "value" : "admin"
+        }, {
+          "name" : "pasword",
+          "value" : "admin"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "User Management"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "When - User Search by Name",
+      "time" : {
+        "start" : 1559066097174,
+        "stop" : 1559066097822,
+        "duration" : 648
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "userName",
+        "value" : "SGJZEMYJN2"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Then - User name is NOT in the table list",
+      "time" : {
+        "start" : 1559066097822,
+        "stop" : 1559066097855,
+        "duration" : 33
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "randomName",
+        "value" : "SGJZEMYJN"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "e95f5847391b9a23",
+      "name" : "Page screenshot",
+      "source" : "e95f5847391b9a23.png",
+      "type" : "image/png",
+      "size" : 79978
+    }, {
+      "uid" : "fe10c51abd00d24b",
+      "name" : "Page screenshot",
+      "source" : "fe10c51abd00d24b.png",
+      "type" : "image/png",
+      "size" : 79978
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "closeBrowser",
+    "time" : {
+      "start" : 1559066098561,
+      "stop" : 1559066099268,
+      "duration" : 707
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "features.InquiryUserOHRMTest"
+  }, {
+    "name" : "testClass",
+    "value" : "features.InquiryUserOHRMTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC02_inquiry"
+  }, {
+    "name" : "parentSuite",
+    "value" : "OrangeHRM Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Full Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "features.InquiryUserOHRMTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-1DCFOTD"
+  }, {
+    "name" : "thread",
+    "value" : "14720@DESKTOP-1DCFOTD.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Inquiry User Name"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f489b5b51a2c12e0.json",
+  "parameterValues" : [ ]
+}

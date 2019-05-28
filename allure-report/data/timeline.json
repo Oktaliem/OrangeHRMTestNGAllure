@@ -1,0 +1,1388 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-1DCFOTD",
+    "children" : [ {
+      "name" : "20020@DESKTOP-1DCFOTD.main(1)",
+      "children" : [ {
+        "name" : "User is inquiry with valid name",
+        "uid" : "172e3a53879d14a",
+        "parentUid" : "866818f4131715a5e37d79048e064adc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559065714972,
+          "stop" : 1559065721136,
+          "duration" : 6164
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with correct user name and incorrect password",
+        "uid" : "5f188bbb471e36a3",
+        "parentUid" : "866818f4131715a5e37d79048e064adc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559065703656,
+          "stop" : 1559065706622,
+          "duration" : 2966
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User is inquiry with invalid name",
+        "uid" : "4db7141675d0e50",
+        "parentUid" : "866818f4131715a5e37d79048e064adc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559065723973,
+          "stop" : 1559065729696,
+          "duration" : 5723
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with empty user name and empty password",
+        "uid" : "c01680761c0a55ff",
+        "parentUid" : "866818f4131715a5e37d79048e064adc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559065676468,
+          "stop" : 1559065679098,
+          "duration" : 2630
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with correct username and correct password",
+        "uid" : "397830036d0775ad",
+        "parentUid" : "866818f4131715a5e37d79048e064adc",
+        "status" : "failed",
+        "time" : {
+          "start" : 1559065737928,
+          "stop" : 1559065741591,
+          "duration" : 3663
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with incorrect user name and correct password",
+        "uid" : "9a089d922f4d8807",
+        "parentUid" : "866818f4131715a5e37d79048e064adc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559065698110,
+          "stop" : 1559065700851,
+          "duration" : 2741
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with correct username and correct password",
+        "uid" : "a84c80c235786d0d",
+        "parentUid" : "866818f4131715a5e37d79048e064adc",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1559065732447,
+          "stop" : 1559065735157,
+          "duration" : 2710
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with empty user name and correct password",
+        "uid" : "7d842b4eb64ebabe",
+        "parentUid" : "866818f4131715a5e37d79048e064adc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559065681928,
+          "stop" : 1559065684459,
+          "duration" : 2531
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with incorrect user name and incorrect password",
+        "uid" : "ff8ba7dcfbbb224e",
+        "parentUid" : "866818f4131715a5e37d79048e064adc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559065692615,
+          "stop" : 1559065695337,
+          "duration" : 2722
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with incorrect user name and incorrect password",
+        "uid" : "f6824769ce058cd0",
+        "parentUid" : "866818f4131715a5e37d79048e064adc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559065709379,
+          "stop" : 1559065712149,
+          "duration" : 2770
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with correct password and empty password",
+        "uid" : "2d9e3e74cd7dd6fd",
+        "parentUid" : "866818f4131715a5e37d79048e064adc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559065687239,
+          "stop" : 1559065689797,
+          "duration" : 2558
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "866818f4131715a5e37d79048e064adc"
+    }, {
+      "name" : "13552@DESKTOP-1DCFOTD.main(1)",
+      "children" : [ {
+        "name" : "Login with correct user name and incorrect password",
+        "uid" : "684b746f9cf13929",
+        "parentUid" : "c9124d7a11761842ffc3ca9e2eb2d464",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559080985930,
+          "stop" : 1559080989151,
+          "duration" : 3221
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with correct username and correct password",
+        "uid" : "86729c8cfdb441ec",
+        "parentUid" : "c9124d7a11761842ffc3ca9e2eb2d464",
+        "status" : "failed",
+        "time" : {
+          "start" : 1559081087577,
+          "stop" : 1559081091561,
+          "duration" : 3984
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User is inquiry with invalid name",
+        "uid" : "3ed5ce0ecccc227a",
+        "parentUid" : "c9124d7a11761842ffc3ca9e2eb2d464",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559081068467,
+          "stop" : 1559081079078,
+          "duration" : 10611
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with incorrect user name and incorrect password",
+        "uid" : "95ff46fd1241dd80",
+        "parentUid" : "c9124d7a11761842ffc3ca9e2eb2d464",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559080991979,
+          "stop" : 1559080994861,
+          "duration" : 2882
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with incorrect user name and incorrect password",
+        "uid" : "a3ace8b9483e3623",
+        "parentUid" : "c9124d7a11761842ffc3ca9e2eb2d464",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559080973585,
+          "stop" : 1559080977069,
+          "duration" : 3484
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with empty user name and correct password",
+        "uid" : "35e435d59b1f1ac3",
+        "parentUid" : "c9124d7a11761842ffc3ca9e2eb2d464",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559080962075,
+          "stop" : 1559080964948,
+          "duration" : 2873
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with correct password and empty password",
+        "uid" : "f603e426300417c5",
+        "parentUid" : "c9124d7a11761842ffc3ca9e2eb2d464",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559080968012,
+          "stop" : 1559080970744,
+          "duration" : 2732
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User is inquiry with valid name",
+        "uid" : "5921557a94a44107",
+        "parentUid" : "c9124d7a11761842ffc3ca9e2eb2d464",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1559080997795,
+          "stop" : 1559081029782,
+          "duration" : 31987
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User is inquiry with valid name",
+        "uid" : "f0e176c56eeb9c93",
+        "parentUid" : "c9124d7a11761842ffc3ca9e2eb2d464",
+        "status" : "broken",
+        "time" : {
+          "start" : 1559081032524,
+          "stop" : 1559081065711,
+          "duration" : 33187
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with correct username and correct password",
+        "uid" : "9c9ce1315c347d2f",
+        "parentUid" : "c9124d7a11761842ffc3ca9e2eb2d464",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1559081081876,
+          "stop" : 1559081084759,
+          "duration" : 2883
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with empty user name and empty password",
+        "uid" : "60fd26406e8e415e",
+        "parentUid" : "c9124d7a11761842ffc3ca9e2eb2d464",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559080953042,
+          "stop" : 1559080959174,
+          "duration" : 6132
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with incorrect user name and correct password",
+        "uid" : "af1ad7df1156067e",
+        "parentUid" : "c9124d7a11761842ffc3ca9e2eb2d464",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559080980006,
+          "stop" : 1559080983111,
+          "duration" : 3105
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c9124d7a11761842ffc3ca9e2eb2d464"
+    }, {
+      "name" : "8756@DESKTOP-1DCFOTD.main(1)",
+      "children" : [ {
+        "name" : "Login with correct username and correct password",
+        "uid" : "74653aa53fab811b",
+        "parentUid" : "7729b940ed686216be91d0a584c774db",
+        "status" : "failed",
+        "time" : {
+          "start" : 1559062890472,
+          "stop" : 1559062894371,
+          "duration" : 3899
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with correct user name and incorrect password",
+        "uid" : "f1869599efff9b40",
+        "parentUid" : "7729b940ed686216be91d0a584c774db",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559062860596,
+          "stop" : 1559062862744,
+          "duration" : 2148
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User is inquiry with invalid name",
+        "uid" : "f3e38680d4140484",
+        "parentUid" : "7729b940ed686216be91d0a584c774db",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559062877797,
+          "stop" : 1559062882393,
+          "duration" : 4596
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with incorrect user name and incorrect password",
+        "uid" : "f3b39a7e881862a8",
+        "parentUid" : "7729b940ed686216be91d0a584c774db",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559062851197,
+          "stop" : 1559062853113,
+          "duration" : 1916
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with incorrect user name and incorrect password",
+        "uid" : "b10a7919e4eb171b",
+        "parentUid" : "7729b940ed686216be91d0a584c774db",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559062865490,
+          "stop" : 1559062867431,
+          "duration" : 1941
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with empty user name and empty password",
+        "uid" : "3cf9a15e900a4cb5",
+        "parentUid" : "7729b940ed686216be91d0a584c774db",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559062837741,
+          "stop" : 1559062839463,
+          "duration" : 1722
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with empty user name and correct password",
+        "uid" : "7d3f19d4519f25f7",
+        "parentUid" : "7729b940ed686216be91d0a584c774db",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559062842244,
+          "stop" : 1559062843972,
+          "duration" : 1728
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with correct password and empty password",
+        "uid" : "f4c68b9579a1783d",
+        "parentUid" : "7729b940ed686216be91d0a584c774db",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559062846715,
+          "stop" : 1559062848431,
+          "duration" : 1716
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User is inquiry with valid name",
+        "uid" : "6b825c39576915d",
+        "parentUid" : "7729b940ed686216be91d0a584c774db",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559062870197,
+          "stop" : 1559062875048,
+          "duration" : 4851
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with incorrect user name and correct password",
+        "uid" : "81639ebf36ef058a",
+        "parentUid" : "7729b940ed686216be91d0a584c774db",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559062855845,
+          "stop" : 1559062857801,
+          "duration" : 1956
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with correct username and correct password",
+        "uid" : "50a6b7b96884d035",
+        "parentUid" : "7729b940ed686216be91d0a584c774db",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1559062885176,
+          "stop" : 1559062887718,
+          "duration" : 2542
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7729b940ed686216be91d0a584c774db"
+    }, {
+      "name" : "12268@DESKTOP-1DCFOTD.main(1)",
+      "children" : [ {
+        "name" : "Login with empty user name and correct password",
+        "uid" : "279d8e76d0a3b3a7",
+        "parentUid" : "e869e592c707023faae5a740f7aa5add",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559066550656,
+          "stop" : 1559066553175,
+          "duration" : 2519
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with incorrect user name and incorrect password",
+        "uid" : "15133879a30b45f2",
+        "parentUid" : "e869e592c707023faae5a740f7aa5add",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559066578429,
+          "stop" : 1559066581388,
+          "duration" : 2959
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with correct username and correct password",
+        "uid" : "4ce77a02692dbe1b",
+        "parentUid" : "e869e592c707023faae5a740f7aa5add",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1559066663382,
+          "stop" : 1559066665897,
+          "duration" : 2515
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User is inquiry with valid name",
+        "uid" : "3bcb0b3869a7a477",
+        "parentUid" : "e869e592c707023faae5a740f7aa5add",
+        "status" : "broken",
+        "time" : {
+          "start" : 1559066619006,
+          "stop" : 1559066652165,
+          "duration" : 33159
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with incorrect user name and incorrect password",
+        "uid" : "d16479eb584624d9",
+        "parentUid" : "e869e592c707023faae5a740f7aa5add",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559066561258,
+          "stop" : 1559066564114,
+          "duration" : 2856
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User is inquiry with valid name",
+        "uid" : "ad741b5167df2fe3",
+        "parentUid" : "e869e592c707023faae5a740f7aa5add",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1559066584329,
+          "stop" : 1559066616278,
+          "duration" : 31949
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with incorrect user name and correct password",
+        "uid" : "4d1b0f4eb4ac27e3",
+        "parentUid" : "e869e592c707023faae5a740f7aa5add",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559066566971,
+          "stop" : 1559066569799,
+          "duration" : 2828
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with correct user name and incorrect password",
+        "uid" : "207d7962861e53ed",
+        "parentUid" : "e869e592c707023faae5a740f7aa5add",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559066572597,
+          "stop" : 1559066575632,
+          "duration" : 3035
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with correct password and empty password",
+        "uid" : "9d67d3344ceeec84",
+        "parentUid" : "e869e592c707023faae5a740f7aa5add",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559066555924,
+          "stop" : 1559066558454,
+          "duration" : 2530
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User is inquiry with invalid name",
+        "uid" : "67e8a52206156220",
+        "parentUid" : "e869e592c707023faae5a740f7aa5add",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559066654942,
+          "stop" : 1559066660631,
+          "duration" : 5689
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with empty user name and empty password",
+        "uid" : "1450bf76d8ee58fb",
+        "parentUid" : "e869e592c707023faae5a740f7aa5add",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559066545218,
+          "stop" : 1559066547888,
+          "duration" : 2670
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with correct username and correct password",
+        "uid" : "cc1aae1d6a905408",
+        "parentUid" : "e869e592c707023faae5a740f7aa5add",
+        "status" : "failed",
+        "time" : {
+          "start" : 1559066668683,
+          "stop" : 1559066672452,
+          "duration" : 3769
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e869e592c707023faae5a740f7aa5add"
+    }, {
+      "name" : "14720@DESKTOP-1DCFOTD.main(1)",
+      "children" : [ {
+        "name" : "User is inquiry with valid name",
+        "uid" : "99d7824e74f594b6",
+        "parentUid" : "7b9ea937e1d04910ba66b26bb52f88a8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559066083276,
+          "stop" : 1559066089273,
+          "duration" : 5997
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with incorrect user name and correct password",
+        "uid" : "e3ac3e16acbb9b7",
+        "parentUid" : "7b9ea937e1d04910ba66b26bb52f88a8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559066066304,
+          "stop" : 1559066069331,
+          "duration" : 3027
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with empty user name and correct password",
+        "uid" : "7a55c182ee57f245",
+        "parentUid" : "7b9ea937e1d04910ba66b26bb52f88a8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559066050260,
+          "stop" : 1559066052774,
+          "duration" : 2514
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User is inquiry with invalid name",
+        "uid" : "f489b5b51a2c12e0",
+        "parentUid" : "7b9ea937e1d04910ba66b26bb52f88a8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559066091978,
+          "stop" : 1559066098556,
+          "duration" : 6578
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with correct username and correct password",
+        "uid" : "e5a7b0dd354d12f6",
+        "parentUid" : "7b9ea937e1d04910ba66b26bb52f88a8",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1559066101440,
+          "stop" : 1559066104244,
+          "duration" : 2804
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with incorrect user name and incorrect password",
+        "uid" : "d9b5077b64528449",
+        "parentUid" : "7b9ea937e1d04910ba66b26bb52f88a8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559066077733,
+          "stop" : 1559066080509,
+          "duration" : 2776
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with correct password and empty password",
+        "uid" : "df28fca1d03c1bbb",
+        "parentUid" : "7b9ea937e1d04910ba66b26bb52f88a8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559066055513,
+          "stop" : 1559066058005,
+          "duration" : 2492
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with correct username and correct password",
+        "uid" : "3368ca9db3b9f56f",
+        "parentUid" : "7b9ea937e1d04910ba66b26bb52f88a8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1559066106963,
+          "stop" : 1559066110737,
+          "duration" : 3774
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with incorrect user name and incorrect password",
+        "uid" : "ba38ec950f01bf29",
+        "parentUid" : "7b9ea937e1d04910ba66b26bb52f88a8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559066060794,
+          "stop" : 1559066063535,
+          "duration" : 2741
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with empty user name and empty password",
+        "uid" : "a58910080ca483dd",
+        "parentUid" : "7b9ea937e1d04910ba66b26bb52f88a8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559066044836,
+          "stop" : 1559066047460,
+          "duration" : 2624
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with correct user name and incorrect password",
+        "uid" : "f199ec49673b59e6",
+        "parentUid" : "7b9ea937e1d04910ba66b26bb52f88a8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559066072022,
+          "stop" : 1559066075009,
+          "duration" : 2987
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7b9ea937e1d04910ba66b26bb52f88a8"
+    }, {
+      "name" : "27848@DESKTOP-1DCFOTD.main(1)",
+      "children" : [ {
+        "name" : "Login with correct username and correct password",
+        "uid" : "c0520d13d1b89984",
+        "parentUid" : "a655b32bcb239e7d239199af1e050c1d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1559066384647,
+          "stop" : 1559066387531,
+          "duration" : 2884
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with empty user name and empty password",
+        "uid" : "38ffd6cd1ed6f0a5",
+        "parentUid" : "a655b32bcb239e7d239199af1e050c1d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559066193466,
+          "stop" : 1559066195626,
+          "duration" : 2160
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with correct password and empty password",
+        "uid" : "b70114deb48133b2",
+        "parentUid" : "a655b32bcb239e7d239199af1e050c1d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559066204159,
+          "stop" : 1559066206246,
+          "duration" : 2087
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with correct user name and incorrect password",
+        "uid" : "2489ca4ac81f48a6",
+        "parentUid" : "a655b32bcb239e7d239199af1e050c1d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559066220453,
+          "stop" : 1559066223037,
+          "duration" : 2584
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with correct username and correct password",
+        "uid" : "e141ae5ad979a61c",
+        "parentUid" : "a655b32bcb239e7d239199af1e050c1d",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1559066379330,
+          "stop" : 1559066381905,
+          "duration" : 2575
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User is inquiry with valid name",
+        "uid" : "31ea2e657b3c1279",
+        "parentUid" : "a655b32bcb239e7d239199af1e050c1d",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1559066231880,
+          "stop" : 1559066299238,
+          "duration" : 67358
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User is inquiry with valid name",
+        "uid" : "8d00f6732cdb75cb",
+        "parentUid" : "a655b32bcb239e7d239199af1e050c1d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1559066302069,
+          "stop" : 1559066367724,
+          "duration" : 65655
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User is inquiry with invalid name",
+        "uid" : "7f42231b0512fd94",
+        "parentUid" : "a655b32bcb239e7d239199af1e050c1d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559066371157,
+          "stop" : 1559066376243,
+          "duration" : 5086
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with incorrect user name and correct password",
+        "uid" : "a8b2e86b2653fd15",
+        "parentUid" : "a655b32bcb239e7d239199af1e050c1d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559066214919,
+          "stop" : 1559066217346,
+          "duration" : 2427
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with incorrect user name and incorrect password",
+        "uid" : "3b47fe7e8761cd8d",
+        "parentUid" : "a655b32bcb239e7d239199af1e050c1d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559066226195,
+          "stop" : 1559066228664,
+          "duration" : 2469
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with incorrect user name and incorrect password",
+        "uid" : "2dc0f87eff5702a4",
+        "parentUid" : "a655b32bcb239e7d239199af1e050c1d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559066209366,
+          "stop" : 1559066211747,
+          "duration" : 2381
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with empty user name and correct password",
+        "uid" : "e4c3fefd02e5c3c8",
+        "parentUid" : "a655b32bcb239e7d239199af1e050c1d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559066198800,
+          "stop" : 1559066200955,
+          "duration" : 2155
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a655b32bcb239e7d239199af1e050c1d"
+    }, {
+      "name" : "24168@DESKTOP-1DCFOTD.main(1)",
+      "children" : [ {
+        "name" : "Login with incorrect user name and incorrect password",
+        "uid" : "1a2ea6d3a09a2425",
+        "parentUid" : "eb33b79bca1081943fa60f2ad2f082dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559063456287,
+          "stop" : 1559063458153,
+          "duration" : 1866
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with correct user name and incorrect password",
+        "uid" : "ab02cc4bed066fd3",
+        "parentUid" : "eb33b79bca1081943fa60f2ad2f082dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559063465760,
+          "stop" : 1559063467936,
+          "duration" : 2176
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User is inquiry with valid name",
+        "uid" : "79c30efad0ec3eb2",
+        "parentUid" : "eb33b79bca1081943fa60f2ad2f082dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559063475396,
+          "stop" : 1559063480533,
+          "duration" : 5137
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with incorrect user name and correct password",
+        "uid" : "b6ef942568a6a5da",
+        "parentUid" : "eb33b79bca1081943fa60f2ad2f082dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559063460947,
+          "stop" : 1559063462964,
+          "duration" : 2017
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with empty user name and correct password",
+        "uid" : "d68f3637f3fc9d0c",
+        "parentUid" : "eb33b79bca1081943fa60f2ad2f082dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559063447328,
+          "stop" : 1559063449059,
+          "duration" : 1731
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with empty user name and empty password",
+        "uid" : "405e52324ee3e02d",
+        "parentUid" : "eb33b79bca1081943fa60f2ad2f082dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559063442796,
+          "stop" : 1559063444590,
+          "duration" : 1794
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with correct username and correct password",
+        "uid" : "1f7bf57491757add",
+        "parentUid" : "eb33b79bca1081943fa60f2ad2f082dc",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1559063490948,
+          "stop" : 1559063493500,
+          "duration" : 2552
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with correct password and empty password",
+        "uid" : "64c4483c7b171edb",
+        "parentUid" : "eb33b79bca1081943fa60f2ad2f082dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559063451877,
+          "stop" : 1559063453541,
+          "duration" : 1664
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with incorrect user name and incorrect password",
+        "uid" : "1406c5a7d7287f10",
+        "parentUid" : "eb33b79bca1081943fa60f2ad2f082dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559063470704,
+          "stop" : 1559063472656,
+          "duration" : 1952
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User is inquiry with invalid name",
+        "uid" : "f76e5d840f70377f",
+        "parentUid" : "eb33b79bca1081943fa60f2ad2f082dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559063483338,
+          "stop" : 1559063488179,
+          "duration" : 4841
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with correct username and correct password",
+        "uid" : "87598722c899dde5",
+        "parentUid" : "eb33b79bca1081943fa60f2ad2f082dc",
+        "status" : "failed",
+        "time" : {
+          "start" : 1559063496274,
+          "stop" : 1559063500046,
+          "duration" : 3772
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "eb33b79bca1081943fa60f2ad2f082dc"
+    }, {
+      "name" : "24644@DESKTOP-1DCFOTD.main(1)",
+      "children" : [ {
+        "name" : "Login with empty user name and empty password",
+        "uid" : "16937e996e43a6ce",
+        "parentUid" : "a265a887c5590c68b9229685f44ba19d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559062658239,
+          "stop" : 1559062660028,
+          "duration" : 1789
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a265a887c5590c68b9229685f44ba19d"
+    }, {
+      "name" : "17128@DESKTOP-1DCFOTD.main(1)",
+      "children" : [ {
+        "name" : "Login with empty user name and empty password",
+        "uid" : "5d30e48e65802e25",
+        "parentUid" : "04e8972da997da1cb25a29ced448eae1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559064593333,
+          "stop" : 1559064595924,
+          "duration" : 2591
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with incorrect user name and incorrect password",
+        "uid" : "e47e3dcbc26c2070",
+        "parentUid" : "04e8972da997da1cb25a29ced448eae1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559064609123,
+          "stop" : 1559064611887,
+          "duration" : 2764
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User is inquiry with valid name",
+        "uid" : "c49ca129b6deba76",
+        "parentUid" : "04e8972da997da1cb25a29ced448eae1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559064631364,
+          "stop" : 1559064637750,
+          "duration" : 6386
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User is inquiry with invalid name",
+        "uid" : "f6b4c752f14a0a12",
+        "parentUid" : "04e8972da997da1cb25a29ced448eae1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559064640522,
+          "stop" : 1559064646707,
+          "duration" : 6185
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with incorrect user name and incorrect password",
+        "uid" : "49d84e6c619aa0dd",
+        "parentUid" : "04e8972da997da1cb25a29ced448eae1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559064625770,
+          "stop" : 1559064628574,
+          "duration" : 2804
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with correct username and correct password",
+        "uid" : "655465c7fa3122b4",
+        "parentUid" : "04e8972da997da1cb25a29ced448eae1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1559064654822,
+          "stop" : 1559064658542,
+          "duration" : 3720
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with correct username and correct password",
+        "uid" : "76a2e2870569c200",
+        "parentUid" : "04e8972da997da1cb25a29ced448eae1",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1559064649438,
+          "stop" : 1559064652044,
+          "duration" : 2606
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with correct password and empty password",
+        "uid" : "646927ecca369584",
+        "parentUid" : "04e8972da997da1cb25a29ced448eae1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559064603867,
+          "stop" : 1559064606430,
+          "duration" : 2563
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with empty user name and correct password",
+        "uid" : "60162f84d054e43e",
+        "parentUid" : "04e8972da997da1cb25a29ced448eae1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559064598615,
+          "stop" : 1559064601129,
+          "duration" : 2514
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with correct user name and incorrect password",
+        "uid" : "c50a058f6503cec4",
+        "parentUid" : "04e8972da997da1cb25a29ced448eae1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559064620069,
+          "stop" : 1559064623031,
+          "duration" : 2962
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with incorrect user name and correct password",
+        "uid" : "8c02bdc3b87166d5",
+        "parentUid" : "04e8972da997da1cb25a29ced448eae1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559064614612,
+          "stop" : 1559064617321,
+          "duration" : 2709
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "04e8972da997da1cb25a29ced448eae1"
+    }, {
+      "name" : "14992@DESKTOP-1DCFOTD.main(1)",
+      "children" : [ {
+        "name" : "Login with correct password and empty password",
+        "uid" : "34f49802031ccf4d",
+        "parentUid" : "a5301261499355fabc3493881bc65afd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559062000812,
+          "stop" : 1559062002591,
+          "duration" : 1779
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with incorrect user name and incorrect password",
+        "uid" : "103fb99c5f65d9e",
+        "parentUid" : "a5301261499355fabc3493881bc65afd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559062019753,
+          "stop" : 1559062021751,
+          "duration" : 1998
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User is inquiry with valid name",
+        "uid" : "73a6d812608ed535",
+        "parentUid" : "a5301261499355fabc3493881bc65afd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559062024518,
+          "stop" : 1559062029974,
+          "duration" : 5456
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with incorrect user name and incorrect password",
+        "uid" : "3389526b452d4ab",
+        "parentUid" : "a5301261499355fabc3493881bc65afd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559062005355,
+          "stop" : 1559062007280,
+          "duration" : 1925
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with empty user name and empty password",
+        "uid" : "e0e419d8ee5869a0",
+        "parentUid" : "a5301261499355fabc3493881bc65afd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559061991718,
+          "stop" : 1559061993500,
+          "duration" : 1782
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with incorrect user name and correct password",
+        "uid" : "f27460b4bb74fe70",
+        "parentUid" : "a5301261499355fabc3493881bc65afd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559062010018,
+          "stop" : 1559062012007,
+          "duration" : 1989
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with correct username and correct password",
+        "uid" : "2506d8525f2972ec",
+        "parentUid" : "a5301261499355fabc3493881bc65afd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1559062045862,
+          "stop" : 1559062049532,
+          "duration" : 3670
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User is inquiry with invalid name",
+        "uid" : "37c107507e80dee5",
+        "parentUid" : "a5301261499355fabc3493881bc65afd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559062032735,
+          "stop" : 1559062037834,
+          "duration" : 5099
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with correct username and correct password",
+        "uid" : "b17fdf6927107aad",
+        "parentUid" : "a5301261499355fabc3493881bc65afd",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1559062040599,
+          "stop" : 1559062043101,
+          "duration" : 2502
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with empty user name and correct password",
+        "uid" : "d40f0d9ec61e6283",
+        "parentUid" : "a5301261499355fabc3493881bc65afd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559061996312,
+          "stop" : 1559061998035,
+          "duration" : 1723
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with correct user name and incorrect password",
+        "uid" : "eefaf8f4f5c87ae8",
+        "parentUid" : "a5301261499355fabc3493881bc65afd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559062014761,
+          "stop" : 1559062017005,
+          "duration" : 2244
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a5301261499355fabc3493881bc65afd"
+    } ],
+    "uid" : "004d78fc52038288d8a227e54859b1d5"
+  } ]
+}

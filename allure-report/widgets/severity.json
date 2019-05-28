@@ -1,0 +1,101 @@
+[ {
+  "uid" : "a3ace8b9483e3623",
+  "name" : "Login with incorrect user name and incorrect password",
+  "time" : {
+    "start" : 1559080973585,
+    "stop" : 1559080977069,
+    "duration" : 3484
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "35e435d59b1f1ac3",
+  "name" : "Login with empty user name and correct password",
+  "time" : {
+    "start" : 1559080962075,
+    "stop" : 1559080964948,
+    "duration" : 2873
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f0e176c56eeb9c93",
+  "name" : "User is inquiry with valid name",
+  "time" : {
+    "start" : 1559081032524,
+    "stop" : 1559081065711,
+    "duration" : 33187
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "3ed5ce0ecccc227a",
+  "name" : "User is inquiry with invalid name",
+  "time" : {
+    "start" : 1559081068467,
+    "stop" : 1559081079078,
+    "duration" : 10611
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "684b746f9cf13929",
+  "name" : "Login with correct user name and incorrect password",
+  "time" : {
+    "start" : 1559080985930,
+    "stop" : 1559080989151,
+    "duration" : 3221
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "af1ad7df1156067e",
+  "name" : "Login with incorrect user name and correct password",
+  "time" : {
+    "start" : 1559080980006,
+    "stop" : 1559080983111,
+    "duration" : 3105
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "60fd26406e8e415e",
+  "name" : "Login with empty user name and empty password",
+  "time" : {
+    "start" : 1559080953042,
+    "stop" : 1559080959174,
+    "duration" : 6132
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "86729c8cfdb441ec",
+  "name" : "Login with correct username and correct password",
+  "time" : {
+    "start" : 1559081087577,
+    "stop" : 1559081091561,
+    "duration" : 3984
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "f603e426300417c5",
+  "name" : "Login with correct password and empty password",
+  "time" : {
+    "start" : 1559080968012,
+    "stop" : 1559080970744,
+    "duration" : 2732
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "95ff46fd1241dd80",
+  "name" : "Login with incorrect user name and incorrect password",
+  "time" : {
+    "start" : 1559080991979,
+    "stop" : 1559080994861,
+    "duration" : 2882
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
