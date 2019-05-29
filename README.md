@@ -39,3 +39,4 @@ Extent Reports
 ```
 {your_project_path}/ExtentReports/ExtentReportResults.html
 ```
+![extentreports](https://user-images.githubusercontent.com/26521948/58542799-cc59f780-8230-11e9-9a90-5ffa46d1a50d.png)
