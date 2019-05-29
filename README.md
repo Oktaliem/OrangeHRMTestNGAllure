@@ -20,6 +20,7 @@ mvn clean test
 ## Create Allure Report
 ```
 allure generate
+allure open
 ```
 or
 ```
