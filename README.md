@@ -6,7 +6,7 @@ Orange HRM - Allure - TestNG
 Windows --> Install scoop to install Allure
 ```
 https://docs.qameta.io/allure/#_installing_a_commandline
-
+https://scoop.sh/
 ```
 
 ## Run the Test Via Command Line
