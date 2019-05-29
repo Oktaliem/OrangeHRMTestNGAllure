@@ -2,6 +2,10 @@
 
 Alternative (Behavior-Driven Development) BDD Test Automation Framework without Cucumber
 
+## Download OrangeHRM
+```
+https://github.com/orangehrm/orangehrm
+```
 
 ## Precondition
 Windows PC --> Install scoop to install Allure
