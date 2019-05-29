@@ -4,7 +4,7 @@ Alternative (Behavior-Driven Development) BDD Test Automation Framework without 
 
 
 ## Precondition
-Windows --> Install scoop to install Allure
+Windows PC --> Install scoop to install Allure
 ```
 https://docs.qameta.io/allure/#_installing_a_commandline
 https://scoop.sh/
