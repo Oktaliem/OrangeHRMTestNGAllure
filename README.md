@@ -1,6 +1,6 @@
 # OrangeHRMTestNGAllure
 
-Alternative (Behavior-Driven Development) BDD Test Automation Framweork without Cucumber
+Alternative (Behavior-Driven Development) BDD Test Automation Framework without Cucumber
 
 
 ## Precondition
