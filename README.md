@@ -6,3 +6,14 @@ Orange HRM - Allure - TestNG
 ```
 mvn clean test
 ```
+
+## Create Allure Report
+```
+allure generate
+```
+or
+```
+allure serve
+```
+
+
