@@ -2,6 +2,13 @@
 
 Orange HRM - Allure - TestNG
 
+## Precondition
+Windows --> Install scoop
+```
+https://docs.qameta.io/allure/#_installing_a_commandline
+
+```
+
 ## Run the Test Via Command Line
 ```
 mvn clean test
