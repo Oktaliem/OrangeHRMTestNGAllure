@@ -27,6 +27,8 @@ allure serve
 ```
 
 ## Report Path
+Clone this repository to your PC and go to :
+
 Allure
 ```
 {your_project_path}/allure-report/index.html
