@@ -1,6 +1,7 @@
 # OrangeHRMTestNGAllure
 
-Orange HRM - Allure - TestNG
+Alternative (Behavior-Driven Development) BDD Test Automation Framweork without Cucumber
+
 
 ## Precondition
 Windows --> Install scoop to install Allure
