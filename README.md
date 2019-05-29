@@ -3,7 +3,7 @@
 Orange HRM - Allure - TestNG
 
 ## Precondition
-Windows --> Install scoop
+Windows --> Install scoop to install Allure
 ```
 https://docs.qameta.io/allure/#_installing_a_commandline
 
