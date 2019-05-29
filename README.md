@@ -1,6 +1,6 @@
 # DemoOrangeHRMTestNGAllure
 
-Alternative (Behavior-Driven Development) BDD Test Automation Framework without Cucumber
+Alternative (Behavior-Driven Development) BDD Test Automation Reporting without Cucumber
 
 ## Download OrangeHRM
 ```
