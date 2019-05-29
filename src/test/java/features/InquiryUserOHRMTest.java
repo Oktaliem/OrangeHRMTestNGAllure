@@ -16,7 +16,7 @@ public class InquiryUserOHRMTest extends BaseTest{
      * This testing purpose is to find User from User Management Page
      */
 
-    @Test(priority = 0, description = "User is inquiry with valid name")
+    @Test(priority = 1, description = "User is inquiry with valid name")
     public void TC01_inquiry(){
         userIsLandingToPage("Login");
         adminPage.searchUserByUserName("admin");

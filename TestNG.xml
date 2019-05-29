@@ -21,6 +21,7 @@
             </methods>
         </class>
             <class name="features.InquiryUserOHRMTest"/>
+            <class name="features.HomePageNavigationTest"/>
         </classes>
     </test>
 </suite>

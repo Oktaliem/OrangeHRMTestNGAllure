@@ -1,6 +1,6 @@
 package features;
 
-import com.ohrm.utils.CreateRandomName;
+import com.ohrm.utilities.CreateRandomName;
 import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -12,7 +12,7 @@ import pages.login.LoginPage;
 
 import java.util.concurrent.TimeUnit;
 
-import static com.ohrm.utils.OrangeHRMURL.LOGIN_URL;
+import static com.ohrm.utilities.OrangeHRMURL.LOGIN_URL;
 import static com.ohrm.webdriver.driver.CHROMEDRIVER_PATH;
 import static com.ohrm.webdriver.driver.CHROME_BROWSER;
 
@@ -44,11 +44,14 @@ public class BaseTest {
         driver.get(LOGIN_URL);
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         if (page.equals("Login")) {
-            //
+            //loginPage.loginToOHRM("admin","admin");
         } else if (page.equals("User Management")) {
             loginPage.loginToOHRM("admin","admin");
             adminPage.userGoToUsersForm();
+        }else if(page.equals("home")){
+            loginPage.loginToOHRM("admin","admin");
         }
+
     }
 
     @AfterMethod

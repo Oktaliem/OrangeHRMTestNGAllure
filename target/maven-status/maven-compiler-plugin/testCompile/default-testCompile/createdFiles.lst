@@ -1,5 +1,6 @@
 pages\pim\Config_CstmFieldsPage.class
 utils\ExtentReports\ExtentManager.class
+features\HomePageNavigationTest.class
 pages\admin\Job_WorkShiftsPage.class
 pages\admin\Config_LocalizationPage.class
 pages\pim\Config_ReportMethodsPage.class

@@ -1,25 +1,5 @@
 {
-  "2b60d59adaabbc335bee42377148a17c" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "f0e176c56eeb9c93",
-      "status" : "broken",
-      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"id\",\"selector\":\"resultTable\"}\n  (Session info: chrome=74.0.3729.169)\n  (Driver info: chromedriver=2.38.551601 (edb21f07fc70e9027c746edd3201443e011a61ed),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-1DCFOTD', ip: '172.18.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.551601 (edb21f07fc70e9..., userDataDir: C:\\Users\\User\\AppData\\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}\nSession ID: 05dcff3f89217746c1afcc19dbe5f4b6\n*** Element info: {Using=id, value=resultTable}",
-      "time" : {
-        "start" : 1559081032524,
-        "stop" : 1559081065711,
-        "duration" : 33187
-      }
-    } ]
-  },
-  "714b12a541485bf535b3383b087303aa" : {
+  "1630a23e352093535e434abf841b4c2" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -29,12 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f603e426300417c5",
+      "uid" : "736e9a55b023d9cf",
       "status" : "passed",
       "time" : {
-        "start" : 1559080968012,
-        "stop" : 1559080970744,
-        "duration" : 2732
+        "start" : 1559118059209,
+        "stop" : 1559118064189,
+        "duration" : 4980
       }
     } ]
   },
@@ -48,12 +28,50 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "684b746f9cf13929",
+      "uid" : "5a2d1bf96a7d7084",
       "status" : "passed",
       "time" : {
-        "start" : 1559080985930,
-        "stop" : 1559080989151,
-        "duration" : 3221
+        "start" : 1559118006193,
+        "stop" : 1559118009190,
+        "duration" : 2997
+      }
+    } ]
+  },
+  "6ecdaaf5408faa863f30cabb3df58711" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "39bd36d0d4cd1d15",
+      "status" : "passed",
+      "time" : {
+        "start" : 1559118043344,
+        "stop" : 1559118048471,
+        "duration" : 5127
+      }
+    } ]
+  },
+  "714b12a541485bf535b3383b087303aa" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "746085e11fe0f7c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1559117989051,
+        "stop" : 1559117991788,
+        "duration" : 2737
       }
     } ]
   },
@@ -67,17 +85,17 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "86729c8cfdb441ec",
+      "uid" : "6f4ffe974f9a9b82",
       "status" : "failed",
       "statusDetails" : "\nExpected: a string containing \"http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/dashboard\"\n     but: was \"http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/auth/validateCredentials\"",
       "time" : {
-        "start" : 1559081087577,
-        "stop" : 1559081091561,
-        "duration" : 3984
+        "start" : 1559118128728,
+        "stop" : 1559118132872,
+        "duration" : 4144
       }
     } ]
   },
-  "2a9d112aa97a3ba53bd47d3e16e99336" : {
+  "730176317fa3a37c43c50045ac3f8554" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -87,12 +105,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a3ace8b9483e3623",
+      "uid" : "db55799ed244199e",
       "status" : "passed",
       "time" : {
-        "start" : 1559080973585,
-        "stop" : 1559080977069,
-        "duration" : 3484
+        "start" : 1559118051315,
+        "stop" : 1559118056110,
+        "duration" : 4795
       }
     } ]
   },
@@ -106,12 +124,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "95ff46fd1241dd80",
+      "uid" : "5e89139fbe56a60f",
       "status" : "passed",
       "time" : {
-        "start" : 1559080991979,
-        "stop" : 1559080994861,
-        "duration" : 2882
+        "start" : 1559118012048,
+        "stop" : 1559118014835,
+        "duration" : 2787
       }
     } ]
   },
@@ -125,16 +143,36 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3ed5ce0ecccc227a",
+      "uid" : "b96ffb9e5f5db6a",
       "status" : "passed",
       "time" : {
-        "start" : 1559081068467,
-        "stop" : 1559081079078,
-        "duration" : 10611
+        "start" : 1559118017685,
+        "stop" : 1559118025537,
+        "duration" : 7852
       }
     } ]
   },
-  "d62aada5576bb648275c93b6394460c6" : {
+  "11ebd28f82708cee2882440a3cab6d0a" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b0d7ed1eed920242",
+      "status" : "failed",
+      "statusDetails" : "\nExpected: a string containing \"Company Name: Okta Jaya Pte Ltd\"\n     but: was \"Company Name:\nVersion: Orangehrm OS 4.0\nActive Employees: 73\nEmployees Terminated: 0\"",
+      "time" : {
+        "start" : 1559118115214,
+        "stop" : 1559118120160,
+        "duration" : 4946
+      }
+    } ]
+  },
+  "1172ba2ea363df02461701820f76e129" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -144,12 +182,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "60fd26406e8e415e",
+      "uid" : "7d8fd9ca74483b8",
       "status" : "passed",
       "time" : {
-        "start" : 1559080953042,
-        "stop" : 1559080959174,
-        "duration" : 6132
+        "start" : 1559118081695,
+        "stop" : 1559118085932,
+        "duration" : 4237
       }
     } ]
   },
@@ -163,12 +201,147 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "af1ad7df1156067e",
+      "uid" : "96ed298a6a18c069",
       "status" : "passed",
       "time" : {
-        "start" : 1559080980006,
-        "stop" : 1559080983111,
-        "duration" : 3105
+        "start" : 1559118000342,
+        "stop" : 1559118003388,
+        "duration" : 3046
+      }
+    } ]
+  },
+  "b5d59b79626fc5c8f9301da6b1dedd58" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6458840b551636db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1559118035743,
+        "stop" : 1559118040526,
+        "duration" : 4783
+      }
+    } ]
+  },
+  "2b60d59adaabbc335bee42377148a17c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "542116dc9f53101e",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"id\",\"selector\":\"resultTable\"}\n  (Session info: chrome=74.0.3729.169)\n  (Driver info: chromedriver=2.38.551601 (edb21f07fc70e9027c746edd3201443e011a61ed),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-1DCFOTD', ip: '172.18.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.551601 (edb21f07fc70e9..., userDataDir: C:\\Users\\User\\AppData\\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}\nSession ID: bf82190434d5596dc4afd33b4ecbac27\n*** Element info: {Using=id, value=resultTable}",
+      "time" : {
+        "start" : 1559118170580,
+        "stop" : 1559118203802,
+        "duration" : 33222
+      }
+    } ]
+  },
+  "2a9d112aa97a3ba53bd47d3e16e99336" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "36de5b63b3ae6ce3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1559117994640,
+        "stop" : 1559117997578,
+        "duration" : 2938
+      }
+    } ]
+  },
+  "9fba45182e8c4728840af33859d27b91" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d57e95798169a5b3",
+      "status" : "failed",
+      "statusDetails" : "\nExpected: a string containing \"http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/recruitment/viewCandidates#\"\n     but: was \"http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/dashboard#\"",
+      "time" : {
+        "start" : 1559118074300,
+        "stop" : 1559118078853,
+        "duration" : 4553
+      }
+    } ]
+  },
+  "d62aada5576bb648275c93b6394460c6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3a19202fabb2e0f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1559117977788,
+        "stop" : 1559117980680,
+        "duration" : 2892
+      }
+    } ]
+  },
+  "3f2384581403530bd69583600f59bf52" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "32e864c0788db25d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1559118090291,
+        "stop" : 1559118105407,
+        "duration" : 15116
+      }
+    } ]
+  },
+  "979a6df4357c31ce81c7f0a36ae72b1a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a76bd2588b1d82d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1559118028371,
+        "stop" : 1559118032931,
+        "duration" : 4560
       }
     } ]
   },
@@ -182,12 +355,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "35e435d59b1f1ac3",
+      "uid" : "5a938efcdcfa450c",
       "status" : "passed",
       "time" : {
-        "start" : 1559080962075,
-        "stop" : 1559080964948,
-        "duration" : 2873
+        "start" : 1559117983531,
+        "stop" : 1559117986191,
+        "duration" : 2660
       }
     } ]
   }

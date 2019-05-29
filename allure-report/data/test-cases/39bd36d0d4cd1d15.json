@@ -1,0 +1,194 @@
+{
+  "uid" : "39bd36d0d4cd1d15",
+  "name" : "Able to navigate to leave page",
+  "fullName" : "features.HomePageNavigationTest.TC03_home_navigation",
+  "historyId" : "6ecdaaf5408faa863f30cabb3df58711",
+  "time" : {
+    "start" : 1559118043344,
+    "stop" : 1559118048471,
+    "duration" : 5127
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeMethodSetup",
+    "time" : {
+      "start" : 1559118041242,
+      "stop" : 1559118043334,
+      "duration" : 2092
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given - User is landing to expected page - home",
+      "time" : {
+        "start" : 1559118043344,
+        "stop" : 1559118046439,
+        "duration" : 3095
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "User logs in to Portal",
+        "time" : {
+          "start" : 1559118044995,
+          "stop" : 1559118046439,
+          "duration" : 1444
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "name",
+          "value" : "admin"
+        }, {
+          "name" : "pasword",
+          "value" : "admin"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "home"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "When - User goes to Leave Module",
+      "time" : {
+        "start" : 1559118046439,
+        "stop" : 1559118047600,
+        "duration" : 1161
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then - User is Landing to Correct Page",
+      "time" : {
+        "start" : 1559118047600,
+        "stop" : 1559118047649,
+        "duration" : 49
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/leave/defineLeavePeriod"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "d48320bc87ebe6f3",
+      "name" : "Page screenshot",
+      "source" : "d48320bc87ebe6f3.png",
+      "type" : "image/png",
+      "size" : 59006
+    }, {
+      "uid" : "76e3c2fc38bc6c19",
+      "name" : "Page screenshot",
+      "source" : "76e3c2fc38bc6c19.png",
+      "type" : "image/png",
+      "size" : 59006
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ {
+    "name" : "closeBrowser",
+    "time" : {
+      "start" : 1559118048479,
+      "stop" : 1559118049191,
+      "duration" : 712
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "features.HomePageNavigationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "features.HomePageNavigationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC03_home_navigation"
+  }, {
+    "name" : "parentSuite",
+    "value" : "OrangeHRM Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Full Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "features.HomePageNavigationTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-1DCFOTD"
+  }, {
+    "name" : "thread",
+    "value" : "43020@DESKTOP-1DCFOTD.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Home Page Navigation"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "39bd36d0d4cd1d15.json",
+  "parameterValues" : [ ]
+}
