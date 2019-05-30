@@ -9,6 +9,7 @@ https://github.com/orangehrm/orangehrm
 ```
 
 ## Precondition
+MacOS --> brew install allure
 Windows PC --> Install scoop to install Allure
 ```
 https://docs.qameta.io/allure/#_installing_a_commandline
