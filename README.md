@@ -5,6 +5,7 @@
 - Continous inspection with SonarQube
 
 ## Download OrangeHRM
+Note : This repository is using OrangeHRM version 4.0
 ```
 https://github.com/orangehrm/orangehrm
 ```
