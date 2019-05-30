@@ -40,6 +40,7 @@ allure serve
 ```
 
 ## Report Path
+- Sample Report
 Clone this repository to your PC and go to :
 
 Allure
