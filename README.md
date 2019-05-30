@@ -57,6 +57,10 @@ Allure
 ```
 https://youtu.be/EPd5iCTchuA
 ```
+
+# DemoOrangeHRMTestNGAllure Continuous Inspection
+
+
 ### Docker installation - Windows
 ```
 https://docs.docker.com/toolbox/toolbox_install_windows/
