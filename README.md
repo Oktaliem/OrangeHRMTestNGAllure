@@ -8,6 +8,11 @@ Version 4.0
 ```
 https://github.com/orangehrm/orangehrm
 ```
+or
+```
+https://hub.docker.com/r/bitnami/orangehrm/
+```
+
 
 ## Precondition
 - MacOS --> brew install allure
