@@ -4,7 +4,6 @@
 - Generate Sreenshot after run the test
 
 ## Download OrangeHRM
-Version 4.0
 ```
 https://github.com/orangehrm/orangehrm
 ```
