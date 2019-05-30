@@ -2,7 +2,7 @@
 - BDD sytle reporting with TestNG and Allure.
 - Alternative (Behavior-Driven Development) BDD Test Automation Reporting without Cucumber Framework
 - Generate Screenshot after run the test (available on Allure report)
-- Continuous inspection with SonarQube
+
 
 ## Download OrangeHRM
 Note : This repository is using OrangeHRM version 4.0
@@ -59,7 +59,7 @@ https://youtu.be/EPd5iCTchuA
 ```
 
 # DemoOrangeHRMTestNGAllure Continuous Inspection
-
+- Continuous inspection with SonarQube
 
 ### Docker installation - Windows
 ```
