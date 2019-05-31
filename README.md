@@ -55,7 +55,7 @@ https://youtu.be/EPd5iCTchuA
 ```
 
 # DemoOrangeHRMTestNGAllure Continuous Inspection
-- Continuous inspection with SonarQube in Docker
+- Continuous Inspection with SonarQube in Docker
 
 ### Docker installation - Windows
 ```
@@ -74,6 +74,6 @@ https://youtu.be/MjgUgCN3WMg
 ```
 
 # DemoOrangeHRMTestNGAllure Continuous Testing
-- Continuous Testing (TestNG & Allure)& Continuous Inspection (SonarQube) with Jenkins Pipeline in Docker
+- Continuous Testing (TestNG & Allure) & Continuous Inspection (SonarQube) with Continous Integration Server (Jenkins Pipeline) in Docker
 
 To be continued......
