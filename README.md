@@ -73,6 +73,6 @@ https://youtu.be/MjgUgCN3WMg
 ```
 
 # DemoOrangeHRMTestNGAllure Continuous Testing
-- Continuous Testing with Jenkins in Docker
+- Continuous Testing (TestNG & Allure)& Continuous Inspection (SonarQube) with Jenkins Pipeline in Docker
 
 To be continued......
