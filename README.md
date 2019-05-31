@@ -13,6 +13,7 @@ https://hub.docker.com/r/bitnami/orangehrm/
 
 
 ## Precondition
+Install Allure :
 - MacOS --> brew install allure
 - Windows PC -->
 ```
