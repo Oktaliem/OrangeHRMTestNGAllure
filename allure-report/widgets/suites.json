@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "01fbfbf90e3fb7f2e591d5a2a67170ef",
+    "name" : "OrangeHRM Test Suite",
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 15,
+      "unknown" : 0,
+      "total" : 19
+    }
+  } ]
+}

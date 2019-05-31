@@ -1,15 +1,15 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 19, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 177.782 s <<< FAILURE! - in TestSuite
-TC06_home_navigation(features.HomePageNavigationTest)  Time elapsed: 5.284 s  <<< FAILURE!
+Tests run: 19, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 226.208 s <<< FAILURE! - in TestSuite
+TC06_home_navigation(features.HomePageNavigationTest)  Time elapsed: 8.147 s  <<< FAILURE!
 java.lang.AssertionError: 
 
 Expected: a string containing "http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/recruitment/viewCandidates#"
      but: was "http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/dashboard#"
 	at features.HomePageNavigationTest.TC06_home_navigation(HomePageNavigationTest.java:56)
 
-TC09_home_navigation(features.HomePageNavigationTest)  Time elapsed: 5.467 s  <<< FAILURE!
+TC09_home_navigation(features.HomePageNavigationTest)  Time elapsed: 7.976 s  <<< FAILURE!
 java.lang.AssertionError: 
 
 Expected: a string containing "Company Name: Okta Jaya Pte Ltd"
@@ -19,14 +19,14 @@ Active Employees: 73
 Employees Terminated: 0"
 	at features.HomePageNavigationTest.TC09_home_navigation(HomePageNavigationTest.java:79)
 
-TC04_login(features.LoginORMTest)  Time elapsed: 4.733 s  <<< FAILURE!
+TC04_login(features.LoginORMTest)  Time elapsed: 4.951 s  <<< FAILURE!
 java.lang.AssertionError: 
 
 Expected: a string containing "http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/dashboard"
      but: was "http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/auth/validateCredentials"
 	at features.LoginORMTest.TC04_login(LoginORMTest.java:49)
 
-TC01_inquiry(features.InquiryUserOHRMTest)  Time elapsed: 8.896 s  <<< FAILURE!
+TC01_inquiry(features.InquiryUserOHRMTest)  Time elapsed: 9.136 s  <<< FAILURE!
 org.openqa.selenium.NoSuchElementException: 
 no such element: Unable to locate element: {"method":"id","selector":"resultTable"}
   (Session info: chrome=74.0.3729.169)
@@ -37,7 +37,7 @@ Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17
 System info: host: 'DESKTOP-1DCFOTD', ip: '172.18.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.551601 (edb21f07fc70e9..., userDataDir: C:\Users\User\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
-Session ID: 08d7c0ff57284b21b8eb62dc369adac0
+Session ID: 6c3f42bb3431a6558eb65ca388eb5b8c
 *** Element info: {Using=id, value=resultTable}
 	at features.InquiryUserOHRMTest.TC01_inquiry(InquiryUserOHRMTest.java:22)
 

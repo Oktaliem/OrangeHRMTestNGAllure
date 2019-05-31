@@ -1,0 +1,272 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "OrangeHRM Test Suite",
+    "children" : [ {
+      "name" : "Full Test",
+      "children" : [ {
+        "name" : "features.LoginORMTest",
+        "children" : [ {
+          "name" : "Login with empty user name and empty password",
+          "uid" : "7d1a096eb9df917d",
+          "parentUid" : "9f4a3612a9b2c3cf403ed7205b316a48",
+          "status" : "passed",
+          "time" : {
+            "start" : 1559277525489,
+            "stop" : 1559277534243,
+            "duration" : 8754
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Login with empty user name and correct password",
+          "uid" : "c57ea7904714cc01",
+          "parentUid" : "9f4a3612a9b2c3cf403ed7205b316a48",
+          "status" : "passed",
+          "time" : {
+            "start" : 1559277537102,
+            "stop" : 1559277541694,
+            "duration" : 4592
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Login with correct password and empty password",
+          "uid" : "524d322bbb9c3961",
+          "parentUid" : "9f4a3612a9b2c3cf403ed7205b316a48",
+          "status" : "passed",
+          "time" : {
+            "start" : 1559277544441,
+            "stop" : 1559277549025,
+            "duration" : 4584
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Login with incorrect user name and incorrect password",
+          "uid" : "3f731ca48b035c48",
+          "parentUid" : "9f4a3612a9b2c3cf403ed7205b316a48",
+          "status" : "passed",
+          "time" : {
+            "start" : 1559277551818,
+            "stop" : 1559277556757,
+            "duration" : 4939
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Login with incorrect user name and correct password",
+          "uid" : "d5f79da32e04fe8f",
+          "parentUid" : "9f4a3612a9b2c3cf403ed7205b316a48",
+          "status" : "passed",
+          "time" : {
+            "start" : 1559277559589,
+            "stop" : 1559277564220,
+            "duration" : 4631
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Login with correct user name and incorrect password",
+          "uid" : "753788de3eca6260",
+          "parentUid" : "9f4a3612a9b2c3cf403ed7205b316a48",
+          "status" : "passed",
+          "time" : {
+            "start" : 1559277566951,
+            "stop" : 1559277572969,
+            "duration" : 6018
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Login with incorrect user name and incorrect password",
+          "uid" : "af84a428b7aed32a",
+          "parentUid" : "9f4a3612a9b2c3cf403ed7205b316a48",
+          "status" : "passed",
+          "time" : {
+            "start" : 1559277575652,
+            "stop" : 1559277580338,
+            "duration" : 4686
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Login with correct username and correct password",
+          "uid" : "6f14100413df3436",
+          "parentUid" : "9f4a3612a9b2c3cf403ed7205b316a48",
+          "status" : "failed",
+          "time" : {
+            "start" : 1559277725737,
+            "stop" : 1559277730719,
+            "duration" : 4982
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "9f4a3612a9b2c3cf403ed7205b316a48"
+      }, {
+        "name" : "features.InquiryUserOHRMTest",
+        "children" : [ {
+          "name" : "User is inquiry with invalid name",
+          "uid" : "48eec9c7fb437818",
+          "parentUid" : "5b2f467bfcf6834b46d5d60c3cdb3da0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1559277583047,
+            "stop" : 1559277598033,
+            "duration" : 14986
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "User is inquiry with valid name",
+          "uid" : "b5550b3d79bd52e9",
+          "parentUid" : "5b2f467bfcf6834b46d5d60c3cdb3da0",
+          "status" : "broken",
+          "time" : {
+            "start" : 1559277733498,
+            "stop" : 1559277742662,
+            "duration" : 9164
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "5b2f467bfcf6834b46d5d60c3cdb3da0"
+      }, {
+        "name" : "features.HomePageNavigationTest",
+        "children" : [ {
+          "name" : "Able to navigate to admin page",
+          "uid" : "c96d033538af5dc3",
+          "parentUid" : "c7a8646bf3641451702e7fbe066eb83c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1559277600862,
+            "stop" : 1559277607826,
+            "duration" : 6964
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Able to navigate to PIM page",
+          "uid" : "98f165d550b37a07",
+          "parentUid" : "c7a8646bf3641451702e7fbe066eb83c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1559277610645,
+            "stop" : 1559277627065,
+            "duration" : 16420
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Able to navigate to leave page",
+          "uid" : "932dafef65d5c6da",
+          "parentUid" : "c7a8646bf3641451702e7fbe066eb83c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1559277630789,
+            "stop" : 1559277639544,
+            "duration" : 8755
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Able to navigate to time page",
+          "uid" : "da3b2ee51fee88d",
+          "parentUid" : "c7a8646bf3641451702e7fbe066eb83c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1559277642472,
+            "stop" : 1559277649682,
+            "duration" : 7210
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Able to navigate to recruitment page",
+          "uid" : "8e28c08617858fa2",
+          "parentUid" : "c7a8646bf3641451702e7fbe066eb83c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1559277652653,
+            "stop" : 1559277661384,
+            "duration" : 8731
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Able to navigate to performance page",
+          "uid" : "e7e473588cbd9f5b",
+          "parentUid" : "c7a8646bf3641451702e7fbe066eb83c",
+          "status" : "failed",
+          "time" : {
+            "start" : 1559277664489,
+            "stop" : 1559277672696,
+            "duration" : 8207
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Able to navigate to dashboard page",
+          "uid" : "16c07a48e265a654",
+          "parentUid" : "c7a8646bf3641451702e7fbe066eb83c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1559277675869,
+            "stop" : 1559277686625,
+            "duration" : 10756
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Able to navigate to directory page",
+          "uid" : "efea8d41f35700eb",
+          "parentUid" : "c7a8646bf3641451702e7fbe066eb83c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1559277689838,
+            "stop" : 1559277711810,
+            "duration" : 21972
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Able to navigate to About modal",
+          "uid" : "6e2766e735f5a304",
+          "parentUid" : "c7a8646bf3641451702e7fbe066eb83c",
+          "status" : "failed",
+          "time" : {
+            "start" : 1559277714868,
+            "stop" : 1559277722882,
+            "duration" : 8014
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "c7a8646bf3641451702e7fbe066eb83c"
+      } ],
+      "uid" : "868652f16b5d1f9c35d3f9994b9211d0"
+    } ],
+    "uid" : "01fbfbf90e3fb7f2e591d5a2a67170ef"
+  } ]
+}

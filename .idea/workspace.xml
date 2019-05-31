@@ -2,339 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8da644e5-1b2b-497d-8227-32ba908bec9c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/allure-report/data/attachments/2348d5b1021c2d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/data/test-cases/199ca534d6c5be2f.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExtentReports/ExtentReportResults.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log4j/log4j-test-automation.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/1009e72b65d6386a.png" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/attachments/55088b6fb6cb5bad.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/210dfc478c953138.png" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/attachments/9ac9d33f13948a55.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/25b0263ee3cde69d.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/38fe32742ca35011.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/4bdf1a17473172c7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/4d18e992e0e6ab6b.png" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/attachments/a9a7f8c5b5905d50.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/4d556e6bc8e6e9e4.png" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/attachments/fe5c2c1b257e65ad.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/522d8ab9e152323f.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/53249a39a3bae5f4.png" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/attachments/dda59cf116aa012.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/53ca2ba52e2259a4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/55ddc23e80b3f10f.txt" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/attachments/baaf360881e57b4e.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/59284327b8b0c4d2.png" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/attachments/38be67147fc2240d.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/5ae8bf6982bd2cea.png" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/attachments/8df54f4a37c98a1b.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/5b00e1436817bf0c.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/5c435e65cb137371.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/61d59f1fd526f8bd.png" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/attachments/ab142d95b20815c1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/6345cc86d6d2a00a.png" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/attachments/9bbd17505c1968c3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/682f079a22935b2f.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/687d4fbd932df537.png" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/attachments/cc2efe14b45ed1b1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/727bd7bfcfde1e04.png" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/attachments/eec0fb8e5871476b.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/76e3c2fc38bc6c19.png" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/attachments/82af9282f5a012e8.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/7a77a87efd8ef894.png" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/attachments/c4566720f6f90703.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/7beb518a2beaf7f3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/attachments/764cbe2160e98284.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/80b3107885a7c4d9.png" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/attachments/a052c869f64c0c62.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/81fd9a56b1936dc2.png" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/attachments/ddd637eefc661bef.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/8535b9e940ce9103.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/86ccbc5f454ff5d3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/86dda581ad452e38.png" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/attachments/d7168d73df67d473.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/87bb62240488842c.txt" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/attachments/9a4e861e26933667.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/88ac38e5047bb388.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/890ffa5b64daafab.png" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/attachments/ed39f46d798fcb62.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/90d6ec731ead7824.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/92f7f8043957a9ea.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/9461abeaa366781a.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/98df390a143f981e.txt" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/attachments/600dc3973d4db244.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/a59cefc82a21e7e1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/a624ca1c1e5bdca9.png" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/attachments/d28ed4039765f8bc.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/d2d78a4777971189.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/d48320bc87ebe6f3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/df88db6b30408c60.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/e1112b9000ef6102.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/e4a66737bdc5ced8.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/ea92f4ede528cbe1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/ec2a166d3cc043d9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/f53d362bc24aba37.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/ffb6eb92152ec24c.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/behaviors.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/categories.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/categories.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/packages.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/packages.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/suites.csv" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/suites.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/suites.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/32e864c0788db25d.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/2ebc4588726af623.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/36de5b63b3ae6ce3.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/66f9cc7c0d1bcb3f.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/39bd36d0d4cd1d15.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/5b86be535a7ce2e1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/3a19202fabb2e0f5.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/b965dfc69c02eaaf.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/4b2367df410a6334.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/d99f46ed2b0ff42e.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/542116dc9f53101e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/5a2d1bf96a7d7084.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/c4ea8c07b6d961a.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/5a938efcdcfa450c.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/6b98fafe3098b9f0.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/5e89139fbe56a60f.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/ed4526d80ae2ea9e.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/6458840b551636db.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/2854fce5523b8df6.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/6f4ffe974f9a9b82.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/736e9a55b023d9cf.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/1672cf53d1214ac.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/73ed077a8aa1b0c3.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/ec7179dfb2380cd0.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/746085e11fe0f7c.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/2d0cd30c666ca95b.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/7d8fd9ca74483b8.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/6086ee3a0700b625.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/8fa0d8574595ea22.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/96ed298a6a18c069.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/7402192ce9adbe01.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/a76bd2588b1d82d0.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/6a06eeae14ecb68f.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/b0d7ed1eed920242.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/b96ffb9e5f5db6a.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/204241421d4d4bf1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/d458d6701c713cb0.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/1fd166b5807192d6.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/d57e95798169a5b3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/db55799ed244199e.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/e5e71c2567af0187.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/timeline.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/timeline.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/export/influxDbData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/export/influxDbData.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/export/prometheusData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/export/prometheusData.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/history/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/history/duration-trend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/history/history.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/history/history.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/history/retry-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/history/retry-trend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/widgets/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/widgets/duration-trend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/widgets/duration.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/widgets/duration.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/widgets/retry-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/widgets/retry-trend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/widgets/severity.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/widgets/severity.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/widgets/status-chart.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/widgets/status-chart.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/widgets/summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/widgets/summary.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/00c2ca24-c66c-4527-ae78-023f71035f5d-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/01864533-1800-4d3c-a795-ce1a4f2cb6da-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/09346cd7-94b1-4ea3-8775-a4ac652595fa-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/0b9cbe35-9e3d-4c23-b675-acc26d34db97-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/0f639956-0654-40db-b7cb-f51d738cfcdc-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/11348b56-9482-4312-bb6c-f5d12f21585f-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/1359808e-a9fe-4d0a-9709-49c22e28a847-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/13e25552-a738-4d4d-850a-6d37130b0110-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/168cc628-4ab8-49b4-b24d-5f37972cae16-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/174f5817-d094-4edd-a569-8c222ff64dcd-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/1c73bae4-21cf-4953-9c3e-b4876dbe57bb-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/21be9095-d849-443a-9efc-a61c6cca2a4a-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/2285e0bd-8f98-4fc2-b56f-a1322a822632-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/22fcb036-696d-4db1-878d-96c7c6f0e09d-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/254a20d8-04f4-4200-8a5c-6cd8da255867-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/259e2f11-d462-48c6-a300-57e31b27a7b6-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/260d18ee-991e-49ea-b279-f485f685f553-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/27bc6bcf-7239-4d0d-a8f4-fb02609e18ba-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/2e871d19-807c-4fcd-9f37-69930c0bf6f6-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/30a771cd-60c1-4527-87e8-0d117160746e-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/316fed5b-a588-4b1a-abaa-6b91c0e83436-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/31b6e91a-1b95-423f-876f-bce254a76d74-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/32c73c32-65e2-4563-9dcc-6c9976eec889-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/359ceb23-48df-499d-b26f-954a4dd3d51d-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/35f5edde-3273-4fb8-a788-9626ae3e0885-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/36251311-9963-4fa9-b88a-68b5bd9c7438-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/37f58861-1ddd-4f0b-aba1-622875355af5-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/39d996eb-bb12-497b-8967-a10ff2e8ec4f-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/3a8e07cc-2b0a-4675-b003-5eeaf01a7402-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/3ca01cbb-64f0-4c5f-8255-44bc8bffb16b-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/3f443569-f8fe-4a1c-b20c-a0c1c1b0b924-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/40f47e4f-7252-4e11-adff-5a63c16e9799-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/48d018f2-b50f-4834-836b-02c07f6a6470-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/4b0371a5-1814-4f6f-a6f4-fe27e1e0397f-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/4ca607d0-d67a-4357-b875-7eed64a5c28b-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/4db86113-3626-424f-8c77-afbe2f9bc374-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/4e49e698-be1f-434e-9591-15b861858c4c-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/4ea9a624-607f-4f97-84d1-2a55402b3106-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/4fbbe1d2-13b4-4434-9c32-362bb5b39726-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/505ba7e5-6f19-499c-96eb-0edaa7306639-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/50b69ec2-d381-4fdc-8346-2da1cf36797e-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/52373991-d3f0-4c75-8c9d-26947b73df93-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/52b7bb41-64e0-49c6-a297-a3489b08d151-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/567b0e53-b888-472c-acc9-9599c6779f57-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/59802587-f336-4507-99ea-34deefb5231a-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/59eb4e8f-4826-40ca-a88b-bcd42ab01e6f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/5ff17597-4f9f-474d-86a0-4d76a9a726d3-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/655106d5-93f9-4886-8670-5b8b9a8e11b1-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/68aa5345-081b-4bf9-810f-8d2e5c152fe4-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/68d89d36-b748-4a76-94ef-0f5b8a1a1e1e-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/6a0f03b8-236c-4f09-a553-44f95a3262da-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/6ba5959e-2d89-48aa-b9be-dd32c8375597-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/6f8b45c6-f6fd-4a3a-98b1-47ea9fb3260e-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/71dc7d79-d0d5-400a-a6eb-5cb21b042eaf-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/755d7230-3770-4b4a-83ad-00c86349a071-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/758fe5cd-ae8a-48b5-a6d2-85f25af887d9-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/777ac592-2e7c-47b3-8af4-a8d84d855fd7-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/7a1966ff-8ae3-47d5-9b21-31c503a0b0f7-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/7ca80a87-eb8d-4893-8ee7-641cfca1880a-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/7d89ad65-deb7-4cf4-a262-9982334b79bf-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/7ed7fd25-58ad-43f6-b1e7-78e277fcb62a-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/8ac0afed-404b-4ca3-bf19-83bc3d8170a7-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/90e43f38-2666-4c74-9abb-7117ea2f216e-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/946825db-5edb-444c-ac0e-739242dc88c4-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/9d4d3c47-c0b8-48d7-b594-c099ca1d6928-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/9e52801f-88f0-4fc3-be52-44ad5124951c-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/9ea35d4e-cc7d-45f8-99f4-9cb051bed0e6-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/a38fc8db-267f-4070-a60e-d24202eb3fc7-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/a45e4c3d-08f7-4f81-a5e7-fc6afb7bb9fb-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/a4c3d09c-4a8b-4ec9-9624-b38d66990518-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/a5c0e867-7172-451e-9519-d1bac9facb11-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/a806dbf4-c899-43ef-8a01-306210aded45-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/a80c01c5-7367-4846-a293-213294cdc511-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/a832020d-41e3-4a6b-a4a3-cc45c5a92ad9-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/a863f1af-8ef9-419f-9985-45cc110f4229-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/aa5eed8d-f3fb-416a-a7c2-d3c5801d732c-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/af167df6-abad-439f-aee6-b153e2c125dd-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/b11424ad-3c68-4ede-a680-209aa238fc38-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/b12a6d63-c858-477f-97a4-64c7f47dfa28-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/b3907ada-df99-425c-832f-b764d98f2035-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/b5cf07e1-c217-4dd2-adcb-d6b35ee5a644-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/b799a244-9394-4351-bf21-a8a665e8df8f-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/bb731a41-15d7-41dc-b913-b3f9a252d3ec-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/bc8f2cb5-f401-40e9-9f1f-5df14d3d5840-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/bcd73a7e-09ac-47e7-8d50-d6e98539cca8-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/c104b883-af02-489d-9326-453fa99d0cc8-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/c193b811-cb95-4b96-b961-2169a4f6b309-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/c695fe77-6838-47ab-8933-e711a7d78942-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/c9a3637f-19e5-4010-9ba3-3381bf0255de-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/caf928e0-d102-4169-bbc4-8a3b3653a942-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/d0e534da-d121-4ae3-a176-aa790dcd5454-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/d1db84a1-cd6c-42a6-b7bf-0dc41b4f8442-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/d249ac67-a02a-4bda-ad08-e80be5159c66-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/d67a360d-0600-4555-9338-d728362bbeda-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/d70c1aaf-5241-4401-82f1-513e6b296b76-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/d7371e6e-7e01-462e-9367-caeecbe22dc5-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/d7e4b8ab-8f24-4ada-a472-026816af7c44-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/dd6a3eda-9917-4946-a8e5-393567cc2e7b-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/df9ca209-be97-4c2b-ae1b-abe0b77ac126-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/dfd37e0f-efa2-41fc-af2a-50dfc61f8b43-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/dfdfeb72-b156-42a0-aaaa-bcf96bb0b0fb-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/e07b9aed-482a-46eb-be37-bc590db7fa78-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/e09c15f9-284d-4e0e-93eb-564e9bc1be46-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/e453e04d-4f84-4e47-9333-d137b1e792df-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/e5b4bd22-6f8c-404b-b403-6dc004b1a62a-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/e679ccf4-1de3-4c2c-845b-f41cfb982991-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/e94cfa3d-c462-4e6b-acb5-5e03f76b0dbc-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/ea0df7c5-baa6-47ba-8f31-421db79efbc1-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/f056ade6-5cee-45dd-9cc5-abe0a68a4671-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/f1b68a30-5fcb-4194-9e4d-62fed6ba3ff1-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/f3dc021d-2fcc-47b0-b84a-69609863b083-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/f553c2f7-fba6-4f2c-aef7-6f4f3af2bcf1-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/f722b859-cfac-42d9-b8df-8b75931ef2f7-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/f9156ae3-7b2d-404e-8035-3c93b297c5b6-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/f961c8eb-5844-4766-b675-f89427d0b8c3-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/fa14b7a0-ad35-41bd-9182-1d4f01c41e6d-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/fa5cddc3-b822-4d31-b11e-a5bd7cc5829b-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/fae9759d-286a-437f-adf7-f37a19ef3f01-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/fc01d5a4-0ff9-44ac-9023-ef9d4304b5cf-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/ff8631d8-f598-41b2-9052-2d93ce24c9b5-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/IEDriverServer.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/MicrosoftWebDriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/VERSION" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/chrome driver.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/chromedriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/geckodriver-v0.20.1-win64.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/geckodriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/phantomjs-2.1.1-windows.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/phantomjs-2.1.1-windows/ChangeLog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/phantomjs-2.1.1-windows/LICENSE.BSD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/phantomjs-2.1.1-windows/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/phantomjs-2.1.1-windows/bin/phantomjs.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/phantomjs-2.1.1-windows/examples/arguments.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/phantomjs-2.1.1-windows/examples/child_process-examples.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/phantomjs-2.1.1-windows/examples/colorwheel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/phantomjs-2.1.1-windows/examples/countdown.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/phantomjs-2.1.1-windows/examples/detectsniff.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/phantomjs-2.1.1-windows/examples/echoToFile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/phantomjs-2.1.1-windows/examples/features.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/phantomjs-2.1.1-windows/examples/fibo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/phantomjs-2.1.1-windows/examples/hello.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/phantomjs-2.1.1-windows/examples/injectme.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/phantomjs-2.1.1-windows/examples/loadspeed.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/phantomjs-2.1.1-windows/examples/loadurlwithoutcss.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/phantomjs-2.1.1-windows/examples/modernizr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/phantomjs-2.1.1-windows/examples/module.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/phantomjs-2.1.1-windows/examples/netlog.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/phantomjs-2.1.1-windows/examples/netsniff.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/phantomjs-2.1.1-windows/examples/openurlwithproxy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/phantomjs-2.1.1-windows/examples/outputEncoding.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/phantomjs-2.1.1-windows/examples/page_events.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/phantomjs-2.1.1-windows/examples/pagecallback.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/phantomjs-2.1.1-windows/examples/phantomwebintro.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/phantomjs-2.1.1-windows/examples/post.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/phantomjs-2.1.1-windows/examples/postjson.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/phantomjs-2.1.1-windows/examples/postserver.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/phantomjs-2.1.1-windows/examples/printenv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/phantomjs-2.1.1-windows/examples/printheaderfooter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/phantomjs-2.1.1-windows/examples/printmargins.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/phantomjs-2.1.1-windows/examples/rasterize.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/phantomjs-2.1.1-windows/examples/render_multi_url.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/phantomjs-2.1.1-windows/examples/responsive-screenshot.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/phantomjs-2.1.1-windows/examples/run-jasmine.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/phantomjs-2.1.1-windows/examples/run-jasmine2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/phantomjs-2.1.1-windows/examples/run-qunit.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/phantomjs-2.1.1-windows/examples/scandir.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/phantomjs-2.1.1-windows/examples/server.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/phantomjs-2.1.1-windows/examples/serverkeepalive.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/phantomjs-2.1.1-windows/examples/simpleserver.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/phantomjs-2.1.1-windows/examples/sleepsort.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/phantomjs-2.1.1-windows/examples/stdin-stdout-stderr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/phantomjs-2.1.1-windows/examples/universe.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/phantomjs-2.1.1-windows/examples/unrandomize.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/phantomjs-2.1.1-windows/examples/useragent.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/phantomjs-2.1.1-windows/examples/version.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/phantomjs-2.1.1-windows/examples/waitfor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/phantomjs-2.1.1-windows/examples/walk_through_frames.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/phantomjs-2.1.1-windows/third-party.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohrm/model/TestDataModelAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohrm/model/TestDataModelAdmin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohrm/model/TestDataModelLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohrm/model/TestDataModelLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohrm/model/TestDataModelPIM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohrm/model/TestDataModelPIM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohrm/utilities/CreateRandomName.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohrm/utilities/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohrm/utilities/Log.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohrm/utilities/OrangeHRMURL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohrm/utilities/OrangeHRMURL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohrm/webdriver/driver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/BaseTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/HomePageNavigationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/HomePageNavigationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/InquiryUserOHRMTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/InquiryUserOHRMTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/loginORMTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/loginORMTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/admin/UserMgn_UserPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/admin/UserMgn_UserPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/pim/AddEmployeePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/pim/AddEmployeePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/ExtentReports/ExtentManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/ExtentReports/ExtentTestManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/Listeners/AnnotationTransformer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/Listeners/Retry.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/Listeners/TestListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/Listeners/TestListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/ScreenShotRobot.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ohrm/model/TestDataModelAdmin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ohrm/model/TestDataModelAdmin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ohrm/model/TestDataModelLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ohrm/model/TestDataModelLogin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ohrm/model/TestDataModelPIM.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ohrm/model/TestDataModelPIM.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ohrm/utilities/CreateRandomName.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ohrm/utilities/Log.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ohrm/utilities/Log.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ohrm/utilities/OrangeHRMURL.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ohrm/utilities/OrangeHRMURL.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ohrm/webdriver/driver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/OrangeHRM Test Suite/Full Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/OrangeHRM Test Suite/Full Test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/OrangeHRM Test Suite/Full Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/OrangeHRM Test Suite/Full Test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/OrangeHRM Test Suite/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/OrangeHRM Test Suite/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-features.HomePageNavigationTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-features.HomePageNavigationTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-features.InquiryUserOHRMTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-features.InquiryUserOHRMTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-features.loginORMTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-features.loginORMTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/OrangeHRM Test Suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/OrangeHRM Test Suite/classes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/OrangeHRM Test Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/OrangeHRM Test Suite/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/OrangeHRM Test Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/OrangeHRM Test Suite/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/OrangeHRM Test Suite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/OrangeHRM Test Suite/testng.xml.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/OrangeHRM Test Suite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/OrangeHRM Test Suite/toc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/BaseTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/HomePageNavigationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/HomePageNavigationTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/InquiryUserOHRMTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/InquiryUserOHRMTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/loginORMTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/loginORMTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/admin/UserMgn_UserPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/admin/UserMgn_UserPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/pim/AddEmployeePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/pim/AddEmployeePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/ExtentReports/ExtentManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/ExtentReports/ExtentTestManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/Listeners/AnnotationTransformer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/Listeners/Retry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/.sonar_lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/report-task.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/OrangeHRM Test Suite/Full Test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/OrangeHRM Test Suite/Full Test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/OrangeHRM Test Suite/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/jquery-1.7.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-features.HomePageNavigationTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-features.InquiryUserOHRMTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-features.loginORMTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/OrangeHRM Test Suite/Full Test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/OrangeHRM Test Suite/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/OrangeHRM Test Suite/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/OrangeHRM Test Suite/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/OrangeHRM Test Suite/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/OrangeHRM Test Suite/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/OrangeHRM Test Suite/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/OrangeHRM Test Suite/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/OrangeHRM Test Suite/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/OrangeHRM Test Suite/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/OrangeHRM Test Suite/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/passed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/skipped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/utils/Listeners/TestListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/Listeners/TestListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/ScreenShotRobot.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -390,13 +95,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestListener.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestListener.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/utils/Listeners/TestListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="15">
+              <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="e#1093#1094#0" expanded="true" />
                 <element signature="e#1123#1124#0" expanded="true" />
                 <element signature="e#1260#1261#0" expanded="true" />
@@ -406,15 +110,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomePageNavigationTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/features/HomePageNavigationTest.java">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-797">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
+            <state relative-caret-position="-599" />
           </provider>
         </entry>
       </file>
@@ -895,7 +594,7 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32924107" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.46153846" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.574746" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3161074" />
@@ -922,9 +621,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/screenshots/2019_05_30_21_18_41_377.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -1186,16 +882,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/utils/Listeners/TestListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="15">
+          <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#1093#1094#0" expanded="true" />
             <element signature="e#1123#1124#0" expanded="true" />
             <element signature="e#1260#1261#0" expanded="true" />
             <element signature="e#1287#1288#0" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-599" />
       </provider>
     </entry>
   </component>
