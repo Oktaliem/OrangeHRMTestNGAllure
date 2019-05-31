@@ -2,9 +2,6 @@ package com.ohrm.model;
 
 public class TestDataModelLogin {
 
-    public TestDataModelLogin() {
-    }
-
     private String userName;
     private String userPass;
 

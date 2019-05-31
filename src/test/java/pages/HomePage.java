@@ -17,28 +17,6 @@ public class HomePage {
 
     WebDriver driver;
 
-    /*
-    @FindBy(xpath = "//*[@id=\"menu_admin_viewAdminModule\"]/b[1]")
-    public WebElement adminTab;
-
-    @FindBy(id = "menu_admin_UserManagement")
-    public WebElement userManagementTab;
-
-    @FindBy(id = "menu_admin_viewSystemUsers")
-    public WebElement userTab;
-
-    @FindBy(xpath = "//*[@id=\"welcome-menu\"]/ul[1]/li[3]/a[1]")
-    public WebElement logoutOption;
-
-    @FindBy(id = "welcome")
-    public WebElement welcomeButton;
-
-    @FindBy(css = "#menu_pim_viewPimModule > b")
-    public WebElement PIMTab;
-
-    @FindBy(xpath = "//*[@id=\"menu_pim_addEmployee\"]")
-    public WebElement AddEmplyTab;
-*/
     By menuAdminView = By.id("menu_admin_viewAdminModule");
     By menuPIMView = By.xpath("//B[text()='PIM']");
     By menuLeaveView = By.id("menu_leave_viewLeaveModule");
@@ -53,7 +31,6 @@ public class HomePage {
 
     public HomePage(WebDriver driver) {
         this.driver = driver;
-        //PageFactory.initElements(driver, this);
     }
 
     @Step("When - User goes to Admin Module")
@@ -102,12 +79,6 @@ public class HomePage {
         return this;
     }
 
-/*
-    public void waitUntilElementIsPresentByXpath(String element) {
-        WebDriverWait wait = new WebDriverWait(driver, 10);
-        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(element)));
-    }
-*/
     public String getAboutInfo() {
         return "About";
     }

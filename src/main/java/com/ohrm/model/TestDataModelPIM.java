@@ -1,8 +1,6 @@
 package com.ohrm.model;
 
 public class TestDataModelPIM {
-    public TestDataModelPIM() {
-    }
 
     private String emplyName;
     private String spvName;

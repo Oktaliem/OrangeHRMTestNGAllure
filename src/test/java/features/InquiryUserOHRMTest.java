@@ -10,7 +10,7 @@ import utils.Listeners.TestListener;
 @Listeners({TestListener.class})
 @Epic("Regression Tests")
 @Feature("Inquiry User Name")
-public class InquiryUserOHRMTest extends BaseTest{
+public class InquiryUserOHRMTest extends Preparation {
 
     /**
      * This testing purpose is to find User from User Management Page

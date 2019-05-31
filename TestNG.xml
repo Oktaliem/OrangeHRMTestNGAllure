@@ -3,12 +3,10 @@
 <suite name="OrangeHRM Test Suite" >
     <listeners>
         <listener class-name="utils.Listeners.TestListener"/>
-        <listener class-name="utils.Listeners.AnnotationTransformer"/>
     </listeners>
-
     <test name="Full Test">
         <classes>
-            <class name="features.loginORMTest">
+            <class name="features.LoginORMTest">
             <methods>
                 <include name="TC01_login"/>
                 <include name="TC02_login"/>

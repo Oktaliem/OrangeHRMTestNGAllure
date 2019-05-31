@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="233.365" tests="23" errors="0" skipped="4" failures="4">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="177.782" tests="19" errors="0" skipped="0" failures="4">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\bin"/>
@@ -64,74 +64,50 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="TC01_login" classname="features.loginORMTest" time="2.901"/>
-  <testcase name="TC02_login" classname="features.loginORMTest" time="2.656"/>
-  <testcase name="TC03_login" classname="features.loginORMTest" time="2.738"/>
-  <testcase name="TC05_login" classname="features.loginORMTest" time="2.938"/>
-  <testcase name="TC06_login" classname="features.loginORMTest" time="3.041"/>
-  <testcase name="TC07_login" classname="features.loginORMTest" time="3.002"/>
-  <testcase name="TC08_login" classname="features.loginORMTest" time="2.784"/>
-  <testcase name="TC02_inquiry" classname="features.InquiryUserOHRMTest" time="7.854"/>
-  <testcase name="TC01_home_navigation" classname="features.HomePageNavigationTest" time="4.554"/>
-  <testcase name="TC02_home_navigation" classname="features.HomePageNavigationTest" time="4.78"/>
-  <testcase name="TC03_home_navigation" classname="features.HomePageNavigationTest" time="5.122"/>
-  <testcase name="TC04_home_navigation" classname="features.HomePageNavigationTest" time="4.793"/>
-  <testcase name="TC05_home_navigation" classname="features.HomePageNavigationTest" time="4.977"/>
-  <testcase name="TC06_home_navigation" classname="features.HomePageNavigationTest" time="0">
-    <skipped message="&#10;Expected: a string containing &quot;http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/recruitment/viewCandidates#&quot;&#10;     but: was &quot;http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/dashboard#&quot;"/>
-    <system-out><![CDATA[I am in onTestStart method TC06_home_navigation start
-2019-05-29 16:21:07 INFO  Log:14 - TC06_home_navigation test is starting.
-I am in onTestStart method TC06_home_navigation start
-2019-05-29 16:21:07 INFO  Log:14 - TC06_home_navigation test is starting.
-I am in onTestSkipped method TC06_home_navigation skipped
-I am in onTestSkipped method TC06_home_navigation skipped
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 2.38.551601 (edb21f07fc70e9027c746edd3201443e011a61ed) on port 42165
-Only local connections are allowed.
-May 29, 2019 4:21:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: OSS
-]]></system-err>
-  </testcase>
-  <testcase name="TC06_home_navigation" classname="features.HomePageNavigationTest" time="4.562">
+  <testcase name="TC01_login" classname="features.LoginORMTest" time="4.326"/>
+  <testcase name="TC02_login" classname="features.LoginORMTest" time="3.871"/>
+  <testcase name="TC03_login" classname="features.LoginORMTest" time="4.177"/>
+  <testcase name="TC05_login" classname="features.LoginORMTest" time="4.164"/>
+  <testcase name="TC06_login" classname="features.LoginORMTest" time="4.276"/>
+  <testcase name="TC07_login" classname="features.LoginORMTest" time="4.328"/>
+  <testcase name="TC08_login" classname="features.LoginORMTest" time="4.024"/>
+  <testcase name="TC02_inquiry" classname="features.InquiryUserOHRMTest" time="11.093"/>
+  <testcase name="TC01_home_navigation" classname="features.HomePageNavigationTest" time="5.526"/>
+  <testcase name="TC02_home_navigation" classname="features.HomePageNavigationTest" time="6.41"/>
+  <testcase name="TC03_home_navigation" classname="features.HomePageNavigationTest" time="5.664"/>
+  <testcase name="TC04_home_navigation" classname="features.HomePageNavigationTest" time="5.653"/>
+  <testcase name="TC05_home_navigation" classname="features.HomePageNavigationTest" time="5.946"/>
+  <testcase name="TC06_home_navigation" classname="features.HomePageNavigationTest" time="5.284">
     <failure message="&#10;Expected: a string containing &quot;http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/recruitment/viewCandidates#&quot;&#10;     but: was &quot;http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/dashboard#&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
 
 Expected: a string containing "http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/recruitment/viewCandidates#"
      but: was "http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/dashboard#"
 	at features.HomePageNavigationTest.TC06_home_navigation(HomePageNavigationTest.java:56)
 </failure>
-    <system-out><![CDATA[I am in onTestStart method TC06_home_navigation start
-2019-05-29 16:21:14 INFO  Log:14 - TC06_home_navigation test is starting.
+    <system-out><![CDATA[I am in onTestSuccess method TC05_home_navigation succeed
+Screenshot captured for test case:TC05_home_navigation
+2019-05-31 11:38:20 INFO  Log:8 - ======================================================================================================
+2019-05-31 11:38:20 INFO  Log:8 - ================================= END TO END TEST FINISHED ============================================
+2019-05-31 11:38:20 INFO  Log:8 - ======================================================================================================
+2019-05-31 11:38:23 INFO  Log:8 - ======================================================================================================
+2019-05-31 11:38:23 INFO  Log:8 - ================================= END TO END TEST STARTED ============================================
+2019-05-31 11:38:23 INFO  Log:8 - ======================================================================================================
 I am in onTestStart method TC06_home_navigation start
-2019-05-29 16:21:14 INFO  Log:14 - TC06_home_navigation test is starting.
-I am in onTestFailure method TC06_home_navigation failed
-Screenshot captured for test case:TC06_home_navigation
+2019-05-31 11:38:23 INFO  Log:8 - TC06_home_navigation test is starting.
+I am in onTestStart method TC06_home_navigation start
+2019-05-31 11:38:23 INFO  Log:8 - TC06_home_navigation test is starting.
 I am in onTestFailure method TC06_home_navigation failed
 Screenshot captured for test case:TC06_home_navigation
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 2.38.551601 (edb21f07fc70e9027c746edd3201443e011a61ed) on port 38999
+    <system-err><![CDATA[Starting ChromeDriver 2.38.551601 (edb21f07fc70e9027c746edd3201443e011a61ed) on port 40429
 Only local connections are allowed.
-May 29, 2019 4:21:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 31, 2019 11:38:23 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>
-  <testcase name="TC07_home_navigation" classname="features.HomePageNavigationTest" time="4.236"/>
-  <testcase name="TC08_home_navigation" classname="features.HomePageNavigationTest" time="14.911"/>
-  <testcase name="TC09_home_navigation" classname="features.HomePageNavigationTest" time="0">
-    <skipped message="&#10;Expected: a string containing &quot;Company Name: Okta Jaya Pte Ltd&quot;&#10;     but: was &quot;Company Name:&#10;Version: Orangehrm OS 4.0&#10;Active Employees: 73&#10;Employees Terminated: 0&quot;"/>
-    <system-out><![CDATA[I am in onTestStart method TC09_home_navigation start
-2019-05-29 16:21:48 INFO  Log:14 - TC09_home_navigation test is starting.
-I am in onTestStart method TC09_home_navigation start
-2019-05-29 16:21:48 INFO  Log:14 - TC09_home_navigation test is starting.
-I am in onTestSkipped method TC09_home_navigation skipped
-I am in onTestSkipped method TC09_home_navigation skipped
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 2.38.551601 (edb21f07fc70e9027c746edd3201443e011a61ed) on port 32144
-Only local connections are allowed.
-May 29, 2019 4:21:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: OSS
-]]></system-err>
-  </testcase>
-  <testcase name="TC09_home_navigation" classname="features.HomePageNavigationTest" time="4.941">
+  <testcase name="TC07_home_navigation" classname="features.HomePageNavigationTest" time="5.559"/>
+  <testcase name="TC08_home_navigation" classname="features.HomePageNavigationTest" time="13.868"/>
+  <testcase name="TC09_home_navigation" classname="features.HomePageNavigationTest" time="5.467">
     <failure message="&#10;Expected: a string containing &quot;Company Name: Okta Jaya Pte Ltd&quot;&#10;     but: was &quot;Company Name:&#10;Version: Orangehrm OS 4.0&#10;Active Employees: 73&#10;Employees Terminated: 0&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
 
 Expected: a string containing "Company Name: Okta Jaya Pte Ltd"
@@ -141,75 +117,57 @@ Active Employees: 73
 Employees Terminated: 0"
 	at features.HomePageNavigationTest.TC09_home_navigation(HomePageNavigationTest.java:79)
 </failure>
-    <system-out><![CDATA[I am in onTestStart method TC09_home_navigation start
-2019-05-29 16:21:55 INFO  Log:14 - TC09_home_navigation test is starting.
+    <system-out><![CDATA[I am in onTestSuccess method TC08_home_navigation succeed
+Screenshot captured for test case:TC08_home_navigation
+2019-05-31 11:38:55 INFO  Log:8 - ======================================================================================================
+2019-05-31 11:38:55 INFO  Log:8 - ================================= END TO END TEST FINISHED ============================================
+2019-05-31 11:38:55 INFO  Log:8 - ======================================================================================================
+2019-05-31 11:38:57 INFO  Log:8 - ======================================================================================================
+2019-05-31 11:38:57 INFO  Log:8 - ================================= END TO END TEST STARTED ============================================
+2019-05-31 11:38:57 INFO  Log:8 - ======================================================================================================
 I am in onTestStart method TC09_home_navigation start
-2019-05-29 16:21:55 INFO  Log:14 - TC09_home_navigation test is starting.
-I am in onTestFailure method TC09_home_navigation failed
-Screenshot captured for test case:TC09_home_navigation
+2019-05-31 11:38:57 INFO  Log:8 - TC09_home_navigation test is starting.
+I am in onTestStart method TC09_home_navigation start
+2019-05-31 11:38:57 INFO  Log:8 - TC09_home_navigation test is starting.
 I am in onTestFailure method TC09_home_navigation failed
 Screenshot captured for test case:TC09_home_navigation
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 2.38.551601 (edb21f07fc70e9027c746edd3201443e011a61ed) on port 8248
+    <system-err><![CDATA[Starting ChromeDriver 2.38.551601 (edb21f07fc70e9027c746edd3201443e011a61ed) on port 33945
 Only local connections are allowed.
-May 29, 2019 4:21:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 31, 2019 11:38:57 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>
-  <testcase name="TC04_login" classname="features.loginORMTest" time="0">
-    <skipped message="&#10;Expected: a string containing &quot;http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/dashboard&quot;&#10;     but: was &quot;http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/auth/validateCredentials&quot;"/>
-    <system-out><![CDATA[I am in onTestStart method TC04_login start
-2019-05-29 16:22:02 INFO  Log:14 - TC04_login test is starting.
-I am in onTestStart method TC04_login start
-2019-05-29 16:22:02 INFO  Log:14 - TC04_login test is starting.
-I am in onTestSkipped method TC04_login skipped
-I am in onTestSkipped method TC04_login skipped
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 2.38.551601 (edb21f07fc70e9027c746edd3201443e011a61ed) on port 12106
-Only local connections are allowed.
-May 29, 2019 4:22:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: OSS
-]]></system-err>
-  </testcase>
-  <testcase name="TC04_login" classname="features.loginORMTest" time="4.136">
+  <testcase name="TC04_login" classname="features.LoginORMTest" time="4.733">
     <failure message="&#10;Expected: a string containing &quot;http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/dashboard&quot;&#10;     but: was &quot;http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/auth/validateCredentials&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
 
 Expected: a string containing "http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/dashboard"
      but: was "http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/auth/validateCredentials"
-	at features.loginORMTest.TC04_login(loginORMTest.java:49)
+	at features.LoginORMTest.TC04_login(LoginORMTest.java:49)
 </failure>
-    <system-out><![CDATA[I am in onTestStart method TC04_login start
-2019-05-29 16:22:08 INFO  Log:14 - TC04_login test is starting.
+    <system-out><![CDATA[I am in onTestFailure method TC09_home_navigation failed
+Screenshot captured for test case:TC09_home_navigation
+2019-05-31 11:39:04 INFO  Log:8 - ======================================================================================================
+2019-05-31 11:39:04 INFO  Log:8 - ================================= END TO END TEST FINISHED ============================================
+2019-05-31 11:39:04 INFO  Log:8 - ======================================================================================================
+2019-05-31 11:39:06 INFO  Log:8 - ======================================================================================================
+2019-05-31 11:39:06 INFO  Log:8 - ================================= END TO END TEST STARTED ============================================
+2019-05-31 11:39:06 INFO  Log:8 - ======================================================================================================
 I am in onTestStart method TC04_login start
-2019-05-29 16:22:08 INFO  Log:14 - TC04_login test is starting.
-I am in onTestFailure method TC04_login failed
-Screenshot captured for test case:TC04_login
+2019-05-31 11:39:06 INFO  Log:8 - TC04_login test is starting.
+I am in onTestStart method TC04_login start
+2019-05-31 11:39:06 INFO  Log:8 - TC04_login test is starting.
 I am in onTestFailure method TC04_login failed
 Screenshot captured for test case:TC04_login
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 2.38.551601 (edb21f07fc70e9027c746edd3201443e011a61ed) on port 5597
+    <system-err><![CDATA[Starting ChromeDriver 2.38.551601 (edb21f07fc70e9027c746edd3201443e011a61ed) on port 4728
 Only local connections are allowed.
-May 29, 2019 4:22:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 31, 2019 11:39:06 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>
-  <testcase name="TC01_inquiry" classname="features.InquiryUserOHRMTest" time="0">
-    <skipped message="no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;resultTable&quot;}&#10;  (Session info: chrome=74.0.3729.169)&#10;  (Driver info: chromedriver=2.38.551601 (edb21f07fc70e9027c746edd3201443e011a61ed),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-1DCFOTD&apos;, ip: &apos;172.18.138.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.551601 (edb21f07fc70e9..., userDataDir: C:\Users\User\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}&#10;Session ID: a0180126e1ca35aa347afe2059890d89&#10;*** Element info: {Using=id, value=resultTable}"/>
-    <system-out><![CDATA[I am in onTestStart method TC01_inquiry start
-2019-05-29 16:22:15 INFO  Log:14 - TC01_inquiry test is starting.
-I am in onTestStart method TC01_inquiry start
-2019-05-29 16:22:15 INFO  Log:14 - TC01_inquiry test is starting.
-I am in onTestSkipped method TC01_inquiry skipped
-I am in onTestSkipped method TC01_inquiry skipped
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 2.38.551601 (edb21f07fc70e9027c746edd3201443e011a61ed) on port 17227
-Only local connections are allowed.
-May 29, 2019 4:22:15 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: OSS
-]]></system-err>
-  </testcase>
-  <testcase name="TC01_inquiry" classname="features.InquiryUserOHRMTest" time="33.187">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;resultTable&quot;}&#10;  (Session info: chrome=74.0.3729.169)&#10;  (Driver info: chromedriver=2.38.551601 (edb21f07fc70e9027c746edd3201443e011a61ed),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-1DCFOTD&apos;, ip: &apos;172.18.138.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.551601 (edb21f07fc70e9..., userDataDir: C:\Users\User\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}&#10;Session ID: bf82190434d5596dc4afd33b4ecbac27&#10;*** Element info: {Using=id, value=resultTable}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+  <testcase name="TC01_inquiry" classname="features.InquiryUserOHRMTest" time="8.896">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;resultTable&quot;}&#10;  (Session info: chrome=74.0.3729.169)&#10;  (Driver info: chromedriver=2.38.551601 (edb21f07fc70e9027c746edd3201443e011a61ed),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-1DCFOTD&apos;, ip: &apos;172.18.138.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.551601 (edb21f07fc70e9..., userDataDir: C:\Users\User\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}&#10;Session ID: 08d7c0ff57284b21b8eb62dc369adac0&#10;*** Element info: {Using=id, value=resultTable}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
 no such element: Unable to locate element: {"method":"id","selector":"resultTable"}
   (Session info: chrome=74.0.3729.169)
   (Driver info: chromedriver=2.38.551601 (edb21f07fc70e9027c746edd3201443e011a61ed),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
@@ -219,22 +177,28 @@ Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17
 System info: host: 'DESKTOP-1DCFOTD', ip: '172.18.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.551601 (edb21f07fc70e9..., userDataDir: C:\Users\User\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
-Session ID: bf82190434d5596dc4afd33b4ecbac27
+Session ID: 08d7c0ff57284b21b8eb62dc369adac0
 *** Element info: {Using=id, value=resultTable}
 	at features.InquiryUserOHRMTest.TC01_inquiry(InquiryUserOHRMTest.java:22)
 </failure>
-    <system-out><![CDATA[I am in onTestStart method TC01_inquiry start
-2019-05-29 16:22:50 INFO  Log:14 - TC01_inquiry test is starting.
+    <system-out><![CDATA[I am in onTestFailure method TC04_login failed
+Screenshot captured for test case:TC04_login
+2019-05-31 11:39:12 INFO  Log:8 - ======================================================================================================
+2019-05-31 11:39:12 INFO  Log:8 - ================================= END TO END TEST FINISHED ============================================
+2019-05-31 11:39:12 INFO  Log:8 - ======================================================================================================
+2019-05-31 11:39:14 INFO  Log:8 - ======================================================================================================
+2019-05-31 11:39:14 INFO  Log:8 - ================================= END TO END TEST STARTED ============================================
+2019-05-31 11:39:14 INFO  Log:8 - ======================================================================================================
 I am in onTestStart method TC01_inquiry start
-2019-05-29 16:22:50 INFO  Log:14 - TC01_inquiry test is starting.
-I am in onTestFailure method TC01_inquiry failed
-Screenshot captured for test case:TC01_inquiry
+2019-05-31 11:39:14 INFO  Log:8 - TC01_inquiry test is starting.
+I am in onTestStart method TC01_inquiry start
+2019-05-31 11:39:14 INFO  Log:8 - TC01_inquiry test is starting.
 I am in onTestFailure method TC01_inquiry failed
 Screenshot captured for test case:TC01_inquiry
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 2.38.551601 (edb21f07fc70e9027c746edd3201443e011a61ed) on port 12797
+    <system-err><![CDATA[Starting ChromeDriver 2.38.551601 (edb21f07fc70e9027c746edd3201443e011a61ed) on port 36430
 Only local connections are allowed.
-May 29, 2019 4:22:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 31, 2019 11:39:14 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>

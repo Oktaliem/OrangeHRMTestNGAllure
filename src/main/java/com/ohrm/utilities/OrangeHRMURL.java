@@ -1,6 +1,7 @@
 package com.ohrm.utilities;
 
 public class OrangeHRMURL {
+    private OrangeHRMURL() {throw new IllegalStateException("OrangeHRMURL class"); }
 
     public static final String BASE_URL = "http://127.0.0.1/orangehrm-4.0/symfony/web/index.php";
     public static final String LOGIN_URL = BASE_URL + "/auth/login";

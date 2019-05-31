@@ -2,9 +2,6 @@ package com.ohrm.model;
 
 public class TestDataModelAdmin {
 
-    private TestDataModelAdmin() {
-    }
-
     private String jobTitle;
     private String jobDesc;
     private String jobSpec;

@@ -5,6 +5,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+import static java.util.concurrent.TimeUnit.SECONDS;
+import static org.awaitility.Awaitility.await;
+
 public class AddEmployeePage {
 
     WebDriver driver;
@@ -54,11 +57,8 @@ public class AddEmployeePage {
 
     public void clickOnRadioButton() {
         CLDRadioButton.click();
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+        //Thread.sleep(1000);
+        await().atMost(1, SECONDS);
     }
 
     public void clickOnSaveButtonEmployeePage() {

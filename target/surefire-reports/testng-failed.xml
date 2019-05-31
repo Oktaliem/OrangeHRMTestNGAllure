@@ -3,17 +3,16 @@
 <suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [OrangeHRM Test Suite]">
   <listeners>
     <listener class-name="utils.Listeners.TestListener"/>
-    <listener class-name="utils.Listeners.AnnotationTransformer"/>
   </listeners>
   <test thread-count="5" verbose="0" name="Full Test(failed)">
     <classes>
-      <class name="features.loginORMTest">
+      <class name="features.LoginORMTest">
         <methods>
           <include name="beforeMethodSetup"/>
           <include name="TC04_login"/>
           <include name="closeBrowser"/>
         </methods>
-      </class> <!-- features.loginORMTest -->
+      </class> <!-- features.LoginORMTest -->
       <class name="features.HomePageNavigationTest">
         <methods>
           <include name="TC09_home_navigation"/>
@@ -25,8 +24,8 @@
       <class name="features.InquiryUserOHRMTest">
         <methods>
           <include name="beforeMethodSetup"/>
-          <include name="TC01_inquiry"/>
           <include name="closeBrowser"/>
+          <include name="TC01_inquiry"/>
         </methods>
       </class> <!-- features.InquiryUserOHRMTest -->
     </classes>

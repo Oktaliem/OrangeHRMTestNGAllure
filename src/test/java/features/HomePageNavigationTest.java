@@ -12,7 +12,7 @@ import static com.ohrm.utilities.OrangeHRMURL.*;
 @Listeners({TestListener.class})
 @Epic("Regression Tests")
 @Feature("Home Page Navigation")
-public class HomePageNavigationTest extends BaseTest {
+public class HomePageNavigationTest extends Preparation {
 
     @Test(priority = 0, description = "Able to navigate to admin page")
     public void TC01_home_navigation() {

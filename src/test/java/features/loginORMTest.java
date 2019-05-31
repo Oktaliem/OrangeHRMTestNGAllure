@@ -8,7 +8,7 @@ import utils.Listeners.TestListener;
 @Listeners({TestListener.class})
 @Epic("Regression Tests")
 @Feature("Login To Orange HRM Portal")
-public class loginORMTest extends BaseTest{
+public class LoginORMTest extends Preparation {
 
     @Test(priority = 0, description = "Login with empty user name and empty password")
     public void TC01_login() {

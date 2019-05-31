@@ -1,7 +1,7 @@
 package pages.admin;
 
 import com.ohrm.utilities.Log;
-import features.BaseTest;
+import features.Preparation;
 import io.qameta.allure.Step;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
@@ -16,7 +16,7 @@ import java.util.List;
 import static org.testng.Assert.fail;
 import static org.testng.AssertJUnit.assertEquals;
 
-public class UserMgn_UserPage extends BaseTest {
+public class UserMgn_UserPage extends Preparation {
 
     WebDriver driver;
 
@@ -85,7 +85,7 @@ public class UserMgn_UserPage extends BaseTest {
     public void selectUserRole(String userRole) {
         new Select(searchSystemUsers_userType).selectByVisibleText(userRole);
         //or
-        //new Select(driver.findElement(By.id("searchSystemUser_userType"))).selectByVisibleText(userRole);
+        //new Select(MyDrivers.findElement(By.id("searchSystemUser_userType"))).selectByVisibleText(userRole);
     }
 
     public void inputEmployeeName(String eName) {

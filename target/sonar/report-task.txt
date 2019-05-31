@@ -1,0 +1,6 @@
+projectKey=OrangeHRMTestNGAllure
+serverUrl=http://192.168.99.100:32776
+serverVersion=7.7.0.23042
+dashboardUrl=http://192.168.99.100:32776/dashboard?id=OrangeHRMTestNGAllure
+ceTaskId=AWsMJPCrwo77_IloA33v
+ceTaskUrl=http://192.168.99.100:32776/api/ce/task?id=AWsMJPCrwo77_IloA33v
