@@ -72,5 +72,5 @@ https://docs.docker.com/docker-for-mac/install/
 https://youtu.be/MjgUgCN3WMg
 ```
 
-# DemoOrangeHRMTestNGAllure Continuous Testing with Jenkins
-To be continued........
+# DemoOrangeHRMTestNGAllure Continuous Testing
+- Continuous Testing with Jenkins
