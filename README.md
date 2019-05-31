@@ -66,7 +66,6 @@ https://docs.docker.com/toolbox/toolbox_install_windows/
 ```
 https://docs.docker.com/docker-for-mac/install/
 ```
-![image](https://user-images.githubusercontent.com/26521948/58689714-5bdee200-83ba-11e9-9692-3c6b3d7a961c.png)
 
 ## Demo in Youtube - Windows
 ```
