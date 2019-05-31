@@ -2,7 +2,7 @@
 - BDD sytle reporting with TestNG and Allure.
 (Alternative Behavior-Driven Development Test Automation Reporting without Cucumber Framework)
 - Generate Screenshot after run the test (available on Allure report)
-
+- Page Object Model and Page Factory in Java
 
 ## Download OrangeHRM
 Note : This repository is using OrangeHRM version 4.0
