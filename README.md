@@ -4,7 +4,7 @@
 - Page Object Model and Page Factory in Java
 
 ## Download OrangeHRM
-Note : This repository is using OrangeHRM version 4.0
+Note : This repository is using OrangeHRM version 4.0 as System Under Test
 ```
 https://github.com/orangehrm/orangehrm
 or
