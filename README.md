@@ -8,16 +8,14 @@
 Note : This repository is using OrangeHRM version 4.0
 ```
 https://github.com/orangehrm/orangehrm
-```
 or
-```
 https://hub.docker.com/r/bitnami/orangehrm/
 ```
 
 
 ## Precondition
 - MacOS --> brew install allure
-- Windows PC --> Install scoop to install Allure
+- Windows PC -->
 ```
 https://docs.qameta.io/allure/#_installing_a_commandline
 https://scoop.sh/
