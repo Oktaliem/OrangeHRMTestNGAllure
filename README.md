@@ -73,6 +73,6 @@ https://youtu.be/MjgUgCN3WMg
 ```
 
 # DemoOrangeHRMTestNGAllure Continuous Testing
-- Continuous Testing with Jenkins
+- Continuous Testing with Jenkins in Docker
 
 To be continued......
