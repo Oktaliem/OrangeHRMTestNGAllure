@@ -55,7 +55,7 @@ https://youtu.be/EPd5iCTchuA
 ```
 
 # DemoOrangeHRMTestNGAllure Continuous Inspection
-- Continuous inspection with SonarQube
+- Continuous inspection with SonarQube in Docker
 
 ### Docker installation - Windows
 ```
