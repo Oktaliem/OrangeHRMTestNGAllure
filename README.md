@@ -15,7 +15,7 @@ https://hub.docker.com/r/bitnami/orangehrm/
 ## Precondition
 Install Allure :
 - MacOS --> brew install allure
-- Windows PC -->
+- Windows PC --> scoop install allure
 ```
 https://docs.qameta.io/allure/#_installing_a_commandline
 https://scoop.sh/
