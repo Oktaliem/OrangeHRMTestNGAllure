@@ -1,6 +1,6 @@
 # DemoOrangeHRMTestNGAllure Test Automation
 - BDD sytle reporting with TestNG and Allure.
-- Alternative (Behavior-Driven Development) BDD Test Automation Reporting without Cucumber Framework
+(Alternative Behavior-Driven Development Test Automation Reporting without Cucumber Framework)
 - Generate Screenshot after run the test (available on Allure report)
 
 
@@ -42,9 +42,7 @@ allure serve
 
 ## Report Path
 #### Sample Report
-Clone this repository to your PC and go to :
-
-Allure
+Clone this repository and open :
 ```
 {your_project_path}/allure-report/index.html
 ```
