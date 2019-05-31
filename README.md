@@ -1,5 +1,5 @@
 # DemoOrangeHRMTestNGAllure Test Automation
-- BDD sytle reporting with TestNG and Allure.
+- BDD reporting style with TestNG and Allure.
 - Generate Screenshot after run the test (available on Allure report)
 - Page Object Model and Page Factory in Java
 
