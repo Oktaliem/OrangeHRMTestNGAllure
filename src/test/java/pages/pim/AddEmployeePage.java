@@ -57,7 +57,6 @@ public class AddEmployeePage {
 
     public void clickOnRadioButton() {
         CLDRadioButton.click();
-        //Thread.sleep(1000);
         await().atMost(1, SECONDS);
     }
 

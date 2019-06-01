@@ -24,6 +24,7 @@
         <methods>
           <include name="TC09_home_navigation"/>
           <include name="beforeMethodSetup"/>
+          <include name="TC10_home_navigation"/>
           <include name="closeBrowser"/>
           <include name="TC06_home_navigation"/>
         </methods>

@@ -1,5 +1,6 @@
 package utils.Listeners;
 
+import com.automation.remarks.video.annotations.Video;
 import com.ohrm.utilities.Log;
 import features.Preparation;
 import io.qameta.allure.Attachment;
@@ -43,6 +44,7 @@ public class TestListener extends Preparation implements ITestListener {
         System.out.println("I am in onFinish method " + iTestContext.getName());
     }
 
+    @Video
     @Override
     public void onTestStart(ITestResult iTestResult) {
         System.out.println("I am in onTestStart method " +  getTestMethodName(iTestResult) + " start");
@@ -70,6 +72,17 @@ public class TestListener extends Preparation implements ITestListener {
             saveScreenshotPNG(driver);
         }
         saveTextLog(getTestMethodName(iTestResult) + " failed and screenshot taken!");
+        saveTextLog(getTestMethodName(iTestResult) + " failed and video taken! check it on {project_path}/video");
+
+/*
+        URL pathFile = getClass().getResource(".video");
+        File file = new File(pathFile.getPath() +"/"+ getTestMethodName(iTestResult));
+        try {
+            Allure.addAttachment(getTestMethodName(iTestResult), "video/avi", Files.asByteSource(file).openStream(),"avi");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+*/
     }
 
     @Override

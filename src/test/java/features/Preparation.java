@@ -2,7 +2,6 @@ package features;
 
 import com.assertthat.selenium_shutterbug.core.Shutterbug;
 import com.assertthat.selenium_shutterbug.utils.web.ScrollStrategy;
-import utils.CreateRandomName;
 import com.ohrm.utilities.Log;
 import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;
@@ -12,7 +11,9 @@ import org.testng.annotations.BeforeMethod;
 import pages.HomePage;
 import pages.admin.UserMgn_UserPage;
 import pages.login.LoginPage;
+import utils.CreateRandomName;
 
+import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 import static com.ohrm.utilities.OrangeHRMURL.LOGIN_URL;
@@ -32,7 +33,7 @@ public class Preparation {
     }
 
     @BeforeMethod
-    public void beforeMethodSetup() {
+    public void beforeMethodSetup() throws IOException {
         System.setProperty(CHROME_BROWSER, CHROMEDRIVER_PATH);
         driver = new ChromeDriver();
         loginPage = new LoginPage(driver);
@@ -62,7 +63,7 @@ public class Preparation {
     }
 
     @AfterMethod
-    public void closeBrowser() {
+    public void closeBrowser() throws IOException {
         driver.quit();
         Log.info("======================================================================================================");
         Log.info("================================= END TO END TEST FINISHED ============================================");

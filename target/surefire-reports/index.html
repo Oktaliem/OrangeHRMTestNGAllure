@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 5 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">19 methods, 4 failed,   15 passed</span>
+                    <span class="method-stats">20 methods, 5 failed,   15 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -118,6 +118,11 @@
                       <span>
                         <img width="3%" src="failed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-OrangeHRM_Test_Suite" title="features.HomePageNavigationTest" hash-for-method="TC09_home_navigation">TC09_home_navigation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OrangeHRM_Test_Suite" title="features.HomePageNavigationTest" hash-for-method="TC10_home_navigation">TC10_home_navigation</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-OrangeHRM_Test_Suite -->
@@ -236,7 +241,7 @@ Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, tim
 System info: host: &apos;DESKTOP-1DCFOTD&apos;, ip: &apos;172.18.138.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.551601 (edb21f07fc70e9..., userDataDir: C:\Users\User\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
-Session ID: 6c3f42bb3431a6558eb65ca388eb5b8c
+Session ID: d1bf8385116326f54937dfb4e938fbff
 *** Element info: {Using=id, value=resultTable}
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
@@ -251,11 +256,11 @@ Session ID: 6c3f42bb3431a6558eb65ca388eb5b8c
 	at org.openqa.selenium.By$ById.findElement(By.java:188)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 	at pages.admin.UserMgn_UserPage.searchUserByUserName(UserMgn_UserPage.java:155)
-	at features.InquiryUserOHRMTest.TC01_inquiry(InquiryUserOHRMTest.java:22)
+	at features.InquiryUserOHRMTest.TC01_inquiry(InquiryUserOHRMTest.java:25)
 ... Removed 32 stack frames
 </div> <!-- stack-trace -->
                   <em>
-(User is inquiry with valid name)                  </em>
+(TC01 User is inquiry with valid name)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -277,11 +282,11 @@ Expected: a string containing &quot;http://127.0.0.1/orangehrm-4.0/symfony/web/i
 	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
 	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
 	at pages.login.LoginPage.landingToDashboardPage(LoginPage.java:56)
-	at features.LoginORMTest.TC04_login(LoginORMTest.java:49)
+	at features.LoginORMTest.TC04_login(LoginORMTest.java:63)
 ... Removed 28 stack frames
 </div> <!-- stack-trace -->
                   <em>
-(Login with correct username and correct password)                  </em>
+(TC04 Login with correct username and correct password)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -303,11 +308,11 @@ Expected: a string containing &quot;http://127.0.0.1/orangehrm-4.0/symfony/web/i
 	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
 	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
 	at pages.HomePage.verifyLandingToCorrectPage(HomePage.java:96)
-	at features.HomePageNavigationTest.TC06_home_navigation(HomePageNavigationTest.java:56)
+	at features.HomePageNavigationTest.TC06_home_navigation(HomePageNavigationTest.java:64)
 ... Removed 28 stack frames
 </div> <!-- stack-trace -->
                   <em>
-(Able to navigate to performance page)                  </em>
+(TC06 Able to navigate to performance page)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -324,11 +329,29 @@ Employees Terminated: 0&quot;
 	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
 	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
 	at pages.HomePage.verifyModalIsDisplayedWithInformativeMessage(HomePage.java:138)
-	at features.HomePageNavigationTest.TC09_home_navigation(HomePageNavigationTest.java:79)
+	at features.HomePageNavigationTest.TC09_home_navigation(HomePageNavigationTest.java:90)
 ... Removed 28 stack frames
 </div> <!-- stack-trace -->
                   <em>
-(Able to navigate to About modal)                  </em>
+(TC09 Able to navigate to About modal)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC10_home_navigation">
+                  </a> <!-- TC10_home_navigation -->
+                  <span class="method-name">TC10_home_navigation</span>
+                  <div class="stack-trace">java.lang.AssertionError: 
+Expected: a string containing &quot;http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/admin/viewSystemUsers&quot;
+     but: was &quot;http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/directory/viewDirectory/reset/1&quot;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at pages.HomePage.verifyLandingToCorrectPage(HomePage.java:96)
+	at features.HomePageNavigationTest.TC10_home_navigation(HomePageNavigationTest.java:103)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(TC10 Able to navigate to many page)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -345,7 +368,7 @@ Employees Terminated: 0&quot;
                   </a> <!-- TC02_inquiry -->
                   <span class="method-name">TC02_inquiry</span>
                   <em>
-(User is inquiry with invalid name)                  </em>
+(TC02 User is inquiry with invalid name)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -362,7 +385,7 @@ Employees Terminated: 0&quot;
                   </a> <!-- TC01_login -->
                   <span class="method-name">TC01_login</span>
                   <em>
-(Login with empty user name and empty password)                  </em>
+(TC01 Login with empty user name and empty password)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -371,7 +394,7 @@ Employees Terminated: 0&quot;
                   </a> <!-- TC02_login -->
                   <span class="method-name">TC02_login</span>
                   <em>
-(Login with empty user name and correct password)                  </em>
+(TC02 Login with empty user name and correct password)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -380,7 +403,7 @@ Employees Terminated: 0&quot;
                   </a> <!-- TC03_login -->
                   <span class="method-name">TC03_login</span>
                   <em>
-(Login with correct password and empty password)                  </em>
+(TC03 Login with correct password and empty password)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -389,7 +412,7 @@ Employees Terminated: 0&quot;
                   </a> <!-- TC05_login -->
                   <span class="method-name">TC05_login</span>
                   <em>
-(Login with incorrect user name and incorrect password)                  </em>
+(TC05 Login with incorrect user name and incorrect password)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -398,7 +421,7 @@ Employees Terminated: 0&quot;
                   </a> <!-- TC06_login -->
                   <span class="method-name">TC06_login</span>
                   <em>
-(Login with incorrect user name and correct password)                  </em>
+(TC06 Login with incorrect user name and correct password)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -407,7 +430,7 @@ Employees Terminated: 0&quot;
                   </a> <!-- TC07_login -->
                   <span class="method-name">TC07_login</span>
                   <em>
-(Login with correct user name and incorrect password)                  </em>
+(TC07 Login with correct user name and incorrect password)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -416,7 +439,7 @@ Employees Terminated: 0&quot;
                   </a> <!-- TC08_login -->
                   <span class="method-name">TC08_login</span>
                   <em>
-(Login with incorrect user name and incorrect password)                  </em>
+(TC08 Login with incorrect user name and incorrect password)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -433,7 +456,7 @@ Employees Terminated: 0&quot;
                   </a> <!-- TC01_home_navigation -->
                   <span class="method-name">TC01_home_navigation</span>
                   <em>
-(Able to navigate to admin page)                  </em>
+(TC01 Able to navigate to admin page)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -442,7 +465,7 @@ Employees Terminated: 0&quot;
                   </a> <!-- TC02_home_navigation -->
                   <span class="method-name">TC02_home_navigation</span>
                   <em>
-(Able to navigate to PIM page)                  </em>
+(TC02 Able to navigate to PIM page)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -451,7 +474,7 @@ Employees Terminated: 0&quot;
                   </a> <!-- TC03_home_navigation -->
                   <span class="method-name">TC03_home_navigation</span>
                   <em>
-(Able to navigate to leave page)                  </em>
+(TC03 Able to navigate to leave page)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -460,7 +483,7 @@ Employees Terminated: 0&quot;
                   </a> <!-- TC04_home_navigation -->
                   <span class="method-name">TC04_home_navigation</span>
                   <em>
-(Able to navigate to time page)                  </em>
+(TC04 Able to navigate to time page)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -469,7 +492,7 @@ Employees Terminated: 0&quot;
                   </a> <!-- TC05_home_navigation -->
                   <span class="method-name">TC05_home_navigation</span>
                   <em>
-(Able to navigate to recruitment page)                  </em>
+(TC05 Able to navigate to recruitment page)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -478,7 +501,7 @@ Employees Terminated: 0&quot;
                   </a> <!-- TC07_home_navigation -->
                   <span class="method-name">TC07_home_navigation</span>
                   <em>
-(Able to navigate to dashboard page)                  </em>
+(TC07 ble to navigate to dashboard page)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -487,7 +510,7 @@ Employees Terminated: 0&quot;
                   </a> <!-- TC08_home_navigation -->
                   <span class="method-name">TC08_home_navigation</span>
                   <em>
-(Able to navigate to directory page)                  </em>
+(TC08 Able to navigate to directory page)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -560,83 +583,87 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(19);
+data.addRows(20);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'TC08_home_navigation')
+data.setCell(0, 1, 'TC10_home_navigation')
 data.setCell(0, 2, 'features.HomePageNavigationTest')
-data.setCell(0, 3, 20946);
+data.setCell(0, 3, 19435);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'TC02_home_navigation')
+data.setCell(1, 1, 'TC08_home_navigation')
 data.setCell(1, 2, 'features.HomePageNavigationTest')
-data.setCell(1, 3, 15178);
+data.setCell(1, 3, 14311);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'TC02_inquiry')
 data.setCell(2, 2, 'features.InquiryUserOHRMTest')
-data.setCell(2, 3, 14215);
+data.setCell(2, 3, 12792);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'TC07_home_navigation')
-data.setCell(3, 2, 'features.HomePageNavigationTest')
-data.setCell(3, 3, 9505);
+data.setCell(3, 1, 'TC01_inquiry')
+data.setCell(3, 2, 'features.InquiryUserOHRMTest')
+data.setCell(3, 3, 8499);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'TC01_inquiry')
-data.setCell(4, 2, 'features.InquiryUserOHRMTest')
-data.setCell(4, 3, 8431);
+data.setCell(4, 1, 'TC02_home_navigation')
+data.setCell(4, 2, 'features.HomePageNavigationTest')
+data.setCell(4, 3, 7021);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'TC01_login')
-data.setCell(5, 2, 'features.LoginORMTest')
-data.setCell(5, 3, 8042);
+data.setCell(5, 1, 'TC05_home_navigation')
+data.setCell(5, 2, 'features.HomePageNavigationTest')
+data.setCell(5, 3, 6491);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'TC03_home_navigation')
+data.setCell(6, 1, 'TC01_home_navigation')
 data.setCell(6, 2, 'features.HomePageNavigationTest')
-data.setCell(6, 3, 7920);
+data.setCell(6, 3, 6395);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'TC05_home_navigation')
+data.setCell(7, 1, 'TC09_home_navigation')
 data.setCell(7, 2, 'features.HomePageNavigationTest')
-data.setCell(7, 3, 7857);
+data.setCell(7, 3, 6254);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'TC06_home_navigation')
+data.setCell(8, 1, 'TC04_home_navigation')
 data.setCell(8, 2, 'features.HomePageNavigationTest')
-data.setCell(8, 3, 7141);
+data.setCell(8, 3, 6191);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'TC09_home_navigation')
+data.setCell(9, 1, 'TC03_home_navigation')
 data.setCell(9, 2, 'features.HomePageNavigationTest')
-data.setCell(9, 3, 7008);
+data.setCell(9, 3, 5866);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'TC04_home_navigation')
+data.setCell(10, 1, 'TC07_home_navigation')
 data.setCell(10, 2, 'features.HomePageNavigationTest')
-data.setCell(10, 3, 6379);
+data.setCell(10, 3, 5760);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'TC01_home_navigation')
+data.setCell(11, 1, 'TC06_home_navigation')
 data.setCell(11, 2, 'features.HomePageNavigationTest')
-data.setCell(11, 3, 6190);
+data.setCell(11, 3, 5359);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'TC07_login')
+data.setCell(12, 1, 'TC01_login')
 data.setCell(12, 2, 'features.LoginORMTest')
-data.setCell(12, 3, 5037);
+data.setCell(12, 3, 5247);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'TC04_login')
+data.setCell(13, 1, 'TC07_login')
 data.setCell(13, 2, 'features.LoginORMTest')
-data.setCell(13, 3, 4176);
+data.setCell(13, 3, 4665);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'TC05_login')
+data.setCell(14, 1, 'TC06_login')
 data.setCell(14, 2, 'features.LoginORMTest')
-data.setCell(14, 3, 4080);
+data.setCell(14, 3, 4444);
 data.setCell(15, 0, 15)
 data.setCell(15, 1, 'TC08_login')
 data.setCell(15, 2, 'features.LoginORMTest')
-data.setCell(15, 3, 3908);
+data.setCell(15, 3, 4438);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'TC06_login')
+data.setCell(16, 1, 'TC04_login')
 data.setCell(16, 2, 'features.LoginORMTest')
-data.setCell(16, 3, 3894);
+data.setCell(16, 3, 4402);
 data.setCell(17, 0, 17)
 data.setCell(17, 1, 'TC02_login')
 data.setCell(17, 2, 'features.LoginORMTest')
-data.setCell(17, 3, 3839);
+data.setCell(17, 3, 4353);
 data.setCell(18, 0, 18)
-data.setCell(18, 1, 'TC03_login')
+data.setCell(18, 1, 'TC05_login')
 data.setCell(18, 2, 'features.LoginORMTest')
-data.setCell(18, 3, 3808);
+data.setCell(18, 3, 4217);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'TC03_login')
+data.setCell(19, 2, 'features.LoginORMTest')
+data.setCell(19, 3, 3912);
 window.suiteTableData['OrangeHRM_Test_Suite']= { tableData: data, tableDiv: 'times-div-OrangeHRM_Test_Suite'}
 return data;
 }
@@ -674,247 +701,261 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TC01_login</span>
-                <span class="method-start">5368 ms</span>
+                <span class="method-start">3987 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">14220 ms</span>
+                <span class="method-start">10331 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethodSetup</span>
-                <span class="method-start">14937 ms</span>
+                <span class="method-start">11098 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TC02_login</span>
-                <span class="method-start">17059 ms</span>
+                <span class="method-start">13213 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">21661 ms</span>
+                <span class="method-start">18457 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethodSetup</span>
-                <span class="method-start">22369 ms</span>
+                <span class="method-start">19210 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TC03_login</span>
-                <span class="method-start">24400 ms</span>
+                <span class="method-start">21276 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">28993 ms</span>
+                <span class="method-start">26032 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethodSetup</span>
-                <span class="method-start">29691 ms</span>
+                <span class="method-start">26733 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TC05_login</span>
-                <span class="method-start">31776 ms</span>
+                <span class="method-start">28774 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">36730 ms</span>
+                <span class="method-start">33844 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethodSetup</span>
-                <span class="method-start">37494 ms</span>
+                <span class="method-start">34589 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TC06_login</span>
-                <span class="method-start">39546 ms</span>
+                <span class="method-start">36617 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">44187 ms</span>
+                <span class="method-start">41980 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethodSetup</span>
-                <span class="method-start">44870 ms</span>
+                <span class="method-start">42686 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TC07_login</span>
-                <span class="method-start">46910 ms</span>
+                <span class="method-start">44719 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">52937 ms</span>
+                <span class="method-start">50239 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethodSetup</span>
-                <span class="method-start">53645 ms</span>
+                <span class="method-start">50933 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TC08_login</span>
-                <span class="method-start">55611 ms</span>
+                <span class="method-start">52969 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">60305 ms</span>
+                <span class="method-start">58261 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">features.InquiryUserOHRMTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethodSetup</span>
-                <span class="method-start">60992 ms</span>
+                <span class="method-start">58971 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TC02_inquiry</span>
-                <span class="method-start">63007 ms</span>
+                <span class="method-start">61022 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">78003 ms</span>
+                <span class="method-start">74624 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">features.HomePageNavigationTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethodSetup</span>
-                <span class="method-start">78764 ms</span>
+                <span class="method-start">75322 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TC01_home_navigation</span>
-                <span class="method-start">80821 ms</span>
+                <span class="method-start">77333 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">87796 ms</span>
+                <span class="method-start">84574 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethodSetup</span>
-                <span class="method-start">88527 ms</span>
+                <span class="method-start">85312 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TC02_home_navigation</span>
-                <span class="method-start">90604 ms</span>
+                <span class="method-start">87343 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">107042 ms</span>
+                <span class="method-start">95273 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethodSetup</span>
-                <span class="method-start">108274 ms</span>
+                <span class="method-start">96001 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TC03_home_navigation</span>
-                <span class="method-start">110748 ms</span>
+                <span class="method-start">98057 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">119514 ms</span>
+                <span class="method-start">104729 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethodSetup</span>
-                <span class="method-start">120245 ms</span>
+                <span class="method-start">105455 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TC04_home_navigation</span>
-                <span class="method-start">122431 ms</span>
+                <span class="method-start">107505 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">129654 ms</span>
+                <span class="method-start">114503 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethodSetup</span>
-                <span class="method-start">130447 ms</span>
+                <span class="method-start">115222 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TC05_home_navigation</span>
-                <span class="method-start">132612 ms</span>
+                <span class="method-start">117262 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">141357 ms</span>
+                <span class="method-start">124636 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethodSetup</span>
-                <span class="method-start">142132 ms</span>
+                <span class="method-start">125372 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">TC06_home_navigation</span>
-                <span class="method-start">144445 ms</span>
+                <span class="method-start">127427 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">152673 ms</span>
+                <span class="method-start">133666 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethodSetup</span>
-                <span class="method-start">153451 ms</span>
+                <span class="method-start">134405 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TC07_home_navigation</span>
-                <span class="method-start">155826 ms</span>
+                <span class="method-start">136422 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">166604 ms</span>
+                <span class="method-start">143045 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethodSetup</span>
-                <span class="method-start">167569 ms</span>
+                <span class="method-start">143759 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TC08_home_navigation</span>
-                <span class="method-start">169795 ms</span>
+                <span class="method-start">145789 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">191782 ms</span>
+                <span class="method-start">160977 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethodSetup</span>
-                <span class="method-start">192649 ms</span>
+                <span class="method-start">161715 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">TC09_home_navigation</span>
-                <span class="method-start">194827 ms</span>
+                <span class="method-start">163838 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">202860 ms</span>
+                <span class="method-start">170972 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethodSetup</span>
+                <span class="method-start">171701 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC10_home_navigation</span>
+                <span class="method-start">173729 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">194014 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">features.LoginORMTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethodSetup</span>
-                <span class="method-start">203689 ms</span>
+                <span class="method-start">194734 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">TC04_login</span>
-                <span class="method-start">205695 ms</span>
+                <span class="method-start">196794 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">210691 ms</span>
+                <span class="method-start">202090 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">features.InquiryUserOHRMTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethodSetup</span>
-                <span class="method-start">211413 ms</span>
+                <span class="method-start">202810 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">TC01_inquiry</span>
-                <span class="method-start">213458 ms</span>
+                <span class="method-start">204825 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">222634 ms</span>
+                <span class="method-start">214200 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
