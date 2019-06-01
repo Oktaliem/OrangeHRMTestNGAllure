@@ -2,130 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8da644e5-1b2b-497d-8227-32ba908bec9c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/ScreenShootComparison.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/109729e86ecc91c0.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/1ab30cc603fc8999.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/3ee82381710a6e2f.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/53baee73be0a9ef8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/5af4711b7cbb0ff4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/6b369b8d1160d764.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/6d8361af5189bed6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/7c94a80bcc9fcbf1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/7d01fe7672e23c8b.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/839941332ca0cefe.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/8494f6ec5f831e4d.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/86206ce3e7476e41.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/8b4765938f5a03cc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/8ef9c263f683c20b.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/93c98165b76660d0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/9a40c6d788805413.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/a9d1bb2be4bd38c3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/b14c7b3c5f085570.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/b1b8018570918c34.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/c0dabc2225f9771e.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/c0ed10172721527e.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/d1142a97ebc5347b.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/d1fb65ae6d348e8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/d506811bd146cf30.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/dd6866b8f6c39e12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/e343962592a3fb51.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/e55a0742f3ee8c0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/e80e9369baac4306.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/f939d84675c1c73e.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/ffd4f5408efb42a8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/behaviors.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/behaviors.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/categories.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/categories.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/packages.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/suites.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/suites.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/27de6c6cb4d122eb.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/284350750bfc9344.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/3214dde661bc71ad.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/50edb92e350bf9c4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/54ea521fb0cd4a7b.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/6662a066d6398fe.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/6905475b201421ec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/751ba9f0e1fe3f93.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/7e1fc3fc22e88415.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/81b7ed81b70e183c.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/82de7e6fbe02f694.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/86889e1440c4738d.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/8dfd7dabbb1ba05e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/92441fea774208bd.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/9abccad6312bce95.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/9ade8ef30f808974.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/ad32c30fbb09ab2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/b7749dce778f7795.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/c5cb819376c482f1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/e9f74f93144057e3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/timeline.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/export/influxDbData.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/export/mail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/export/prometheusData.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/history/categories-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/history/duration-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/history/history-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/history/history.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/history/retry-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/plugins/behaviors/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/plugins/packages/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/plugins/screen-diff/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/plugins/screen-diff/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/widgets/behaviors.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/widgets/categories-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/widgets/categories.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/widgets/duration-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/widgets/duration.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/widgets/environment.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/widgets/executors.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/widgets/history-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/widgets/launch.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/widgets/retry-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/widgets/severity.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/widgets/status-chart.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/widgets/suites.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/widgets/summary.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/HomePageNavigationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/HomePageNavigationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/Preparation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/Preparation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/Listeners/TestListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/Listeners/TestListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/OrangeHRM Test Suite/Full Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/OrangeHRM Test Suite/Full Test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/OrangeHRM Test Suite/Full Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/OrangeHRM Test Suite/Full Test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/OrangeHRM Test Suite/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/OrangeHRM Test Suite/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-features.HomePageNavigationTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-features.HomePageNavigationTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-features.InquiryUserOHRMTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-features.InquiryUserOHRMTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-features.loginORMTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-features.loginORMTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/OrangeHRM Test Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/OrangeHRM Test Suite/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/OrangeHRM Test Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/OrangeHRM Test Suite/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/OrangeHRM Test Suite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/OrangeHRM Test Suite/toc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/HomePageNavigationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/HomePageNavigationTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/InquiryUserOHRMTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/InquiryUserOHRMTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Preparation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/Preparation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/loginORMTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/loginORMTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/Listeners/TestListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/Listeners/TestListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video/TC01_inquiry_recording_2019_01_06_18_07_01.avi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video/TC04_login_recording_2019_01_06_18_06_48.avi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video/TC06_home_navigation_recording_2019_01_06_18_05_40.avi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video/TC09_home_navigation_recording_2019_01_06_18_06_17.avi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video/TC10_home_navigation_recording_2019_01_06_18_06_40.avi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -649,7 +526,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="7" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -661,10 +538,10 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.43396226" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32946298" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.31059507" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.31059507" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2738255" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2738255" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -1022,7 +899,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1082,7 +959,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: com.assertthat:selenium-shutterbug:0.9.1</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>
