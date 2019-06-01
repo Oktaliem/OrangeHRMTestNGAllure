@@ -2,6 +2,7 @@
 - BDD reporting style with TestNG and Allure.
 - Generate Screenshot after run the test (available on Allure report)
 - Page Object Model and Page Factory in Java
+- Generate Video on Failed Test
 
 ## Download OrangeHRM
 Note : This repository is using OrangeHRM version 4.0 as System Under Test
