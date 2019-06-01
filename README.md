@@ -1,11 +1,10 @@
 # DemoOrangeHRMTestNGAllure Test Automation
-- BDD sytle reporting with TestNG and Allure.
-(Alternative Behavior-Driven Development Test Automation Reporting without Cucumber Framework)
+- BDD reporting style with TestNG and Allure.
 - Generate Screenshot after run the test (available on Allure report)
 - Page Object Model and Page Factory in Java
 
 ## Download OrangeHRM
-Note : This repository is using OrangeHRM version 4.0
+Note : This repository is using OrangeHRM version 4.0 as System Under Test
 ```
 https://github.com/orangehrm/orangehrm
 or
@@ -14,8 +13,9 @@ https://hub.docker.com/r/bitnami/orangehrm/
 
 
 ## Precondition
+Install Allure :
 - MacOS --> brew install allure
-- Windows PC -->
+- Windows PC --> scoop install allure
 ```
 https://docs.qameta.io/allure/#_installing_a_commandline
 https://scoop.sh/
@@ -55,7 +55,7 @@ https://youtu.be/EPd5iCTchuA
 ```
 
 # DemoOrangeHRMTestNGAllure Continuous Inspection
-- Continuous inspection with SonarQube in Docker
+- Continuous Inspection with SonarQube in Docker
 
 ### Docker installation - Windows
 ```
@@ -66,10 +66,14 @@ https://docs.docker.com/toolbox/toolbox_install_windows/
 ```
 https://docs.docker.com/docker-for-mac/install/
 ```
+![image](https://user-images.githubusercontent.com/26521948/58690464-276c2580-83bc-11e9-9c6a-a2729cd0fba7.png)
 
 ## Demo in Youtube - Windows
 ```
 https://youtu.be/MjgUgCN3WMg
 ```
 
+# DemoOrangeHRMTestNGAllure Continuous Testing
+- Continuous Testing (TestNG & Allure) & Continuous Inspection (SonarQube) with Continous Integration Server (Jenkins Pipeline) in Docker
 
+To be continued......
