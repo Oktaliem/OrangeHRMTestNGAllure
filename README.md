@@ -1,13 +1,19 @@
 # DemoOrangeHRMTestNGAllure Test Automation
+### Features
 - BDD reporting style with TestNG and Allure.
 - Generate Screenshot after run the test (available on Allure report)
+- Generate Video on Failed Test (available on Allure report)
 - Page Object Model and Page Factory in Java
+- Visual Regression Testing/Screenshot Comparison with Selenium-Shutterbug & aShot
+
 
 ## Download OrangeHRM
 Note : This repository is using OrangeHRM version 4.0 as System Under Test
 ```
+for Windows
 https://github.com/orangehrm/orangehrm
 or
+for Mac
 https://hub.docker.com/r/bitnami/orangehrm/
 ```
 
@@ -20,8 +26,8 @@ Install Allure :
 https://docs.qameta.io/allure/#_installing_a_commandline
 https://scoop.sh/
 ```
-![image](https://user-images.githubusercontent.com/26521948/58542559-68cfca00-8230-11e9-9885-755963981310.png)
-![install Allure](https://user-images.githubusercontent.com/26521948/58542313-f52dbd00-822f-11e9-9ba4-abd290b1a9de.png)
+![image](https://user-images.githubusercontent.com/26521948/58747484-725e6980-849e-11e9-82d7-0a6e215298ac.png)
+![image](https://user-images.githubusercontent.com/26521948/58747500-9326bf00-849e-11e9-8069-fcd5eb6901a7.png)
 
 ## Run the Test Via Command Line
 ```
@@ -44,10 +50,7 @@ Clone this repository and open :
 ```
 {your_project_path}/allure-report/index.html
 ```
-![allure overview](https://user-images.githubusercontent.com/26521948/58542704-a5032a80-8230-11e9-9321-9ddfc7d5fd07.png)
-![allure suites](https://user-images.githubusercontent.com/26521948/58542714-a7fe1b00-8230-11e9-9e78-30943787d403.png)
-![allure categories](https://user-images.githubusercontent.com/26521948/58542721-aa607500-8230-11e9-8fb5-9c282a92903f.png)
-![allure graphs](https://user-images.githubusercontent.com/26521948/58542728-ad5b6580-8230-11e9-9bc7-4a88ebdaeda1.png)
+![image](https://user-images.githubusercontent.com/26521948/58747219-b9e2f680-849a-11e9-8ae1-e5a9d5b32c0b.png)
 
 ## Demo in Youtube
 ```
