@@ -23,7 +23,7 @@ https://docs.qameta.io/allure/#_installing_a_commandline
 https://scoop.sh/
 ```
 ![image](https://user-images.githubusercontent.com/26521948/58747484-725e6980-849e-11e9-82d7-0a6e215298ac.png)
-![install Allure](https://user-images.githubusercontent.com/26521948/58542313-f52dbd00-822f-11e9-9ba4-abd290b1a9de.png)
+![image](https://user-images.githubusercontent.com/26521948/58747500-9326bf00-849e-11e9-8069-fcd5eb6901a7.png)
 
 ## Run the Test Via Command Line
 ```
