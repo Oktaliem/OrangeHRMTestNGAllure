@@ -10,8 +10,10 @@
 ## Download OrangeHRM
 Note : This repository is using OrangeHRM version 4.0 as System Under Test
 ```
+for windows
 https://github.com/orangehrm/orangehrm
 or
+for Mac
 https://hub.docker.com/r/bitnami/orangehrm/
 ```
 
