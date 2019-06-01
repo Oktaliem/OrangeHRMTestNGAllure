@@ -46,10 +46,7 @@ Clone this repository and open :
 ```
 {your_project_path}/allure-report/index.html
 ```
-![allure overview](https://user-images.githubusercontent.com/26521948/58542704-a5032a80-8230-11e9-9321-9ddfc7d5fd07.png)
-![allure suites](https://user-images.githubusercontent.com/26521948/58542714-a7fe1b00-8230-11e9-9e78-30943787d403.png)
-![allure categories](https://user-images.githubusercontent.com/26521948/58542721-aa607500-8230-11e9-8fb5-9c282a92903f.png)
-![allure graphs](https://user-images.githubusercontent.com/26521948/58542728-ad5b6580-8230-11e9-9bc7-4a88ebdaeda1.png)
+![image](https://user-images.githubusercontent.com/26521948/58747219-b9e2f680-849a-11e9-8ae1-e5a9d5b32c0b.png)
 
 ## Demo in Youtube
 ```
