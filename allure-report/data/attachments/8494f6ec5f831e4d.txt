@@ -1,1 +1,0 @@
-TC09_home_navigation failed and video taken! check it on {project_path}/video

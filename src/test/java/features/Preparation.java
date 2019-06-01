@@ -1,7 +1,5 @@
 package features;
 
-import com.assertthat.selenium_shutterbug.core.Shutterbug;
-import com.assertthat.selenium_shutterbug.utils.web.ScrollStrategy;
 import com.ohrm.utilities.Log;
 import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;
@@ -58,8 +56,8 @@ public class Preparation {
         }else if(page.equals("home")){
             loginPage.loginToOHRM("admin","admin");
         }
-        Shutterbug.shootPage(driver).save();
-        Shutterbug.shootPage(driver,ScrollStrategy.WHOLE_PAGE,500,true).withName("LoginPageScreenshot").save();
+        //Shutterbug.shootPage(driver).save();
+        //Shutterbug.shootPage(driver,ScrollStrategy.WHOLE_PAGE,500,true).withName("LoginPageScreenshot").save();
     }
 
     @AfterMethod

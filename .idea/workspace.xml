@@ -2,54 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8da644e5-1b2b-497d-8227-32ba908bec9c" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/ScreenShootComparison.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-report/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/101363414e8ebff9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/204fd4b4323d5fd9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/2417a51edf45f613.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/2496bba20bad6588.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/2ce2ba080a415ea7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/347beb41924778c.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/3e9b72338eb888f9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/49ace70dd7fc8803.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/5004ba3fef07d073.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/562034e717eb0068.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/59c7446da5a80c87.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/5f068608067a5e9d.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/6aeabac89f78a1c2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/6fb4199f4adc413e.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/70e7bfaf9a6f0c27.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/749fe318536a79ba.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/76872f7fc0652e86.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/7a43ef693495584.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/7c436eafb1a28aa4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/8166372b1cf698c2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/817da0459c2147fe.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/8859c64b8439e50c.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/9629552eef83c645.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/9bd631c513ec6c2d.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/9d3e088eabd8b43f.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/a05b3d4fad6376a3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/a2b716418104df76.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/a710624a0962fe5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/a923ab0c29744459.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/ac15838faeba7e01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/b3c647b658d26a7e.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/bb1cee94269a14d.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/ccf9317299c64a06.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/d52ed68ea7824c3e.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/dbc87581e60703bc.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/df1158df5b5b0813.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/e1a8800e3a0dce91.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/e4ab2ca634337c73.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/e61e258936936f26.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/e6e4b3f3af1e1e5f.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/e862066eadf0005c.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/efbbd77d6565c5e9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/f13de340d638ef2d.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/f4e351a5fd142186.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/f50818513275ddc2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/fc484dfefc6bfa3a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/109729e86ecc91c0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/1ab30cc603fc8999.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/3ee82381710a6e2f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/53baee73be0a9ef8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/5af4711b7cbb0ff4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/6b369b8d1160d764.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/6d8361af5189bed6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/7c94a80bcc9fcbf1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/7d01fe7672e23c8b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/839941332ca0cefe.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/8494f6ec5f831e4d.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/86206ce3e7476e41.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/8b4765938f5a03cc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/8ef9c263f683c20b.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/93c98165b76660d0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/9a40c6d788805413.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/a9d1bb2be4bd38c3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/b14c7b3c5f085570.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/b1b8018570918c34.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/c0dabc2225f9771e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/c0ed10172721527e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/d1142a97ebc5347b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/d1fb65ae6d348e8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/d506811bd146cf30.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/dd6866b8f6c39e12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/e343962592a3fb51.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/e55a0742f3ee8c0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/e80e9369baac4306.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/f939d84675c1c73e.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/ffd4f5408efb42a8.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-report/data/behaviors.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-report/data/behaviors.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-report/data/categories.csv" beforeDir="false" />
@@ -57,25 +42,26 @@
       <change beforePath="$PROJECT_DIR$/allure-report/data/packages.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-report/data/suites.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-report/data/suites.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/16c07a48e265a654.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/3f731ca48b035c48.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/48eec9c7fb437818.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/524d322bbb9c3961.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/6e2766e735f5a304.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/6f14100413df3436.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/753788de3eca6260.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/7d1a096eb9df917d.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/8e28c08617858fa2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/932dafef65d5c6da.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/98f165d550b37a07.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/af84a428b7aed32a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/b5550b3d79bd52e9.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/c57ea7904714cc01.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/c96d033538af5dc3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/d5f79da32e04fe8f.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/da3b2ee51fee88d.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/e7e473588cbd9f5b.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/efea8d41f35700eb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/27de6c6cb4d122eb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/284350750bfc9344.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/3214dde661bc71ad.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/50edb92e350bf9c4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/54ea521fb0cd4a7b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/6662a066d6398fe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/6905475b201421ec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/751ba9f0e1fe3f93.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/7e1fc3fc22e88415.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/81b7ed81b70e183c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/82de7e6fbe02f694.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/86889e1440c4738d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/8dfd7dabbb1ba05e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/92441fea774208bd.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/9abccad6312bce95.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/9ade8ef30f808974.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/ad32c30fbb09ab2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/b7749dce778f7795.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/c5cb819376c482f1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/e9f74f93144057e3.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-report/data/timeline.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-report/export/influxDbData.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-report/export/mail.html" beforeDir="false" />
@@ -108,11 +94,11 @@
       <change beforePath="$PROJECT_DIR$/allure-report/widgets/summary.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/features/HomePageNavigationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/HomePageNavigationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/InquiryUserOHRMTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/InquiryUserOHRMTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/features/Preparation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/Preparation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/loginORMTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/loginORMTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/pim/AddEmployeePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/pim/AddEmployeePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/utils/Listeners/TestListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/Listeners/TestListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/OrangeHRM Test Suite/Full Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/OrangeHRM Test Suite/Full Test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/OrangeHRM Test Suite/Full Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/OrangeHRM Test Suite/Full Test.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/OrangeHRM Test Suite/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/OrangeHRM Test Suite/testng-failed.xml" afterDir="false" />
@@ -123,7 +109,6 @@
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-features.HomePageNavigationTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-features.HomePageNavigationTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-features.InquiryUserOHRMTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-features.InquiryUserOHRMTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-features.loginORMTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-features.loginORMTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/OrangeHRM Test Suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/OrangeHRM Test Suite/classes.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/OrangeHRM Test Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/OrangeHRM Test Suite/methods-alphabetical.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/OrangeHRM Test Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/OrangeHRM Test Suite/methods.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/OrangeHRM Test Suite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/OrangeHRM Test Suite/toc.html" afterDir="false" />
@@ -134,8 +119,13 @@
       <change beforePath="$PROJECT_DIR$/target/test-classes/features/InquiryUserOHRMTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/InquiryUserOHRMTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/features/Preparation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/Preparation.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/features/loginORMTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/loginORMTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/pim/AddEmployeePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/pim/AddEmployeePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/HomePage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/utils/Listeners/TestListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/Listeners/TestListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video/TC01_inquiry_recording_2019_01_06_18_07_01.avi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/video/TC04_login_recording_2019_01_06_18_06_48.avi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/video/TC06_home_navigation_recording_2019_01_06_18_05_40.avi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/video/TC09_home_navigation_recording_2019_01_06_18_06_17.avi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/video/TC10_home_navigation_recording_2019_01_06_18_06_40.avi" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -154,31 +144,29 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="80" column="21" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
+            <state relative-caret-position="1305">
+              <caret line="90" column="19" selection-start-line="90" selection-start-column="19" selection-end-line="90" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Preparation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/features/Preparation.java">
+      <file leaf-file-name="HomePageNavigationTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/features/HomePageNavigationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="40" column="49" selection-start-line="40" selection-start-column="49" selection-end-line="40" selection-end-column="49" />
+            <state relative-caret-position="138">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#946#947#0" expanded="true" />
-                <element signature="e#975#976#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginORMTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/features/LoginORMTest.java">
+      <file leaf-file-name="HomePage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pages/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-917">
-              <caret line="11" column="61" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
+            <state relative-caret-position="222">
+              <caret line="124" column="18" selection-start-line="124" selection-start-column="18" selection-end-line="124" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -189,59 +177,17 @@
       <file leaf-file-name="OrangeHRMURL.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ohrm/utilities/OrangeHRMURL.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            <state relative-caret-position="120">
+              <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyDrivers.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ohrm/webdriver/MyDrivers.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Allure.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/qameta/allure/allure-java-commons/2.12.1/allure-java-commons-2.12.1.jar!/io/qameta/allure/Allure.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="237" column="30" selection-start-line="237" selection-start-column="30" selection-end-line="237" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HomePageNavigationTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/features/HomePageNavigationTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1022">
-              <caret line="12" column="61" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InquiryUserOHRMTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/features/InquiryUserOHRMTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestListener.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TestListener.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/utils/Listeners/TestListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-570">
-              <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+            <state relative-caret-position="217">
+              <caret line="87" column="97" selection-start-line="87" selection-start-column="97" selection-end-line="87" selection-end-column="97" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -316,7 +262,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ohrm/webdriver/myDriver.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ohrm/webdriver/myDrivers.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ohrm/webdriver/MyDrivers.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pages/HomePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/utils/ScreenShotRobot.java" />
         <option value="$PROJECT_DIR$/src/test/java/features/loginORMTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/features/preparation.java" />
@@ -327,12 +272,16 @@
         <option value="$PROJECT_DIR$/src/test/java/utils/Listeners/Retry.java" />
         <option value="$PROJECT_DIR$/TestNG.xml" />
         <option value="$PROJECT_DIR$/src/test/java/pages/pim/AddEmployeePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/features/InquiryUserOHRMTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/features/LoginORMTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/features/Preparation.java" />
+        <option value="$PROJECT_DIR$/src/test/java/features/HomePageNavigationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/utils/TakeScreenShoot.java" />
+        <option value="$PROJECT_DIR$/src/test/java/utils/ScreenShootComparisson.java" />
+        <option value="$PROJECT_DIR$/src/test/java/utils/ScreenShootComparison.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/HomePage.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/utils/Listeners/TestListener.java" />
-        <option value="$PROJECT_DIR$/src/test/java/features/InquiryUserOHRMTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/features/HomePageNavigationTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/features/LoginORMTest.java" />
       </list>
     </option>
   </component>
@@ -361,46 +310,6 @@
             <path>
               <item name="OrangeHRMTestNGAllure" type="b2602c69:ProjectViewProjectNode" />
               <item name="OrangeHRMTestNGAllure" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OrangeHRMTestNGAllure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="OrangeHRMTestNGAllure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.qameta.allure:allure-testng:2.12.1" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="OrangeHRMTestNGAllure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.qameta.allure:allure-testng:2.12.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="allure-testng-2.12.1.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OrangeHRMTestNGAllure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.qameta.allure:allure-testng:2.12.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="allure-testng-2.12.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="testng" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OrangeHRMTestNGAllure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.seleniumhq.selenium:selenium-api:3.141.59" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="OrangeHRMTestNGAllure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.seleniumhq.selenium:selenium-api:3.141.59" type="70bed36:NamedLibraryElementNode" />
-              <item name="selenium-api-3.141.59.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OrangeHRMTestNGAllure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.seleniumhq.selenium:selenium-api:3.141.59" type="70bed36:NamedLibraryElementNode" />
-              <item name="selenium-api-3.141.59.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="selenium" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OrangeHRMTestNGAllure" type="b2602c69:ProjectViewProjectNode" />
@@ -461,7 +370,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.HomePageNavigationTest.TC10_home_navigation">
+  <component name="RunManager" selected="TestNG.HomePageNavigationTest.TC01_home_navigation (1)">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -481,7 +390,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="HomePageNavigationTest.TC10_home_navigation (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HomePageNavigationTest.TC01_home_navigation (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="OrangeHRMTestNGAllure" />
       <extension name="coverage">
         <pattern>
@@ -494,7 +403,7 @@
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="features" />
       <option name="MAIN_CLASS_NAME" value="features.HomePageNavigationTest" />
-      <option name="METHOD_NAME" value="TC10_home_navigation" />
+      <option name="METHOD_NAME" value="TC01_home_navigation" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -510,7 +419,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="HomePageNavigationTest.TC10_home_navigation" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HomePageNavigationTest.TC01_home_navigation" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="OrangeHRMTestNGAllure" />
       <extension name="coverage">
         <pattern>
@@ -523,7 +432,7 @@
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="features" />
       <option name="MAIN_CLASS_NAME" value="features.HomePageNavigationTest" />
-      <option name="METHOD_NAME" value="TC10_home_navigation" />
+      <option name="METHOD_NAME" value="TC01_home_navigation" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -539,7 +448,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="LoginORMTest.TC01_login" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HomePageNavigationTest.TC02_home_navigation (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="OrangeHRMTestNGAllure" />
       <extension name="coverage">
         <pattern>
@@ -551,37 +460,8 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="features" />
-      <option name="MAIN_CLASS_NAME" value="features.LoginORMTest" />
-      <option name="METHOD_NAME" value="TC01_login" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="LoginORMTest.TC04_login (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="OrangeHRMTestNGAllure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="features.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="features" />
-      <option name="MAIN_CLASS_NAME" value="features.LoginORMTest" />
-      <option name="METHOD_NAME" value="TC04_login" />
+      <option name="MAIN_CLASS_NAME" value="features.HomePageNavigationTest" />
+      <option name="METHOD_NAME" value="TC02_home_navigation" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -597,7 +477,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="LoginORMTest.TC04_login" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HomePageNavigationTest.TC02_home_navigation" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="OrangeHRMTestNGAllure" />
       <extension name="coverage">
         <pattern>
@@ -609,8 +489,37 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="features" />
-      <option name="MAIN_CLASS_NAME" value="features.LoginORMTest" />
-      <option name="METHOD_NAME" value="TC04_login" />
+      <option name="MAIN_CLASS_NAME" value="features.HomePageNavigationTest" />
+      <option name="METHOD_NAME" value="TC02_home_navigation" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="HomePageNavigationTest.TC08_home_navigation" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="OrangeHRMTestNGAllure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="features.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="features" />
+      <option name="MAIN_CLASS_NAME" value="features.HomePageNavigationTest" />
+      <option name="METHOD_NAME" value="TC08_home_navigation" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -678,19 +587,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="TestNG.LoginORMTest.TC01_login" />
-      <item itemvalue="TestNG.LoginORMTest.TC04_login" />
-      <item itemvalue="TestNG.LoginORMTest.TC04_login (1)" />
-      <item itemvalue="TestNG.HomePageNavigationTest.TC10_home_navigation" />
-      <item itemvalue="TestNG.HomePageNavigationTest.TC10_home_navigation (1)" />
+      <item itemvalue="TestNG.HomePageNavigationTest.TC01_home_navigation" />
+      <item itemvalue="TestNG.HomePageNavigationTest.TC01_home_navigation (1)" />
+      <item itemvalue="TestNG.HomePageNavigationTest.TC02_home_navigation" />
+      <item itemvalue="TestNG.HomePageNavigationTest.TC02_home_navigation (1)" />
+      <item itemvalue="TestNG.HomePageNavigationTest.TC08_home_navigation" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.HomePageNavigationTest.TC10_home_navigation" />
-        <item itemvalue="TestNG.HomePageNavigationTest.TC10_home_navigation (1)" />
-        <item itemvalue="TestNG.LoginORMTest.TC04_login" />
-        <item itemvalue="TestNG.LoginORMTest.TC04_login (1)" />
-        <item itemvalue="TestNG.LoginORMTest.TC01_login" />
+        <item itemvalue="TestNG.HomePageNavigationTest.TC01_home_navigation (1)" />
+        <item itemvalue="TestNG.HomePageNavigationTest.TC01_home_navigation" />
+        <item itemvalue="TestNG.HomePageNavigationTest.TC08_home_navigation" />
+        <item itemvalue="TestNG.HomePageNavigationTest.TC02_home_navigation" />
+        <item itemvalue="TestNG.HomePageNavigationTest.TC02_home_navigation (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -708,35 +617,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LoginORMTest_TC04_login_(1) - 2019.06.01 at 14h 57m 46s.xml">
-      <configuration name="LoginORMTest.TC04_login (1)" configurationId="TestNG" />
+    <history-entry file="HomePageNavigationTest_TC01_home_navigation - 2019.06.01 at 20h 09m 49s.xml">
+      <configuration name="HomePageNavigationTest.TC01_home_navigation" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginORMTest_TC04_login_(1) - 2019.06.01 at 14h 58m 43s.xml">
-      <configuration name="LoginORMTest.TC04_login (1)" configurationId="TestNG" />
+    <history-entry file="HomePageNavigationTest_TC01_home_navigation_(1) - 2019.06.01 at 20h 12m 14s.xml">
+      <configuration name="HomePageNavigationTest.TC01_home_navigation (1)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginORMTest_TC04_login - 2019.06.01 at 15h 01m 05s.xml">
-      <configuration name="LoginORMTest.TC04_login" configurationId="TestNG" />
+    <history-entry file="HomePageNavigationTest_TC02_home_navigation - 2019.06.01 at 20h 28m 16s.xml">
+      <configuration name="HomePageNavigationTest.TC02_home_navigation" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginORMTest_TC04_login_(1) - 2019.06.01 at 15h 01m 48s.xml">
-      <configuration name="LoginORMTest.TC04_login (1)" configurationId="TestNG" />
+    <history-entry file="HomePageNavigationTest_TC02_home_navigation_(1) - 2019.06.01 at 20h 30m 24s.xml">
+      <configuration name="HomePageNavigationTest.TC02_home_navigation (1)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginORMTest_TC04_login - 2019.06.01 at 15h 07m 20s.xml">
-      <configuration name="LoginORMTest.TC04_login" configurationId="TestNG" />
+    <history-entry file="HomePageNavigationTest_TC08_home_navigation - 2019.06.01 at 20h 33m 24s.xml">
+      <configuration name="HomePageNavigationTest.TC08_home_navigation" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginORMTest_TC04_login - 2019.06.01 at 15h 13m 12s.xml">
-      <configuration name="LoginORMTest.TC04_login" configurationId="TestNG" />
+    <history-entry file="HomePageNavigationTest_TC02_home_navigation - 2019.06.01 at 20h 36m 35s.xml">
+      <configuration name="HomePageNavigationTest.TC02_home_navigation" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HomePageNavigationTest_TC10_home_navigation - 2019.06.01 at 17h 01m 34s.xml">
-      <configuration name="HomePageNavigationTest.TC10_home_navigation" configurationId="TestNG" />
+    <history-entry file="HomePageNavigationTest_TC08_home_navigation - 2019.06.01 at 20h 41m 45s.xml">
+      <configuration name="HomePageNavigationTest.TC08_home_navigation" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HomePageNavigationTest_TC10_home_navigation_(1) - 2019.06.01 at 17h 03m 45s.xml">
-      <configuration name="HomePageNavigationTest.TC10_home_navigation (1)" configurationId="TestNG" />
+    <history-entry file="HomePageNavigationTest_TC01_home_navigation - 2019.06.01 at 20h 46m 15s.xml">
+      <configuration name="HomePageNavigationTest.TC01_home_navigation" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HomePageNavigationTest_TC10_home_navigation - 2019.06.01 at 17h 04m 27s.xml">
-      <configuration name="HomePageNavigationTest.TC10_home_navigation" configurationId="TestNG" />
+    <history-entry file="HomePageNavigationTest_TC01_home_navigation - 2019.06.01 at 21h 36m 45s.xml">
+      <configuration name="HomePageNavigationTest.TC01_home_navigation" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HomePageNavigationTest_TC10_home_navigation - 2019.06.01 at 17h 05m 20s.xml">
-      <configuration name="HomePageNavigationTest.TC10_home_navigation" configurationId="TestNG" />
+    <history-entry file="HomePageNavigationTest_TC01_home_navigation_(1) - 2019.06.01 at 21h 41m 13s.xml">
+      <configuration name="HomePageNavigationTest.TC01_home_navigation (1)" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -751,16 +660,16 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.43396226" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.44992742" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32946298" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.31059507" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32080537" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2738255" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.34397677" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5602322" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -779,58 +688,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1365">
-          <caret line="91" selection-start-line="91" selection-end-line="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/features/LoginORMTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/automation-remarks/video-recorder/1.0/video-recorder-1.0.jar!/com/automation/remarks/video/testng/VideoListener.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/automation-remarks/video-recorder/1.0/video-recorder-1.0.jar!/com/automation/remarks/video/recorder/VideoRecorder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/automation-remarks/video-recorder/1.0/video-recorder-1.0.jar!/com/automation/remarks/video/recorder/GeneralScreenRecorder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/automation-remarks/video-recorder/1.0/video-recorder-1.0.jar!/org/monte/screenrecorder/ScreenRecorder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/automation-remarks/video-recorder/1.0/video-recorder-1.0.jar!/com/automation/remarks/video/annotations/Video.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/utils/CreateRandomName.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -902,16 +759,6 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-599" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1357">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pages/login/LoginPage.java">
@@ -993,13 +840,6 @@
     <entry file="file://$PROJECT_DIR$/screenshots/2019_06_01_16_03_13_812.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="80" column="21" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/qameta/allure/allure-java-commons/2.12.1/allure-java-commons-2.12.1.jar!/io/qameta/allure/AllureLifecycle.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
@@ -1011,13 +851,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="237" column="30" selection-start-line="237" selection-start-column="30" selection-end-line="237" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ohrm/utilities/OrangeHRMURL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -1042,38 +875,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/utils/Listeners/TestListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-570">
-          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/features/Preparation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="40" column="49" selection-start-line="40" selection-start-column="49" selection-end-line="40" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#946#947#0" expanded="true" />
-            <element signature="e#975#976#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/features/HomePageNavigationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1022">
-          <caret line="12" column="61" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/features/InquiryUserOHRMTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -1084,10 +885,109 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/screenshots/2019_06_01_19_32_21_818.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/features/LoginORMTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-917">
+        <state relative-caret-position="165">
           <caret line="11" column="61" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/features/Preparation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="59" column="113" selection-start-line="59" selection-start-column="10" selection-end-line="59" selection-end-column="113" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#946#947#0" expanded="true" />
+            <element signature="e#975#976#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseImages/DasghboardPage.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseImages/LeavePage.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseImages/AdminPage.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseImages/PerformacePage.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseImages/PIMPage.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseImages/RecruitmentPage.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseImages/TimePage.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenshots/PIMPage.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenshots/DirectoryPage.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/utils/ScreenShootComparison.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ohrm/utilities/OrangeHRMURL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseImages/DirectoryPage.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="124" column="18" selection-start-line="124" selection-start-column="18" selection-end-line="124" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1305">
+          <caret line="90" column="19" selection-start-line="90" selection-start-column="19" selection-end-line="90" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/features/HomePageNavigationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/utils/Listeners/TestListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="87" column="97" selection-start-line="87" selection-start-column="97" selection-end-line="87" selection-end-column="97" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

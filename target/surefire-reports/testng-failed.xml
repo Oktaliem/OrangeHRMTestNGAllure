@@ -6,13 +6,17 @@
   </listeners>
   <test thread-count="5" verbose="0" name="Full Test(failed)">
     <classes>
-      <class name="features.InquiryUserOHRMTest">
+      <class name="features.HomePageNavigationTest">
         <methods>
+          <include name="TC02_home_navigation"/>
+          <include name="TC09_home_navigation"/>
           <include name="beforeMethodSetup"/>
+          <include name="TC10_home_navigation"/>
           <include name="closeBrowser"/>
-          <include name="TC01_inquiry"/>
+          <include name="TC01_home_navigation"/>
+          <include name="TC06_home_navigation"/>
         </methods>
-      </class> <!-- features.InquiryUserOHRMTest -->
+      </class> <!-- features.HomePageNavigationTest -->
       <class name="features.LoginORMTest">
         <methods>
           <include name="beforeMethodSetup"/>
@@ -20,15 +24,13 @@
           <include name="closeBrowser"/>
         </methods>
       </class> <!-- features.LoginORMTest -->
-      <class name="features.HomePageNavigationTest">
+      <class name="features.InquiryUserOHRMTest">
         <methods>
-          <include name="TC09_home_navigation"/>
           <include name="beforeMethodSetup"/>
-          <include name="TC10_home_navigation"/>
           <include name="closeBrowser"/>
-          <include name="TC06_home_navigation"/>
+          <include name="TC01_inquiry"/>
         </methods>
-      </class> <!-- features.HomePageNavigationTest -->
+      </class> <!-- features.InquiryUserOHRMTest -->
     </classes>
   </test> <!-- Full Test(failed) -->
 </suite> <!-- Failed suite [OrangeHRM Test Suite] -->

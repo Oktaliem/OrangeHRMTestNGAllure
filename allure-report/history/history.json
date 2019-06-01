@@ -9,70 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "92441fea774208bd",
+      "uid" : "f849db3e7bfb923d",
       "status" : "passed",
       "time" : {
-        "start" : 1559383420935,
-        "stop" : 1559383425733,
-        "duration" : 4798
-      }
-    } ]
-  },
-  "1630a23e352093535e434abf841b4c2" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "50edb92e350bf9c4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1559383524981,
-        "stop" : 1559383531961,
-        "duration" : 6980
-      }
-    } ]
-  },
-  "6ecdaaf5408faa863f30cabb3df58711" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "9ade8ef30f808974",
-      "status" : "passed",
-      "time" : {
-        "start" : 1559383505775,
-        "stop" : 1559383512099,
-        "duration" : 6324
-      }
-    } ]
-  },
-  "e8c0f078cd93e754c69dc877a6f5185c" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "9abccad6312bce95",
-      "status" : "failed",
-      "statusDetails" : "\nExpected: a string containing \"http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/admin/viewSystemUsers\"\n     but: was \"http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/directory/viewDirectory/reset/1\"",
-      "time" : {
-        "start" : 1559383581445,
-        "stop" : 1559383601337,
-        "duration" : 19892
+        "start" : 1559404193955,
+        "stop" : 1559404196407,
+        "duration" : 2452
       }
     } ]
   },
@@ -86,16 +28,36 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c5cb819376c482f1",
+      "uid" : "6ba6c8b8f5c6b037",
       "status" : "passed",
       "time" : {
-        "start" : 1559383412268,
-        "stop" : 1559383417547,
-        "duration" : 5279
+        "start" : 1559404187700,
+        "stop" : 1559404190715,
+        "duration" : 3015
       }
     } ]
   },
-  "730176317fa3a37c43c50045ac3f8554" : {
+  "e8c0f078cd93e754c69dc877a6f5185c" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bbefdadd231aae84",
+      "status" : "failed",
+      "statusDetails" : "\nExpected: a string containing \"http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/admin/viewSystemUsers\"\n     but: was \"http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/directory/viewDirectory/reset/1\"",
+      "time" : {
+        "start" : 1559404350095,
+        "stop" : 1559404384075,
+        "duration" : 33980
+      }
+    } ]
+  },
+  "6ecdaaf5408faa863f30cabb3df58711" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -105,12 +67,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e9f74f93144057e3",
+      "uid" : "bd57a6e26b8307f7",
       "status" : "passed",
       "time" : {
-        "start" : 1559383515220,
-        "stop" : 1559383521840,
-        "duration" : 6620
+        "start" : 1559404269048,
+        "stop" : 1559404275249,
+        "duration" : 6201
+      }
+    } ]
+  },
+  "1630a23e352093535e434abf841b4c2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6cf06870e6007d60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1559404287321,
+        "stop" : 1559404293853,
+        "duration" : 6532
       }
     } ]
   },
@@ -124,32 +105,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7e1fc3fc22e88415",
+      "uid" : "fe8796841ee167ab",
       "status" : "passed",
       "time" : {
-        "start" : 1559383428998,
-        "stop" : 1559383433354,
-        "duration" : 4356
+        "start" : 1559404199620,
+        "stop" : 1559404202108,
+        "duration" : 2488
       }
     } ]
   },
-  "11ebd28f82708cee2882440a3cab6d0a" : {
+  "730176317fa3a37c43c50045ac3f8554" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b7749dce778f7795",
-      "status" : "failed",
-      "statusDetails" : "\nExpected: a string containing \"Company Name: Okta Jaya Pte Ltd\"\n     but: was \"Company Name:\nVersion: Orangehrm OS 4.0\nActive Employees: 73\nEmployees Terminated: 0\"",
+      "uid" : "4f54f8da68c5902e",
+      "status" : "passed",
       "time" : {
-        "start" : 1559383571553,
-        "stop" : 1559383578301,
-        "duration" : 6748
+        "start" : 1559404278403,
+        "stop" : 1559404284218,
+        "duration" : 5815
       }
     } ]
   },
@@ -163,12 +143,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6905475b201421ec",
+      "uid" : "ebd8da69953c7f4a",
       "status" : "passed",
       "time" : {
-        "start" : 1559383468739,
-        "stop" : 1559383481979,
-        "duration" : 13240
+        "start" : 1559404229462,
+        "stop" : 1559404238698,
+        "duration" : 9236
+      }
+    } ]
+  },
+  "11ebd28f82708cee2882440a3cab6d0a" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a815f4a7e03680c",
+      "status" : "failed",
+      "statusDetails" : "\nExpected: a string containing \"Company Name: Okta Jaya Pte Ltd\"\n     but: was \"Company Name:\nVersion: Orangehrm OS 4.0\nActive Employees: 73\nEmployees Terminated: 0\"",
+      "time" : {
+        "start" : 1559404342904,
+        "stop" : 1559404347036,
+        "duration" : 4132
       }
     } ]
   },
@@ -182,31 +182,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6662a066d6398fe",
+      "uid" : "10939fa9fbede689",
       "status" : "passed",
       "time" : {
-        "start" : 1559383544136,
-        "stop" : 1559383550382,
-        "duration" : 6246
+        "start" : 1559404304700,
+        "stop" : 1559404310157,
+        "duration" : 5457
       }
     } ]
   },
   "b5d59b79626fc5c8f9301da6b1dedd58" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "284350750bfc9344",
-      "status" : "passed",
+      "uid" : "fe2f9f51063dd236",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
       "time" : {
-        "start" : 1559383495060,
-        "stop" : 1559383502621,
-        "duration" : 7561
+        "start" : 1559404256846,
+        "stop" : 1559404265860,
+        "duration" : 9014
       }
     } ]
   },
@@ -220,12 +221,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "751ba9f0e1fe3f93",
+      "uid" : "d15b4e5552435107",
       "status" : "passed",
       "time" : {
-        "start" : 1559383460685,
-        "stop" : 1559383465573,
-        "duration" : 4888
+        "start" : 1559404223564,
+        "stop" : 1559404226282,
+        "duration" : 2718
       }
     } ]
   },
@@ -239,13 +240,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "54ea521fb0cd4a7b",
+      "uid" : "5cb80b17b517eede",
       "status" : "broken",
-      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"id\",\"selector\":\"resultTable\"}\n  (Session info: chrome=74.0.3729.169)\n  (Driver info: chromedriver=2.38.551601 (edb21f07fc70e9027c746edd3201443e011a61ed),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-1DCFOTD', ip: '172.18.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.551601 (edb21f07fc70e9..., userDataDir: C:\\Users\\User\\AppData\\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}\nSession ID: d1bf8385116326f54937dfb4e938fbff\n*** Element info: {Using=id, value=resultTable}",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"id\",\"selector\":\"resultTable\"}\n  (Session info: chrome=74.0.3729.169)\n  (Driver info: chromedriver=2.38.551601 (edb21f07fc70e9027c746edd3201443e011a61ed),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-1DCFOTD', ip: '172.18.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.551601 (edb21f07fc70e9..., userDataDir: C:\\Users\\User\\AppData\\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}\nSession ID: 201bcca890cb253eea2b0f21f7abfb83\n*** Element info: {Using=id, value=resultTable}",
       "time" : {
-        "start" : 1559383612537,
-        "stop" : 1559383621494,
-        "duration" : 8957
+        "start" : 1559404393349,
+        "stop" : 1559404400479,
+        "duration" : 7130
       }
     } ]
   },
@@ -259,12 +260,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8dfd7dabbb1ba05e",
+      "uid" : "df24d0543c6efe0a",
       "status" : "passed",
       "time" : {
-        "start" : 1559383444336,
-        "stop" : 1559383449301,
-        "duration" : 4965
+        "start" : 1559404211308,
+        "stop" : 1559404214165,
+        "duration" : 2857
       }
     } ]
   },
@@ -278,12 +279,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "81b7ed81b70e183c",
+      "uid" : "bf9f176fb86bc435",
       "status" : "passed",
       "time" : {
-        "start" : 1559383452436,
-        "stop" : 1559383457570,
-        "duration" : 5134
+        "start" : 1559404217358,
+        "stop" : 1559404220463,
+        "duration" : 3105
       }
     } ]
   },
@@ -297,12 +298,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "86889e1440c4738d",
+      "uid" : "52cf89048e1bdff",
       "status" : "passed",
       "time" : {
-        "start" : 1559383436492,
-        "stop" : 1559383441154,
-        "duration" : 4662
+        "start" : 1559404205311,
+        "stop" : 1559404208187,
+        "duration" : 2876
       }
     } ]
   },
@@ -316,13 +317,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3214dde661bc71ad",
+      "uid" : "9ec1a6f24fd3fc73",
       "status" : "failed",
       "statusDetails" : "\nExpected: a string containing \"http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/dashboard\"\n     but: was \"http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/auth/validateCredentials\"",
       "time" : {
-        "start" : 1559383604509,
-        "stop" : 1559383609406,
-        "duration" : 4897
+        "start" : 1559404387228,
+        "stop" : 1559404390172,
+        "duration" : 2944
       }
     } ]
   },
@@ -336,13 +337,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "82de7e6fbe02f694",
+      "uid" : "60620d7a7a549248",
       "status" : "failed",
       "statusDetails" : "\nExpected: a string containing \"http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/recruitment/viewCandidates#\"\n     but: was \"http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/dashboard#\"",
       "time" : {
-        "start" : 1559383535144,
-        "stop" : 1559383540958,
-        "duration" : 5814
+        "start" : 1559404296932,
+        "stop" : 1559404301587,
+        "duration" : 4655
       }
     } ]
   },
@@ -356,31 +357,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ad32c30fbb09ab2",
+      "uid" : "4ca81f1201a559a9",
       "status" : "passed",
       "time" : {
-        "start" : 1559383553505,
-        "stop" : 1559383568297,
-        "duration" : 14792
+        "start" : 1559404313275,
+        "stop" : 1559404339714,
+        "duration" : 26439
       }
     } ]
   },
   "979a6df4357c31ce81c7f0a36ae72b1a" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "27de6c6cb4d122eb",
-      "status" : "passed",
+      "uid" : "ab304a92ec9b3efa",
+      "status" : "broken",
+      "statusDetails" : "Images dimensions mismatch: image1 - 1920x2796; image2 - 1920x6349",
       "time" : {
-        "start" : 1559383485050,
-        "stop" : 1559383491910,
-        "duration" : 6860
+        "start" : 1559404241841,
+        "stop" : 1559404253610,
+        "duration" : 11769
       }
     } ]
   }

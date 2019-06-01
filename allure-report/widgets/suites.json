@@ -5,9 +5,9 @@
     "name" : "OrangeHRM Test Suite",
     "statistic" : {
       "failed" : 4,
-      "broken" : 1,
+      "broken" : 3,
       "skipped" : 0,
-      "passed" : 15,
+      "passed" : 13,
       "unknown" : 0,
       "total" : 20
     }

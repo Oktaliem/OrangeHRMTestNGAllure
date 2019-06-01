@@ -42,6 +42,7 @@ pages\admin\Config_ModulesPage.class
 pages\admin\Org_GeneralInfoPage.class
 features\Preparation.class
 pages\login\LoginPage.class
+utils\ScreenShootComparison.class
 pages\admin\Config_EmailCofigPage.class
 pages\admin\Qlification_Language.class
 pages\leave\LeavePage.class
