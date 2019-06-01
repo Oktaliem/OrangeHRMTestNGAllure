@@ -3,7 +3,7 @@
 - Generate Screenshot after run the test (available on Allure report)
 - Generate Video on Failed Test (available on *{project_folder}*/video/..)
 - Page Object Model and Page Factory in Java
-- Visual Regression Testing with Selenium and aShot (*to be continued......*)
+- Visual Regression Testing with Selenium-Shutterbug
 
 
 ## Download OrangeHRM
