@@ -47,7 +47,7 @@ Clone this repository and open :
 {your_project_path}/allure-report/index.html
 ```
 ```
-{your_project_path}/video/
+{your_project_path}/video/...
 ```
 ![image](https://user-images.githubusercontent.com/26521948/58747219-b9e2f680-849a-11e9-8ae1-e5a9d5b32c0b.png)
 
