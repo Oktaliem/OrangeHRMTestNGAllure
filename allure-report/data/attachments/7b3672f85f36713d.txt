@@ -1,0 +1,1 @@
+TC06_home_navigation failed and video taken! check all failed videos in C:\Users\User\Documents\GitHub\OrangeHRMTestNGAllure\video if video attachments are broken

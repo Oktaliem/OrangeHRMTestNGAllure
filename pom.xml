@@ -59,6 +59,12 @@
             <groupId>com.assertthat</groupId>
             <artifactId>selenium-shutterbug</artifactId>
             <version>0.9.1</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.seleniumhq.selenium</groupId>
+                    <artifactId>selenium-java</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
 
         <dependency>
@@ -87,6 +93,17 @@
             <version>3.0.0</version>
         </dependency>
 
+        <dependency>
+            <groupId>com.testautomationguru.ocular</groupId>
+            <artifactId>ocular</artifactId>
+            <version>1.0.0.Alpha</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.im4java</groupId>
+            <artifactId>im4java</artifactId>
+            <version>1.4.0</version>
+        </dependency>
 
     </dependencies>
 

@@ -4,8 +4,8 @@
     "uid" : "01fbfbf90e3fb7f2e591d5a2a67170ef",
     "name" : "OrangeHRM Test Suite",
     "statistic" : {
-      "failed" : 4,
-      "broken" : 3,
+      "failed" : 5,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 13,
       "unknown" : 0,

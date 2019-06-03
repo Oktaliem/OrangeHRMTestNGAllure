@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">OrangeHRM Test Suite</th></tr>
+<tr><td><a href="#t0">Full Test</a></td><td class="num">13</td><td class="num">0</td><td class="num attn">7</td><td class="num">260,273</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">OrangeHRM Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Full Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="5">features.HomePageNavigationTest</td><td><a href="#m0">TC01_home_navigation</a></td><td rowspan="1">1559543346278</td><td rowspan="1">11693</td></tr><tr class="failedeven"><td><a href="#m1">TC05_home_navigation</a></td><td rowspan="1">1559543400738</td><td rowspan="1">9529</td></tr><tr class="failedeven"><td><a href="#m2">TC06_home_navigation</a></td><td rowspan="1">1559543413980</td><td rowspan="1">5282</td></tr><tr class="failedeven"><td><a href="#m3">TC09_home_navigation</a></td><td rowspan="1">1559543471065</td><td rowspan="1">4261</td></tr><tr class="failedeven"><td><a href="#m4">TC10_home_navigation</a></td><td rowspan="1">1559543479557</td><td rowspan="1">42456</td></tr><tr class="failedodd"><td rowspan="1">features.InquiryUserOHRMTest</td><td><a href="#m5">TC01_inquiry</a></td><td rowspan="1">1559543532656</td><td rowspan="1">6872</td></tr><tr class="failedeven"><td rowspan="1">features.LoginORMTest</td><td><a href="#m6">TC04_login</a></td><td rowspan="1">1559543525773</td><td rowspan="1">2880</td></tr><tr><th colspan="4">Full Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="5">features.HomePageNavigationTest</td><td><a href="#m7">TC02_home_navigation</a></td><td rowspan="1">1559543361815</td><td rowspan="1">14382</td></tr><tr class="passedeven"><td><a href="#m8">TC03_home_navigation</a></td><td rowspan="1">1559543380160</td><td rowspan="1">6859</td></tr><tr class="passedeven"><td><a href="#m9">TC04_home_navigation</a></td><td rowspan="1">1559543390763</td><td rowspan="1">6248</td></tr><tr class="passedeven"><td><a href="#m10">TC07_home_navigation</a></td><td rowspan="1">1559543423281</td><td rowspan="1">10622</td></tr><tr class="passedeven"><td><a href="#m11">TC08_home_navigation</a></td><td rowspan="1">1559543437625</td><td rowspan="1">29650</td></tr><tr class="passedodd"><td rowspan="1">features.InquiryUserOHRMTest</td><td><a href="#m12">TC02_inquiry</a></td><td rowspan="1">1559543332182</td><td rowspan="1">10195</td></tr><tr class="passedeven"><td rowspan="7">features.LoginORMTest</td><td><a href="#m13">TC01_login</a></td><td rowspan="1">1559543285401</td><td rowspan="1">3166</td></tr><tr class="passedeven"><td><a href="#m14">TC02_login</a></td><td rowspan="1">1559543292729</td><td rowspan="1">2150</td></tr><tr class="passedeven"><td><a href="#m15">TC03_login</a></td><td rowspan="1">1559543298891</td><td rowspan="1">2321</td></tr><tr class="passedeven"><td><a href="#m16">TC05_login</a></td><td rowspan="1">1559543305170</td><td rowspan="1">2692</td></tr><tr class="passedeven"><td><a href="#m17">TC06_login</a></td><td rowspan="1">1559543311876</td><td rowspan="1">2513</td></tr><tr class="passedeven"><td><a href="#m18">TC07_login</a></td><td rowspan="1">1559543318458</td><td rowspan="1">2954</td></tr><tr class="passedeven"><td><a href="#m19">TC08_login</a></td><td rowspan="1">1559543325573</td><td rowspan="1">2561</td></tr></tbody>
+</table>
+<h2>Full Test</h2><h3 id="m0">features.HomePageNavigationTest#TC01_home_navigation</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">com.assertthat.selenium_shutterbug.utils.image.UnableToCompareImagesException: Images dimensions mismatch: image1 - 1920x2796; image2 - 1920x6349
+	at com.assertthat.selenium_shutterbug.utils.image.ImageProcessor.imagesAreEquals(ImageProcessor.java:116)
+	at com.assertthat.selenium_shutterbug.core.Snapshot.equals(Snapshot.java:262)
+	at pages.HomePage.verifyLandingToCorrectPage(HomePage.java:166)
+	at features.HomePageNavigationTest.TC01_home_navigation(HomePageNavigationTest.java:26)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">features.HomePageNavigationTest#TC05_home_navigation</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>org.testng.TestRunner@6c2d124e</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Images are Same expected [false] but found [true]
+	at pages.HomePage.verifyLandingToCorrectPage(HomePage.java:219)
+	at features.HomePageNavigationTest.TC05_home_navigation(HomePageNavigationTest.java:60)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">features.HomePageNavigationTest#TC06_home_navigation</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: a string containing &quot;http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/recruitment/viewCandidates#&quot;
+     but: was &quot;http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/dashboard#&quot;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at pages.HomePage.verifyLandingToCorrectPage(HomePage.java:159)
+	at features.HomePageNavigationTest.TC06_home_navigation(HomePageNavigationTest.java:68)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">features.HomePageNavigationTest#TC09_home_navigation</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: a string containing &quot;Company Name: Okta Jaya Pte Ltd&quot;
+     but: was &quot;Company Name:
+Version: Orangehrm OS 4.0
+Active Employees: 73
+Employees Terminated: 0&quot;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at pages.HomePage.verifyModalIsDisplayedWithInformativeMessage(HomePage.java:242)
+	at features.HomePageNavigationTest.TC09_home_navigation(HomePageNavigationTest.java:93)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">features.HomePageNavigationTest#TC10_home_navigation</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: a string containing &quot;http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/admin/viewSystemUsers&quot;
+     but: was &quot;http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/directory/viewDirectory/reset/1&quot;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at pages.HomePage.verifyLandingToCorrectPage(HomePage.java:159)
+	at features.HomePageNavigationTest.TC10_home_navigation(HomePageNavigationTest.java:106)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">features.InquiryUserOHRMTest#TC01_inquiry</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;resultTable&quot;}
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.38.551601 (edb21f07fc70e9027c746edd3201443e011a61ed),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-1DCFOTD&apos;, ip: &apos;172.18.138.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.551601 (edb21f07fc70e9..., userDataDir: C:\Users\User\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 9d9e50196b79fb03a4b07055f1c8603c
+*** Element info: {Using=id, value=resultTable}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at pages.admin.UserMgn_UserPage.searchUserByUserName(UserMgn_UserPage.java:157)
+	at features.InquiryUserOHRMTest.TC01_inquiry(InquiryUserOHRMTest.java:20)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">features.LoginORMTest#TC04_login</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: a string containing &quot;http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/dashboard&quot;
+     but: was &quot;http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/auth/validateCredentials&quot;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at pages.login.LoginPage.landingToDashboardPage(LoginPage.java:56)
+	at features.LoginORMTest.TC04_login(LoginORMTest.java:57)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">features.HomePageNavigationTest#TC02_home_navigation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">features.HomePageNavigationTest#TC03_home_navigation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">features.HomePageNavigationTest#TC04_home_navigation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">features.HomePageNavigationTest#TC07_home_navigation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">features.HomePageNavigationTest#TC08_home_navigation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">features.InquiryUserOHRMTest#TC02_inquiry</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">features.LoginORMTest#TC01_login</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">features.LoginORMTest#TC02_login</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">features.LoginORMTest#TC03_login</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">features.LoginORMTest#TC05_login</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">features.LoginORMTest#TC06_login</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m18">features.LoginORMTest#TC07_login</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m19">features.LoginORMTest#TC08_login</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

@@ -4,6 +4,7 @@ import com.automation.remarks.testng.UniversalVideoListener;
 import com.automation.remarks.video.annotations.Video;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
+import org.testng.ITestContext;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import utils.Listeners.TestListener;
@@ -51,7 +52,9 @@ public class HomePageNavigationTest extends Preparation {
 
     @Video
     @Test(priority = 0, description = "TC05 Able to navigate to recruitment page")
-    public void TC05_home_navigation() throws IOException {
+    public void TC05_home_navigation(ITestContext context) throws IOException {
+        context.setAttribute("picture",".\\screenshots\\RecruitmentPage_Diff.png");
+        context.setAttribute("base",".\\baseimages\\RecruitmentPageFalse.png" );
         userIsLandingToPage("home");
         homePage.goToModuleRecruitment();
         homePage.verifyLandingToCorrectPage(RECRUITMENT_PAGE);
@@ -63,7 +66,6 @@ public class HomePageNavigationTest extends Preparation {
         userIsLandingToPage("home");
         homePage.goToModulePerformance();
         homePage.verifyLandingToCorrectPage(PERFORMANCE_PAGE);
-
     }
 
     @Video

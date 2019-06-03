@@ -29,7 +29,20 @@ public class Preparation {
     public WebDriver getDriver() {
         return driver;
     }
-
+/*
+    @BeforeSuite
+    public void beforeSuit(){
+        //=============================ocular===================================//
+        System.out.print("Start Ocular");
+        Ocular.config()
+                .resultPath(Paths.get(".\\ocular\\result"))
+                .snapshotPath(Paths.get(".\\ocular\\snapshot"))
+                .globalSimilarity(99)
+                .saveSnapshot(true);
+        System.out.print("Stop Ocular");
+        //=============================ocular===================================//
+    }
+*/
     @BeforeMethod
     public void beforeMethodSetup() throws IOException {
         System.setProperty(CHROME_BROWSER, CHROMEDRIVER_PATH);

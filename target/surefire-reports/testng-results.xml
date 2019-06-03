@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="7" ignored="0" total="20" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="OrangeHRM Test Suite" duration-ms="260273" started-at="2019-06-03T06:28:00Z" finished-at="2019-06-03T06:32:21Z">
+    <groups>
+    </groups>
+    <test name="Full Test" duration-ms="260273" started-at="2019-06-03T06:28:00Z" finished-at="2019-06-03T06:32:21Z">
+      <class name="features.InquiryUserOHRMTest">
+        <test-method status="PASS" signature="beforeMethodSetup()[pri:0, instance:features.InquiryUserOHRMTest@32c0915e]" name="beforeMethodSetup" is-config="true" duration-ms="2216" started-at="2019-06-03T06:28:49Z" finished-at="2019-06-03T06:28:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodSetup -->
+        <test-method status="PASS" signature="TC02_inquiry()[pri:0, instance:features.InquiryUserOHRMTest@32c0915e]" name="TC02_inquiry" duration-ms="10195" started-at="2019-06-03T06:28:52Z" description="TC02 User is inquiry with invalid name" finished-at="2019-06-03T06:29:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_inquiry -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:features.InquiryUserOHRMTest@32c0915e]" name="closeBrowser" is-config="true" duration-ms="791" started-at="2019-06-03T06:29:03Z" finished-at="2019-06-03T06:29:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="beforeMethodSetup()[pri:0, instance:features.InquiryUserOHRMTest@32c0915e]" name="beforeMethodSetup" is-config="true" duration-ms="2127" started-at="2019-06-03T06:32:10Z" finished-at="2019-06-03T06:32:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodSetup -->
+        <test-method status="FAIL" signature="TC01_inquiry()[pri:1, instance:features.InquiryUserOHRMTest@32c0915e]" name="TC01_inquiry" duration-ms="6872" started-at="2019-06-03T06:32:12Z" description="TC01 User is inquiry with valid name" finished-at="2019-06-03T06:32:19Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"id","selector":"resultTable"}
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.38.551601 (edb21f07fc70e9027c746edd3201443e011a61ed),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-1DCFOTD', ip: '172.18.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.551601 (edb21f07fc70e9..., userDataDir: C:\Users\User\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 9d9e50196b79fb03a4b07055f1c8603c
+*** Element info: {Using=id, value=resultTable}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"resultTable"}
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.38.551601 (edb21f07fc70e9027c746edd3201443e011a61ed),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-1DCFOTD', ip: '172.18.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.551601 (edb21f07fc70e9..., userDataDir: C:\Users\User\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 9d9e50196b79fb03a4b07055f1c8603c
+*** Element info: {Using=id, value=resultTable}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+at org.openqa.selenium.By$ById.findElement(By.java:188)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at pages.admin.UserMgn_UserPage.searchUserByUserName(UserMgn_UserPage.java:157)
+at features.InquiryUserOHRMTest.TC01_inquiry(InquiryUserOHRMTest.java:20)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01_inquiry -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:features.InquiryUserOHRMTest@32c0915e]" name="closeBrowser" is-config="true" duration-ms="758" started-at="2019-06-03T06:32:20Z" finished-at="2019-06-03T06:32:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- features.InquiryUserOHRMTest -->
+      <class name="features.LoginORMTest">
+        <test-method status="PASS" signature="beforeMethodSetup()[pri:0, instance:features.LoginORMTest@33aa93c]" name="beforeMethodSetup" is-config="true" duration-ms="4240" started-at="2019-06-03T06:28:00Z" finished-at="2019-06-03T06:28:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodSetup -->
+        <test-method status="PASS" signature="TC01_login()[pri:0, instance:features.LoginORMTest@33aa93c]" name="TC01_login" duration-ms="3166" started-at="2019-06-03T06:28:05Z" description="TC01 Login with empty user name and empty password" finished-at="2019-06-03T06:28:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01_login -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:features.LoginORMTest@33aa93c]" name="closeBrowser" is-config="true" duration-ms="781" started-at="2019-06-03T06:28:09Z" finished-at="2019-06-03T06:28:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="beforeMethodSetup()[pri:0, instance:features.LoginORMTest@33aa93c]" name="beforeMethodSetup" is-config="true" duration-ms="2170" started-at="2019-06-03T06:28:10Z" finished-at="2019-06-03T06:28:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodSetup -->
+        <test-method status="PASS" signature="TC02_login()[pri:0, instance:features.LoginORMTest@33aa93c]" name="TC02_login" duration-ms="2150" started-at="2019-06-03T06:28:12Z" description="TC02 Login with empty user name and correct password" finished-at="2019-06-03T06:28:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_login -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:features.LoginORMTest@33aa93c]" name="closeBrowser" is-config="true" duration-ms="788" started-at="2019-06-03T06:28:15Z" finished-at="2019-06-03T06:28:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="beforeMethodSetup()[pri:0, instance:features.LoginORMTest@33aa93c]" name="beforeMethodSetup" is-config="true" duration-ms="2159" started-at="2019-06-03T06:28:16Z" finished-at="2019-06-03T06:28:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodSetup -->
+        <test-method status="PASS" signature="TC03_login()[pri:0, instance:features.LoginORMTest@33aa93c]" name="TC03_login" duration-ms="2321" started-at="2019-06-03T06:28:18Z" description="TC03 Login with correct password and empty password" finished-at="2019-06-03T06:28:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC03_login -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:features.LoginORMTest@33aa93c]" name="closeBrowser" is-config="true" duration-ms="789" started-at="2019-06-03T06:28:22Z" finished-at="2019-06-03T06:28:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="beforeMethodSetup()[pri:0, instance:features.LoginORMTest@33aa93c]" name="beforeMethodSetup" is-config="true" duration-ms="2090" started-at="2019-06-03T06:28:23Z" finished-at="2019-06-03T06:28:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodSetup -->
+        <test-method status="PASS" signature="TC05_login()[pri:0, instance:features.LoginORMTest@33aa93c]" name="TC05_login" duration-ms="2692" started-at="2019-06-03T06:28:25Z" description="TC05 Login with incorrect user name and incorrect password" finished-at="2019-06-03T06:28:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC05_login -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:features.LoginORMTest@33aa93c]" name="closeBrowser" is-config="true" duration-ms="765" started-at="2019-06-03T06:28:28Z" finished-at="2019-06-03T06:28:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="beforeMethodSetup()[pri:0, instance:features.LoginORMTest@33aa93c]" name="beforeMethodSetup" is-config="true" duration-ms="2127" started-at="2019-06-03T06:28:29Z" finished-at="2019-06-03T06:28:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodSetup -->
+        <test-method status="PASS" signature="TC06_login()[pri:0, instance:features.LoginORMTest@33aa93c]" name="TC06_login" duration-ms="2513" started-at="2019-06-03T06:28:31Z" description="TC06 Login with incorrect user name and correct password" finished-at="2019-06-03T06:28:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC06_login -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:features.LoginORMTest@33aa93c]" name="closeBrowser" is-config="true" duration-ms="781" started-at="2019-06-03T06:28:35Z" finished-at="2019-06-03T06:28:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="beforeMethodSetup()[pri:0, instance:features.LoginORMTest@33aa93c]" name="beforeMethodSetup" is-config="true" duration-ms="2183" started-at="2019-06-03T06:28:36Z" finished-at="2019-06-03T06:28:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodSetup -->
+        <test-method status="PASS" signature="TC07_login()[pri:0, instance:features.LoginORMTest@33aa93c]" name="TC07_login" duration-ms="2954" started-at="2019-06-03T06:28:38Z" description="TC07 Login with correct user name and incorrect password" finished-at="2019-06-03T06:28:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC07_login -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:features.LoginORMTest@33aa93c]" name="closeBrowser" is-config="true" duration-ms="810" started-at="2019-06-03T06:28:42Z" finished-at="2019-06-03T06:28:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="beforeMethodSetup()[pri:0, instance:features.LoginORMTest@33aa93c]" name="beforeMethodSetup" is-config="true" duration-ms="2223" started-at="2019-06-03T06:28:43Z" finished-at="2019-06-03T06:28:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodSetup -->
+        <test-method status="PASS" signature="TC08_login()[pri:0, instance:features.LoginORMTest@33aa93c]" name="TC08_login" duration-ms="2561" started-at="2019-06-03T06:28:45Z" description="TC08 Login with incorrect user name and incorrect password" finished-at="2019-06-03T06:28:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC08_login -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:features.LoginORMTest@33aa93c]" name="closeBrowser" is-config="true" duration-ms="771" started-at="2019-06-03T06:28:49Z" finished-at="2019-06-03T06:28:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="beforeMethodSetup()[pri:0, instance:features.LoginORMTest@33aa93c]" name="beforeMethodSetup" is-config="true" duration-ms="2099" started-at="2019-06-03T06:32:03Z" finished-at="2019-06-03T06:32:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodSetup -->
+        <test-method status="FAIL" signature="TC04_login()[pri:1, instance:features.LoginORMTest@33aa93c]" name="TC04_login" duration-ms="2880" started-at="2019-06-03T06:32:05Z" description="TC04 Login with correct username and correct password" finished-at="2019-06-03T06:32:08Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+Expected: a string containing "http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/dashboard"
+     but: was "http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/auth/validateCredentials"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+Expected: a string containing "http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/dashboard"
+     but: was "http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/auth/validateCredentials"
+at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+at pages.login.LoginPage.landingToDashboardPage(LoginPage.java:56)
+at features.LoginORMTest.TC04_login(LoginORMTest.java:57)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC04_login -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:features.LoginORMTest@33aa93c]" name="closeBrowser" is-config="true" duration-ms="779" started-at="2019-06-03T06:32:09Z" finished-at="2019-06-03T06:32:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- features.LoginORMTest -->
+      <class name="features.HomePageNavigationTest">
+        <test-method status="PASS" signature="beforeMethodSetup()[pri:0, instance:features.HomePageNavigationTest@106faf11]" name="beforeMethodSetup" is-config="true" duration-ms="2156" started-at="2019-06-03T06:29:04Z" finished-at="2019-06-03T06:29:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodSetup -->
+        <test-method status="FAIL" signature="TC01_home_navigation()[pri:0, instance:features.HomePageNavigationTest@106faf11]" name="TC01_home_navigation" duration-ms="11693" started-at="2019-06-03T06:29:06Z" description="TC01 Able to navigate to admin page" finished-at="2019-06-03T06:29:17Z">
+          <exception class="com.assertthat.selenium_shutterbug.utils.image.UnableToCompareImagesException">
+            <message>
+              <![CDATA[Images dimensions mismatch: image1 - 1920x2796; image2 - 1920x6349]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.assertthat.selenium_shutterbug.utils.image.UnableToCompareImagesException: Images dimensions mismatch: image1 - 1920x2796; image2 - 1920x6349
+at com.assertthat.selenium_shutterbug.utils.image.ImageProcessor.imagesAreEquals(ImageProcessor.java:116)
+at com.assertthat.selenium_shutterbug.core.Snapshot.equals(Snapshot.java:262)
+at pages.HomePage.verifyLandingToCorrectPage(HomePage.java:166)
+at features.HomePageNavigationTest.TC01_home_navigation(HomePageNavigationTest.java:26)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.assertthat.selenium_shutterbug.utils.image.UnableToCompareImagesException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01_home_navigation -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:features.HomePageNavigationTest@106faf11]" name="closeBrowser" is-config="true" duration-ms="758" started-at="2019-06-03T06:29:18Z" finished-at="2019-06-03T06:29:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="beforeMethodSetup()[pri:0, instance:features.HomePageNavigationTest@106faf11]" name="beforeMethodSetup" is-config="true" duration-ms="2139" started-at="2019-06-03T06:29:19Z" finished-at="2019-06-03T06:29:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodSetup -->
+        <test-method status="PASS" signature="TC02_home_navigation()[pri:0, instance:features.HomePageNavigationTest@106faf11]" name="TC02_home_navigation" duration-ms="14382" started-at="2019-06-03T06:29:21Z" description="TC02 Able to navigate to PIM page" finished-at="2019-06-03T06:29:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_home_navigation -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:features.HomePageNavigationTest@106faf11]" name="closeBrowser" is-config="true" duration-ms="806" started-at="2019-06-03T06:29:37Z" finished-at="2019-06-03T06:29:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="beforeMethodSetup()[pri:0, instance:features.HomePageNavigationTest@106faf11]" name="beforeMethodSetup" is-config="true" duration-ms="2258" started-at="2019-06-03T06:29:37Z" finished-at="2019-06-03T06:29:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodSetup -->
+        <test-method status="PASS" signature="TC03_home_navigation()[pri:0, instance:features.HomePageNavigationTest@106faf11]" name="TC03_home_navigation" duration-ms="6859" started-at="2019-06-03T06:29:40Z" description="TC03 Able to navigate to leave page" finished-at="2019-06-03T06:29:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC03_home_navigation -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:features.HomePageNavigationTest@106faf11]" name="closeBrowser" is-config="true" duration-ms="758" started-at="2019-06-03T06:29:47Z" finished-at="2019-06-03T06:29:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="beforeMethodSetup()[pri:0, instance:features.HomePageNavigationTest@106faf11]" name="beforeMethodSetup" is-config="true" duration-ms="2127" started-at="2019-06-03T06:29:48Z" finished-at="2019-06-03T06:29:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodSetup -->
+        <test-method status="PASS" signature="TC04_home_navigation()[pri:0, instance:features.HomePageNavigationTest@106faf11]" name="TC04_home_navigation" duration-ms="6248" started-at="2019-06-03T06:29:50Z" description="TC04 Able to navigate to time page" finished-at="2019-06-03T06:29:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC04_home_navigation -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:features.HomePageNavigationTest@106faf11]" name="closeBrowser" is-config="true" duration-ms="742" started-at="2019-06-03T06:29:57Z" finished-at="2019-06-03T06:29:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="beforeMethodSetup()[pri:0, instance:features.HomePageNavigationTest@106faf11]" name="beforeMethodSetup" is-config="true" duration-ms="2132" started-at="2019-06-03T06:29:58Z" finished-at="2019-06-03T06:30:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodSetup -->
+        <test-method status="FAIL" signature="TC05_home_navigation(org.testng.ITestContext)[pri:0, instance:features.HomePageNavigationTest@106faf11]" name="TC05_home_navigation" duration-ms="9529" started-at="2019-06-03T06:30:00Z" description="TC05 Able to navigate to recruitment page" finished-at="2019-06-03T06:30:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6c2d124e]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Images are Same expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Images are Same expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertFalse(Assert.java:65)
+at pages.HomePage.verifyLandingToCorrectPage(HomePage.java:219)
+at features.HomePageNavigationTest.TC05_home_navigation(HomePageNavigationTest.java:60)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC05_home_navigation -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:features.HomePageNavigationTest@106faf11]" name="closeBrowser" is-config="true" duration-ms="739" started-at="2019-06-03T06:30:11Z" finished-at="2019-06-03T06:30:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="beforeMethodSetup()[pri:0, instance:features.HomePageNavigationTest@106faf11]" name="beforeMethodSetup" is-config="true" duration-ms="2113" started-at="2019-06-03T06:30:11Z" finished-at="2019-06-03T06:30:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodSetup -->
+        <test-method status="FAIL" signature="TC06_home_navigation()[pri:0, instance:features.HomePageNavigationTest@106faf11]" name="TC06_home_navigation" duration-ms="5282" started-at="2019-06-03T06:30:13Z" description="TC06 Able to navigate to performance page" finished-at="2019-06-03T06:30:19Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+Expected: a string containing "http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/recruitment/viewCandidates#"
+     but: was "http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/dashboard#"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+Expected: a string containing "http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/recruitment/viewCandidates#"
+     but: was "http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/dashboard#"
+at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+at pages.HomePage.verifyLandingToCorrectPage(HomePage.java:159)
+at features.HomePageNavigationTest.TC06_home_navigation(HomePageNavigationTest.java:68)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC06_home_navigation -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:features.HomePageNavigationTest@106faf11]" name="closeBrowser" is-config="true" duration-ms="841" started-at="2019-06-03T06:30:20Z" finished-at="2019-06-03T06:30:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="beforeMethodSetup()[pri:0, instance:features.HomePageNavigationTest@106faf11]" name="beforeMethodSetup" is-config="true" duration-ms="2163" started-at="2019-06-03T06:30:21Z" finished-at="2019-06-03T06:30:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodSetup -->
+        <test-method status="PASS" signature="TC07_home_navigation()[pri:0, instance:features.HomePageNavigationTest@106faf11]" name="TC07_home_navigation" duration-ms="10622" started-at="2019-06-03T06:30:23Z" description="TC07 ble to navigate to dashboard page" finished-at="2019-06-03T06:30:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC07_home_navigation -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:features.HomePageNavigationTest@106faf11]" name="closeBrowser" is-config="true" duration-ms="740" started-at="2019-06-03T06:30:34Z" finished-at="2019-06-03T06:30:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="beforeMethodSetup()[pri:0, instance:features.HomePageNavigationTest@106faf11]" name="beforeMethodSetup" is-config="true" duration-ms="2146" started-at="2019-06-03T06:30:35Z" finished-at="2019-06-03T06:30:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodSetup -->
+        <test-method status="PASS" signature="TC08_home_navigation()[pri:0, instance:features.HomePageNavigationTest@106faf11]" name="TC08_home_navigation" duration-ms="29650" started-at="2019-06-03T06:30:37Z" description="TC08 Able to navigate to directory page" finished-at="2019-06-03T06:31:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC08_home_navigation -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:features.HomePageNavigationTest@106faf11]" name="closeBrowser" is-config="true" duration-ms="767" started-at="2019-06-03T06:31:08Z" finished-at="2019-06-03T06:31:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="beforeMethodSetup()[pri:0, instance:features.HomePageNavigationTest@106faf11]" name="beforeMethodSetup" is-config="true" duration-ms="2123" started-at="2019-06-03T06:31:08Z" finished-at="2019-06-03T06:31:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodSetup -->
+        <test-method status="FAIL" signature="TC09_home_navigation()[pri:0, instance:features.HomePageNavigationTest@106faf11]" name="TC09_home_navigation" duration-ms="4261" started-at="2019-06-03T06:31:11Z" description="TC09 Able to navigate to About modal" finished-at="2019-06-03T06:31:15Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+Expected: a string containing "Company Name: Okta Jaya Pte Ltd"
+     but: was "Company Name:
+Version: Orangehrm OS 4.0
+Active Employees: 73
+Employees Terminated: 0"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+Expected: a string containing "Company Name: Okta Jaya Pte Ltd"
+     but: was "Company Name:
+Version: Orangehrm OS 4.0
+Active Employees: 73
+Employees Terminated: 0"
+at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+at pages.HomePage.verifyModalIsDisplayedWithInformativeMessage(HomePage.java:242)
+at features.HomePageNavigationTest.TC09_home_navigation(HomePageNavigationTest.java:93)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC09_home_navigation -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:features.HomePageNavigationTest@106faf11]" name="closeBrowser" is-config="true" duration-ms="837" started-at="2019-06-03T06:31:16Z" finished-at="2019-06-03T06:31:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="beforeMethodSetup()[pri:0, instance:features.HomePageNavigationTest@106faf11]" name="beforeMethodSetup" is-config="true" duration-ms="2093" started-at="2019-06-03T06:31:17Z" finished-at="2019-06-03T06:31:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodSetup -->
+        <test-method status="FAIL" signature="TC10_home_navigation()[pri:0, instance:features.HomePageNavigationTest@106faf11]" name="TC10_home_navigation" duration-ms="42456" started-at="2019-06-03T06:31:19Z" description="TC10 Able to navigate to many page" finished-at="2019-06-03T06:32:02Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+Expected: a string containing "http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/admin/viewSystemUsers"
+     but: was "http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/directory/viewDirectory/reset/1"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+Expected: a string containing "http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/admin/viewSystemUsers"
+     but: was "http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/directory/viewDirectory/reset/1"
+at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+at pages.HomePage.verifyLandingToCorrectPage(HomePage.java:159)
+at features.HomePageNavigationTest.TC10_home_navigation(HomePageNavigationTest.java:106)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC10_home_navigation -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:features.HomePageNavigationTest@106faf11]" name="closeBrowser" is-config="true" duration-ms="781" started-at="2019-06-03T06:32:02Z" finished-at="2019-06-03T06:32:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- features.HomePageNavigationTest -->
+    </test> <!-- Full Test -->
+  </suite> <!-- OrangeHRM Test Suite -->
+</testng-results>

@@ -1,1 +1,0 @@
-TC04_login failed and video taken! check all failed videos in C:\Users\User\Documents\GitHub\OrangeHRMTestNGAllure\video

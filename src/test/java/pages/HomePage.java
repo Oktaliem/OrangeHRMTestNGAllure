@@ -6,10 +6,17 @@ import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import ru.yandex.qatools.ashot.AShot;
+import ru.yandex.qatools.ashot.Screenshot;
+import ru.yandex.qatools.ashot.comparison.ImageDiff;
+import ru.yandex.qatools.ashot.comparison.ImageDiffer;
+import ru.yandex.qatools.ashot.coordinates.WebDriverCoordsProvider;
+import ru.yandex.qatools.ashot.shooting.ShootingStrategies;
 import utils.ScreenShootComparison;
 
 import javax.imageio.ImageIO;
@@ -25,7 +32,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 public class HomePage {
 
     WebDriver driver;
-    ScreenShootComparison imageComparison;
+    public ScreenShootComparison imageComparison;
 
     By menuAdminView = By.id("menu_admin_viewAdminModule");
     By menuPIMView = By.xpath("//B[text()='PIM']");
@@ -46,49 +53,80 @@ public class HomePage {
     @Step("When - User goes to Admin Module")
     public void goToModuleAdmin() {
         driver.findElement(menuAdminView).click();
-        Shutterbug.shootPage(driver,ScrollStrategy.WHOLE_PAGE,500,true).withName("AdminPage").save();
+        Shutterbug.shootPage(driver, ScrollStrategy.WHOLE_PAGE, 500, true).withName("AdminPage").save();
     }
 
     @Step("When - User goes to PIM Module")
     public void goToModulePIM() {
         driver.findElement(menuPIMView).click();
-        Shutterbug.shootPage(driver,ScrollStrategy.WHOLE_PAGE,500,true).withName("PIMPage").save();
+        Shutterbug.shootPage(driver, ScrollStrategy.WHOLE_PAGE, 500, true).withName("PIMPage").save(); // full page screen shot with Shutterbug, hasilnya akurat
+
+        Screenshot screenshot = new AShot().shootingStrategy(ShootingStrategies.viewportPasting(500)).takeScreenshot(driver);// full page screen shot with aShot, hasilnya tidak akurat
+        try {
+            ImageIO.write(screenshot.getImage(), "PNG", new File(System.getProperty("user.dir") + ".\\screenshots\\PIMPage_aShot.png"));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     @Step("When - User goes to Leave Module")
     public void goToModuleLeave() {
         driver.findElement(menuLeaveView).click();
-        Shutterbug.shootPage(driver,ScrollStrategy.WHOLE_PAGE,500,true).withName("LeavePage").save();
+        Shutterbug.shootPage(driver, ScrollStrategy.WHOLE_PAGE, 500, true).withName("LeavePage").save();
     }
 
     @Step("When - User goes to Time Module")
     public void goToModuleTime() {
         driver.findElement(menuTime).click();
-        Shutterbug.shootPage(driver,ScrollStrategy.WHOLE_PAGE,500,true).withName("TimePage").save();
+        Shutterbug.shootPage(driver, ScrollStrategy.WHOLE_PAGE, 500, true).withName("TimePage").save();
     }
 
     @Step("When - User goes to Recruitment Module")
     public void goToModuleRecruitment() {
         driver.findElement(menuRecruitment).click();
-        Shutterbug.shootPage(driver,ScrollStrategy.WHOLE_PAGE,500,true).withName("RecruitmentPage").save();
+        Shutterbug.shootPage(driver, ScrollStrategy.WHOLE_PAGE, 500, true).withName("RecruitmentPage").save();
     }
 
     @Step("When - User goes to Performance Module")
     public void goToModulePerformance() {
         driver.findElement(menuPerformance).click();
-        Shutterbug.shootPage(driver,ScrollStrategy.WHOLE_PAGE,500,true).withName("PerformacePage").save();
+        Shutterbug.shootPage(driver, ScrollStrategy.WHOLE_PAGE, 500, true).withName("PerformacePage").save();
     }
 
     @Step("When - User goes to Dashboard Module")
-    public void goToModuleDashboard() {
+    public void goToModuleDashboard(){
         driver.findElement(menuDashboard).click();
-        Shutterbug.shootPage(driver,ScrollStrategy.WHOLE_PAGE,500,true).withName("DasghboardPage").save();
+        Shutterbug.shootPage(driver, ScrollStrategy.WHOLE_PAGE, 500, true).withName("DashboardPage").save(); // hasilnya valid
+        WebElement myWebElement = driver.findElement(By.cssSelector("div#div_graph_display_emp_distribution > canvas:nth-of-type(2)"));
+
+        //aShot
+        Screenshot screenshot = new AShot().takeScreenshot(driver, myWebElement); //method bisa dipakai tp hasilnya tidak akurat kadang2;
+        try {
+            ImageIO.write(screenshot.getImage(), "PNG", new File(System.getProperty("user.dir") + ".\\screenshots\\dashboard_pie_chart_aShot.png"));
+        } catch (IOException e) { e.printStackTrace(); }
+
+        Screenshot screenshot2 = new AShot().coordsProvider(new WebDriverCoordsProvider()).takeScreenshot(driver, myWebElement); //method bisa dipakai tp hasilnya tidak akurat kadang2;
+        try {
+            ImageIO.write(screenshot2.getImage(), "PNG", new File(System.getProperty("user.dir") + ".\\screenshots\\dashboard_pie_chart_aShot_2.png"));
+        } catch (IOException e) { e.printStackTrace(); }
+
+        Screenshot screenshot3 = new AShot().shootingStrategy(ShootingStrategies.viewportPasting(500)).takeScreenshot(driver, myWebElement); //method bisa dipakai tp hasilnya tidak akurat kadang2;
+        try {
+            ImageIO.write(screenshot3.getImage(), "PNG", new File(System.getProperty("user.dir") + ".\\screenshots\\dashboard_pie_chart_aShot_3.png"));
+        } catch (IOException e) { e.printStackTrace(); }
+
+
+        //Shutterbug
+        Shutterbug.shootElement(driver, myWebElement).withName("dashboard_pie_chart").save(); //method bisa dipakai tp hasilnya tidak akurat
+        Shutterbug.shootPage(driver).highlightWithText(myWebElement, "dashboard_pie_chart_2").withName("dashboard_pie_chart_2").save();//method bisa dipakai tp hasilnya tidak akurat
+        Shutterbug.shootPage(driver).highlight(myWebElement).withName("dashboard_pie_chart_3").save();//method bisa dipakai tp hasilnya tidak akurat
+
     }
 
     @Step("When - User goes to Directory Module")
     public void goToModuleDirectory() {
         driver.findElement(menuDirectory).click();
-        Shutterbug.shootPage(driver,ScrollStrategy.WHOLE_PAGE,500,true).withName("DirectoryPage").save();
+        Shutterbug.shootPage(driver, ScrollStrategy.WHOLE_PAGE, 500, true).withName("DirectoryPage").save();
     }
 
     @Step("When - User goes to Welcome Admin Module")
@@ -109,26 +147,30 @@ public class HomePage {
         return "Employee Information";
     }
 
-    @Step("Then - User is Landing to Correct Page")
+    @Step("Then - User is Landing to Expected Page")
     public void verifyLandingToCorrectPage(String page) throws IOException {
         File image;
         BufferedImage expectedImage;
         boolean status;
+        BufferedImage expImage;
+        BufferedImage actImage;
+        ImageDiffer imgDiff;
+        ImageDiff diff;
         assertThat(driver.getCurrentUrl(), containsString(page));
         switch (page) {
             case ADMIN_PAGE:
                 assertThat(driver.findElement(By.id("systemUser-information")).getText(), containsString(getUserInfo()));
-                //===================image size comparison i.e 360 x234 , fail =========//
-                image = new File(".\\BaseImages\\DirectoryPage.png");
+                //=================== Shutterbug, image dimension comparison i.e 360 x234 , fail =========//
+                image = new File(".\\baseimages\\DirectoryPage.png");
                 expectedImage = ImageIO.read(image);
-                status = Shutterbug.shootPage(driver,ScrollStrategy.WHOLE_PAGE,500,true).equals(expectedImage,0.1);
-                //status = Shutterbug.shootPage(driver,ScrollStrategy.WHOLE_PAGE,500,true).equalsWithDiff(expectedImage,".\\NewImages\\DirectoryPage.png",0.1);
+                status = Shutterbug.shootPage(driver, ScrollStrategy.WHOLE_PAGE, 500, true).equals(expectedImage, 0.1);
                 Assert.assertTrue(status);
-                //===================image size comparison i.e 360 x234 , fail =========//
+                //=================== Shutterbug, image dimension comparison i.e 360 x234 , fail =========//
                 break;
             case PIM_PAGE:
                 assertThat(driver.findElement(By.id("employee-information")).getText(), containsString(getEmployeeInfo()));
-                imageComparison.compareFullPageScreenShoot(".\\BaseImages\\PIMPage.png","ActualPIMPage");
+                //imageComparison.compareFullPageScreenShoot(".\\baseimages\\PIMPage.png", "ActualPIMPage");
+                //Assert.assertTrue(imageComparison.compareFullPageScreenShoot(".\\baseimages\\PIMPage.png", "ActualPIMPage"));
                 break;
             case LEAVE_PAGE:
                 assertThat(driver.findElement(By.id("locationHeading")).getText(), containsString("Leave Period"));
@@ -138,21 +180,45 @@ public class HomePage {
                 break;
             case DIRECTORY_PAGE:
                 assertThat(driver.findElement(By.id("content")).getText(), containsString("Search Directory"));
-
-                //===================image size comparison i.e 360 x234 , success =========//
-                image = new File(".\\BaseImages\\DirectoryPage.png");
+                //===================Shutterbug, image size comparison i.e 360 x234 , success =========//
+                image = new File(".\\baseimages\\DirectoryPage.png");
                 expectedImage = ImageIO.read(image);
-                status = Shutterbug.shootPage(driver,ScrollStrategy.WHOLE_PAGE,500,true).equals(expectedImage,0.1);
+                status = Shutterbug.shootPage(driver, ScrollStrategy.WHOLE_PAGE, 500, true).equals(expectedImage, 0.1);
                 Assert.assertTrue(status);
-                //===================image size comparison i.e 360 x234 , success =========//
-
-
+                //===================Shutterbug, image size comparison i.e 360 x234 , success =========//
                 break;
             case TIME_PAGE:
                 assertThat(driver.findElement(By.id("defineTimesheet")).getText(), containsString("Define Timesheet Period"));
+                //=================== aShot, images comparison in success scenario ======================================================//
+                expImage = ImageIO.read(new File(System.getProperty("user.dir") + ".\\baseimages\\TimePage.png"));
+                actImage = ImageIO.read(new File(System.getProperty("user.dir") + ".\\screenShots\\TimePage.png"));
+                imgDiff = new ImageDiffer();
+                diff = imgDiff.makeDiff(actImage, expImage);
+                Assert.assertFalse(diff.hasDiff(), "Images are Same");
+                //=================== aShot, images comparison in success scenario ======================================================//
                 break;
             case RECRUITMENT_PAGE:
                 assertThat(driver.findElement(By.id("srchCandidates")).getText(), containsString("Candidates"));
+
+                //===================Shutterbug, image dimension comparison i.e 360 x234 , fail =========//
+                image = new File(".\\baseimages\\RecruitmentPageFalse.png");
+                expectedImage = ImageIO.read(image);
+                status = Shutterbug.shootPage(driver, ScrollStrategy.WHOLE_PAGE, 500, true).equals(expectedImage, 0.1);
+                Assert.assertTrue(status);
+                //Result : Shutterbug only able to compare screen dimension but unable to compare image content, fail scenario but result is passed
+                //===================Shutterbug, image dimension comparison i.e 360 x234 , fail =========//
+
+                //=================== aShot, images comparison in fail scenario ======================================================//
+                expImage = ImageIO.read(new File(System.getProperty("user.dir") + ".\\baseimages\\RecruitmentPageFalse.png"));
+                actImage = ImageIO.read(new File(System.getProperty("user.dir") + ".\\screenShots\\RecruitmentPage.png"));
+                imgDiff = new ImageDiffer();
+                diff = imgDiff.makeDiff(actImage, expImage);
+                BufferedImage markedImage = diff.getMarkedImage();
+                ImageIO.write(markedImage, "PNG", new File(System.getProperty("user.dir") + ".\\screenshots\\RecruitmentPage_Diff.png"));
+
+                Assert.assertFalse(diff.hasDiff(), "Images are Same");
+                //Results : aShot is able to compare image content
+                //=================== aShot, images comparison in fail scenario ======================================================//
                 break;
         }
     }
