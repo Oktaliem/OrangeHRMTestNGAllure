@@ -1,0 +1,240 @@
+{
+  "uid" : "887e621adb01a601",
+  "name" : "TC05 Able to navigate to recruitment page",
+  "fullName" : "features.HomePageNavigationTest.TC05_home_navigation",
+  "historyId" : "1630a23e352093535e434abf841b4c2",
+  "time" : {
+    "start" : 1559576840040,
+    "stop" : 1559576848925,
+    "duration" : 8885
+  },
+  "status" : "failed",
+  "statusMessage" : "Images are identical expected [false] but found [true]",
+  "statusTrace" : "java.lang.AssertionError: Images are identical expected [false] but found [true]\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\r\n\tat org.testng.Assert.assertFalse(Assert.java:65)\r\n\tat pages.HomePage.verifyLandingToCorrectPage(HomePage.java:243)\r\n\tat features.HomePageNavigationTest.TC05_home_navigation(HomePageNavigationTest.java:61)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\r\n\tat org.testng.TestRunner.run(TestRunner.java:505)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1137)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1049)\r\n\tat org.testng.TestNG.run(TestNG.java:1017)\r\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)\r\n\tat org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)\r\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeMethodSetup",
+    "time" : {
+      "start" : 1559576837959,
+      "stop" : 1559576840007,
+      "duration" : 2048
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Images are identical expected [false] but found [true]",
+    "statusTrace" : "java.lang.AssertionError: Images are identical expected [false] but found [true]\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\r\n\tat org.testng.Assert.assertFalse(Assert.java:65)\r\n\tat pages.HomePage.verifyLandingToCorrectPage(HomePage.java:243)\r\n\tat features.HomePageNavigationTest.TC05_home_navigation(HomePageNavigationTest.java:61)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\r\n\tat org.testng.TestRunner.run(TestRunner.java:505)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1137)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1049)\r\n\tat org.testng.TestNG.run(TestNG.java:1017)\r\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)\r\n\tat org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)\r\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)\r\n",
+    "steps" : [ {
+      "name" : "Given - User is landing to expected page - home",
+      "time" : {
+        "start" : 1559576840041,
+        "stop" : 1559576843800,
+        "duration" : 3759
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "User logs in to Portal",
+        "time" : {
+          "start" : 1559576841654,
+          "stop" : 1559576843800,
+          "duration" : 2146
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "90bd33eafa6b7448",
+          "name" : "Page screenshot",
+          "source" : "90bd33eafa6b7448.png",
+          "type" : "image/png",
+          "size" : 71005
+        } ],
+        "parameters" : [ {
+          "name" : "name",
+          "value" : "admin"
+        }, {
+          "name" : "pasword",
+          "value" : "admin"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "home"
+      } ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When - User goes to Recruitment Module",
+      "time" : {
+        "start" : 1559576843801,
+        "stop" : 1559576846508,
+        "duration" : 2707
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6e04819afab5aab1",
+        "name" : "Page screenshot",
+        "source" : "6e04819afab5aab1.png",
+        "type" : "image/png",
+        "size" : 90268
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then - User is Landing to Expected Page",
+      "time" : {
+        "start" : 1559576846508,
+        "stop" : 1559576848454,
+        "duration" : 1946
+      },
+      "status" : "failed",
+      "statusMessage" : "Images are identical expected [false] but found [true]",
+      "statusTrace" : "java.lang.AssertionError: Images are identical expected [false] but found [true]\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\r\n\tat org.testng.Assert.assertFalse(Assert.java:65)\r\n\tat pages.HomePage.verifyLandingToCorrectPage(HomePage.java:243)\r\n\tat features.HomePageNavigationTest.TC05_home_navigation(HomePageNavigationTest.java:61)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\r\n\tat org.testng.TestRunner.run(TestRunner.java:505)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1137)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1049)\r\n\tat org.testng.TestNG.run(TestNG.java:1017)\r\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)\r\n\tat org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)\r\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)\r\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/recruitment/viewCandidates"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "e303b9459d28a657",
+      "name" : "Page screenshot",
+      "source" : "e303b9459d28a657.png",
+      "type" : "image/png",
+      "size" : 90268
+    }, {
+      "uid" : "d983df5f5d9e90fa",
+      "name" : "Base line image",
+      "source" : "d983df5f5d9e90fa.png",
+      "type" : "image/png",
+      "size" : 92183
+    }, {
+      "uid" : "26afc75a47344c0c",
+      "name" : "Visual test (screenshot from base image differ)",
+      "source" : "26afc75a47344c0c.png",
+      "type" : "image/png",
+      "size" : 69192
+    }, {
+      "uid" : "f91bf813606aacf0",
+      "name" : "Video record",
+      "source" : "f91bf813606aacf0.avi",
+      "type" : "video/avi",
+      "size" : 339364
+    }, {
+      "uid" : "e94c1f964c3ec2aa",
+      "name" : "TC05_home_navigation failed and screenshot taken!",
+      "source" : "e94c1f964c3ec2aa.txt",
+      "type" : "text/plain",
+      "size" : 49
+    }, {
+      "uid" : "e91554000a54a308",
+      "name" : "TC05_home_navigation failed and video taken! check all failed videos in C:\\Users\\User\\Documents\\GitHub\\OrangeHRMTestNGAllure\\video if video attachments are broken",
+      "source" : "e91554000a54a308.txt",
+      "type" : "text/plain",
+      "size" : 162
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "closeBrowser",
+    "time" : {
+      "start" : 1559576849291,
+      "stop" : 1559576850030,
+      "duration" : 739
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "features.HomePageNavigationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "features.HomePageNavigationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC05_home_navigation"
+  }, {
+    "name" : "parentSuite",
+    "value" : "OrangeHRM Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Full Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "features.HomePageNavigationTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-1DCFOTD"
+  }, {
+    "name" : "thread",
+    "value" : "12192@DESKTOP-1DCFOTD.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Tests"
+  }, {
+    "name" : "feature",
+    "value" : "Home Page Navigation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "887e621adb01a601.json",
+  "parameterValues" : [ ]
+}

@@ -89,9 +89,9 @@ public class TestListener extends Preparation implements ITestListener {
         if (driver instanceof WebDriver) {
             System.out.println("Screenshot captured for test case:" + getTestMethodName(iTestResult));
             saveScreenshotPNG(driver);
-            if(getTestMethodName(iTestResult).equals("TC05_home_navigation")){
+            if(getTestMethodName(iTestResult).equals(iTestResult.getTestContext().getAttribute("method"))){
                 getBaseLineImage(iTestResult.getTestContext().getAttribute("base"));
-                getScreenshotDiffer(iTestResult.getTestContext().getAttribute("picture"));
+                getScreenshotDiffer(iTestResult.getTestContext().getAttribute("diff"));
             }
             System.out.println("Video captured for test case:" + getTestMethodName(iTestResult));
             attachVideo();

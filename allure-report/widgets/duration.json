@@ -1,200 +1,200 @@
 [ {
-  "uid" : "e69d9ec1752a902d",
-  "name" : "TC01 Login with empty user name and empty password",
-  "time" : {
-    "start" : 1559553747230,
-    "stop" : 1559553751787,
-    "duration" : 4557
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e344d50ac1def1ff",
-  "name" : "TC02 Able to navigate to PIM page",
-  "time" : {
-    "start" : 1559553822424,
-    "stop" : 1559553835631,
-    "duration" : 13207
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "92eef2ab43f2dfed",
-  "name" : "TC03 Able to navigate to leave page",
-  "time" : {
-    "start" : 1559553838372,
-    "stop" : 1559553844808,
-    "duration" : 6436
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6dad901e186a8042",
+  "uid" : "71993a2030ce17a",
   "name" : "TC10 Able to navigate to many page",
   "time" : {
-    "start" : 1559553929207,
-    "stop" : 1559553971444,
-    "duration" : 42237
+    "start" : 1559576912178,
+    "stop" : 1559576954722,
+    "duration" : 42544
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "8fd0cfa4275efa08",
-  "name" : "TC08 Login with incorrect user name and incorrect password",
-  "time" : {
-    "start" : 1559553787969,
-    "stop" : 1559553791817,
-    "duration" : 3848
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b118d424949e03f1",
-  "name" : "TC07 Login with correct user name and incorrect password",
-  "time" : {
-    "start" : 1559553780962,
-    "stop" : 1559553785142,
-    "duration" : 4180
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "88a8ecd6f3efdcac",
-  "name" : "TC07 ble to navigate to dashboard page",
-  "time" : {
-    "start" : 1559553878114,
-    "stop" : 1559553888307,
-    "duration" : 10193
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4c8ddd9ab78defe5",
-  "name" : "TC05 Able to navigate to recruitment page",
-  "time" : {
-    "start" : 1559553857492,
-    "stop" : 1559553865814,
-    "duration" : 8322
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "60c61488d4aa4035",
-  "name" : "TC03 Login with correct password and empty password",
-  "time" : {
-    "start" : 1559553761218,
-    "stop" : 1559553764866,
-    "duration" : 3648
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a98cde8fc71324bc",
-  "name" : "TC01 User is inquiry with valid name",
-  "time" : {
-    "start" : 1559553981941,
-    "stop" : 1559553989072,
-    "duration" : 7131
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "201ddd16d6d2bf54",
-  "name" : "TC08 Able to navigate to directory page",
-  "time" : {
-    "start" : 1559553891165,
-    "stop" : 1559553917410,
-    "duration" : 26245
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1326060f9a95133f",
-  "name" : "TC01 Able to navigate to admin page",
-  "time" : {
-    "start" : 1559553807706,
-    "stop" : 1559553819231,
-    "duration" : 11525
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "56eba6e5b9bfc336",
-  "name" : "TC05 Login with incorrect user name and incorrect password",
-  "time" : {
-    "start" : 1559553767655,
-    "stop" : 1559553771629,
-    "duration" : 3974
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "757a3e7a0bcee37b",
-  "name" : "TC06 Able to navigate to performance page",
-  "time" : {
-    "start" : 1559553869032,
-    "stop" : 1559553874813,
-    "duration" : 5781
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "2b59a19dde794a4c",
-  "name" : "TC02 Login with empty user name and correct password",
-  "time" : {
-    "start" : 1559553754719,
-    "stop" : 1559553758441,
-    "duration" : 3722
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "60a148ae1482b433",
+  "uid" : "f16b3ebc1e9eb066",
   "name" : "TC04 Login with correct username and correct password",
   "time" : {
-    "start" : 1559553974713,
-    "stop" : 1559553978730,
-    "duration" : 4017
+    "start" : 1559576957908,
+    "stop" : 1559576962097,
+    "duration" : 4189
   },
   "status" : "failed",
   "severity" : "blocker"
 }, {
-  "uid" : "6e0cacb5a3353959",
+  "uid" : "e92b6bceba8f0ce7",
+  "name" : "TC08 Login with incorrect user name and incorrect password",
+  "time" : {
+    "start" : 1559576769546,
+    "stop" : 1559576773686,
+    "duration" : 4140
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cc26f8c5f48e8119",
+  "name" : "TC01 Able to navigate to admin page",
+  "time" : {
+    "start" : 1559576789252,
+    "stop" : 1559576800262,
+    "duration" : 11010
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2126efce9a10649f",
+  "name" : "TC07 Login with correct user name and incorrect password",
+  "time" : {
+    "start" : 1559576762611,
+    "stop" : 1559576766733,
+    "duration" : 4122
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ad1ac65147c0cbd9",
+  "name" : "TC02 Able to navigate to PIM page",
+  "time" : {
+    "start" : 1559576803595,
+    "stop" : 1559576818180,
+    "duration" : 14585
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bc62d74820b885e1",
+  "name" : "TC07 ble to navigate to dashboard page",
+  "time" : {
+    "start" : 1559576860928,
+    "stop" : 1559576870995,
+    "duration" : 10067
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bd963a104ba93e78",
+  "name" : "TC03 Able to navigate to leave page",
+  "time" : {
+    "start" : 1559576821213,
+    "stop" : 1559576827518,
+    "duration" : 6305
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e5c463330eeae0d3",
+  "name" : "TC01 Login with empty user name and empty password",
+  "time" : {
+    "start" : 1559576728829,
+    "stop" : 1559576732936,
+    "duration" : 4107
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3dd2a14d07d5c685",
   "name" : "TC02 User is inquiry with invalid name",
   "time" : {
-    "start" : 1559553794625,
-    "stop" : 1559553804884,
-    "duration" : 10259
+    "start" : 1559576776518,
+    "stop" : 1559576786364,
+    "duration" : 9846
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "548e88067d979355",
-  "name" : "TC06 Login with incorrect user name and correct password",
+  "uid" : "ca6679fe7a271245",
+  "name" : "TC03 Login with correct password and empty password",
   "time" : {
-    "start" : 1559553774397,
-    "stop" : 1559553778199,
-    "duration" : 3802
+    "start" : 1559576742271,
+    "stop" : 1559576745984,
+    "duration" : 3713
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "3761e5184c6a43e7",
+  "uid" : "7eaf7c27039f5437",
   "name" : "TC04 Able to navigate to time page",
   "time" : {
-    "start" : 1559553847749,
-    "stop" : 1559553854589,
-    "duration" : 6840
+    "start" : 1559576830487,
+    "stop" : 1559576837165,
+    "duration" : 6678
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "cf6a892b87369bb2",
+  "uid" : "6f5eda6dfa043278",
   "name" : "TC09 Able to navigate to About modal",
   "time" : {
-    "start" : 1559553920324,
-    "stop" : 1559553926020,
-    "duration" : 5696
+    "start" : 1559576903548,
+    "stop" : 1559576908825,
+    "duration" : 5277
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c98f5eb7fb4a3c91",
+  "name" : "TC06 Able to navigate to performance page",
+  "time" : {
+    "start" : 1559576852208,
+    "stop" : 1559576857717,
+    "duration" : 5509
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "9394b1dcc43ce587",
+  "name" : "TC01 User is inquiry with valid name",
+  "time" : {
+    "start" : 1559576965323,
+    "stop" : 1559576972361,
+    "duration" : 7038
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "de9faeb65a7b5a0b",
+  "name" : "TC08 Able to navigate to directory page",
+  "time" : {
+    "start" : 1559576873840,
+    "stop" : 1559576900684,
+    "duration" : 26844
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "25a36bf3d95ccc94",
+  "name" : "TC02 Login with empty user name and correct password",
+  "time" : {
+    "start" : 1559576735754,
+    "stop" : 1559576739451,
+    "duration" : 3697
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "577d64c1bd3387c2",
+  "name" : "TC05 Login with incorrect user name and incorrect password",
+  "time" : {
+    "start" : 1559576748790,
+    "stop" : 1559576752758,
+    "duration" : 3968
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5aec8fe5286ee629",
+  "name" : "TC06 Login with incorrect user name and correct password",
+  "time" : {
+    "start" : 1559576755609,
+    "stop" : 1559576759778,
+    "duration" : 4169
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "887e621adb01a601",
+  "name" : "TC05 Able to navigate to recruitment page",
+  "time" : {
+    "start" : 1559576840040,
+    "stop" : 1559576848925,
+    "duration" : 8885
   },
   "status" : "failed",
   "severity" : "normal"

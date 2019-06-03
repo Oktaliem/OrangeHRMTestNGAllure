@@ -53,8 +53,9 @@ public class HomePageNavigationTest extends Preparation {
     @Video
     @Test(priority = 0, description = "TC05 Able to navigate to recruitment page")
     public void TC05_home_navigation(ITestContext context) throws IOException {
-        context.setAttribute("picture",".\\screenshots\\RecruitmentPage_Diff.png");
+        context.setAttribute("diff",".\\screenshots\\RecruitmentPage_Diff.png");
         context.setAttribute("base",".\\baseimages\\RecruitmentPageFalse.png" );
+        context.setAttribute("method","TC05_home_navigation" );
         userIsLandingToPage("home");
         homePage.goToModuleRecruitment();
         homePage.verifyLandingToCorrectPage(RECRUITMENT_PAGE);
@@ -78,7 +79,10 @@ public class HomePageNavigationTest extends Preparation {
 
     @Video
     @Test(priority = 0, description = "TC08 Able to navigate to directory page")
-    public void TC08_home_navigation() throws IOException {
+    public void TC08_home_navigation(ITestContext context) throws IOException {
+        context.setAttribute("base",".\\baseimages\\DirectoryPage.png" );
+        context.setAttribute("diff",".\\screenshots\\DirectoryPage_Diff.png");
+        context.setAttribute("method","TC08_home_navigation" );
         userIsLandingToPage("home");
         homePage.goToModuleDirectory();
         homePage.verifyLandingToCorrectPage(DIRECTORY_PAGE);

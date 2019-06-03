@@ -4,269 +4,269 @@
   "children" : [ {
     "name" : "DESKTOP-1DCFOTD",
     "children" : [ {
-      "name" : "1852@DESKTOP-1DCFOTD.main(1)",
+      "name" : "12192@DESKTOP-1DCFOTD.main(1)",
       "children" : [ {
-        "name" : "TC08 Able to navigate to directory page",
-        "uid" : "201ddd16d6d2bf54",
-        "parentUid" : "cdc3cfa141b122736da446dc777a661c",
+        "name" : "TC01 Login with empty user name and empty password",
+        "uid" : "e5c463330eeae0d3",
+        "parentUid" : "b6082d3f4780e35588ca4e33650078c5",
         "status" : "passed",
         "time" : {
-          "start" : 1559553891165,
-          "stop" : 1559553917410,
-          "duration" : 26245
+          "start" : 1559576728829,
+          "stop" : 1559576732936,
+          "duration" : 4107
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "TC02 User is inquiry with invalid name",
-        "uid" : "6e0cacb5a3353959",
-        "parentUid" : "cdc3cfa141b122736da446dc777a661c",
+        "uid" : "3dd2a14d07d5c685",
+        "parentUid" : "b6082d3f4780e35588ca4e33650078c5",
         "status" : "passed",
         "time" : {
-          "start" : 1559553794625,
-          "stop" : 1559553804884,
-          "duration" : 10259
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "TC01 User is inquiry with valid name",
-        "uid" : "a98cde8fc71324bc",
-        "parentUid" : "cdc3cfa141b122736da446dc777a661c",
-        "status" : "broken",
-        "time" : {
-          "start" : 1559553981941,
-          "stop" : 1559553989072,
-          "duration" : 7131
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "TC01 Able to navigate to admin page",
-        "uid" : "1326060f9a95133f",
-        "parentUid" : "cdc3cfa141b122736da446dc777a661c",
-        "status" : "broken",
-        "time" : {
-          "start" : 1559553807706,
-          "stop" : 1559553819231,
-          "duration" : 11525
+          "start" : 1559576776518,
+          "stop" : 1559576786364,
+          "duration" : 9846
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "TC07 Login with correct user name and incorrect password",
-        "uid" : "b118d424949e03f1",
-        "parentUid" : "cdc3cfa141b122736da446dc777a661c",
+        "uid" : "2126efce9a10649f",
+        "parentUid" : "b6082d3f4780e35588ca4e33650078c5",
         "status" : "passed",
         "time" : {
-          "start" : 1559553780962,
-          "stop" : 1559553785142,
-          "duration" : 4180
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "TC02 Login with empty user name and correct password",
-        "uid" : "2b59a19dde794a4c",
-        "parentUid" : "cdc3cfa141b122736da446dc777a661c",
-        "status" : "passed",
-        "time" : {
-          "start" : 1559553754719,
-          "stop" : 1559553758441,
-          "duration" : 3722
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "TC07 ble to navigate to dashboard page",
-        "uid" : "88a8ecd6f3efdcac",
-        "parentUid" : "cdc3cfa141b122736da446dc777a661c",
-        "status" : "passed",
-        "time" : {
-          "start" : 1559553878114,
-          "stop" : 1559553888307,
-          "duration" : 10193
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "TC05 Login with incorrect user name and incorrect password",
-        "uid" : "56eba6e5b9bfc336",
-        "parentUid" : "cdc3cfa141b122736da446dc777a661c",
-        "status" : "passed",
-        "time" : {
-          "start" : 1559553767655,
-          "stop" : 1559553771629,
-          "duration" : 3974
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "TC06 Login with incorrect user name and correct password",
-        "uid" : "548e88067d979355",
-        "parentUid" : "cdc3cfa141b122736da446dc777a661c",
-        "status" : "passed",
-        "time" : {
-          "start" : 1559553774397,
-          "stop" : 1559553778199,
-          "duration" : 3802
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "TC05 Able to navigate to recruitment page",
-        "uid" : "4c8ddd9ab78defe5",
-        "parentUid" : "cdc3cfa141b122736da446dc777a661c",
-        "status" : "failed",
-        "time" : {
-          "start" : 1559553857492,
-          "stop" : 1559553865814,
-          "duration" : 8322
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "TC08 Login with incorrect user name and incorrect password",
-        "uid" : "8fd0cfa4275efa08",
-        "parentUid" : "cdc3cfa141b122736da446dc777a661c",
-        "status" : "passed",
-        "time" : {
-          "start" : 1559553787969,
-          "stop" : 1559553791817,
-          "duration" : 3848
+          "start" : 1559576762611,
+          "stop" : 1559576766733,
+          "duration" : 4122
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "TC03 Login with correct password and empty password",
-        "uid" : "60c61488d4aa4035",
-        "parentUid" : "cdc3cfa141b122736da446dc777a661c",
+        "uid" : "ca6679fe7a271245",
+        "parentUid" : "b6082d3f4780e35588ca4e33650078c5",
         "status" : "passed",
         "time" : {
-          "start" : 1559553761218,
-          "stop" : 1559553764866,
-          "duration" : 3648
+          "start" : 1559576742271,
+          "stop" : 1559576745984,
+          "duration" : 3713
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "TC02 Able to navigate to PIM page",
-        "uid" : "e344d50ac1def1ff",
-        "parentUid" : "cdc3cfa141b122736da446dc777a661c",
+        "uid" : "ad1ac65147c0cbd9",
+        "parentUid" : "b6082d3f4780e35588ca4e33650078c5",
         "status" : "passed",
         "time" : {
-          "start" : 1559553822424,
-          "stop" : 1559553835631,
-          "duration" : 13207
+          "start" : 1559576803595,
+          "stop" : 1559576818180,
+          "duration" : 14585
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "TC04 Able to navigate to time page",
-        "uid" : "3761e5184c6a43e7",
-        "parentUid" : "cdc3cfa141b122736da446dc777a661c",
+        "name" : "TC05 Login with incorrect user name and incorrect password",
+        "uid" : "577d64c1bd3387c2",
+        "parentUid" : "b6082d3f4780e35588ca4e33650078c5",
         "status" : "passed",
         "time" : {
-          "start" : 1559553847749,
-          "stop" : 1559553854589,
-          "duration" : 6840
+          "start" : 1559576748790,
+          "stop" : 1559576752758,
+          "duration" : 3968
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "TC01 Login with empty user name and empty password",
-        "uid" : "e69d9ec1752a902d",
-        "parentUid" : "cdc3cfa141b122736da446dc777a661c",
+        "name" : "TC07 ble to navigate to dashboard page",
+        "uid" : "bc62d74820b885e1",
+        "parentUid" : "b6082d3f4780e35588ca4e33650078c5",
         "status" : "passed",
         "time" : {
-          "start" : 1559553747230,
-          "stop" : 1559553751787,
-          "duration" : 4557
+          "start" : 1559576860928,
+          "stop" : 1559576870995,
+          "duration" : 10067
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC02 Login with empty user name and correct password",
+        "uid" : "25a36bf3d95ccc94",
+        "parentUid" : "b6082d3f4780e35588ca4e33650078c5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559576735754,
+          "stop" : 1559576739451,
+          "duration" : 3697
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC01 Able to navigate to admin page",
+        "uid" : "cc26f8c5f48e8119",
+        "parentUid" : "b6082d3f4780e35588ca4e33650078c5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1559576789252,
+          "stop" : 1559576800262,
+          "duration" : 11010
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "TC03 Able to navigate to leave page",
-        "uid" : "92eef2ab43f2dfed",
-        "parentUid" : "cdc3cfa141b122736da446dc777a661c",
+        "uid" : "bd963a104ba93e78",
+        "parentUid" : "b6082d3f4780e35588ca4e33650078c5",
         "status" : "passed",
         "time" : {
-          "start" : 1559553838372,
-          "stop" : 1559553844808,
-          "duration" : 6436
+          "start" : 1559576821213,
+          "stop" : 1559576827518,
+          "duration" : 6305
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "TC06 Able to navigate to performance page",
-        "uid" : "757a3e7a0bcee37b",
-        "parentUid" : "cdc3cfa141b122736da446dc777a661c",
-        "status" : "failed",
+        "name" : "TC08 Able to navigate to directory page",
+        "uid" : "de9faeb65a7b5a0b",
+        "parentUid" : "b6082d3f4780e35588ca4e33650078c5",
+        "status" : "passed",
         "time" : {
-          "start" : 1559553869032,
-          "stop" : 1559553874813,
-          "duration" : 5781
+          "start" : 1559576873840,
+          "stop" : 1559576900684,
+          "duration" : 26844
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "TC10 Able to navigate to many page",
-        "uid" : "6dad901e186a8042",
-        "parentUid" : "cdc3cfa141b122736da446dc777a661c",
+        "uid" : "71993a2030ce17a",
+        "parentUid" : "b6082d3f4780e35588ca4e33650078c5",
         "status" : "failed",
         "time" : {
-          "start" : 1559553929207,
-          "stop" : 1559553971444,
-          "duration" : 42237
+          "start" : 1559576912178,
+          "stop" : 1559576954722,
+          "duration" : 42544
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "TC04 Login with correct username and correct password",
-        "uid" : "60a148ae1482b433",
-        "parentUid" : "cdc3cfa141b122736da446dc777a661c",
+        "name" : "TC08 Login with incorrect user name and incorrect password",
+        "uid" : "e92b6bceba8f0ce7",
+        "parentUid" : "b6082d3f4780e35588ca4e33650078c5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559576769546,
+          "stop" : 1559576773686,
+          "duration" : 4140
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC06 Login with incorrect user name and correct password",
+        "uid" : "5aec8fe5286ee629",
+        "parentUid" : "b6082d3f4780e35588ca4e33650078c5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559576755609,
+          "stop" : 1559576759778,
+          "duration" : 4169
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC04 Able to navigate to time page",
+        "uid" : "7eaf7c27039f5437",
+        "parentUid" : "b6082d3f4780e35588ca4e33650078c5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559576830487,
+          "stop" : 1559576837165,
+          "duration" : 6678
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC05 Able to navigate to recruitment page",
+        "uid" : "887e621adb01a601",
+        "parentUid" : "b6082d3f4780e35588ca4e33650078c5",
         "status" : "failed",
         "time" : {
-          "start" : 1559553974713,
-          "stop" : 1559553978730,
-          "duration" : 4017
+          "start" : 1559576840040,
+          "stop" : 1559576848925,
+          "duration" : 8885
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "TC09 Able to navigate to About modal",
-        "uid" : "cf6a892b87369bb2",
-        "parentUid" : "cdc3cfa141b122736da446dc777a661c",
+        "uid" : "6f5eda6dfa043278",
+        "parentUid" : "b6082d3f4780e35588ca4e33650078c5",
         "status" : "failed",
         "time" : {
-          "start" : 1559553920324,
-          "stop" : 1559553926020,
-          "duration" : 5696
+          "start" : 1559576903548,
+          "stop" : 1559576908825,
+          "duration" : 5277
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC06 Able to navigate to performance page",
+        "uid" : "c98f5eb7fb4a3c91",
+        "parentUid" : "b6082d3f4780e35588ca4e33650078c5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1559576852208,
+          "stop" : 1559576857717,
+          "duration" : 5509
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC01 User is inquiry with valid name",
+        "uid" : "9394b1dcc43ce587",
+        "parentUid" : "b6082d3f4780e35588ca4e33650078c5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1559576965323,
+          "stop" : 1559576972361,
+          "duration" : 7038
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC04 Login with correct username and correct password",
+        "uid" : "f16b3ebc1e9eb066",
+        "parentUid" : "b6082d3f4780e35588ca4e33650078c5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1559576957908,
+          "stop" : 1559576962097,
+          "duration" : 4189
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "cdc3cfa141b122736da446dc777a661c"
+      "uid" : "b6082d3f4780e35588ca4e33650078c5"
     } ],
     "uid" : "004d78fc52038288d8a227e54859b1d5"
   } ]

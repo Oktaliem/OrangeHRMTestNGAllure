@@ -165,6 +165,8 @@ public class HomePage {
         BufferedImage actImage;
         ImageDiffer imgDiff;
         ImageDiff diff;
+        BufferedImage markedImage;
+
         assertThat(driver.getCurrentUrl(), containsString(page));
         switch (page) {
             case ADMIN_PAGE:
@@ -178,8 +180,6 @@ public class HomePage {
                 break;
             case PIM_PAGE:
                 assertThat(driver.findElement(By.id("employee-information")).getText(), containsString(getEmployeeInfo()));
-                //imageComparison.compareFullPageScreenShoot(".\\baseimages\\PIMPage.png", "ActualPIMPage");
-                //Assert.assertTrue(imageComparison.compareFullPageScreenShoot(".\\baseimages\\PIMPage.png", "ActualPIMPage"));
                 break;
             case LEAVE_PAGE:
                 assertThat(driver.findElement(By.id("locationHeading")).getText(), containsString("Leave Period"));
@@ -195,6 +195,20 @@ public class HomePage {
                 status = Shutterbug.shootPage(driver, ScrollStrategy.WHOLE_PAGE, 500, true).equals(expectedImage, 0.1);
                 Assert.assertTrue(status);
                 //===================Shutterbug, image size comparison i.e 360 x234 , success =========//
+
+                //=================== aShot, images comparison in success scenario ======================================================//
+                expImage = ImageIO.read(new File(System.getProperty("user.dir") + ".\\baseimages\\DirectoryPage.png"));
+                actImage = ImageIO.read(new File(System.getProperty("user.dir") + ".\\screenShots\\DirectoryPage.png"));
+                imgDiff = new ImageDiffer();
+                diff = imgDiff.makeDiff(actImage, expImage);
+                if (diff.hasDiff() == true) {
+                    markedImage = diff.getMarkedImage();
+                    ImageIO.write(markedImage, "PNG", new File(System.getProperty("user.dir") + ".\\screenshots\\DirectoryPage_Diff.png"));
+                }
+                Assert.assertFalse(diff.hasDiff(), "Images are identical");
+                //Result : aShot is able to compare image content
+                //=================== aShot, images comparison in success scenario ======================================================//
+
                 break;
             case TIME_PAGE:
                 assertThat(driver.findElement(By.id("defineTimesheet")).getText(), containsString("Define Timesheet Period"));
@@ -203,7 +217,7 @@ public class HomePage {
                 actImage = ImageIO.read(new File(System.getProperty("user.dir") + ".\\screenShots\\TimePage.png"));
                 imgDiff = new ImageDiffer();
                 diff = imgDiff.makeDiff(actImage, expImage);
-                Assert.assertFalse(diff.hasDiff(), "Images are Same");
+                Assert.assertFalse(diff.hasDiff(), "Images are identical");
                 //=================== aShot, images comparison in success scenario ======================================================//
                 break;
             case RECRUITMENT_PAGE:
@@ -222,10 +236,12 @@ public class HomePage {
                 actImage = ImageIO.read(new File(System.getProperty("user.dir") + ".\\screenShots\\RecruitmentPage.png"));
                 imgDiff = new ImageDiffer();
                 diff = imgDiff.makeDiff(actImage, expImage);
-                BufferedImage markedImage = diff.getMarkedImage();
-                ImageIO.write(markedImage, "PNG", new File(System.getProperty("user.dir") + ".\\screenshots\\RecruitmentPage_Diff.png"));
-                Assert.assertFalse(diff.hasDiff(), "Images are Same");
-                //Results : aShot is able to compare image content
+                if (diff.hasDiff() == true) {
+                    markedImage = diff.getMarkedImage();
+                    ImageIO.write(markedImage, "PNG", new File(System.getProperty("user.dir") + ".\\screenshots\\RecruitmentPage_Diff.png"));
+                }
+                Assert.assertFalse(diff.hasDiff(), "Images are identical");
+                //Result : aShot is able to compare image content
                 //=================== aShot, images comparison in fail scenario ======================================================//
                 break;
         }

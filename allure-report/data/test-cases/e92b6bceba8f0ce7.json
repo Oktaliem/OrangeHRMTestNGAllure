@@ -1,0 +1,221 @@
+{
+  "uid" : "e92b6bceba8f0ce7",
+  "name" : "TC08 Login with incorrect user name and incorrect password",
+  "fullName" : "features.LoginORMTest.TC08_login",
+  "historyId" : "ca62bced3f0f4067d122f4ee5e08774c",
+  "time" : {
+    "start" : 1559576769546,
+    "stop" : 1559576773686,
+    "duration" : 4140
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeMethodSetup",
+    "time" : {
+      "start" : 1559576767477,
+      "stop" : 1559576769524,
+      "duration" : 2047
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given - User is landing to expected page - Login",
+      "time" : {
+        "start" : 1559576769547,
+        "stop" : 1559576771146,
+        "duration" : 1599
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "Login"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When - User inputs user name",
+      "time" : {
+        "start" : 1559576771146,
+        "stop" : 1559576771736,
+        "duration" : 590
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e8c7b33439c193d5",
+        "name" : "Page screenshot",
+        "source" : "e8c7b33439c193d5.png",
+        "type" : "image/png",
+        "size" : 157604
+      } ],
+      "parameters" : [ {
+        "name" : "login",
+        "value" : "derseeee"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And - User inputs password",
+      "time" : {
+        "start" : 1559576771737,
+        "stop" : 1559576772253,
+        "duration" : 516
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a811c9759ae4c2f0",
+        "name" : "Page screenshot",
+        "source" : "a811c9759ae4c2f0.png",
+        "type" : "image/png",
+        "size" : 157802
+      } ],
+      "parameters" : [ {
+        "name" : "pswd",
+        "value" : "$%^&*"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And - User submits login form",
+      "time" : {
+        "start" : 1559576772253,
+        "stop" : 1559576773122,
+        "duration" : 869
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e7b5bf4232a2bcf",
+        "name" : "Page screenshot",
+        "source" : "e7b5bf4232a2bcf.png",
+        "type" : "image/png",
+        "size" : 156853
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then - login's error message will be displayed",
+      "time" : {
+        "start" : 1559576773122,
+        "stop" : 1559576773585,
+        "duration" : 463
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "115141fe275cbcc6",
+        "name" : "Page screenshot",
+        "source" : "115141fe275cbcc6.png",
+        "type" : "image/png",
+        "size" : 156853
+      } ],
+      "parameters" : [ {
+        "name" : "error",
+        "value" : "Invalid credentials"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "hasContent" : true,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "closeBrowser",
+    "time" : {
+      "start" : 1559576773693,
+      "stop" : 1559576774448,
+      "duration" : 755
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "features.LoginORMTest"
+  }, {
+    "name" : "testClass",
+    "value" : "features.LoginORMTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC08_login"
+  }, {
+    "name" : "parentSuite",
+    "value" : "OrangeHRM Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Full Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "features.LoginORMTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-1DCFOTD"
+  }, {
+    "name" : "thread",
+    "value" : "12192@DESKTOP-1DCFOTD.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Login To Orange HRM Portal"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e92b6bceba8f0ce7.json",
+  "parameterValues" : [ ]
+}
