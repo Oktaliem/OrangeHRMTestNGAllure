@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="262.06" tests="20" errors="0" skipped="0" failures="7">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="267.421" tests="20" errors="0" skipped="0" failures="7">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\bin"/>
@@ -64,184 +64,114 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="TC01_login" classname="features.LoginORMTest" time="3.579"/>
-  <testcase name="TC02_login" classname="features.LoginORMTest" time="3.162"/>
-  <testcase name="TC03_login" classname="features.LoginORMTest" time="3.332"/>
-  <testcase name="TC05_login" classname="features.LoginORMTest" time="3.734"/>
-  <testcase name="TC06_login" classname="features.LoginORMTest" time="3.552"/>
-  <testcase name="TC07_login" classname="features.LoginORMTest" time="4.011"/>
-  <testcase name="TC08_login" classname="features.LoginORMTest" time="3.55"/>
-  <testcase name="TC02_inquiry" classname="features.InquiryUserOHRMTest" time="11.091"/>
-  <testcase name="TC01_home_navigation" classname="features.HomePageNavigationTest" time="12.541">
+  <testcase name="TC01_login" classname="features.LoginORMTest" time="8.317"/>
+  <testcase name="TC02_login" classname="features.LoginORMTest" time="2.713"/>
+  <testcase name="TC03_login" classname="features.LoginORMTest" time="2.703"/>
+  <testcase name="TC05_login" classname="features.LoginORMTest" time="3.396"/>
+  <testcase name="TC06_login" classname="features.LoginORMTest" time="2.869"/>
+  <testcase name="TC07_login" classname="features.LoginORMTest" time="3.175"/>
+  <testcase name="TC08_login" classname="features.LoginORMTest" time="2.981"/>
+  <testcase name="TC02_inquiry" classname="features.InquiryUserOHRMTest" time="13.229"/>
+  <testcase name="TC01_home_navigation" classname="features.HomePageNavigationTest" time="11.853">
     <failure message="Images dimensions mismatch: image1 - 1920x2796; image2 - 1920x6349" type="com.assertthat.selenium_shutterbug.utils.image.UnableToCompareImagesException">com.assertthat.selenium_shutterbug.utils.image.UnableToCompareImagesException: Images dimensions mismatch: image1 - 1920x2796; image2 - 1920x6349
 	at features.HomePageNavigationTest.TC01_home_navigation(HomePageNavigationTest.java:26)
 </failure>
-    <system-out><![CDATA[2019-06-03 14:29:04 INFO  Log:8 - ======================================================================================================
-2019-06-03 14:29:04 INFO  Log:8 - ================================= END TO END TEST FINISHED ============================================
-2019-06-03 14:29:04 INFO  Log:8 - ======================================================================================================
-2019-06-03 14:29:06 INFO  Log:8 - ======================================================================================================
-2019-06-03 14:29:06 INFO  Log:8 - ================================= END TO END TEST STARTED ============================================
-2019-06-03 14:29:06 INFO  Log:8 - ======================================================================================================
+    <system-out><![CDATA[I am in onTestSuccess method TC02_inquiry succeed
+Screenshot captured for test case:TC02_inquiry
+2019-06-03 14:46:13 INFO  Log:8 - ======================================================================================================
+2019-06-03 14:46:13 INFO  Log:8 - ================================= END TO END TEST FINISHED ============================================
+2019-06-03 14:46:13 INFO  Log:8 - ======================================================================================================
+2019-06-03 14:46:15 INFO  Log:8 - ======================================================================================================
+2019-06-03 14:46:15 INFO  Log:8 - ================================= END TO END TEST STARTED ============================================
+2019-06-03 14:46:15 INFO  Log:8 - ======================================================================================================
+2019-06-03 14:46:15 INFO  MonteRecorder:39 - Recording started
 I am in onTestStart method TC01_home_navigation start
-2019-06-03 14:29:06 INFO  Log:8 - TC01_home_navigation test is starting.
-2019-06-03 14:29:06 INFO  MonteRecorder:39 - Recording started
+2019-06-03 14:46:15 INFO  Log:8 - TC01_home_navigation test is starting.
 I am in onTestStart method TC01_home_navigation start
-2019-06-03 14:29:06 INFO  Log:8 - TC01_home_navigation test is starting.
-I am in onTestFailure method TC01_home_navigation failed
-Screenshot captured for test case:TC01_home_navigation
-Video captured for test case:TC01_home_navigation
-2019-06-03 14:29:18 INFO  MonteRecorder:45 - Recording finished to C:\Users\User\Documents\GitHub\OrangeHRMTestNGAllure\video\TC01_home_navigation_recording_2019_03_06_14_29_18.avi
-2019-06-03 14:29:18 INFO  RecordingUtils:81 - No jenkinsUrl variable found.
-2019-06-03 14:29:18 INFO  RecordingUtils:26 - Video recording: C:\Users\User\Documents\GitHub\OrangeHRMTestNGAllure\video\TC01_home_navigation_recording_2019_03_06_14_29_18.avi
+2019-06-03 14:46:15 INFO  Log:8 - TC01_home_navigation test is starting.
+2019-06-03 14:46:26 INFO  MonteRecorder:45 - Recording finished to C:\Users\User\Documents\GitHub\OrangeHRMTestNGAllure\video\TC01_home_navigation_recording_2019_03_06_14_46_26.avi
+2019-06-03 14:46:26 INFO  RecordingUtils:81 - No jenkinsUrl variable found.
+2019-06-03 14:46:26 INFO  RecordingUtils:26 - Video recording: C:\Users\User\Documents\GitHub\OrangeHRMTestNGAllure\video\TC01_home_navigation_recording_2019_03_06_14_46_26.avi
 I am in onTestFailure method TC01_home_navigation failed
 Screenshot captured for test case:TC01_home_navigation
 Video captured for test case:TC01_home_navigation
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 2.38.551601 (edb21f07fc70e9027c746edd3201443e011a61ed) on port 25534
+    <system-err><![CDATA[Starting ChromeDriver 2.38.551601 (edb21f07fc70e9027c746edd3201443e011a61ed) on port 39782
 Only local connections are allowed.
-Jun 03, 2019 2:29:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jun 03, 2019 2:46:15 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
-java.io.FileNotFoundException: C:\Users\User\Documents\GitHub\OrangeHRMTestNGAllure\video\TC02_inquiry_recording_2019_03_06_14_29_02.avi (The system cannot find the file specified)
-	at java.io.FileInputStream.open0(Native Method)
-	at java.io.FileInputStream.open(FileInputStream.java:195)
-	at java.io.FileInputStream.<init>(FileInputStream.java:138)
-	at com.google.common.io.Files$FileByteSource.openStream(Files.java:129)
-	at com.google.common.io.Files$FileByteSource.read(Files.java:153)
-	at com.google.common.io.Files.toByteArray(Files.java:235)
-	at utils.Listeners.TestListener.attachVideo(TestListener.java:42)
-	at utils.Listeners.TestListener.onTestFailure(TestListener.java:95)
-	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:67)
-	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1389)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:636)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
 ]]></system-err>
   </testcase>
-  <testcase name="TC02_home_navigation" classname="features.HomePageNavigationTest" time="15.222"/>
-  <testcase name="TC03_home_navigation" classname="features.HomePageNavigationTest" time="7.653"/>
-  <testcase name="TC04_home_navigation" classname="features.HomePageNavigationTest" time="7.041"/>
-  <testcase name="TC05_home_navigation" classname="features.HomePageNavigationTest" time="10.306">
+  <testcase name="TC02_home_navigation" classname="features.HomePageNavigationTest" time="13.995"/>
+  <testcase name="TC03_home_navigation" classname="features.HomePageNavigationTest" time="6.489"/>
+  <testcase name="TC04_home_navigation" classname="features.HomePageNavigationTest" time="6.648"/>
+  <testcase name="TC05_home_navigation" classname="features.HomePageNavigationTest" time="9.346">
     <failure message="Images are Same expected [false] but found [true]" type="java.lang.AssertionError">java.lang.AssertionError: Images are Same expected [false] but found [true]
 	at features.HomePageNavigationTest.TC05_home_navigation(HomePageNavigationTest.java:60)
 </failure>
-    <system-out><![CDATA[2019-06-03 14:29:58 INFO  Log:8 - ======================================================================================================
-2019-06-03 14:29:58 INFO  Log:8 - ================================= END TO END TEST FINISHED ============================================
-2019-06-03 14:29:58 INFO  Log:8 - ======================================================================================================
-2019-06-03 14:30:00 INFO  Log:8 - ======================================================================================================
-2019-06-03 14:30:00 INFO  Log:8 - ================================= END TO END TEST STARTED ============================================
-2019-06-03 14:30:00 INFO  Log:8 - ======================================================================================================
+    <system-out><![CDATA[I am in onTestSuccess method TC04_home_navigation succeed
+Screenshot captured for test case:TC04_home_navigation
+2019-06-03 14:47:05 INFO  Log:8 - ======================================================================================================
+2019-06-03 14:47:05 INFO  Log:8 - ================================= END TO END TEST FINISHED ============================================
+2019-06-03 14:47:05 INFO  Log:8 - ======================================================================================================
+2019-06-03 14:47:07 INFO  Log:8 - ======================================================================================================
+2019-06-03 14:47:07 INFO  Log:8 - ================================= END TO END TEST STARTED ============================================
+2019-06-03 14:47:07 INFO  Log:8 - ======================================================================================================
+2019-06-03 14:47:07 INFO  MonteRecorder:39 - Recording started
 I am in onTestStart method TC05_home_navigation start
-2019-06-03 14:30:00 INFO  Log:8 - TC05_home_navigation test is starting.
-2019-06-03 14:30:00 INFO  MonteRecorder:39 - Recording started
+2019-06-03 14:47:07 INFO  Log:8 - TC05_home_navigation test is starting.
 I am in onTestStart method TC05_home_navigation start
-2019-06-03 14:30:00 INFO  Log:8 - TC05_home_navigation test is starting.
-I am in onTestFailure method TC05_home_navigation failed
-Screenshot captured for test case:TC05_home_navigation
-Video captured for test case:TC05_home_navigation
-2019-06-03 14:30:10 INFO  MonteRecorder:45 - Recording finished to C:\Users\User\Documents\GitHub\OrangeHRMTestNGAllure\video\TC05_home_navigation_recording_2019_03_06_14_30_10.avi
-2019-06-03 14:30:10 INFO  RecordingUtils:81 - No jenkinsUrl variable found.
-2019-06-03 14:30:10 INFO  RecordingUtils:26 - Video recording: C:\Users\User\Documents\GitHub\OrangeHRMTestNGAllure\video\TC05_home_navigation_recording_2019_03_06_14_30_10.avi
+2019-06-03 14:47:07 INFO  Log:8 - TC05_home_navigation test is starting.
+2019-06-03 14:47:16 INFO  MonteRecorder:45 - Recording finished to C:\Users\User\Documents\GitHub\OrangeHRMTestNGAllure\video\TC05_home_navigation_recording_2019_03_06_14_47_16.avi
+2019-06-03 14:47:16 INFO  RecordingUtils:81 - No jenkinsUrl variable found.
+2019-06-03 14:47:16 INFO  RecordingUtils:26 - Video recording: C:\Users\User\Documents\GitHub\OrangeHRMTestNGAllure\video\TC05_home_navigation_recording_2019_03_06_14_47_16.avi
 I am in onTestFailure method TC05_home_navigation failed
 Screenshot captured for test case:TC05_home_navigation
 Video captured for test case:TC05_home_navigation
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 2.38.551601 (edb21f07fc70e9027c746edd3201443e011a61ed) on port 30047
+    <system-err><![CDATA[Starting ChromeDriver 2.38.551601 (edb21f07fc70e9027c746edd3201443e011a61ed) on port 23949
 Only local connections are allowed.
-Jun 03, 2019 2:30:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jun 03, 2019 2:47:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
-java.io.FileNotFoundException: C:\Users\User\Documents\GitHub\OrangeHRMTestNGAllure\video\TC04_home_navigation_recording_2019_03_06_14_29_57.avi (The system cannot find the file specified)
-	at java.io.FileInputStream.open0(Native Method)
-	at java.io.FileInputStream.open(FileInputStream.java:195)
-	at java.io.FileInputStream.<init>(FileInputStream.java:138)
-	at com.google.common.io.Files$FileByteSource.openStream(Files.java:129)
-	at com.google.common.io.Files$FileByteSource.read(Files.java:153)
-	at com.google.common.io.Files.toByteArray(Files.java:235)
-	at utils.Listeners.TestListener.attachVideo(TestListener.java:42)
-	at utils.Listeners.TestListener.onTestFailure(TestListener.java:95)
-	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:67)
-	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1389)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:636)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
 ]]></system-err>
   </testcase>
-  <testcase name="TC06_home_navigation" classname="features.HomePageNavigationTest" time="6.218">
+  <testcase name="TC06_home_navigation" classname="features.HomePageNavigationTest" time="4.864">
     <failure message="&#10;Expected: a string containing &quot;http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/recruitment/viewCandidates#&quot;&#10;     but: was &quot;http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/dashboard#&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
 
 Expected: a string containing "http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/recruitment/viewCandidates#"
      but: was "http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/dashboard#"
 	at features.HomePageNavigationTest.TC06_home_navigation(HomePageNavigationTest.java:68)
 </failure>
-    <system-out><![CDATA[2019-06-03 14:30:11 INFO  Log:8 - ======================================================================================================
-2019-06-03 14:30:11 INFO  Log:8 - ================================= END TO END TEST FINISHED ============================================
-2019-06-03 14:30:11 INFO  Log:8 - ======================================================================================================
-2019-06-03 14:30:13 INFO  Log:8 - ======================================================================================================
-2019-06-03 14:30:13 INFO  Log:8 - ================================= END TO END TEST STARTED ============================================
-2019-06-03 14:30:13 INFO  Log:8 - ======================================================================================================
+    <system-out><![CDATA[I am in onTestFailure method TC05_home_navigation failed
+Screenshot captured for test case:TC05_home_navigation
+Video captured for test case:TC05_home_navigation
+2019-06-03 14:47:18 INFO  Log:8 - ======================================================================================================
+2019-06-03 14:47:18 INFO  Log:8 - ================================= END TO END TEST FINISHED ============================================
+2019-06-03 14:47:18 INFO  Log:8 - ======================================================================================================
+2019-06-03 14:47:20 INFO  Log:8 - ======================================================================================================
+2019-06-03 14:47:20 INFO  Log:8 - ================================= END TO END TEST STARTED ============================================
+2019-06-03 14:47:20 INFO  Log:8 - ======================================================================================================
+2019-06-03 14:47:20 INFO  MonteRecorder:39 - Recording started
 I am in onTestStart method TC06_home_navigation start
-2019-06-03 14:30:13 INFO  Log:8 - TC06_home_navigation test is starting.
-2019-06-03 14:30:13 INFO  MonteRecorder:39 - Recording started
+2019-06-03 14:47:20 INFO  Log:8 - TC06_home_navigation test is starting.
 I am in onTestStart method TC06_home_navigation start
-2019-06-03 14:30:13 INFO  Log:8 - TC06_home_navigation test is starting.
-I am in onTestFailure method TC06_home_navigation failed
-Screenshot captured for test case:TC06_home_navigation
-Video captured for test case:TC06_home_navigation
-2019-06-03 14:30:19 INFO  MonteRecorder:45 - Recording finished to C:\Users\User\Documents\GitHub\OrangeHRMTestNGAllure\video\TC06_home_navigation_recording_2019_03_06_14_30_19.avi
-2019-06-03 14:30:19 INFO  RecordingUtils:81 - No jenkinsUrl variable found.
-2019-06-03 14:30:19 INFO  RecordingUtils:26 - Video recording: C:\Users\User\Documents\GitHub\OrangeHRMTestNGAllure\video\TC06_home_navigation_recording_2019_03_06_14_30_19.avi
+2019-06-03 14:47:20 INFO  Log:8 - TC06_home_navigation test is starting.
+2019-06-03 14:47:25 INFO  MonteRecorder:45 - Recording finished to C:\Users\User\Documents\GitHub\OrangeHRMTestNGAllure\video\TC06_home_navigation_recording_2019_03_06_14_47_25.avi
+2019-06-03 14:47:25 INFO  RecordingUtils:81 - No jenkinsUrl variable found.
+2019-06-03 14:47:25 INFO  RecordingUtils:26 - Video recording: C:\Users\User\Documents\GitHub\OrangeHRMTestNGAllure\video\TC06_home_navigation_recording_2019_03_06_14_47_25.avi
 I am in onTestFailure method TC06_home_navigation failed
 Screenshot captured for test case:TC06_home_navigation
 Video captured for test case:TC06_home_navigation
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 2.38.551601 (edb21f07fc70e9027c746edd3201443e011a61ed) on port 23657
+    <system-err><![CDATA[Starting ChromeDriver 2.38.551601 (edb21f07fc70e9027c746edd3201443e011a61ed) on port 33888
 Only local connections are allowed.
-Jun 03, 2019 2:30:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jun 03, 2019 2:47:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>
-  <testcase name="TC07_home_navigation" classname="features.HomePageNavigationTest" time="11.375"/>
-  <testcase name="TC08_home_navigation" classname="features.HomePageNavigationTest" time="30.497"/>
-  <testcase name="TC09_home_navigation" classname="features.HomePageNavigationTest" time="5.504">
+  <testcase name="TC07_home_navigation" classname="features.HomePageNavigationTest" time="9.783"/>
+  <testcase name="TC08_home_navigation" classname="features.HomePageNavigationTest" time="28.773"/>
+  <testcase name="TC09_home_navigation" classname="features.HomePageNavigationTest" time="5.763">
     <failure message="&#10;Expected: a string containing &quot;Company Name: Okta Jaya Pte Ltd&quot;&#10;     but: was &quot;Company Name:&#10;Version: Orangehrm OS 4.0&#10;Active Employees: 73&#10;Employees Terminated: 0&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
 
 Expected: a string containing "Company Name: Okta Jaya Pte Ltd"
@@ -251,137 +181,102 @@ Active Employees: 73
 Employees Terminated: 0"
 	at features.HomePageNavigationTest.TC09_home_navigation(HomePageNavigationTest.java:93)
 </failure>
-    <system-out><![CDATA[2019-06-03 14:31:08 INFO  Log:8 - ======================================================================================================
-2019-06-03 14:31:08 INFO  Log:8 - ================================= END TO END TEST FINISHED ============================================
-2019-06-03 14:31:08 INFO  Log:8 - ======================================================================================================
-2019-06-03 14:31:11 INFO  Log:8 - ======================================================================================================
-2019-06-03 14:31:11 INFO  Log:8 - ================================= END TO END TEST STARTED ============================================
-2019-06-03 14:31:11 INFO  Log:8 - ======================================================================================================
+    <system-out><![CDATA[I am in onTestSuccess method TC08_home_navigation succeed
+Screenshot captured for test case:TC08_home_navigation
+2019-06-03 14:48:11 INFO  Log:8 - ======================================================================================================
+2019-06-03 14:48:11 INFO  Log:8 - ================================= END TO END TEST FINISHED ============================================
+2019-06-03 14:48:11 INFO  Log:8 - ======================================================================================================
+2019-06-03 14:48:14 INFO  Log:8 - ======================================================================================================
+2019-06-03 14:48:14 INFO  Log:8 - ================================= END TO END TEST STARTED ============================================
+2019-06-03 14:48:14 INFO  Log:8 - ======================================================================================================
+2019-06-03 14:48:14 INFO  MonteRecorder:39 - Recording started
 I am in onTestStart method TC09_home_navigation start
-2019-06-03 14:31:11 INFO  Log:8 - TC09_home_navigation test is starting.
-2019-06-03 14:31:11 INFO  MonteRecorder:39 - Recording started
+2019-06-03 14:48:14 INFO  Log:8 - TC09_home_navigation test is starting.
 I am in onTestStart method TC09_home_navigation start
-2019-06-03 14:31:11 INFO  Log:8 - TC09_home_navigation test is starting.
-I am in onTestFailure method TC09_home_navigation failed
-Screenshot captured for test case:TC09_home_navigation
-Video captured for test case:TC09_home_navigation
-2019-06-03 14:31:16 INFO  MonteRecorder:45 - Recording finished to C:\Users\User\Documents\GitHub\OrangeHRMTestNGAllure\video\TC09_home_navigation_recording_2019_03_06_14_31_16.avi
-2019-06-03 14:31:16 INFO  RecordingUtils:81 - No jenkinsUrl variable found.
-2019-06-03 14:31:16 INFO  RecordingUtils:26 - Video recording: C:\Users\User\Documents\GitHub\OrangeHRMTestNGAllure\video\TC09_home_navigation_recording_2019_03_06_14_31_16.avi
+2019-06-03 14:48:14 INFO  Log:8 - TC09_home_navigation test is starting.
+2019-06-03 14:48:19 INFO  MonteRecorder:45 - Recording finished to C:\Users\User\Documents\GitHub\OrangeHRMTestNGAllure\video\TC09_home_navigation_recording_2019_03_06_14_48_19.avi
+2019-06-03 14:48:19 INFO  RecordingUtils:81 - No jenkinsUrl variable found.
+2019-06-03 14:48:19 INFO  RecordingUtils:26 - Video recording: C:\Users\User\Documents\GitHub\OrangeHRMTestNGAllure\video\TC09_home_navigation_recording_2019_03_06_14_48_19.avi
 I am in onTestFailure method TC09_home_navigation failed
 Screenshot captured for test case:TC09_home_navigation
 Video captured for test case:TC09_home_navigation
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 2.38.551601 (edb21f07fc70e9027c746edd3201443e011a61ed) on port 40496
+    <system-err><![CDATA[Starting ChromeDriver 2.38.551601 (edb21f07fc70e9027c746edd3201443e011a61ed) on port 35494
 Only local connections are allowed.
-Jun 03, 2019 2:31:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jun 03, 2019 2:48:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
-java.io.FileNotFoundException: C:\Users\User\Documents\GitHub\OrangeHRMTestNGAllure\video\TC08_home_navigation_recording_2019_03_06_14_31_07.avi (The system cannot find the file specified)
-	at java.io.FileInputStream.open0(Native Method)
-	at java.io.FileInputStream.open(FileInputStream.java:195)
-	at java.io.FileInputStream.<init>(FileInputStream.java:138)
-	at com.google.common.io.Files$FileByteSource.openStream(Files.java:129)
-	at com.google.common.io.Files$FileByteSource.read(Files.java:153)
-	at com.google.common.io.Files.toByteArray(Files.java:235)
-	at utils.Listeners.TestListener.attachVideo(TestListener.java:42)
-	at utils.Listeners.TestListener.onTestFailure(TestListener.java:95)
-	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:67)
-	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1389)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:636)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
 ]]></system-err>
   </testcase>
-  <testcase name="TC10_home_navigation" classname="features.HomePageNavigationTest" time="43.283">
+  <testcase name="TC10_home_navigation" classname="features.HomePageNavigationTest" time="45.766">
     <failure message="&#10;Expected: a string containing &quot;http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/admin/viewSystemUsers&quot;&#10;     but: was &quot;http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/directory/viewDirectory/reset/1&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
 
 Expected: a string containing "http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/admin/viewSystemUsers"
      but: was "http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/directory/viewDirectory/reset/1"
 	at features.HomePageNavigationTest.TC10_home_navigation(HomePageNavigationTest.java:106)
 </failure>
-    <system-out><![CDATA[2019-06-03 14:31:17 INFO  Log:8 - ======================================================================================================
-2019-06-03 14:31:17 INFO  Log:8 - ================================= END TO END TEST FINISHED ============================================
-2019-06-03 14:31:17 INFO  Log:8 - ======================================================================================================
-2019-06-03 14:31:19 INFO  Log:8 - ======================================================================================================
-2019-06-03 14:31:19 INFO  Log:8 - ================================= END TO END TEST STARTED ============================================
-2019-06-03 14:31:19 INFO  Log:8 - ======================================================================================================
+    <system-out><![CDATA[I am in onTestFailure method TC09_home_navigation failed
+Screenshot captured for test case:TC09_home_navigation
+Video captured for test case:TC09_home_navigation
+2019-06-03 14:48:21 INFO  Log:8 - ======================================================================================================
+2019-06-03 14:48:21 INFO  Log:8 - ================================= END TO END TEST FINISHED ============================================
+2019-06-03 14:48:21 INFO  Log:8 - ======================================================================================================
+2019-06-03 14:48:23 INFO  Log:8 - ======================================================================================================
+2019-06-03 14:48:23 INFO  Log:8 - ================================= END TO END TEST STARTED ============================================
+2019-06-03 14:48:23 INFO  Log:8 - ======================================================================================================
+2019-06-03 14:48:23 INFO  MonteRecorder:39 - Recording started
 I am in onTestStart method TC10_home_navigation start
-2019-06-03 14:31:19 INFO  Log:8 - TC10_home_navigation test is starting.
-2019-06-03 14:31:19 INFO  MonteRecorder:39 - Recording started
+2019-06-03 14:48:23 INFO  Log:8 - TC10_home_navigation test is starting.
 I am in onTestStart method TC10_home_navigation start
-2019-06-03 14:31:19 INFO  Log:8 - TC10_home_navigation test is starting.
-I am in onTestFailure method TC10_home_navigation failed
-Screenshot captured for test case:TC10_home_navigation
-Video captured for test case:TC10_home_navigation
-2019-06-03 14:32:02 INFO  MonteRecorder:45 - Recording finished to C:\Users\User\Documents\GitHub\OrangeHRMTestNGAllure\video\TC10_home_navigation_recording_2019_03_06_14_32_02.avi
-2019-06-03 14:32:02 INFO  RecordingUtils:81 - No jenkinsUrl variable found.
-2019-06-03 14:32:02 INFO  RecordingUtils:26 - Video recording: C:\Users\User\Documents\GitHub\OrangeHRMTestNGAllure\video\TC10_home_navigation_recording_2019_03_06_14_32_02.avi
+2019-06-03 14:48:23 INFO  Log:8 - TC10_home_navigation test is starting.
+2019-06-03 14:49:08 INFO  MonteRecorder:45 - Recording finished to C:\Users\User\Documents\GitHub\OrangeHRMTestNGAllure\video\TC10_home_navigation_recording_2019_03_06_14_49_08.avi
+2019-06-03 14:49:08 INFO  RecordingUtils:81 - No jenkinsUrl variable found.
+2019-06-03 14:49:08 INFO  RecordingUtils:26 - Video recording: C:\Users\User\Documents\GitHub\OrangeHRMTestNGAllure\video\TC10_home_navigation_recording_2019_03_06_14_49_08.avi
 I am in onTestFailure method TC10_home_navigation failed
 Screenshot captured for test case:TC10_home_navigation
 Video captured for test case:TC10_home_navigation
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 2.38.551601 (edb21f07fc70e9027c746edd3201443e011a61ed) on port 45420
+    <system-err><![CDATA[Starting ChromeDriver 2.38.551601 (edb21f07fc70e9027c746edd3201443e011a61ed) on port 28263
 Only local connections are allowed.
-Jun 03, 2019 2:31:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jun 03, 2019 2:48:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>
-  <testcase name="TC04_login" classname="features.LoginORMTest" time="3.9">
+  <testcase name="TC04_login" classname="features.LoginORMTest" time="3.384">
     <failure message="&#10;Expected: a string containing &quot;http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/dashboard&quot;&#10;     but: was &quot;http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/auth/validateCredentials&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
 
 Expected: a string containing "http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/dashboard"
      but: was "http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/auth/validateCredentials"
 	at features.LoginORMTest.TC04_login(LoginORMTest.java:57)
 </failure>
-    <system-out><![CDATA[2019-06-03 14:32:03 INFO  Log:8 - ======================================================================================================
-2019-06-03 14:32:03 INFO  Log:8 - ================================= END TO END TEST FINISHED ============================================
-2019-06-03 14:32:03 INFO  Log:8 - ======================================================================================================
-2019-06-03 14:32:05 INFO  Log:8 - ======================================================================================================
-2019-06-03 14:32:05 INFO  Log:8 - ================================= END TO END TEST STARTED ============================================
-2019-06-03 14:32:05 INFO  Log:8 - ======================================================================================================
+    <system-out><![CDATA[I am in onTestFailure method TC10_home_navigation failed
+Screenshot captured for test case:TC10_home_navigation
+Video captured for test case:TC10_home_navigation
+2019-06-03 14:49:10 INFO  Log:8 - ======================================================================================================
+2019-06-03 14:49:10 INFO  Log:8 - ================================= END TO END TEST FINISHED ============================================
+2019-06-03 14:49:10 INFO  Log:8 - ======================================================================================================
+2019-06-03 14:49:12 INFO  Log:8 - ======================================================================================================
+2019-06-03 14:49:12 INFO  Log:8 - ================================= END TO END TEST STARTED ============================================
+2019-06-03 14:49:12 INFO  Log:8 - ======================================================================================================
+2019-06-03 14:49:12 INFO  MonteRecorder:39 - Recording started
 I am in onTestStart method TC04_login start
-2019-06-03 14:32:05 INFO  Log:8 - TC04_login test is starting.
-2019-06-03 14:32:05 INFO  MonteRecorder:39 - Recording started
+2019-06-03 14:49:12 INFO  Log:8 - TC04_login test is starting.
 I am in onTestStart method TC04_login start
-2019-06-03 14:32:05 INFO  Log:8 - TC04_login test is starting.
-I am in onTestFailure method TC04_login failed
-Screenshot captured for test case:TC04_login
-Video captured for test case:TC04_login
-2019-06-03 14:32:09 INFO  MonteRecorder:45 - Recording finished to C:\Users\User\Documents\GitHub\OrangeHRMTestNGAllure\video\TC04_login_recording_2019_03_06_14_32_09.avi
-2019-06-03 14:32:09 INFO  RecordingUtils:81 - No jenkinsUrl variable found.
-2019-06-03 14:32:09 INFO  RecordingUtils:26 - Video recording: C:\Users\User\Documents\GitHub\OrangeHRMTestNGAllure\video\TC04_login_recording_2019_03_06_14_32_09.avi
+2019-06-03 14:49:12 INFO  Log:8 - TC04_login test is starting.
+2019-06-03 14:49:15 INFO  MonteRecorder:45 - Recording finished to C:\Users\User\Documents\GitHub\OrangeHRMTestNGAllure\video\TC04_login_recording_2019_03_06_14_49_15.avi
+2019-06-03 14:49:15 INFO  RecordingUtils:81 - No jenkinsUrl variable found.
+2019-06-03 14:49:15 INFO  RecordingUtils:26 - Video recording: C:\Users\User\Documents\GitHub\OrangeHRMTestNGAllure\video\TC04_login_recording_2019_03_06_14_49_15.avi
 I am in onTestFailure method TC04_login failed
 Screenshot captured for test case:TC04_login
 Video captured for test case:TC04_login
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 2.38.551601 (edb21f07fc70e9027c746edd3201443e011a61ed) on port 15620
+    <system-err><![CDATA[Starting ChromeDriver 2.38.551601 (edb21f07fc70e9027c746edd3201443e011a61ed) on port 1199
 Only local connections are allowed.
-Jun 03, 2019 2:32:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jun 03, 2019 2:49:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>
-  <testcase name="TC01_inquiry" classname="features.InquiryUserOHRMTest" time="7.674">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;resultTable&quot;}&#10;  (Session info: chrome=74.0.3729.169)&#10;  (Driver info: chromedriver=2.38.551601 (edb21f07fc70e9027c746edd3201443e011a61ed),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-1DCFOTD&apos;, ip: &apos;172.18.138.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.551601 (edb21f07fc70e9..., userDataDir: C:\Users\User\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}&#10;Session ID: 9d9e50196b79fb03a4b07055f1c8603c&#10;*** Element info: {Using=id, value=resultTable}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+  <testcase name="TC01_inquiry" classname="features.InquiryUserOHRMTest" time="7.256">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;resultTable&quot;}&#10;  (Session info: chrome=74.0.3729.169)&#10;  (Driver info: chromedriver=2.38.551601 (edb21f07fc70e9027c746edd3201443e011a61ed),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-1DCFOTD&apos;, ip: &apos;172.18.138.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.551601 (edb21f07fc70e9..., userDataDir: C:\Users\User\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}&#10;Session ID: 3b99087c9a17eef8fca2b7644a324fcf&#10;*** Element info: {Using=id, value=resultTable}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
 no such element: Unable to locate element: {"method":"id","selector":"resultTable"}
   (Session info: chrome=74.0.3729.169)
   (Driver info: chromedriver=2.38.551601 (edb21f07fc70e9027c746edd3201443e011a61ed),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
@@ -391,34 +286,34 @@ Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17
 System info: host: 'DESKTOP-1DCFOTD', ip: '172.18.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.551601 (edb21f07fc70e9..., userDataDir: C:\Users\User\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
-Session ID: 9d9e50196b79fb03a4b07055f1c8603c
+Session ID: 3b99087c9a17eef8fca2b7644a324fcf
 *** Element info: {Using=id, value=resultTable}
 	at features.InquiryUserOHRMTest.TC01_inquiry(InquiryUserOHRMTest.java:20)
 </failure>
-    <system-out><![CDATA[2019-06-03 14:32:10 INFO  Log:8 - ======================================================================================================
-2019-06-03 14:32:10 INFO  Log:8 - ================================= END TO END TEST FINISHED ============================================
-2019-06-03 14:32:10 INFO  Log:8 - ======================================================================================================
-2019-06-03 14:32:12 INFO  Log:8 - ======================================================================================================
-2019-06-03 14:32:12 INFO  Log:8 - ================================= END TO END TEST STARTED ============================================
-2019-06-03 14:32:12 INFO  Log:8 - ======================================================================================================
+    <system-out><![CDATA[I am in onTestFailure method TC04_login failed
+Screenshot captured for test case:TC04_login
+Video captured for test case:TC04_login
+2019-06-03 14:49:17 INFO  Log:8 - ======================================================================================================
+2019-06-03 14:49:17 INFO  Log:8 - ================================= END TO END TEST FINISHED ============================================
+2019-06-03 14:49:17 INFO  Log:8 - ======================================================================================================
+2019-06-03 14:49:19 INFO  Log:8 - ======================================================================================================
+2019-06-03 14:49:19 INFO  Log:8 - ================================= END TO END TEST STARTED ============================================
+2019-06-03 14:49:19 INFO  Log:8 - ======================================================================================================
+2019-06-03 14:49:19 INFO  MonteRecorder:39 - Recording started
 I am in onTestStart method TC01_inquiry start
-2019-06-03 14:32:12 INFO  Log:8 - TC01_inquiry test is starting.
-2019-06-03 14:32:12 INFO  MonteRecorder:39 - Recording started
+2019-06-03 14:49:19 INFO  Log:8 - TC01_inquiry test is starting.
 I am in onTestStart method TC01_inquiry start
-2019-06-03 14:32:12 INFO  Log:8 - TC01_inquiry test is starting.
-I am in onTestFailure method TC01_inquiry failed
-Screenshot captured for test case:TC01_inquiry
-Video captured for test case:TC01_inquiry
-2019-06-03 14:32:20 INFO  MonteRecorder:45 - Recording finished to C:\Users\User\Documents\GitHub\OrangeHRMTestNGAllure\video\TC01_inquiry_recording_2019_03_06_14_32_20.avi
-2019-06-03 14:32:20 INFO  RecordingUtils:81 - No jenkinsUrl variable found.
-2019-06-03 14:32:20 INFO  RecordingUtils:26 - Video recording: C:\Users\User\Documents\GitHub\OrangeHRMTestNGAllure\video\TC01_inquiry_recording_2019_03_06_14_32_20.avi
+2019-06-03 14:49:19 INFO  Log:8 - TC01_inquiry test is starting.
+2019-06-03 14:49:26 INFO  MonteRecorder:45 - Recording finished to C:\Users\User\Documents\GitHub\OrangeHRMTestNGAllure\video\TC01_inquiry_recording_2019_03_06_14_49_26.avi
+2019-06-03 14:49:26 INFO  RecordingUtils:81 - No jenkinsUrl variable found.
+2019-06-03 14:49:26 INFO  RecordingUtils:26 - Video recording: C:\Users\User\Documents\GitHub\OrangeHRMTestNGAllure\video\TC01_inquiry_recording_2019_03_06_14_49_26.avi
 I am in onTestFailure method TC01_inquiry failed
 Screenshot captured for test case:TC01_inquiry
 Video captured for test case:TC01_inquiry
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 2.38.551601 (edb21f07fc70e9027c746edd3201443e011a61ed) on port 16873
+    <system-err><![CDATA[Starting ChromeDriver 2.38.551601 (edb21f07fc70e9027c746edd3201443e011a61ed) on port 27200
 Only local connections are allowed.
-Jun 03, 2019 2:32:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jun 03, 2019 2:49:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>

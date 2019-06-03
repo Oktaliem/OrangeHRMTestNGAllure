@@ -1,5 +1,5 @@
 "Epic","Feature","Story","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
-"Regression Tests","Home Page Navigation","","4","1","5","0","0"
 "Regression Tests","Login To Orange HRM Portal","","0","0","7","0","0"
-"Regression Tests","Inquiry User Name","","0","1","1","0","0"
+"Regression Tests","Home Page Navigation","","4","1","5","0","0"
 "Regression Tests","Login To Orange HRM Portal","username and password login test","1","0","0","0","0"
+"Regression Tests","Inquiry User Name","","0","1","1","0","0"

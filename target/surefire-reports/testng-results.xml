@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="7" ignored="0" total="20" passed="13">
   <reporter-output>
   </reporter-output>
-  <suite name="OrangeHRM Test Suite" duration-ms="260273" started-at="2019-06-03T06:28:00Z" finished-at="2019-06-03T06:32:21Z">
+  <suite name="OrangeHRM Test Suite" duration-ms="264943" started-at="2019-06-03T06:45:02Z" finished-at="2019-06-03T06:49:27Z">
     <groups>
     </groups>
-    <test name="Full Test" duration-ms="260273" started-at="2019-06-03T06:28:00Z" finished-at="2019-06-03T06:32:21Z">
+    <test name="Full Test" duration-ms="264943" started-at="2019-06-03T06:45:02Z" finished-at="2019-06-03T06:49:27Z">
       <class name="features.InquiryUserOHRMTest">
-        <test-method status="PASS" signature="beforeMethodSetup()[pri:0, instance:features.InquiryUserOHRMTest@32c0915e]" name="beforeMethodSetup" is-config="true" duration-ms="2216" started-at="2019-06-03T06:28:49Z" finished-at="2019-06-03T06:28:52Z">
+        <test-method status="PASS" signature="beforeMethodSetup()[pri:0, instance:features.InquiryUserOHRMTest@53bc1328]" name="beforeMethodSetup" is-config="true" duration-ms="2148" started-at="2019-06-03T06:45:56Z" finished-at="2019-06-03T06:45:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodSetup -->
-        <test-method status="PASS" signature="TC02_inquiry()[pri:0, instance:features.InquiryUserOHRMTest@32c0915e]" name="TC02_inquiry" duration-ms="10195" started-at="2019-06-03T06:28:52Z" description="TC02 User is inquiry with invalid name" finished-at="2019-06-03T06:29:02Z">
+        <test-method status="PASS" signature="TC02_inquiry()[pri:0, instance:features.InquiryUserOHRMTest@53bc1328]" name="TC02_inquiry" duration-ms="12749" started-at="2019-06-03T06:45:58Z" description="TC02 User is inquiry with invalid name" finished-at="2019-06-03T06:46:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC02_inquiry -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:features.InquiryUserOHRMTest@32c0915e]" name="closeBrowser" is-config="true" duration-ms="791" started-at="2019-06-03T06:29:03Z" finished-at="2019-06-03T06:29:04Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:features.InquiryUserOHRMTest@53bc1328]" name="closeBrowser" is-config="true" duration-ms="793" started-at="2019-06-03T06:46:12Z" finished-at="2019-06-03T06:46:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="beforeMethodSetup()[pri:0, instance:features.InquiryUserOHRMTest@32c0915e]" name="beforeMethodSetup" is-config="true" duration-ms="2127" started-at="2019-06-03T06:32:10Z" finished-at="2019-06-03T06:32:12Z">
+        <test-method status="PASS" signature="beforeMethodSetup()[pri:0, instance:features.InquiryUserOHRMTest@53bc1328]" name="beforeMethodSetup" is-config="true" duration-ms="2123" started-at="2019-06-03T06:49:17Z" finished-at="2019-06-03T06:49:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodSetup -->
-        <test-method status="FAIL" signature="TC01_inquiry()[pri:1, instance:features.InquiryUserOHRMTest@32c0915e]" name="TC01_inquiry" duration-ms="6872" started-at="2019-06-03T06:32:12Z" description="TC01 User is inquiry with valid name" finished-at="2019-06-03T06:32:19Z">
+        <test-method status="FAIL" signature="TC01_inquiry()[pri:1, instance:features.InquiryUserOHRMTest@53bc1328]" name="TC01_inquiry" duration-ms="6803" started-at="2019-06-03T06:49:19Z" description="TC01 User is inquiry with valid name" finished-at="2019-06-03T06:49:26Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"id","selector":"resultTable"}
@@ -35,7 +35,7 @@ Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17
 System info: host: 'DESKTOP-1DCFOTD', ip: '172.18.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.551601 (edb21f07fc70e9..., userDataDir: C:\Users\User\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
-Session ID: 9d9e50196b79fb03a4b07055f1c8603c
+Session ID: 3b99087c9a17eef8fca2b7644a324fcf
 *** Element info: {Using=id, value=resultTable}]]>
             </message>
             <full-stacktrace>
@@ -48,7 +48,7 @@ Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17
 System info: host: 'DESKTOP-1DCFOTD', ip: '172.18.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.551601 (edb21f07fc70e9..., userDataDir: C:\Users\User\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
-Session ID: 9d9e50196b79fb03a4b07055f1c8603c
+Session ID: 3b99087c9a17eef8fca2b7644a324fcf
 *** Element info: {Using=id, value=resultTable}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -102,101 +102,101 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC01_inquiry -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:features.InquiryUserOHRMTest@32c0915e]" name="closeBrowser" is-config="true" duration-ms="758" started-at="2019-06-03T06:32:20Z" finished-at="2019-06-03T06:32:21Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:features.InquiryUserOHRMTest@53bc1328]" name="closeBrowser" is-config="true" duration-ms="793" started-at="2019-06-03T06:49:26Z" finished-at="2019-06-03T06:49:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- features.InquiryUserOHRMTest -->
       <class name="features.LoginORMTest">
-        <test-method status="PASS" signature="beforeMethodSetup()[pri:0, instance:features.LoginORMTest@33aa93c]" name="beforeMethodSetup" is-config="true" duration-ms="4240" started-at="2019-06-03T06:28:00Z" finished-at="2019-06-03T06:28:05Z">
+        <test-method status="PASS" signature="beforeMethodSetup()[pri:0, instance:features.LoginORMTest@3e792ce3]" name="beforeMethodSetup" is-config="true" duration-ms="5578" started-at="2019-06-03T06:45:02Z" finished-at="2019-06-03T06:45:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodSetup -->
-        <test-method status="PASS" signature="TC01_login()[pri:0, instance:features.LoginORMTest@33aa93c]" name="TC01_login" duration-ms="3166" started-at="2019-06-03T06:28:05Z" description="TC01 Login with empty user name and empty password" finished-at="2019-06-03T06:28:08Z">
+        <test-method status="PASS" signature="TC01_login()[pri:0, instance:features.LoginORMTest@3e792ce3]" name="TC01_login" duration-ms="8206" started-at="2019-06-03T06:45:08Z" description="TC01 Login with empty user name and empty password" finished-at="2019-06-03T06:45:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC01_login -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:features.LoginORMTest@33aa93c]" name="closeBrowser" is-config="true" duration-ms="781" started-at="2019-06-03T06:28:09Z" finished-at="2019-06-03T06:28:10Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:features.LoginORMTest@3e792ce3]" name="closeBrowser" is-config="true" duration-ms="754" started-at="2019-06-03T06:45:17Z" finished-at="2019-06-03T06:45:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="beforeMethodSetup()[pri:0, instance:features.LoginORMTest@33aa93c]" name="beforeMethodSetup" is-config="true" duration-ms="2170" started-at="2019-06-03T06:28:10Z" finished-at="2019-06-03T06:28:12Z">
+        <test-method status="PASS" signature="beforeMethodSetup()[pri:0, instance:features.LoginORMTest@3e792ce3]" name="beforeMethodSetup" is-config="true" duration-ms="2083" started-at="2019-06-03T06:45:18Z" finished-at="2019-06-03T06:45:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodSetup -->
-        <test-method status="PASS" signature="TC02_login()[pri:0, instance:features.LoginORMTest@33aa93c]" name="TC02_login" duration-ms="2150" started-at="2019-06-03T06:28:12Z" description="TC02 Login with empty user name and correct password" finished-at="2019-06-03T06:28:14Z">
+        <test-method status="PASS" signature="TC02_login()[pri:0, instance:features.LoginORMTest@3e792ce3]" name="TC02_login" duration-ms="2204" started-at="2019-06-03T06:45:20Z" description="TC02 Login with empty user name and correct password" finished-at="2019-06-03T06:45:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC02_login -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:features.LoginORMTest@33aa93c]" name="closeBrowser" is-config="true" duration-ms="788" started-at="2019-06-03T06:28:15Z" finished-at="2019-06-03T06:28:16Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:features.LoginORMTest@3e792ce3]" name="closeBrowser" is-config="true" duration-ms="768" started-at="2019-06-03T06:45:23Z" finished-at="2019-06-03T06:45:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="beforeMethodSetup()[pri:0, instance:features.LoginORMTest@33aa93c]" name="beforeMethodSetup" is-config="true" duration-ms="2159" started-at="2019-06-03T06:28:16Z" finished-at="2019-06-03T06:28:18Z">
+        <test-method status="PASS" signature="beforeMethodSetup()[pri:0, instance:features.LoginORMTest@3e792ce3]" name="beforeMethodSetup" is-config="true" duration-ms="2162" started-at="2019-06-03T06:45:24Z" finished-at="2019-06-03T06:45:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodSetup -->
-        <test-method status="PASS" signature="TC03_login()[pri:0, instance:features.LoginORMTest@33aa93c]" name="TC03_login" duration-ms="2321" started-at="2019-06-03T06:28:18Z" description="TC03 Login with correct password and empty password" finished-at="2019-06-03T06:28:21Z">
+        <test-method status="PASS" signature="TC03_login()[pri:0, instance:features.LoginORMTest@3e792ce3]" name="TC03_login" duration-ms="2218" started-at="2019-06-03T06:45:26Z" description="TC03 Login with correct password and empty password" finished-at="2019-06-03T06:45:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC03_login -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:features.LoginORMTest@33aa93c]" name="closeBrowser" is-config="true" duration-ms="789" started-at="2019-06-03T06:28:22Z" finished-at="2019-06-03T06:28:23Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:features.LoginORMTest@3e792ce3]" name="closeBrowser" is-config="true" duration-ms="754" started-at="2019-06-03T06:45:30Z" finished-at="2019-06-03T06:45:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="beforeMethodSetup()[pri:0, instance:features.LoginORMTest@33aa93c]" name="beforeMethodSetup" is-config="true" duration-ms="2090" started-at="2019-06-03T06:28:23Z" finished-at="2019-06-03T06:28:25Z">
+        <test-method status="PASS" signature="beforeMethodSetup()[pri:0, instance:features.LoginORMTest@3e792ce3]" name="beforeMethodSetup" is-config="true" duration-ms="2102" started-at="2019-06-03T06:45:30Z" finished-at="2019-06-03T06:45:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodSetup -->
-        <test-method status="PASS" signature="TC05_login()[pri:0, instance:features.LoginORMTest@33aa93c]" name="TC05_login" duration-ms="2692" started-at="2019-06-03T06:28:25Z" description="TC05 Login with incorrect user name and incorrect password" finished-at="2019-06-03T06:28:27Z">
+        <test-method status="PASS" signature="TC05_login()[pri:0, instance:features.LoginORMTest@3e792ce3]" name="TC05_login" duration-ms="2891" started-at="2019-06-03T06:45:32Z" description="TC05 Login with incorrect user name and incorrect password" finished-at="2019-06-03T06:45:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC05_login -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:features.LoginORMTest@33aa93c]" name="closeBrowser" is-config="true" duration-ms="765" started-at="2019-06-03T06:28:28Z" finished-at="2019-06-03T06:28:29Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:features.LoginORMTest@3e792ce3]" name="closeBrowser" is-config="true" duration-ms="796" started-at="2019-06-03T06:45:36Z" finished-at="2019-06-03T06:45:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="beforeMethodSetup()[pri:0, instance:features.LoginORMTest@33aa93c]" name="beforeMethodSetup" is-config="true" duration-ms="2127" started-at="2019-06-03T06:28:29Z" finished-at="2019-06-03T06:28:31Z">
+        <test-method status="PASS" signature="beforeMethodSetup()[pri:0, instance:features.LoginORMTest@3e792ce3]" name="beforeMethodSetup" is-config="true" duration-ms="2131" started-at="2019-06-03T06:45:37Z" finished-at="2019-06-03T06:45:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodSetup -->
-        <test-method status="PASS" signature="TC06_login()[pri:0, instance:features.LoginORMTest@33aa93c]" name="TC06_login" duration-ms="2513" started-at="2019-06-03T06:28:31Z" description="TC06 Login with incorrect user name and correct password" finished-at="2019-06-03T06:28:34Z">
+        <test-method status="PASS" signature="TC06_login()[pri:0, instance:features.LoginORMTest@3e792ce3]" name="TC06_login" duration-ms="2371" started-at="2019-06-03T06:45:39Z" description="TC06 Login with incorrect user name and correct password" finished-at="2019-06-03T06:45:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC06_login -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:features.LoginORMTest@33aa93c]" name="closeBrowser" is-config="true" duration-ms="781" started-at="2019-06-03T06:28:35Z" finished-at="2019-06-03T06:28:36Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:features.LoginORMTest@3e792ce3]" name="closeBrowser" is-config="true" duration-ms="805" started-at="2019-06-03T06:45:43Z" finished-at="2019-06-03T06:45:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="beforeMethodSetup()[pri:0, instance:features.LoginORMTest@33aa93c]" name="beforeMethodSetup" is-config="true" duration-ms="2183" started-at="2019-06-03T06:28:36Z" finished-at="2019-06-03T06:28:38Z">
+        <test-method status="PASS" signature="beforeMethodSetup()[pri:0, instance:features.LoginORMTest@3e792ce3]" name="beforeMethodSetup" is-config="true" duration-ms="2122" started-at="2019-06-03T06:45:43Z" finished-at="2019-06-03T06:45:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodSetup -->
-        <test-method status="PASS" signature="TC07_login()[pri:0, instance:features.LoginORMTest@33aa93c]" name="TC07_login" duration-ms="2954" started-at="2019-06-03T06:28:38Z" description="TC07 Login with correct user name and incorrect password" finished-at="2019-06-03T06:28:41Z">
+        <test-method status="PASS" signature="TC07_login()[pri:0, instance:features.LoginORMTest@3e792ce3]" name="TC07_login" duration-ms="2675" started-at="2019-06-03T06:45:45Z" description="TC07 Login with correct user name and incorrect password" finished-at="2019-06-03T06:45:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC07_login -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:features.LoginORMTest@33aa93c]" name="closeBrowser" is-config="true" duration-ms="810" started-at="2019-06-03T06:28:42Z" finished-at="2019-06-03T06:28:43Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:features.LoginORMTest@3e792ce3]" name="closeBrowser" is-config="true" duration-ms="716" started-at="2019-06-03T06:45:49Z" finished-at="2019-06-03T06:45:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="beforeMethodSetup()[pri:0, instance:features.LoginORMTest@33aa93c]" name="beforeMethodSetup" is-config="true" duration-ms="2223" started-at="2019-06-03T06:28:43Z" finished-at="2019-06-03T06:28:45Z">
+        <test-method status="PASS" signature="beforeMethodSetup()[pri:0, instance:features.LoginORMTest@3e792ce3]" name="beforeMethodSetup" is-config="true" duration-ms="2169" started-at="2019-06-03T06:45:50Z" finished-at="2019-06-03T06:45:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodSetup -->
-        <test-method status="PASS" signature="TC08_login()[pri:0, instance:features.LoginORMTest@33aa93c]" name="TC08_login" duration-ms="2561" started-at="2019-06-03T06:28:45Z" description="TC08 Login with incorrect user name and incorrect password" finished-at="2019-06-03T06:28:48Z">
+        <test-method status="PASS" signature="TC08_login()[pri:0, instance:features.LoginORMTest@3e792ce3]" name="TC08_login" duration-ms="2421" started-at="2019-06-03T06:45:52Z" description="TC08 Login with incorrect user name and incorrect password" finished-at="2019-06-03T06:45:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC08_login -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:features.LoginORMTest@33aa93c]" name="closeBrowser" is-config="true" duration-ms="771" started-at="2019-06-03T06:28:49Z" finished-at="2019-06-03T06:28:49Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:features.LoginORMTest@3e792ce3]" name="closeBrowser" is-config="true" duration-ms="808" started-at="2019-06-03T06:45:55Z" finished-at="2019-06-03T06:45:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="beforeMethodSetup()[pri:0, instance:features.LoginORMTest@33aa93c]" name="beforeMethodSetup" is-config="true" duration-ms="2099" started-at="2019-06-03T06:32:03Z" finished-at="2019-06-03T06:32:05Z">
+        <test-method status="PASS" signature="beforeMethodSetup()[pri:0, instance:features.LoginORMTest@3e792ce3]" name="beforeMethodSetup" is-config="true" duration-ms="2247" started-at="2019-06-03T06:49:10Z" finished-at="2019-06-03T06:49:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodSetup -->
-        <test-method status="FAIL" signature="TC04_login()[pri:1, instance:features.LoginORMTest@33aa93c]" name="TC04_login" duration-ms="2880" started-at="2019-06-03T06:32:05Z" description="TC04 Login with correct username and correct password" finished-at="2019-06-03T06:32:08Z">
+        <test-method status="FAIL" signature="TC04_login()[pri:1, instance:features.LoginORMTest@3e792ce3]" name="TC04_login" duration-ms="2905" started-at="2019-06-03T06:49:12Z" description="TC04 Login with correct username and correct password" finished-at="2019-06-03T06:49:15Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[
@@ -245,17 +245,17 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC04_login -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:features.LoginORMTest@33aa93c]" name="closeBrowser" is-config="true" duration-ms="779" started-at="2019-06-03T06:32:09Z" finished-at="2019-06-03T06:32:10Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:features.LoginORMTest@3e792ce3]" name="closeBrowser" is-config="true" duration-ms="756" started-at="2019-06-03T06:49:16Z" finished-at="2019-06-03T06:49:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- features.LoginORMTest -->
       <class name="features.HomePageNavigationTest">
-        <test-method status="PASS" signature="beforeMethodSetup()[pri:0, instance:features.HomePageNavigationTest@106faf11]" name="beforeMethodSetup" is-config="true" duration-ms="2156" started-at="2019-06-03T06:29:04Z" finished-at="2019-06-03T06:29:06Z">
+        <test-method status="PASS" signature="beforeMethodSetup()[pri:0, instance:features.HomePageNavigationTest@26f143ed]" name="beforeMethodSetup" is-config="true" duration-ms="2130" started-at="2019-06-03T06:46:13Z" finished-at="2019-06-03T06:46:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodSetup -->
-        <test-method status="FAIL" signature="TC01_home_navigation()[pri:0, instance:features.HomePageNavigationTest@106faf11]" name="TC01_home_navigation" duration-ms="11693" started-at="2019-06-03T06:29:06Z" description="TC01 Able to navigate to admin page" finished-at="2019-06-03T06:29:17Z">
+        <test-method status="FAIL" signature="TC01_home_navigation()[pri:0, instance:features.HomePageNavigationTest@26f143ed]" name="TC01_home_navigation" duration-ms="11391" started-at="2019-06-03T06:46:15Z" description="TC01 Able to navigate to admin page" finished-at="2019-06-03T06:46:26Z">
           <exception class="com.assertthat.selenium_shutterbug.utils.image.UnableToCompareImagesException">
             <message>
               <![CDATA[Images dimensions mismatch: image1 - 1920x2796; image2 - 1920x6349]]>
@@ -300,55 +300,55 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC01_home_navigation -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:features.HomePageNavigationTest@106faf11]" name="closeBrowser" is-config="true" duration-ms="758" started-at="2019-06-03T06:29:18Z" finished-at="2019-06-03T06:29:19Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:features.HomePageNavigationTest@26f143ed]" name="closeBrowser" is-config="true" duration-ms="738" started-at="2019-06-03T06:46:27Z" finished-at="2019-06-03T06:46:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="beforeMethodSetup()[pri:0, instance:features.HomePageNavigationTest@106faf11]" name="beforeMethodSetup" is-config="true" duration-ms="2139" started-at="2019-06-03T06:29:19Z" finished-at="2019-06-03T06:29:21Z">
+        <test-method status="PASS" signature="beforeMethodSetup()[pri:0, instance:features.HomePageNavigationTest@26f143ed]" name="beforeMethodSetup" is-config="true" duration-ms="2118" started-at="2019-06-03T06:46:28Z" finished-at="2019-06-03T06:46:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodSetup -->
-        <test-method status="PASS" signature="TC02_home_navigation()[pri:0, instance:features.HomePageNavigationTest@106faf11]" name="TC02_home_navigation" duration-ms="14382" started-at="2019-06-03T06:29:21Z" description="TC02 Able to navigate to PIM page" finished-at="2019-06-03T06:29:36Z">
+        <test-method status="PASS" signature="TC02_home_navigation()[pri:0, instance:features.HomePageNavigationTest@26f143ed]" name="TC02_home_navigation" duration-ms="13608" started-at="2019-06-03T06:46:30Z" description="TC02 Able to navigate to PIM page" finished-at="2019-06-03T06:46:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC02_home_navigation -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:features.HomePageNavigationTest@106faf11]" name="closeBrowser" is-config="true" duration-ms="806" started-at="2019-06-03T06:29:37Z" finished-at="2019-06-03T06:29:37Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:features.HomePageNavigationTest@26f143ed]" name="closeBrowser" is-config="true" duration-ms="864" started-at="2019-06-03T06:46:44Z" finished-at="2019-06-03T06:46:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="beforeMethodSetup()[pri:0, instance:features.HomePageNavigationTest@106faf11]" name="beforeMethodSetup" is-config="true" duration-ms="2258" started-at="2019-06-03T06:29:37Z" finished-at="2019-06-03T06:29:40Z">
+        <test-method status="PASS" signature="beforeMethodSetup()[pri:0, instance:features.HomePageNavigationTest@26f143ed]" name="beforeMethodSetup" is-config="true" duration-ms="2282" started-at="2019-06-03T06:46:45Z" finished-at="2019-06-03T06:46:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodSetup -->
-        <test-method status="PASS" signature="TC03_home_navigation()[pri:0, instance:features.HomePageNavigationTest@106faf11]" name="TC03_home_navigation" duration-ms="6859" started-at="2019-06-03T06:29:40Z" description="TC03 Able to navigate to leave page" finished-at="2019-06-03T06:29:47Z">
+        <test-method status="PASS" signature="TC03_home_navigation()[pri:0, instance:features.HomePageNavigationTest@26f143ed]" name="TC03_home_navigation" duration-ms="6140" started-at="2019-06-03T06:46:48Z" description="TC03 Able to navigate to leave page" finished-at="2019-06-03T06:46:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC03_home_navigation -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:features.HomePageNavigationTest@106faf11]" name="closeBrowser" is-config="true" duration-ms="758" started-at="2019-06-03T06:29:47Z" finished-at="2019-06-03T06:29:48Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:features.HomePageNavigationTest@26f143ed]" name="closeBrowser" is-config="true" duration-ms="764" started-at="2019-06-03T06:46:55Z" finished-at="2019-06-03T06:46:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="beforeMethodSetup()[pri:0, instance:features.HomePageNavigationTest@106faf11]" name="beforeMethodSetup" is-config="true" duration-ms="2127" started-at="2019-06-03T06:29:48Z" finished-at="2019-06-03T06:29:50Z">
+        <test-method status="PASS" signature="beforeMethodSetup()[pri:0, instance:features.HomePageNavigationTest@26f143ed]" name="beforeMethodSetup" is-config="true" duration-ms="2118" started-at="2019-06-03T06:46:55Z" finished-at="2019-06-03T06:46:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodSetup -->
-        <test-method status="PASS" signature="TC04_home_navigation()[pri:0, instance:features.HomePageNavigationTest@106faf11]" name="TC04_home_navigation" duration-ms="6248" started-at="2019-06-03T06:29:50Z" description="TC04 Able to navigate to time page" finished-at="2019-06-03T06:29:57Z">
+        <test-method status="PASS" signature="TC04_home_navigation()[pri:0, instance:features.HomePageNavigationTest@26f143ed]" name="TC04_home_navigation" duration-ms="6255" started-at="2019-06-03T06:46:57Z" description="TC04 Able to navigate to time page" finished-at="2019-06-03T06:47:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC04_home_navigation -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:features.HomePageNavigationTest@106faf11]" name="closeBrowser" is-config="true" duration-ms="742" started-at="2019-06-03T06:29:57Z" finished-at="2019-06-03T06:29:58Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:features.HomePageNavigationTest@26f143ed]" name="closeBrowser" is-config="true" duration-ms="740" started-at="2019-06-03T06:47:05Z" finished-at="2019-06-03T06:47:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="beforeMethodSetup()[pri:0, instance:features.HomePageNavigationTest@106faf11]" name="beforeMethodSetup" is-config="true" duration-ms="2132" started-at="2019-06-03T06:29:58Z" finished-at="2019-06-03T06:30:00Z">
+        <test-method status="PASS" signature="beforeMethodSetup()[pri:0, instance:features.HomePageNavigationTest@26f143ed]" name="beforeMethodSetup" is-config="true" duration-ms="2121" started-at="2019-06-03T06:47:05Z" finished-at="2019-06-03T06:47:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodSetup -->
-        <test-method status="FAIL" signature="TC05_home_navigation(org.testng.ITestContext)[pri:0, instance:features.HomePageNavigationTest@106faf11]" name="TC05_home_navigation" duration-ms="9529" started-at="2019-06-03T06:30:00Z" description="TC05 Able to navigate to recruitment page" finished-at="2019-06-03T06:30:10Z">
+        <test-method status="FAIL" signature="TC05_home_navigation(org.testng.ITestContext)[pri:0, instance:features.HomePageNavigationTest@26f143ed]" name="TC05_home_navigation" duration-ms="8905" started-at="2019-06-03T06:47:07Z" description="TC05 Able to navigate to recruitment page" finished-at="2019-06-03T06:47:16Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@6c2d124e]]>
+                <![CDATA[org.testng.TestRunner@54a7d1b9]]>
               </value>
             </param>
           </params>
@@ -397,15 +397,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC05_home_navigation -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:features.HomePageNavigationTest@106faf11]" name="closeBrowser" is-config="true" duration-ms="739" started-at="2019-06-03T06:30:11Z" finished-at="2019-06-03T06:30:11Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:features.HomePageNavigationTest@26f143ed]" name="closeBrowser" is-config="true" duration-ms="769" started-at="2019-06-03T06:47:17Z" finished-at="2019-06-03T06:47:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="beforeMethodSetup()[pri:0, instance:features.HomePageNavigationTest@106faf11]" name="beforeMethodSetup" is-config="true" duration-ms="2113" started-at="2019-06-03T06:30:11Z" finished-at="2019-06-03T06:30:13Z">
+        <test-method status="PASS" signature="beforeMethodSetup()[pri:0, instance:features.HomePageNavigationTest@26f143ed]" name="beforeMethodSetup" is-config="true" duration-ms="2139" started-at="2019-06-03T06:47:18Z" finished-at="2019-06-03T06:47:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodSetup -->
-        <test-method status="FAIL" signature="TC06_home_navigation()[pri:0, instance:features.HomePageNavigationTest@106faf11]" name="TC06_home_navigation" duration-ms="5282" started-at="2019-06-03T06:30:13Z" description="TC06 Able to navigate to performance page" finished-at="2019-06-03T06:30:19Z">
+        <test-method status="FAIL" signature="TC06_home_navigation()[pri:0, instance:features.HomePageNavigationTest@26f143ed]" name="TC06_home_navigation" duration-ms="4416" started-at="2019-06-03T06:47:20Z" description="TC06 Able to navigate to performance page" finished-at="2019-06-03T06:47:25Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[
@@ -454,39 +454,39 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC06_home_navigation -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:features.HomePageNavigationTest@106faf11]" name="closeBrowser" is-config="true" duration-ms="841" started-at="2019-06-03T06:30:20Z" finished-at="2019-06-03T06:30:21Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:features.HomePageNavigationTest@26f143ed]" name="closeBrowser" is-config="true" duration-ms="735" started-at="2019-06-03T06:47:25Z" finished-at="2019-06-03T06:47:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="beforeMethodSetup()[pri:0, instance:features.HomePageNavigationTest@106faf11]" name="beforeMethodSetup" is-config="true" duration-ms="2163" started-at="2019-06-03T06:30:21Z" finished-at="2019-06-03T06:30:23Z">
+        <test-method status="PASS" signature="beforeMethodSetup()[pri:0, instance:features.HomePageNavigationTest@26f143ed]" name="beforeMethodSetup" is-config="true" duration-ms="2110" started-at="2019-06-03T06:47:26Z" finished-at="2019-06-03T06:47:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodSetup -->
-        <test-method status="PASS" signature="TC07_home_navigation()[pri:0, instance:features.HomePageNavigationTest@106faf11]" name="TC07_home_navigation" duration-ms="10622" started-at="2019-06-03T06:30:23Z" description="TC07 ble to navigate to dashboard page" finished-at="2019-06-03T06:30:33Z">
+        <test-method status="PASS" signature="TC07_home_navigation()[pri:0, instance:features.HomePageNavigationTest@26f143ed]" name="TC07_home_navigation" duration-ms="9370" started-at="2019-06-03T06:47:28Z" description="TC07 ble to navigate to dashboard page" finished-at="2019-06-03T06:47:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC07_home_navigation -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:features.HomePageNavigationTest@106faf11]" name="closeBrowser" is-config="true" duration-ms="740" started-at="2019-06-03T06:30:34Z" finished-at="2019-06-03T06:30:35Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:features.HomePageNavigationTest@26f143ed]" name="closeBrowser" is-config="true" duration-ms="739" started-at="2019-06-03T06:47:38Z" finished-at="2019-06-03T06:47:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="beforeMethodSetup()[pri:0, instance:features.HomePageNavigationTest@106faf11]" name="beforeMethodSetup" is-config="true" duration-ms="2146" started-at="2019-06-03T06:30:35Z" finished-at="2019-06-03T06:30:37Z">
+        <test-method status="PASS" signature="beforeMethodSetup()[pri:0, instance:features.HomePageNavigationTest@26f143ed]" name="beforeMethodSetup" is-config="true" duration-ms="2124" started-at="2019-06-03T06:47:39Z" finished-at="2019-06-03T06:47:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodSetup -->
-        <test-method status="PASS" signature="TC08_home_navigation()[pri:0, instance:features.HomePageNavigationTest@106faf11]" name="TC08_home_navigation" duration-ms="29650" started-at="2019-06-03T06:30:37Z" description="TC08 Able to navigate to directory page" finished-at="2019-06-03T06:31:07Z">
+        <test-method status="PASS" signature="TC08_home_navigation()[pri:0, instance:features.HomePageNavigationTest@26f143ed]" name="TC08_home_navigation" duration-ms="28264" started-at="2019-06-03T06:47:41Z" description="TC08 Able to navigate to directory page" finished-at="2019-06-03T06:48:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC08_home_navigation -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:features.HomePageNavigationTest@106faf11]" name="closeBrowser" is-config="true" duration-ms="767" started-at="2019-06-03T06:31:08Z" finished-at="2019-06-03T06:31:08Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:features.HomePageNavigationTest@26f143ed]" name="closeBrowser" is-config="true" duration-ms="798" started-at="2019-06-03T06:48:11Z" finished-at="2019-06-03T06:48:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="beforeMethodSetup()[pri:0, instance:features.HomePageNavigationTest@106faf11]" name="beforeMethodSetup" is-config="true" duration-ms="2123" started-at="2019-06-03T06:31:08Z" finished-at="2019-06-03T06:31:11Z">
+        <test-method status="PASS" signature="beforeMethodSetup()[pri:0, instance:features.HomePageNavigationTest@26f143ed]" name="beforeMethodSetup" is-config="true" duration-ms="2166" started-at="2019-06-03T06:48:11Z" finished-at="2019-06-03T06:48:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodSetup -->
-        <test-method status="FAIL" signature="TC09_home_navigation()[pri:0, instance:features.HomePageNavigationTest@106faf11]" name="TC09_home_navigation" duration-ms="4261" started-at="2019-06-03T06:31:11Z" description="TC09 Able to navigate to About modal" finished-at="2019-06-03T06:31:15Z">
+        <test-method status="FAIL" signature="TC09_home_navigation()[pri:0, instance:features.HomePageNavigationTest@26f143ed]" name="TC09_home_navigation" duration-ms="5082" started-at="2019-06-03T06:48:14Z" description="TC09 Able to navigate to About modal" finished-at="2019-06-03T06:48:19Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[
@@ -541,15 +541,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC09_home_navigation -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:features.HomePageNavigationTest@106faf11]" name="closeBrowser" is-config="true" duration-ms="837" started-at="2019-06-03T06:31:16Z" finished-at="2019-06-03T06:31:17Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:features.HomePageNavigationTest@26f143ed]" name="closeBrowser" is-config="true" duration-ms="783" started-at="2019-06-03T06:48:20Z" finished-at="2019-06-03T06:48:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="beforeMethodSetup()[pri:0, instance:features.HomePageNavigationTest@106faf11]" name="beforeMethodSetup" is-config="true" duration-ms="2093" started-at="2019-06-03T06:31:17Z" finished-at="2019-06-03T06:31:19Z">
+        <test-method status="PASS" signature="beforeMethodSetup()[pri:0, instance:features.HomePageNavigationTest@26f143ed]" name="beforeMethodSetup" is-config="true" duration-ms="2135" started-at="2019-06-03T06:48:21Z" finished-at="2019-06-03T06:48:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodSetup -->
-        <test-method status="FAIL" signature="TC10_home_navigation()[pri:0, instance:features.HomePageNavigationTest@106faf11]" name="TC10_home_navigation" duration-ms="42456" started-at="2019-06-03T06:31:19Z" description="TC10 Able to navigate to many page" finished-at="2019-06-03T06:32:02Z">
+        <test-method status="FAIL" signature="TC10_home_navigation()[pri:0, instance:features.HomePageNavigationTest@26f143ed]" name="TC10_home_navigation" duration-ms="45255" started-at="2019-06-03T06:48:23Z" description="TC10 Able to navigate to many page" finished-at="2019-06-03T06:49:08Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[
@@ -598,7 +598,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC10_home_navigation -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:features.HomePageNavigationTest@106faf11]" name="closeBrowser" is-config="true" duration-ms="781" started-at="2019-06-03T06:32:02Z" finished-at="2019-06-03T06:32:03Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:features.HomePageNavigationTest@26f143ed]" name="closeBrowser" is-config="true" duration-ms="811" started-at="2019-06-03T06:49:09Z" finished-at="2019-06-03T06:49:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
