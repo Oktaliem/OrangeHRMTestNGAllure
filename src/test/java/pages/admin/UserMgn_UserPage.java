@@ -11,6 +11,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import utils.Listeners.TestListener;
 
 import java.util.List;
 
@@ -171,6 +172,7 @@ public class UserMgn_UserPage extends Preparation {
         searchSystemUsers_userName.sendKeys(userName);
         searchSystemUsers_eName.sendKeys(Keys.TAB);
         clickOnSearchButtonSU();
+        TestListener.saveScreenshotPNG(driver);
     }
 
     @Step("User Goes To User Form")
@@ -191,17 +193,20 @@ public class UserMgn_UserPage extends Preparation {
             Log.error("Cannot locating web element");
             fail();
         }
+        TestListener.saveScreenshotPNG(driver);
     }
 
     @Step("Then - User name is in the table list")
     public void verifyUserNameIsInTheTableList(String userName) {
         String userTable = driver.findElement(By.xpath("//A[@href='saveSystemUser?userId=1'][text()='"+userName+"']")).getText();
         assertEquals(userTable,userName);
+        TestListener.saveScreenshotPNG(driver);
     }
 
     @Step("Then - User name is NOT in the table list")
     public void verifyUserNameIsNotInTheTableList(String randomName) {
         String userTable = driver.findElement(By.xpath("//TD[@colspan='5'][text()='No Records Found']")).getText();
         assertEquals(userTable,"No Records Found");
+        TestListener.saveScreenshotPNG(driver);
     }
 }

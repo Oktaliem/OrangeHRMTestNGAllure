@@ -24,7 +24,7 @@ public class TestListener extends Preparation implements ITestListener {
     }
 
     @Attachment(value = "Page screenshot", type = "image/png")
-    public byte[] saveScreenshotPNG (WebDriver driver) {
+    public static byte[] saveScreenshotPNG(WebDriver driver) {
         return ((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES); }
 
     @Attachment(value = "{0}", type = "text/plain")
@@ -71,12 +71,14 @@ public class TestListener extends Preparation implements ITestListener {
     @Override
     public void onTestSuccess(ITestResult iTestResult) {
         System.out.println("I am in onTestSuccess method " +  getTestMethodName(iTestResult) + " succeed");
+        /*
         Object testClass = iTestResult.getInstance();
         WebDriver driver = ((Preparation) testClass).getDriver();
         if (driver instanceof WebDriver) {
             System.out.println("Screenshot captured for test case:" + getTestMethodName(iTestResult));
             saveScreenshotPNG(driver);
         }
+        */
     }
 
     @Override

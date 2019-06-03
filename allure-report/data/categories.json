@@ -7,13 +7,13 @@
       "name" : "Images dimensions mismatch: image1 - 1920x2796; image2 - 1920x6349",
       "children" : [ {
         "name" : "TC01 Able to navigate to admin page",
-        "uid" : "c22ac3335c5bc20",
+        "uid" : "1326060f9a95133f",
         "parentUid" : "dbb3aef55d9a87466bc18ffbd1e8d655",
         "status" : "broken",
         "time" : {
-          "start" : 1559544375487,
-          "stop" : 1559544387345,
-          "duration" : 11858
+          "start" : 1559553807706,
+          "stop" : 1559553819231,
+          "duration" : 11525
         },
         "flaky" : false,
         "newFailed" : false,
@@ -21,22 +21,22 @@
       } ],
       "uid" : "dbb3aef55d9a87466bc18ffbd1e8d655"
     }, {
-      "name" : "no such element: Unable to locate element: {\"method\":\"id\",\"selector\":\"resultTable\"}\n  (Session info: chrome=74.0.3729.169)\n  (Driver info: chromedriver=2.38.551601 (edb21f07fc70e9027c746edd3201443e011a61ed),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-1DCFOTD', ip: '172.18.138.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.551601 (edb21f07fc70e9..., userDataDir: C:\\Users\\User\\AppData\\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}\nSession ID: 3b99087c9a17eef8fca2b7644a324fcf\n*** Element info: {Using=id, value=resultTable}",
+      "name" : "no such element: Unable to locate element: {\"method\":\"id\",\"selector\":\"resultTable\"}\n  (Session info: chrome=74.0.3729.169)\n  (Driver info: chromedriver=2.38.551601 (edb21f07fc70e9027c746edd3201443e011a61ed),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-1DCFOTD', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.551601 (edb21f07fc70e9..., userDataDir: C:\\Users\\User\\AppData\\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}\nSession ID: 82789e3971d64645a5e09b3a3b418d4a\n*** Element info: {Using=id, value=resultTable}",
       "children" : [ {
         "name" : "TC01 User is inquiry with valid name",
-        "uid" : "60eac5fabcf02f2a",
-        "parentUid" : "6f059b82059f2f1111d252fcd02f4dd9",
+        "uid" : "a98cde8fc71324bc",
+        "parentUid" : "70654f18403ef1971d19e8b67ed84e7c",
         "status" : "broken",
         "time" : {
-          "start" : 1559544559231,
-          "stop" : 1559544566508,
-          "duration" : 7277
+          "start" : 1559553981941,
+          "stop" : 1559553989072,
+          "duration" : 7131
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "6f059b82059f2f1111d252fcd02f4dd9"
+      "uid" : "70654f18403ef1971d19e8b67ed84e7c"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   }, {
@@ -45,13 +45,13 @@
       "name" : "Images are Same expected [false] but found [true]",
       "children" : [ {
         "name" : "TC05 Able to navigate to recruitment page",
-        "uid" : "a73d99545f69fe26",
+        "uid" : "4c8ddd9ab78defe5",
         "parentUid" : "c4b42c247c156403e3c864b0b782ab09",
         "status" : "failed",
         "time" : {
-          "start" : 1559544427969,
-          "stop" : 1559544437332,
-          "duration" : 9363
+          "start" : 1559553857492,
+          "stop" : 1559553865814,
+          "duration" : 8322
         },
         "flaky" : false,
         "newFailed" : false,
@@ -62,13 +62,13 @@
       "name" : "\nExpected: a string containing \"http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/recruitment/viewCandidates#\"\n     but: was \"http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/dashboard#\"",
       "children" : [ {
         "name" : "TC06 Able to navigate to performance page",
-        "uid" : "abfe701e6039f9c6",
+        "uid" : "757a3e7a0bcee37b",
         "parentUid" : "b6d27e587b00120b6239b8e74a7691a2",
         "status" : "failed",
         "time" : {
-          "start" : 1559544440669,
-          "stop" : 1559544445559,
-          "duration" : 4890
+          "start" : 1559553869032,
+          "stop" : 1559553874813,
+          "duration" : 5781
         },
         "flaky" : false,
         "newFailed" : false,
@@ -79,13 +79,13 @@
       "name" : "\nExpected: a string containing \"Company Name: Okta Jaya Pte Ltd\"\n     but: was \"Company Name:\nVersion: Orangehrm OS 4.0\nActive Employees: 73\nEmployees Terminated: 0\"",
       "children" : [ {
         "name" : "TC09 Able to navigate to About modal",
-        "uid" : "ca2d22771ae14bb8",
+        "uid" : "cf6a892b87369bb2",
         "parentUid" : "bdd01564fe599c02d67668f346ede175",
         "status" : "failed",
         "time" : {
-          "start" : 1559544494041,
-          "stop" : 1559544499821,
-          "duration" : 5780
+          "start" : 1559553920324,
+          "stop" : 1559553926020,
+          "duration" : 5696
         },
         "flaky" : false,
         "newFailed" : false,
@@ -96,13 +96,13 @@
       "name" : "\nExpected: a string containing \"http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/admin/viewSystemUsers\"\n     but: was \"http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/directory/viewDirectory/reset/1\"",
       "children" : [ {
         "name" : "TC10 Able to navigate to many page",
-        "uid" : "e1914b43d118ca2c",
+        "uid" : "6dad901e186a8042",
         "parentUid" : "986af0f5ac0c81bb396c278f07b93a05",
         "status" : "failed",
         "time" : {
-          "start" : 1559544503224,
-          "stop" : 1559544549009,
-          "duration" : 45785
+          "start" : 1559553929207,
+          "stop" : 1559553971444,
+          "duration" : 42237
         },
         "flaky" : false,
         "newFailed" : false,
@@ -113,13 +113,13 @@
       "name" : "\nExpected: a string containing \"http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/dashboard\"\n     but: was \"http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/auth/validateCredentials\"",
       "children" : [ {
         "name" : "TC04 Login with correct username and correct password",
-        "uid" : "cc725c6b370aab88",
+        "uid" : "60a148ae1482b433",
         "parentUid" : "7004ba8c029181261c014bb1170fe8e9",
         "status" : "failed",
         "time" : {
-          "start" : 1559544552505,
-          "stop" : 1559544555898,
-          "duration" : 3393
+          "start" : 1559553974713,
+          "stop" : 1559553978730,
+          "duration" : 4017
         },
         "flaky" : false,
         "newFailed" : false,

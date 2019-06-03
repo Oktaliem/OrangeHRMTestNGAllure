@@ -17,6 +17,7 @@ import ru.yandex.qatools.ashot.comparison.ImageDiff;
 import ru.yandex.qatools.ashot.comparison.ImageDiffer;
 import ru.yandex.qatools.ashot.coordinates.WebDriverCoordsProvider;
 import ru.yandex.qatools.ashot.shooting.ShootingStrategies;
+import utils.Listeners.TestListener;
 import utils.ScreenShootComparison;
 
 import javax.imageio.ImageIO;
@@ -54,11 +55,13 @@ public class HomePage {
     public void goToModuleAdmin() {
         driver.findElement(menuAdminView).click();
         Shutterbug.shootPage(driver, ScrollStrategy.WHOLE_PAGE, 500, true).withName("AdminPage").save();
+        TestListener.saveScreenshotPNG(driver);
     }
 
     @Step("When - User goes to PIM Module")
     public void goToModulePIM() {
         driver.findElement(menuPIMView).click();
+        TestListener.saveScreenshotPNG(driver);
         Shutterbug.shootPage(driver, ScrollStrategy.WHOLE_PAGE, 500, true).withName("PIMPage").save(); // full page screen shot with Shutterbug, hasilnya akurat
 
         Screenshot screenshot = new AShot().shootingStrategy(ShootingStrategies.viewportPasting(500)).takeScreenshot(driver);// full page screen shot with aShot, hasilnya tidak akurat
@@ -72,30 +75,35 @@ public class HomePage {
     @Step("When - User goes to Leave Module")
     public void goToModuleLeave() {
         driver.findElement(menuLeaveView).click();
+        TestListener.saveScreenshotPNG(driver);
         Shutterbug.shootPage(driver, ScrollStrategy.WHOLE_PAGE, 500, true).withName("LeavePage").save();
     }
 
     @Step("When - User goes to Time Module")
     public void goToModuleTime() {
         driver.findElement(menuTime).click();
+        TestListener.saveScreenshotPNG(driver);
         Shutterbug.shootPage(driver, ScrollStrategy.WHOLE_PAGE, 500, true).withName("TimePage").save();
     }
 
     @Step("When - User goes to Recruitment Module")
     public void goToModuleRecruitment() {
         driver.findElement(menuRecruitment).click();
+        TestListener.saveScreenshotPNG(driver);
         Shutterbug.shootPage(driver, ScrollStrategy.WHOLE_PAGE, 500, true).withName("RecruitmentPage").save();
     }
 
     @Step("When - User goes to Performance Module")
     public void goToModulePerformance() {
         driver.findElement(menuPerformance).click();
+        TestListener.saveScreenshotPNG(driver);
         Shutterbug.shootPage(driver, ScrollStrategy.WHOLE_PAGE, 500, true).withName("PerformacePage").save();
     }
 
     @Step("When - User goes to Dashboard Module")
     public void goToModuleDashboard(){
         driver.findElement(menuDashboard).click();
+        TestListener.saveScreenshotPNG(driver);
         Shutterbug.shootPage(driver, ScrollStrategy.WHOLE_PAGE, 500, true).withName("DashboardPage").save(); // hasilnya valid
         WebElement myWebElement = driver.findElement(By.cssSelector("div#div_graph_display_emp_distribution > canvas:nth-of-type(2)"));
 
@@ -120,18 +128,19 @@ public class HomePage {
         Shutterbug.shootElement(driver, myWebElement).withName("dashboard_pie_chart").save(); //method bisa dipakai tp hasilnya tidak akurat
         Shutterbug.shootPage(driver).highlightWithText(myWebElement, "dashboard_pie_chart_2").withName("dashboard_pie_chart_2").save();//method bisa dipakai tp hasilnya tidak akurat
         Shutterbug.shootPage(driver).highlight(myWebElement).withName("dashboard_pie_chart_3").save();//method bisa dipakai tp hasilnya tidak akurat
-
     }
 
     @Step("When - User goes to Directory Module")
     public void goToModuleDirectory() {
         driver.findElement(menuDirectory).click();
+        TestListener.saveScreenshotPNG(driver);
         Shutterbug.shootPage(driver, ScrollStrategy.WHOLE_PAGE, 500, true).withName("DirectoryPage").save();
     }
 
     @Step("When - User goes to Welcome Admin Module")
     public HomePage goToLinkWelcomeAdmin() {
         driver.findElement(menuLinkWelcomeAdmin).click();
+        TestListener.saveScreenshotPNG(driver);
         return this;
     }
 
@@ -215,12 +224,12 @@ public class HomePage {
                 diff = imgDiff.makeDiff(actImage, expImage);
                 BufferedImage markedImage = diff.getMarkedImage();
                 ImageIO.write(markedImage, "PNG", new File(System.getProperty("user.dir") + ".\\screenshots\\RecruitmentPage_Diff.png"));
-
                 Assert.assertFalse(diff.hasDiff(), "Images are Same");
                 //Results : aShot is able to compare image content
                 //=================== aShot, images comparison in fail scenario ======================================================//
                 break;
         }
+        TestListener.saveScreenshotPNG(driver);
     }
 
     @Step("And - User clicks on About link")
@@ -233,13 +242,13 @@ public class HomePage {
         } catch (NoSuchElementException e) {
             System.out.println("Cannot located web element");
         }
-
+        TestListener.saveScreenshotPNG(driver);
     }
 
     @Step("Then - Modal is Displayed with informative message")
     public void verifyModalIsDisplayedWithInformativeMessage() {
         assertThat(driver.findElement(By.id("displayAbout")).getText(), containsString(getAboutInfo()));
         assertThat(driver.findElement(By.id("companyInfo")).getText(), containsString("Company Name: Okta Jaya Pte Ltd"));
-        System.out.println(driver.findElement(By.id("displayAbout")).getText());
+        TestListener.saveScreenshotPNG(driver);
     }
 }
