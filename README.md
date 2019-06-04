@@ -79,7 +79,7 @@ https://youtu.be/MjgUgCN3WMg
 # DemoOrangeHRMTestNGAllure Continuous Testing
 - Continuous Testing with TestNG & Allure & Continuous Inspection with SonarQube in Docker via Jenkins Continous Integration Server
 
-Jenkins Scripted Pipeline
+Jenkins Scripted Pipeline ---> Windows Environment
 ```
 node(*{slave}*) {
   stage('Checkout') {git poll: true, branch: branch, credentialsId: *{credential_name}*, url: *{URL of repository}*}
@@ -105,4 +105,9 @@ node(*{slave}*) {
       withSonarQubeEnv('sonarqube') {
        bat "mvn sonar:sonar -Dsonar.login=*{sonar user id}* -Dsonar.password=*{sonar password}* -Dsonar.projectKey=*{project name}* -Dsonar.host.url=*{sonar URL}*"
     }}}}
+```
+
+## Demo in Youtube - Windows
+```
+https://youtu.be/MjgUgCN3WMg
 ```
