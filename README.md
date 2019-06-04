@@ -6,6 +6,7 @@
 - Page Object Model and Page Factory in Java
 - Visual Regression Testing/Screenshot Comparison with Selenium-Shutterbug & aShot
 
+Environment : Windows & Docker
 
 ## Download OrangeHRM
 Note : This repository is using OrangeHRM version 4.0 as System Under Test
