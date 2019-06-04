@@ -57,7 +57,7 @@ allure serve
 https://youtu.be/EPd5iCTchuA
 ```
 
-# DemoOrangeHRMTestNGAllure Continuous Inspection
+# DemoOrangeHRMTestNGAllure Code Quality
 - Continuous Inspection with SonarQube in Docker
 
 ### Docker installation - Windows
