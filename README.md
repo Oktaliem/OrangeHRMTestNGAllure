@@ -106,6 +106,7 @@ node(*{slave}*) {
        bat "mvn sonar:sonar -Dsonar.login=*{sonar user id}* -Dsonar.password=*{sonar password}* -Dsonar.projectKey=*{project name}* -Dsonar.host.url=*{sonar URL}*"
     }}}}
 ```
+![image](https://user-images.githubusercontent.com/26521948/58900769-5f63c780-8732-11e9-8bca-23de14630dd5.png)
 
 ## Demo in Youtube - Windows
 ```
