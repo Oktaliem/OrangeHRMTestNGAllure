@@ -1,9 +1,9 @@
 # DemoOrangeHRMTestNGAllure Test Automation
 ### Features
 - BDD reporting style with TestNG and Allure.
+- Page Object Model and Page Factory in Java
 - Generate Screenshot after run the test (available on Allure report)
 - Generate Video on Failed Test (available on Allure report)
-- Page Object Model and Page Factory in Java
 - Visual Regression Testing/Screenshot Comparison with Selenium-Shutterbug & aShot
 
 Environment : Windows & Docker
