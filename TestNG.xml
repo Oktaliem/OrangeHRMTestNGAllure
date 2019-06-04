@@ -6,7 +6,7 @@
     </listeners>
     <test name="Full Test">
         <classes>
-            <class name="features.LoginORMTest">
+            <class name="features.LoginTest">
             <methods>
                 <include name="TC01_login"/>
                 <include name="TC02_login"/>
@@ -18,7 +18,7 @@
                 <include name="TC08_login"/>
             </methods>
         </class>
-            <class name="features.InquiryUserOHRMTest"/>
+            <class name="features.InquiryUserTest"/>
             <class name="features.HomePageNavigationTest"/>
         </classes>
     </test>
