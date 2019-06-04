@@ -47,7 +47,6 @@ allure serve
 
 ## Report Path
 #### Sample Report
-Clone this repository and open :
 ```
 {your_project_path}/allure-report/index.html
 ```
