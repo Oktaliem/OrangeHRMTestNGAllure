@@ -76,7 +76,7 @@ https://docs.docker.com/docker-for-mac/install/
 https://youtu.be/MjgUgCN3WMg
 ```
 
-# DemoOrangeHRMTestNGAllure Continuous Testing
+# Recap
 - Continuous Testing with TestNG & Allure & Continuous Inspection with SonarQube in Docker via Jenkins Continous Integration Server
 
 Jenkins Scripted Pipeline ---> Windows Environment
@@ -109,5 +109,5 @@ node(*{slave}*) {
 
 ## Demo in Youtube - Windows
 ```
-https://youtu.be/MjgUgCN3WMg
+
 ```
