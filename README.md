@@ -77,6 +77,32 @@ https://youtu.be/MjgUgCN3WMg
 ```
 
 # DemoOrangeHRMTestNGAllure Continuous Testing
-- Continuous Testing (TestNG & Allure) & Continuous Inspection (SonarQube) with Continous Integration Server (Jenkins Pipeline) in Docker
+- Continuous Testing with TestNG & Allure & Continuous Inspection with SonarQube in Docker via Jenkins Continous Integration Server
 
-To be continued......
+Jenkins Scripted Pipeline
+```
+node(*{slave}*) {
+  stage('Checkout') {git poll: true, branch: branch, credentialsId: *{credential_name}*, url: *{URL of repository}*}
+  try{
+      stage('Orange HRM Test Automation') {
+          bat "mvn -version"
+          bat "java -version"
+          bat "mvn clean test"
+          bat "allure generate"
+      }
+  } finally{
+      stage('Allure Report') {
+          allure([
+                    includeProperties: false,
+                    jdk: '',
+                    properties: [],
+                    reportBuildPolicy: 'ALWAYS',
+                    results: [[path: 'allure-results']]
+            ])
+      }
+      stage('Sonarqube Quality Gate') {
+      scannerHome = tool 'SonarQubeScanner'
+      withSonarQubeEnv('sonarqube') {
+       bat "mvn sonar:sonar -Dsonar.login=*{sonar user id}* -Dsonar.password=*{sonar password}* -Dsonar.projectKey=*{project name}* -Dsonar.host.url=*{sonar URL}*"
+    }}}}
+```
