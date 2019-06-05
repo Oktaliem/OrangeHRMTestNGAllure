@@ -80,7 +80,7 @@ https://youtu.be/MjgUgCN3WMg
 ```
 
 # Recap
-- Continuous Testing with TestNG/Allure & Continuous Inspection with SonarQube in Docker via Jenkins Continous Integration Server
+- Continuous Testing with TestNG/Allure & Continuous Inspection with SonarQube in Docker via Jenkins Continuous Integration Server
 
 Jenkins Scripted Pipeline ---> Windows Environment
 ```
