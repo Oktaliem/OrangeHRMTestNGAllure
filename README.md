@@ -106,3 +106,11 @@ node(*{slave}*) {
 ```
 https://youtu.be/ddq8hXksH_E
 ```
+
+# References :
+- https://testng.org/doc/
+- https://www.sonarqube.org/
+- https://jenkins.io/
+- http://allure.qatools.ru/
+- https://github.com/pazone/ashot
+- https://github.com/assertthat/selenium-shutterbug
