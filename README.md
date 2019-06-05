@@ -82,14 +82,10 @@ https://youtu.be/MjgUgCN3WMg
 Jenkins Scripted Pipeline ---> Windows Environment
 ```
 node(*{slave}*) {
-  stage('Checkout') {git poll: true, branch: branch, credentialsId: *{credential_name}*, url: *{URL of repository}*}
+      stage('Checkout') {git poll: true, branch: branch, credentialsId: *{credential_name}*, url: *{URL of repository}*}
   try{
       stage('Orange HRM Test Automation') {
-          bat "mvn -version"
-          bat "java -version"
-          bat "mvn clean test"
-          bat "allure generate"
-      }
+          bat "mvn clean test"}
   } finally{
       stage('Allure Report') {
           allure([
@@ -97,9 +93,7 @@ node(*{slave}*) {
                     jdk: '',
                     properties: [],
                     reportBuildPolicy: 'ALWAYS',
-                    results: [[path: 'allure-results']]
-            ])
-      }
+                    results: [[path: 'allure-results']]])}
       stage('Sonarqube Quality Gate') {
       scannerHome = tool 'SonarQubeScanner'
       withSonarQubeEnv('sonarqube') {
