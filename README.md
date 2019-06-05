@@ -11,10 +11,10 @@ Environment : Windows & Docker
 ## Download OrangeHRM
 Note : This repository is using OrangeHRM version 4.0 as System Under Test
 ```
-for Windows
+Windows
 https://github.com/orangehrm/orangehrm
 or
-for Mac
+Mac/Linux
 https://hub.docker.com/r/bitnami/orangehrm/
 ```
 
@@ -23,6 +23,9 @@ https://hub.docker.com/r/bitnami/orangehrm/
 Install Allure :
 - MacOS --> brew install allure
 - Windows PC --> scoop install allure
+- Linux ----> sudo apt-add-repository ppa:qameta/allure
+              sudo apt-get update 
+              sudo apt-get install allure
 ```
 https://docs.qameta.io/allure/#_installing_a_commandline
 https://scoop.sh/
