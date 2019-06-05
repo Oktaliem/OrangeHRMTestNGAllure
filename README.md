@@ -98,7 +98,6 @@ node(*{slave}*) {
                     reportBuildPolicy: 'ALWAYS',
                     results: [[path: 'allure-results']]])}
       stage('Sonarqube Quality Gate') {
-      scannerHome = tool 'SonarQubeScanner'
       withSonarQubeEnv('sonarqube') {
        bat "mvn sonar:sonar -Dsonar.login=*{sonar user id}* -Dsonar.password=*{sonar password}* -Dsonar.projectKey=*{project name}* -Dsonar.host.url=*{sonar URL}*"
     }}}}
