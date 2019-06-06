@@ -30,10 +30,10 @@ import static org.hamcrest.CoreMatchers.containsString;
 import static org.hamcrest.MatcherAssert.assertThat;
 
 
-public class HomePage {
+public class HomePage extends BasePage{
 
     WebDriver driver;
-    public ScreenShootComparison imageComparison;
+    public ScreenShootComparison eye;
 
     By menuAdminView = By.id("menu_admin_viewAdminModule");
     By menuPIMView = By.xpath("//B[text()='PIM']");
@@ -54,7 +54,7 @@ public class HomePage {
     @Step("When - User goes to Admin Module")
     public void goToModuleAdmin() {
         driver.findElement(menuAdminView).click();
-        Shutterbug.shootPage(driver, ScrollStrategy.WHOLE_PAGE, 500, true).withName("AdminPage").save();
+        takeFullPageScreenShootAndSave(driver, "AdminPage");
         TestListener.saveScreenshotPNG(driver);
     }
 
@@ -62,8 +62,7 @@ public class HomePage {
     public void goToModulePIM() {
         driver.findElement(menuPIMView).click();
         TestListener.saveScreenshotPNG(driver);
-        Shutterbug.shootPage(driver, ScrollStrategy.WHOLE_PAGE, 500, true).withName("PIMPage").save(); // full page screen shot with Shutterbug, hasilnya akurat
-
+        takeFullPageScreenShootAndSave(driver,"PIMPage");
         Screenshot screenshot = new AShot().shootingStrategy(ShootingStrategies.viewportPasting(500)).takeScreenshot(driver);// full page screen shot with aShot, hasilnya tidak akurat
         try {
             ImageIO.write(screenshot.getImage(), "PNG", new File(System.getProperty("user.dir") + ".\\screenshots\\PIMPage_aShot.png"));
@@ -76,28 +75,28 @@ public class HomePage {
     public void goToModuleLeave() {
         driver.findElement(menuLeaveView).click();
         TestListener.saveScreenshotPNG(driver);
-        Shutterbug.shootPage(driver, ScrollStrategy.WHOLE_PAGE, 500, true).withName("LeavePage").save();
+        takeFullPageScreenShootAndSave(driver,"LeavePage");
     }
 
     @Step("When - User goes to Time Module")
     public void goToModuleTime() {
         driver.findElement(menuTime).click();
         TestListener.saveScreenshotPNG(driver);
-        Shutterbug.shootPage(driver, ScrollStrategy.WHOLE_PAGE, 500, true).withName("TimePage").save();
+        takeFullPageScreenShootAndSave(driver,"TimePage");
     }
 
     @Step("When - User goes to Recruitment Module")
     public void goToModuleRecruitment() {
         driver.findElement(menuRecruitment).click();
         TestListener.saveScreenshotPNG(driver);
-        Shutterbug.shootPage(driver, ScrollStrategy.WHOLE_PAGE, 500, true).withName("RecruitmentPage").save();
+        takeFullPageScreenShootAndSave(driver,"RecruitmentPage");
     }
 
     @Step("When - User goes to Performance Module")
     public void goToModulePerformance() {
         driver.findElement(menuPerformance).click();
         TestListener.saveScreenshotPNG(driver);
-        Shutterbug.shootPage(driver, ScrollStrategy.WHOLE_PAGE, 500, true).withName("PerformacePage").save();
+        takeFullPageScreenShootAndSave(driver,"PerformancePage");
     }
 
     @Step("When - User goes to Dashboard Module")
@@ -134,7 +133,7 @@ public class HomePage {
     public void goToModuleDirectory() {
         driver.findElement(menuDirectory).click();
         TestListener.saveScreenshotPNG(driver);
-        Shutterbug.shootPage(driver, ScrollStrategy.WHOLE_PAGE, 500, true).withName("DirectoryPage").save();
+        takeFullPageScreenShootAndSave(driver,"DirectoryPage");
     }
 
     @Step("When - User goes to Welcome Admin Module")
