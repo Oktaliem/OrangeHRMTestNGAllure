@@ -16,8 +16,12 @@ public class OrangeHRMURL {
 
     public static final String RECRUITMENT_PAGE_BASE = ".\\baseimages\\RecruitmentPageFalse.png";
     public static final String RECRUITMENT_PAGE_DIFF = ".\\screenshots\\RecruitmentPage_Diff.png";
+    public static final String RECRUITMENT_PAGE_ACTUAL = ".\\screenshots\\RecruitmentPage.png";
     public static final String DIRECTORY_PAGE_BASE =".\\baseimages\\DirectoryPage.png" ;
     public static final String DIRECTORY_PAGE_DIFF =".\\screenshots\\DirectoryPage_Diff.png";
-
+    public static final String DIRECTORY_PAGE_ACTUAL =".\\screenshots\\DirectoryPage.png";
+    public static final String TIME_PAGE_BASE =".\\baseimages\\TimePage.png";
+    public static final String TIME_PAGE_ACTUAL =".\\screenShots\\TimePage.png";
+    public static final String TIME_PAGE_DIFF =".\\screenShots\\TimePage_Diff.png";
 
 }

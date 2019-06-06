@@ -19,7 +19,7 @@ import static com.ohrm.utilities.OrangeHRMURL.*;
 public class HomePageNavigationTest extends Preparation {
 
     @Video
-    @Test(priority = 0, description = "TC01 Able to navigate to admin page")
+    @Test(description = "TC01 Able to navigate to admin page - Visual Test")
     public void TC01_home_navigation() throws IOException {
         userIsLandingToPage("home");
         homePage.goToModuleAdmin();
@@ -27,7 +27,7 @@ public class HomePageNavigationTest extends Preparation {
     }
 
     @Video
-    @Test(priority = 0, description = "TC02 Able to navigate to PIM page")
+    @Test(description = "TC02 Able to navigate to PIM page")
     public void TC02_home_navigation() throws IOException {
         userIsLandingToPage("home");
         homePage.goToModulePIM();
@@ -35,7 +35,7 @@ public class HomePageNavigationTest extends Preparation {
     }
 
     @Video
-    @Test(priority = 0, description = "TC03 Able to navigate to leave page")
+    @Test(description = "TC03 Able to navigate to leave page")
     public void TC03_home_navigation() throws IOException {
         userIsLandingToPage("home");
         homePage.goToModuleLeave();
@@ -43,7 +43,7 @@ public class HomePageNavigationTest extends Preparation {
     }
 
     @Video
-    @Test(priority = 0, description = "TC04 Able to navigate to time page")
+    @Test(description = "TC04 Able to navigate to time page - Visual Test")
     public void TC04_home_navigation() throws IOException {
         userIsLandingToPage("home");
         homePage.goToModuleTime();
@@ -51,7 +51,7 @@ public class HomePageNavigationTest extends Preparation {
     }
 
     @Video
-    @Test(priority = 0, description = "TC05 Able to navigate to recruitment page - Visual Test")
+    @Test(description = "TC05 Able to navigate to recruitment page - Visual Test")
     public void TC05_home_navigation(ITestContext context) throws IOException {
         context.setAttribute("method", "TC05_home_navigation");
         context.setAttribute("base",RECRUITMENT_PAGE_BASE);
@@ -62,7 +62,7 @@ public class HomePageNavigationTest extends Preparation {
     }
 
     @Video
-    @Test(priority = 0, description = "TC06 Able to navigate to performance page")
+    @Test(description = "TC06 Able to navigate to performance page")
     public void TC06_home_navigation() throws IOException {
         userIsLandingToPage("home");
         homePage.goToModulePerformance();
@@ -70,7 +70,7 @@ public class HomePageNavigationTest extends Preparation {
     }
 
     @Video
-    @Test(priority = 0, description = "TC07 ble to navigate to dashboard page")
+    @Test(description = "TC07 ble to navigate to dashboard page")
     public void TC07_home_navigation() throws IOException {
         userIsLandingToPage("home");
         homePage.goToModuleDashboard();
@@ -78,7 +78,7 @@ public class HomePageNavigationTest extends Preparation {
     }
 
     @Video
-    @Test(priority = 0, description = "TC08 Able to navigate to directory page - Visual Test")
+    @Test(description = "TC08 Able to navigate to directory page - Visual Test")
     public void TC08_home_navigation(ITestContext context) throws IOException {
         context.setAttribute("method","TC08_home_navigation" );
         context.setAttribute("base",DIRECTORY_PAGE_BASE );
@@ -90,7 +90,7 @@ public class HomePageNavigationTest extends Preparation {
     }
 
     @Video
-    @Test(priority = 0, description = "TC09 Able to navigate to About modal")
+    @Test(description = "TC09 Able to navigate to About modal")
     public void TC09_home_navigation() {
         userIsLandingToPage("home");
         homePage.goToLinkWelcomeAdmin().clickLinkAbout();
@@ -98,7 +98,7 @@ public class HomePageNavigationTest extends Preparation {
     }
 
     @Video
-    @Test(priority = 0, description = "TC10 Able to navigate to many page")
+    @Test(description = "TC10 Able to navigate to many page")
     public void TC10_home_navigation() throws IOException {
         userIsLandingToPage("home");
         homePage.goToModuleAdmin();

@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8da644e5-1b2b-497d-8227-32ba908bec9c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohrm/utilities/OrangeHRMURL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohrm/utilities/OrangeHRMURL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/HomePageNavigationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/HomePageNavigationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/ScreenShootComparison.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/ScreenShootComparison.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,8 +30,8 @@
       <file leaf-file-name="HomePageNavigationTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/features/HomePageNavigationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+            <state relative-caret-position="374">
+              <caret line="109" column="28" selection-start-line="109" selection-start-column="28" selection-end-line="109" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -38,20 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Log.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ohrm/utilities/Log.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="OrangeHRMURL.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ohrm/utilities/OrangeHRMURL.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="72" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="72" />
+            <state relative-caret-position="251">
+              <caret line="22" column="45" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -59,8 +51,8 @@
       <file leaf-file-name="HomePage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/pages/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1980">
-              <caret line="134" column="47" selection-start-line="134" selection-start-column="47" selection-end-line="134" selection-end-column="47" />
+            <state relative-caret-position="-2220">
+              <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -71,62 +63,11 @@
       <file leaf-file-name="BasePage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/pages/BasePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Preparation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/features/Preparation.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestListener.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/utils/Listeners/TestListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1260">
-              <caret line="88" column="24" selection-start-line="88" selection-start-column="24" selection-end-line="88" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestNG.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestNG.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/features/LoginTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ScreenShootComparison.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/utils/ScreenShootComparison.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -154,6 +95,12 @@
       <find>org.testng</find>
       <find>BufferedImage</find>
       <find>BaseImages</find>
+      <find>.\\screenShots\\RecruitmentPage.png</find>
+      <find>.\\screenshots\\RecruitmentPage.png</find>
+      <find>.\\baseimages\\RecruitmentPageFalse.png</find>
+      <find>.\\screenshots\\RecruitmentPage_Diff.png</find>
+      <find>.\\baseimages\\DirectoryPage.png</find>
+      <find>.\\screenshots\\DirectoryPage_Diff.png</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -190,7 +137,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ohrm/utilities/Log.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ohrm/model/TestDataModelLogin.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ohrm/model/TestDataModelAdmin.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ohrm/utilities/OrangeHRMURL.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ohrm/webdriver/driver.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ohrm/webdriver/webDriver.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ohrm/webdriver/myDriver.java" />
@@ -214,13 +160,14 @@
         <option value="$PROJECT_DIR$/src/test/java/features/Preparation.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/login/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/admin/UserMgn_UserPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/features/HomePageNavigationTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/features/LoginTest.java" />
         <option value="$PROJECT_DIR$/TestNG.xml" />
         <option value="$PROJECT_DIR$/src/test/java/features/InquiryUserTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/utils/Listeners/TestListener.java" />
         <option value="$PROJECT_DIR$/src/test/java/utils/ScreenShootComparison.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ohrm/utilities/OrangeHRMURL.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/BasePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/features/HomePageNavigationTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/HomePage.java" />
       </list>
     </option>
@@ -624,7 +571,7 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3280116" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.43396226" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.22351234" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.21335268" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17785235" />
@@ -935,23 +882,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/features/LoginTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/features/InquiryUserTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -966,37 +896,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/features/LoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-930">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/features/Preparation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        <state relative-caret-position="-210">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/features/HomePageNavigationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ohrm/utilities/OrangeHRMURL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="72" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ohrm/utilities/Log.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1013,14 +926,48 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/utils/ScreenShootComparison.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <caret line="19" column="5" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/features/InquiryUserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ohrm/utilities/Log.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pages/BasePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+        <state relative-caret-position="30">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ohrm/utilities/OrangeHRMURL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="22" column="45" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/features/HomePageNavigationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="109" column="28" selection-start-line="109" selection-start-column="28" selection-end-line="109" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1029,8 +976,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pages/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1980">
-          <caret line="134" column="47" selection-start-line="134" selection-start-column="47" selection-end-line="134" selection-end-column="47" />
+        <state relative-caret-position="-2220">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
