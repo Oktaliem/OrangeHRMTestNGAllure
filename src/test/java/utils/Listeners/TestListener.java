@@ -71,14 +71,6 @@ public class TestListener extends Preparation implements ITestListener {
     @Override
     public void onTestSuccess(ITestResult iTestResult) {
         System.out.println("I am in onTestSuccess method " +  getTestMethodName(iTestResult) + " succeed");
-        /*
-        Object testClass = iTestResult.getInstance();
-        WebDriver driver = ((Preparation) testClass).getDriver();
-        if (driver instanceof WebDriver) {
-            System.out.println("Screenshot captured for test case:" + getTestMethodName(iTestResult));
-            saveScreenshotPNG(driver);
-        }
-        */
     }
 
     @Override

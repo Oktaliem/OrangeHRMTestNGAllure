@@ -10,6 +10,8 @@ import pages.HomePage;
 import pages.admin.UserMgn_UserPage;
 import pages.login.LoginPage;
 import utils.CreateRandomName;
+import utils.Listeners.TestListener;
+import utils.ScreenShootComparison;
 
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
@@ -25,24 +27,11 @@ public class Preparation {
     public HomePage homePage;
     public UserMgn_UserPage adminPage;
     public CreateRandomName name;
-
+    public ScreenShootComparison image;
     public WebDriver getDriver() {
         return driver;
     }
-/*
-    @BeforeSuite
-    public void beforeSuit(){
-        //=============================ocular===================================//
-        System.out.print("Start Ocular");
-        Ocular.config()
-                .resultPath(Paths.get(".\\ocular\\result"))
-                .snapshotPath(Paths.get(".\\ocular\\snapshot"))
-                .globalSimilarity(99)
-                .saveSnapshot(true);
-        System.out.print("Stop Ocular");
-        //=============================ocular===================================//
-    }
-*/
+
     @BeforeMethod
     public void beforeMethodSetup() throws IOException {
         System.setProperty(CHROME_BROWSER, CHROMEDRIVER_PATH);
@@ -51,26 +40,25 @@ public class Preparation {
         homePage = new HomePage(driver);
         adminPage = new UserMgn_UserPage(driver);
         name = new CreateRandomName();
+        image = new ScreenShootComparison();
         Log.info("======================================================================================================");
         Log.info("================================= END TO END TEST STARTED ============================================");
         Log.info("======================================================================================================");
+        driver.manage().window().fullscreen();
+        driver.get(LOGIN_URL);
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
     }
 
     @Step("Given - User is landing to expected page - {0}")
     public void userIsLandingToPage(String page) {
-        driver.manage().window().fullscreen();
-        driver.get(LOGIN_URL);
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         if (page.equals("Login")) {
-            //loginPage.loginToOHRM("admin","admin");
+            TestListener.saveScreenshotPNG(driver);
         } else if (page.equals("User Management")) {
             loginPage.loginToOHRM("admin","admin");
             adminPage.userGoToUsersForm();
         }else if(page.equals("home")){
             loginPage.loginToOHRM("admin","admin");
         }
-        //Shutterbug.shootPage(driver).save();
-        //Shutterbug.shootPage(driver,ScrollStrategy.WHOLE_PAGE,500,true).withName("LoginPageScreenshot").save();
     }
 
     @AfterMethod

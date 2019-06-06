@@ -3,6 +3,7 @@ package utils;
 import com.assertthat.selenium_shutterbug.core.Shutterbug;
 import com.assertthat.selenium_shutterbug.utils.web.ScrollStrategy;
 import org.openqa.selenium.WebDriver;
+import org.testng.ITestContext;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
@@ -21,5 +22,12 @@ public class ScreenShootComparison{
         BufferedImage expectedImage = ImageIO.read(image);
         boolean status = Shutterbug.shootPage(driver,ScrollStrategy.WHOLE_PAGE,500,true).withName(fileName).equals(expectedImage,0.1);
         return status;
+    }
+
+    public void setUpImageComparison(String method, String base, String diff, ITestContext context){
+        context.setAttribute("method", method);
+        context.setAttribute("base",base);
+        context.setAttribute("diff",diff);
+
     }
 }

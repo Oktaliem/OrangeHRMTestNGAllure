@@ -51,11 +51,11 @@ public class HomePageNavigationTest extends Preparation {
     }
 
     @Video
-    @Test(priority = 0, description = "TC05 Able to navigate to recruitment page")
+    @Test(priority = 0, description = "TC05 Able to navigate to recruitment page - Visual Test")
     public void TC05_home_navigation(ITestContext context) throws IOException {
-        context.setAttribute("diff",".\\screenshots\\RecruitmentPage_Diff.png");
-        context.setAttribute("base",".\\baseimages\\RecruitmentPageFalse.png" );
-        context.setAttribute("method","TC05_home_navigation" );
+        context.setAttribute("method", "TC05_home_navigation");
+        context.setAttribute("base",RECRUITMENT_PAGE_BASE);
+        context.setAttribute("diff",RECRUITMENT_PAGE_DIFF);
         userIsLandingToPage("home");
         homePage.goToModuleRecruitment();
         homePage.verifyLandingToCorrectPage(RECRUITMENT_PAGE);
@@ -78,11 +78,11 @@ public class HomePageNavigationTest extends Preparation {
     }
 
     @Video
-    @Test(priority = 0, description = "TC08 Able to navigate to directory page")
+    @Test(priority = 0, description = "TC08 Able to navigate to directory page - Visual Test")
     public void TC08_home_navigation(ITestContext context) throws IOException {
-        context.setAttribute("base",".\\baseimages\\DirectoryPage.png" );
-        context.setAttribute("diff",".\\screenshots\\DirectoryPage_Diff.png");
         context.setAttribute("method","TC08_home_navigation" );
+        context.setAttribute("base",DIRECTORY_PAGE_BASE );
+        context.setAttribute("diff",DIRECTORY_PAGE_DIFF);
         userIsLandingToPage("home");
         homePage.goToModuleDirectory();
         homePage.verifyLandingToCorrectPage(DIRECTORY_PAGE);

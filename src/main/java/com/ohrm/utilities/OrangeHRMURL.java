@@ -13,4 +13,11 @@ public class OrangeHRMURL {
     public static final String PERFORMANCE_PAGE = BASE_URL + "/recruitment/viewCandidates#";
     public static final String DASHBOARD_PAGE = BASE_URL + "/dashboard";
     public static final String DIRECTORY_PAGE = BASE_URL+"/directory/viewDirectory/reset/1";
+
+    public static final String RECRUITMENT_PAGE_BASE = ".\\baseimages\\RecruitmentPageFalse.png";
+    public static final String RECRUITMENT_PAGE_DIFF = ".\\screenshots\\RecruitmentPage_Diff.png";
+    public static final String DIRECTORY_PAGE_BASE =".\\baseimages\\DirectoryPage.png" ;
+    public static final String DIRECTORY_PAGE_DIFF =".\\screenshots\\DirectoryPage_Diff.png";
+
+
 }

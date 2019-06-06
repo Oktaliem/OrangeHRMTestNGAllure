@@ -1,7 +1,6 @@
 package pages.admin;
 
 import com.ohrm.utilities.Log;
-import com.testautomationguru.ocular.snapshot.Snap;
 import features.Preparation;
 import io.qameta.allure.Step;
 import org.openqa.selenium.*;
@@ -18,7 +17,6 @@ import java.util.List;
 import static org.testng.Assert.fail;
 import static org.testng.AssertJUnit.assertEquals;
 
-@Snap("RichFace.png")
 public class UserMgn_UserPage extends Preparation {
 
     WebDriver driver;
