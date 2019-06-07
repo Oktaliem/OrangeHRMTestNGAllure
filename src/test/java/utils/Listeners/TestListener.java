@@ -41,7 +41,7 @@ public class TestListener extends Preparation implements ITestListener {
     }
 
     @Attachment(value = "Video record", type = "video/avi")
-    static byte[] attachVideo(String directory, String methodName) throws IOException {
+    static byte[] attachVideo(String methodName) throws IOException {
         System.out.println("Informasi isFile: "+ VideoRecorder.getLastRecording().isFile());
         System.out.println("Informasi getAbsolutePath: "+ VideoRecorder.getLastRecording().getAbsolutePath());
         System.out.println("Informasi canRead: "+ VideoRecorder.getLastRecording().canRead());
@@ -109,12 +109,12 @@ public class TestListener extends Preparation implements ITestListener {
                 getScreenshotDiffer(iTestResult.getTestContext().getAttribute("diff"));
             }
             System.out.println("Video captured for test case:" + getTestMethodName(iTestResult));
-            try { attachVideo("video",getTestMethodName(iTestResult) ); } catch (IOException e) { e.printStackTrace();}
+            try { attachVideo(getTestMethodName(iTestResult) ); } catch (IOException e) { e.printStackTrace();}
         }
         saveTextLog(getTestMethodName(iTestResult) + " failed and screenshot taken!");
         String folder = System.getProperty("user.dir");
         saveTextLog(getTestMethodName(iTestResult) + " failed and video taken! If video attachments are broken or incorrect "+
-                "then check the second video attachment");
+                "then check the second video attachment if exist or check your Jenkins Slave path "+ VideoRecorder.getLastRecording().getAbsolutePath());
     }
 
     @Override
