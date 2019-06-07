@@ -14,6 +14,8 @@ import java.io.File;
 import java.io.IOException;
 
 import static com.google.common.io.Files.toByteArray;
+import static java.util.concurrent.TimeUnit.SECONDS;
+import static org.awaitility.Awaitility.await;
 
 
 public class TestListener extends Preparation implements ITestListener {
@@ -39,6 +41,7 @@ public class TestListener extends Preparation implements ITestListener {
 
     @Attachment(value = "Video record", type = "video/avi")
     static byte[] attachVideo(String directory) {
+        await().atMost(5, SECONDS); // wait until last video is ready in the folder
         File dir = new File(System.getProperty("user.dir") + "\\"+ directory);
         File[] files = dir.listFiles();
         if (files == null || files.length == 0) {
@@ -48,13 +51,13 @@ public class TestListener extends Preparation implements ITestListener {
             if (lastModifiedFile.lastModified() < files[i].lastModified()) {
                 lastModifiedFile = files[i]; } }
         System.out.println("Last modified video name: " + lastModifiedFile);
-        try { return toByteArray(lastModifiedFile); } catch (IOException e) { e.printStackTrace();return new byte[0]; }
+        try { return toByteArray(lastModifiedFile); } catch (IOException e) { e.printStackTrace();return new byte[0]; }}
 
         /*
-        or more simplified :
-        try { return toByteArray(VideoRecorder.getLastRecording()); } catch (IOException e) { e.printStackTrace();return new byte[0]; }}
+        //or more simplified :
+        try {System.out.println("Last modified video name: " + VideoRecorder.getLastRecording());
+            return toByteArray(VideoRecorder.getLastRecording()); } catch (IOException e) { e.printStackTrace();return new byte[0]; }}
         */
-    }
 
     @Attachment(value = "Visual test (screenshot from base image differ)", type = "image/png")
     public byte[] getScreenshotDiffer(Object path) {
