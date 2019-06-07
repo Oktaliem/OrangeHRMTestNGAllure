@@ -1,6 +1,5 @@
 package utils.Listeners;
 
-import com.automation.remarks.video.recorder.VideoRecorder;
 import com.ohrm.utilities.Log;
 import features.Preparation;
 import io.qameta.allure.Attachment;
@@ -25,10 +24,11 @@ public class TestListener extends Preparation implements ITestListener {
 
     @Attachment(value = "Page screenshot", type = "image/png")
     public static byte[] saveScreenshotPNG(WebDriver driver) {
-        return ((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES); }
+        return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+    }
 
     @Attachment(value = "{0}", type = "text/plain")
-    public static String saveTextLog (String message) {
+    public static String saveTextLog(String message) {
         return message;
     }
 
@@ -38,18 +38,35 @@ public class TestListener extends Preparation implements ITestListener {
     }
 
     @Attachment(value = "Video record", type = "video/avi")
-    static byte[] attachVideo() {
+    static byte[] attachVideo(String directory) {
+        File dir = new File(System.getProperty("user.dir") + "\\"+ directory);
+        File[] files = dir.listFiles();
+        if (files == null || files.length == 0) {
+            System.out.println("No files in the directory" );return null; }
+        File lastModifiedFile = files[0];
+        for (int i = 1; i < files.length; i++) {
+            if (lastModifiedFile.lastModified() < files[i].lastModified()) {
+                lastModifiedFile = files[i]; } }
+        System.out.println("Last modified video name: " + lastModifiedFile);
+        try { return toByteArray(lastModifiedFile); } catch (IOException e) { e.printStackTrace();return new byte[0]; }
+
+        /*
+        or more simplified :
         try { return toByteArray(VideoRecorder.getLastRecording()); } catch (IOException e) { e.printStackTrace();return new byte[0]; }}
+        */
+    }
 
     @Attachment(value = "Visual test (screenshot from base image differ)", type = "image/png")
-    public byte[] getScreenshotDiffer (Object path) {
+    public byte[] getScreenshotDiffer(Object path) {
         File expImage = new File(System.getProperty("user.dir") + path);
-        try { return toByteArray(expImage); } catch (IOException e) { e.printStackTrace();return new byte[0]; }}
+        try { return toByteArray(expImage); } catch (IOException e) { e.printStackTrace();return new byte[0]; }
+    }
 
     @Attachment(value = "Base line image", type = "image/png")
-    public byte[] getBaseLineImage (Object path) {
+    public byte[] getBaseLineImage(Object path) {
         File expImage = new File(System.getProperty("user.dir") + path);
-        try { return toByteArray(expImage); } catch (IOException e) { e.printStackTrace();return new byte[0]; }}
+        try { return toByteArray(expImage); } catch (IOException e) { e.printStackTrace();return new byte[0];}
+    }
 
     @Override
     public void onStart(ITestContext iTestContext) {
@@ -64,38 +81,38 @@ public class TestListener extends Preparation implements ITestListener {
 
     @Override
     public void onTestStart(ITestResult iTestResult) {
-        System.out.println("I am in onTestStart method " +  getTestMethodName(iTestResult) + " start");
+        System.out.println("I am in onTestStart method " + getTestMethodName(iTestResult) + " start");
         Log.info(getTestMethodName(iTestResult) + " test is starting.");
     }
 
     @Override
     public void onTestSuccess(ITestResult iTestResult) {
-        System.out.println("I am in onTestSuccess method " +  getTestMethodName(iTestResult) + " succeed");
+        System.out.println("I am in onTestSuccess method " + getTestMethodName(iTestResult) + " succeed");
     }
 
     @Override
     public void onTestFailure(ITestResult iTestResult) {
-        System.out.println("I am in onTestFailure method " +  getTestMethodName(iTestResult) + " failed");
+        System.out.println("I am in onTestFailure method " + getTestMethodName(iTestResult) + " failed");
         Object testClass = iTestResult.getInstance();
         WebDriver driver = ((Preparation) testClass).getDriver();
         if (driver instanceof WebDriver) {
             System.out.println("Screenshot captured for test case:" + getTestMethodName(iTestResult));
             saveScreenshotPNG(driver);
-            if(getTestMethodName(iTestResult).equals(iTestResult.getTestContext().getAttribute("method"))){
+            if (getTestMethodName(iTestResult).equals(iTestResult.getTestContext().getAttribute("method"))) {
                 getBaseLineImage(iTestResult.getTestContext().getAttribute("base"));
                 getScreenshotDiffer(iTestResult.getTestContext().getAttribute("diff"));
             }
             System.out.println("Video captured for test case:" + getTestMethodName(iTestResult));
-            attachVideo();
+            attachVideo("video");
         }
         saveTextLog(getTestMethodName(iTestResult) + " failed and screenshot taken!");
         String folder = System.getProperty("user.dir");
-        saveTextLog(getTestMethodName(iTestResult) + " failed and video taken! check all failed videos in "+ folder+"\\video if video attachments are broken");
+        saveTextLog(getTestMethodName(iTestResult) + " failed and video taken! check all failed videos in " + folder + "\\video if video attachments are broken");
     }
 
     @Override
     public void onTestSkipped(ITestResult iTestResult) {
-        System.out.println("I am in onTestSkipped method "+  getTestMethodName(iTestResult) + " skipped");
+        System.out.println("I am in onTestSkipped method " + getTestMethodName(iTestResult) + " skipped");
     }
 
     @Override
