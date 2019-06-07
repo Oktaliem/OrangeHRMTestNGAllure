@@ -1,8 +1,10 @@
 package utils.Listeners;
 
+import com.automation.remarks.video.recorder.VideoRecorder;
 import com.ohrm.utilities.Log;
 import features.Preparation;
 import io.qameta.allure.Attachment;
+import org.awaitility.Awaitility;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -12,6 +14,7 @@ import org.testng.ITestResult;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.concurrent.TimeUnit;
 
 import static com.google.common.io.Files.toByteArray;
 import static java.util.concurrent.TimeUnit.SECONDS;
@@ -40,24 +43,28 @@ public class TestListener extends Preparation implements ITestListener {
     }
 
     @Attachment(value = "Video record", type = "video/avi")
-    static byte[] attachVideo(String directory) {
-        await().atMost(5, SECONDS); // wait until last video is ready in the folder
-        File dir = new File(System.getProperty("user.dir") + "\\"+ directory);
-        File[] files = dir.listFiles();
-        if (files == null || files.length == 0) {
-            System.out.println("No files in the directory" );return null; }
-        File lastModifiedFile = files[0];
-        for (int i = 1; i < files.length; i++) {
-            if (lastModifiedFile.lastModified() < files[i].lastModified()) {
-                lastModifiedFile = files[i]; } }
-        System.out.println("Last modified video name: " + lastModifiedFile);
-        try { return toByteArray(lastModifiedFile); } catch (IOException e) { e.printStackTrace();return new byte[0]; }}
-
-        /*
-        //or more simplified :
-        try {System.out.println("Last modified video name: " + VideoRecorder.getLastRecording());
-            return toByteArray(VideoRecorder.getLastRecording()); } catch (IOException e) { e.printStackTrace();return new byte[0]; }}
-        */
+    static byte[] attachVideo(String directory) throws IOException {
+        await().atMost(4, SECONDS); // wait until last video is ready in the folder
+        try {
+            return toByteArray(VideoRecorder.getLastRecording());
+        } catch (IOException e) {
+            System.out.println("Unable to attach video, retry attaching the video......");
+            File dir = new File(System.getProperty("user.dir") + "\\" + directory);
+            File[] files = dir.listFiles();
+            if (files == null || files.length == 0) {
+                System.out.println("No files in the directory");
+                return null;
+            }
+            File lastModifiedFile = files[0];
+            for (int i = 1; i < files.length; i++) {
+                if (lastModifiedFile.lastModified() < files[i].lastModified()) {
+                    lastModifiedFile = files[i];
+                }
+            }
+            System.out.println("Last modified video name: " + lastModifiedFile);
+            return toByteArray(lastModifiedFile);
+        }
+    }
 
     @Attachment(value = "Visual test (screenshot from base image differ)", type = "image/png")
     public byte[] getScreenshotDiffer(Object path) {
@@ -96,6 +103,7 @@ public class TestListener extends Preparation implements ITestListener {
     @Override
     public void onTestFailure(ITestResult iTestResult) {
         System.out.println("I am in onTestFailure method " + getTestMethodName(iTestResult) + " failed");
+        Awaitility.setDefaultPollInterval(4000, TimeUnit.MILLISECONDS); // wait until last video is ready in the folder
         Object testClass = iTestResult.getInstance();
         WebDriver driver = ((Preparation) testClass).getDriver();
         if (driver instanceof WebDriver) {
@@ -106,7 +114,7 @@ public class TestListener extends Preparation implements ITestListener {
                 getScreenshotDiffer(iTestResult.getTestContext().getAttribute("diff"));
             }
             System.out.println("Video captured for test case:" + getTestMethodName(iTestResult));
-            attachVideo("video");
+            try { attachVideo("video"); } catch (IOException e) { e.printStackTrace();}
         }
         saveTextLog(getTestMethodName(iTestResult) + " failed and screenshot taken!");
         String folder = System.getProperty("user.dir");
