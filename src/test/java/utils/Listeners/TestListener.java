@@ -44,7 +44,63 @@ public class TestListener extends Preparation implements ITestListener {
 
     @Attachment(value = "Video record", type = "video/avi")
     static byte[] attachVideo(String directory) throws IOException {
-        await().atMost(4, SECONDS); // wait until last video is ready in the folder
+        await().atMost(5, SECONDS); // wait until last video is ready in the folder
+        System.out.println("Informasi isFile: "+ VideoRecorder.getLastRecording().isFile());
+        System.out.println("Informasi getAbsolutePath: "+ VideoRecorder.getLastRecording().getAbsolutePath());
+        System.out.println("Informasi canRead: "+ VideoRecorder.getLastRecording().canRead());
+        System.out.println("Informasi canWrite: "+ VideoRecorder.getLastRecording().canWrite());
+        System.out.println("Informasi exists: "+ VideoRecorder.getLastRecording().exists());
+/*
+        try {
+            byte[] video = new byte[0];
+            breakForLoop:
+            for (int i = 1; i < 5; i++) {
+                System.out.println("Trial: " + i);
+                if (VideoRecorder.getLastRecording().exists()) {
+                    if (VideoRecorder.getLastRecording().canRead()) {
+                        video = toByteArray(VideoRecorder.getLastRecording());
+                    }
+                    await().atMost(5, SECONDS); // wait until last video is ready in the folder
+                    break breakForLoop;
+                }
+            }
+            return video;
+        }catch (IOException e){
+            System.out.println("Unable to attach video......");
+            return new byte[0];
+        }finally {
+            VideoRecorder.getLastRecording().delete();
+        }
+/*
+        // try to attach video 3x
+        if (VideoRecorder.getLastRecording().exists()){
+            return toByteArray(VideoRecorder.getLastRecording());
+        }else{
+            try {
+                await().atMost(5, SECONDS); // wait until last video is ready in the folder
+                System.out.println("Unable to attach video, retry attaching the video......");
+                File dir = new File(System.getProperty("user.dir") + "\\" + directory);
+                File[] files = dir.listFiles();
+                if (files == null || files.length == 0) {
+                    System.out.println("No files in the directory");
+                    return null;
+                }
+                File lastModifiedFile = files[0];
+                for (int i = 1; i < files.length; i++) {
+                    if (lastModifiedFile.lastModified() < files[i].lastModified()) {
+                        lastModifiedFile = files[i];
+                    }
+                }
+                System.out.println("Last modified video name: " + lastModifiedFile);
+                return toByteArray(lastModifiedFile);
+            }catch (IOException e){
+                try { return toByteArray(VideoRecorder.getLastRecording()); } catch (IOException a) { a.printStackTrace();return new byte[0]; }
+            }finally {
+                VideoRecorder.getLastRecording().delete();
+            }
+        }
+*/
+
         try {
             return toByteArray(VideoRecorder.getLastRecording());
         } catch (IOException e) {
@@ -63,7 +119,10 @@ public class TestListener extends Preparation implements ITestListener {
             }
             System.out.println("Last modified video name: " + lastModifiedFile);
             return toByteArray(lastModifiedFile);
+        }finally {
+            VideoRecorder.getLastRecording().delete();
         }
+
     }
 
     @Attachment(value = "Visual test (screenshot from base image differ)", type = "image/png")
@@ -118,7 +177,8 @@ public class TestListener extends Preparation implements ITestListener {
         }
         saveTextLog(getTestMethodName(iTestResult) + " failed and screenshot taken!");
         String folder = System.getProperty("user.dir");
-        saveTextLog(getTestMethodName(iTestResult) + " failed and video taken! check all failed videos in " + folder + "\\video if video attachments are broken");
+        saveTextLog(getTestMethodName(iTestResult) + " failed and video taken! If video attachments are broken or incorrect "+
+                "then check the second video attachment");
     }
 
     @Override

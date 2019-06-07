@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8da644e5-1b2b-497d-8227-32ba908bec9c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohrm/screen/loginscreen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/Preparation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/Preparation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/utils/Listeners/TestListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/Listeners/TestListener.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -33,6 +33,15 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Log.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ohrm/utilities/Log.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -76,11 +85,23 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Preparation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/features/Preparation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="63" column="16" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="TestListener.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/utils/Listeners/TestListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="82">
-              <caret line="64" column="49" selection-start-line="64" selection-start-column="49" selection-end-line="64" selection-end-column="49" />
+            <state relative-caret-position="-433">
+              <caret line="68" column="63" selection-start-line="68" selection-start-column="63" selection-end-line="68" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,15 +123,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="123">
               <caret line="148" column="13" selection-start-line="148" selection-start-column="13" selection-end-line="148" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="70" column="35" selection-start-line="70" selection-start-column="25" selection-end-line="70" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -200,7 +212,6 @@
         <option value="$PROJECT_DIR$/src/test/java/utils/ScreenShootComparisson.java" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/features/Preparation.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/login/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/admin/UserMgn_UserPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/features/LoginTest.java" />
@@ -211,6 +222,7 @@
         <option value="$PROJECT_DIR$/src/test/java/pages/BasePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/features/HomePageNavigationTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/HomePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/features/Preparation.java" />
         <option value="$PROJECT_DIR$/src/test/java/utils/Listeners/TestListener.java" />
       </list>
     </option>
@@ -223,10 +235,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-39" />
-    <option name="y" value="101" />
-    <option name="width" value="1938" />
-    <option name="height" value="1068" />
+    <option name="x" value="-48" />
+    <option name="y" value="302" />
+    <option name="width" value="1920" />
+    <option name="height" value="590" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -604,6 +616,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -614,7 +627,7 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3280116" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.43396226" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.63425255" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3018868" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3080537" />
@@ -897,16 +910,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/features/Preparation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-210">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/utils/ScreenShootComparison.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -921,13 +924,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ohrm/utilities/Log.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1026,10 +1022,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ohrm/utilities/Log.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/features/Preparation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="63" column="16" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/utils/Listeners/TestListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="64" column="49" selection-start-line="64" selection-start-column="49" selection-end-line="64" selection-end-column="49" />
+        <state relative-caret-position="-433">
+          <caret line="68" column="63" selection-start-line="68" selection-start-column="63" selection-end-line="68" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
