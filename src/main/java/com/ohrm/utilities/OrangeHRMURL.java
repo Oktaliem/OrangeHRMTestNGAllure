@@ -21,7 +21,13 @@ public class OrangeHRMURL {
     public static final String DIRECTORY_PAGE_DIFF =".\\screenshots\\DirectoryPage_Diff.png";
     public static final String DIRECTORY_PAGE_ACTUAL =".\\screenshots\\DirectoryPage.png";
     public static final String TIME_PAGE_BASE =".\\baseimages\\TimePage.png";
-    public static final String TIME_PAGE_ACTUAL =".\\screenShots\\TimePage.png";
-    public static final String TIME_PAGE_DIFF =".\\screenShots\\TimePage_Diff.png";
+    public static final String TIME_PAGE_ACTUAL =".\\screenshots\\TimePage.png";
+    public static final String TIME_PAGE_DIFF =".\\screenshots\\TimePage_Diff.png";
+    public static final String LEAVE_PAGE_ACTUAL =".\\screenshots\\LeavePage.png";
+    public static final String LEAVE_PAGE_DIFF =".\\screenshots\\LeavePage_Diff.png";
+    public static final String DASHBOARD_PAGE_BASE =".\\baseimages\\DashboardPage.png";
+    public static final String DASHBOARD_PAGE_ACTUAL=".\\screenshots\\DashboardPage.png";
+    public static final String DASHBOARD_PAGE_DIFF =".\\screenshots\\DashboardPage_Diff.png";
 
+    public static final String IMAGE_MAGICK ="C:\\Program Files\\ImageMagick-7.0.8-Q16";
 }

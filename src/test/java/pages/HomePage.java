@@ -3,6 +3,7 @@ package pages;
 import com.assertthat.selenium_shutterbug.core.Shutterbug;
 import com.assertthat.selenium_shutterbug.utils.web.ScrollStrategy;
 import io.qameta.allure.Step;
+import org.im4java.core.IM4JavaException;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
@@ -155,7 +156,7 @@ public class HomePage extends BasePage {
     }
 
     @Step("Then - User is Landing to Expected Page")
-    public void verifyLandingToCorrectPage(String page) throws IOException {
+    public void verifyLandingToCorrectPage(String page) throws IOException, IM4JavaException, InterruptedException {
         assertThat(driver.getCurrentUrl(), containsString(page));
         switch (page) {
             case ADMIN_PAGE:
@@ -167,18 +168,21 @@ public class HomePage extends BasePage {
                 break;
             case LEAVE_PAGE:
                 assertThat(driver.findElement(By.id("locationHeading")).getText(), containsString("Leave Period"));
+                imageComparisonWithImageMagick(TIME_PAGE_BASE,LEAVE_PAGE_ACTUAL,LEAVE_PAGE_DIFF);
                 break;
             case DASHBOARD_PAGE:
                 assertThat(driver.findElement(By.id("content")).getText(), containsString("Dashboard"));
+                imageComparisonWithImageMagick(DASHBOARD_PAGE_BASE,DASHBOARD_PAGE_ACTUAL,DASHBOARD_PAGE_DIFF);
                 break;
             case DIRECTORY_PAGE:
                 assertThat(driver.findElement(By.id("content")).getText(), containsString("Search Directory"));
                 imageComparisonWithShutterbug(driver, DIRECTORY_PAGE_BASE);
-                imageComparisonWithAshot(DIRECTORY_PAGE_BASE, DIRECTORY_PAGE_ACTUAL, DIRECTORY_PAGE_DIFF); //Result : aShot is able to compare image content
+                imageComparisonWithAshot(DIRECTORY_PAGE_BASE, DASHBOARD_PAGE_ACTUAL, DIRECTORY_PAGE_DIFF); //Result : aShot is able to compare image content
+                imageComparisonWithImageMagick(DIRECTORY_PAGE_BASE,DASHBOARD_PAGE_ACTUAL,DIRECTORY_PAGE_DIFF);
                 break;
             case TIME_PAGE:
                 assertThat(driver.findElement(By.id("defineTimesheet")).getText(), containsString("Define Timesheet Period"));
-                imageComparisonWithAshot(TIME_PAGE_BASE, TIME_PAGE_ACTUAL, TIME_PAGE_DIFF); // success scenario
+                imageComparisonWithAshot(LEAVE_PAGE_ACTUAL, TIME_PAGE_ACTUAL, TIME_PAGE_DIFF); // success scenario
                 break;
             case RECRUITMENT_PAGE:
                 assertThat(driver.findElement(By.id("srchCandidates")).getText(), containsString("Candidates"));

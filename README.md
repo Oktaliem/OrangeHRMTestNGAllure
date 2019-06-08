@@ -4,7 +4,7 @@
 - Page Object Model and Page Factory in Java
 - Generate Screenshot each test step (available on Allure report)
 - Generate Video on Failed Test (available on Allure report)
-- Visual Regression Testing/Screenshot Comparison with Selenium-Shutterbug & aShot
+- Visual Regression Testing/Screenshot Comparison with Selenium-Shutterbug, aShot, ImageMagick
 
 Environment : Windows & Docker
 
@@ -24,7 +24,7 @@ Install Allure :
 - MacOS --> brew install allure
 - Windows PC --> scoop install allure
 - Linux ----> sudo apt-add-repository ppa:qameta/allure
-              sudo apt-get update 
+              sudo apt-get update
               sudo apt-get install allure
 ```
 https://docs.qameta.io/allure/#_installing_a_commandline
@@ -84,11 +84,12 @@ https://youtu.be/MjgUgCN3WMg
 
 Jenkins Scripted Pipeline ---> Windows Environment
 ```
-node(*{slave}*) {
-      stage('Checkout') {git poll: true, branch: branch, credentialsId: *{credential_name}*, url: *{URL of repository}*}
+node({slave}) {
+      stage('Checkout') {git poll: true, branch: branch, credentialsId: {credential_name}, url: {URL of repository}}
   try{
       stage('Orange HRM Test Automation') {
-          bat "mvn clean test"}
+          bat "mvn clean test"
+          }
   } finally{
       stage('Allure Report') {
           allure([
@@ -99,7 +100,7 @@ node(*{slave}*) {
                     results: [[path: 'allure-results']]])}
       stage('Sonarqube Quality Gate') {
       withSonarQubeEnv('sonarqube') {
-       bat "mvn sonar:sonar -Dsonar.login=*{sonar user id}* -Dsonar.password=*{sonar password}* -Dsonar.projectKey=*{project name}* -Dsonar.host.url=*{sonar URL}*"
+       bat "mvn sonar:sonar -Dsonar.login={sonar user id} -Dsonar.password={sonar password} -Dsonar.projectKey={project name} -Dsonar.host.url={sonar URL}"
     }}}}
 ```
 ![image](https://user-images.githubusercontent.com/26521948/58901028-df8a2d00-8732-11e9-8ce5-2a708a718227.png)
@@ -116,3 +117,4 @@ https://youtu.be/ddq8hXksH_E
 - http://allure.qatools.ru/
 - https://github.com/pazone/ashot
 - https://github.com/assertthat/selenium-shutterbug
+- https://imagemagick.org/index.php

@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8da644e5-1b2b-497d-8227-32ba908bec9c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/Listeners/TestListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/Listeners/TestListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohrm/utilities/OrangeHRMURL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohrm/utilities/OrangeHRMURL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/HomePageNavigationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/HomePageNavigationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,11 +32,29 @@
       <file leaf-file-name="HomePageNavigationTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/features/HomePageNavigationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1">
-              <caret line="72" column="35" selection-start-line="72" selection-start-column="35" selection-end-line="72" selection-end-column="35" />
+            <state relative-caret-position="177">
+              <caret line="45" column="36" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrangeHRMURL.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ohrm/utilities/OrangeHRMURL.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="393">
+              <caret line="28" column="79" selection-start-line="28" selection-start-column="79" selection-end-line="28" selection-end-column="79" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1530">
+              <caret line="102" column="154" selection-start-line="102" selection-start-column="154" selection-end-line="102" selection-end-column="154" />
             </state>
           </provider>
         </entry>
@@ -38,32 +62,8 @@
       <file leaf-file-name="HomePage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/pages/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="201" column="31" selection-start-line="201" selection-start-column="31" selection-end-line="201" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Preparation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/features/Preparation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="63" column="16" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestListener.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/utils/Listeners/TestListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="116" column="153" selection-start-line="116" selection-start-column="153" selection-end-line="116" selection-end-column="153" />
+            <state relative-caret-position="293">
+              <caret line="180" column="108" selection-start-line="180" selection-start-column="108" selection-end-line="180" selection-end-column="108" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -117,7 +117,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/ohrm/automation/pages/pim/EmployeeListPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ohrm/automation/model/TestDataModelPIM.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ohrm/automation/pages/pim/AddEmployeePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ohrm/automation/utilities/Log.java" />
@@ -155,19 +154,20 @@
         <option value="$PROJECT_DIR$/src/test/java/utils/TakeScreenShoot.java" />
         <option value="$PROJECT_DIR$/src/test/java/utils/ScreenShootComparisson.java" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/pages/login/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/admin/UserMgn_UserPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/features/LoginTest.java" />
         <option value="$PROJECT_DIR$/TestNG.xml" />
         <option value="$PROJECT_DIR$/src/test/java/features/InquiryUserTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/utils/ScreenShootComparison.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ohrm/utilities/OrangeHRMURL.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pages/BasePage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/features/HomePageNavigationTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pages/HomePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/features/Preparation.java" />
         <option value="$PROJECT_DIR$/src/test/java/utils/Listeners/TestListener.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/BasePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ohrm/utilities/OrangeHRMURL.java" />
+        <option value="$PROJECT_DIR$/src/test/java/features/HomePageNavigationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/HomePage.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -178,11 +178,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-48" />
-    <option name="y" value="302" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="7" />
+    <option name="y" value="80" />
     <option name="width" value="1920" />
-    <option name="height" value="590" />
+    <option name="height" value="899" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -190,8 +190,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -199,110 +199,11 @@
               <item name="OrangeHRMTestNGAllure" type="b2602c69:ProjectViewProjectNode" />
               <item name="OrangeHRMTestNGAllure" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="OrangeHRMTestNGAllure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OrangeHRMTestNGAllure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OrangeHRMTestNGAllure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OrangeHRMTestNGAllure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OrangeHRMTestNGAllure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OrangeHRMTestNGAllure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OrangeHRMTestNGAllure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OrangeHRMTestNGAllure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ohrm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OrangeHRMTestNGAllure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OrangeHRMTestNGAllure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ohrm" type="462c0819:PsiDirectoryNode" />
-              <item name="utilities" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OrangeHRMTestNGAllure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OrangeHRMTestNGAllure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ohrm" type="462c0819:PsiDirectoryNode" />
-              <item name="webdriver" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OrangeHRMTestNGAllure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OrangeHRMTestNGAllure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OrangeHRMTestNGAllure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OrangeHRMTestNGAllure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OrangeHRMTestNGAllure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OrangeHRMTestNGAllure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OrangeHRMTestNGAllure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OrangeHRMTestNGAllure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OrangeHRMTestNGAllure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OrangeHRMTestNGAllure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="pim" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OrangeHRMTestNGAllure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OrangeHRMTestNGAllure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OrangeHRMTestNGAllure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OrangeHRMTestNGAllure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-              <item name="Listeners" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -313,16 +214,16 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.other" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Documents\GitHub\OrangeHRMTestNGAllure\src\main\resources" />
+      <recent name="C:\Users\User\Documents\GitHub\OrangeHRMTestNGAllure\src\main\java\com\ohrm\drivers" />
+      <recent name="C:\Users\User\Documents\GitHub\OrangeHRMTestNGAllure\src\main\resources\drivers\phantomjs-2.1.1-windows\drivers" />
+      <recent name="C:\Users\User\Documents\GitHub\OrangeHRMTestNGAllure\src\main\resources\drivers\phantomjs-2.1.1-windows" />
+      <recent name="C:\Users\User\Documents\GitHub\OrangeHRMTestNGAllure\src\main\resources\drivers" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
       <recent name="com.ohrm.automation" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\User\Documents\GitHub\OrangeHRMTestNGAllure\src\main\resources" />
-      <recent name="C:\Users\User\Documents\GitHub\OrangeHRMTestNGAllure\src\test\java\features" />
-      <recent name="C:\Users\User\Documents\GitHub\OrangeHRMTestNGAllure\src\test\java" />
-      <recent name="C:\Users\User\Documents\GitHub\OrangeHRMTestNGAllure" />
-      <recent name="C:\Users\User\Documents\GitHub\OrangeHRMTestNGAllure\src\main\java\com\ohrm\automation" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="features" />
@@ -331,12 +232,12 @@
       <recent name="com.ohrm.automation.utils" />
       <recent name="com.ohrm.automation.utilities" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Documents\GitHub\OrangeHRMTestNGAllure\screenshots" />
       <recent name="C:\Users\User\Documents\GitHub\OrangeHRMTestNGAllure\src\main\resources" />
-      <recent name="C:\Users\User\Documents\GitHub\OrangeHRMTestNGAllure\src\main\java\com\ohrm\drivers" />
-      <recent name="C:\Users\User\Documents\GitHub\OrangeHRMTestNGAllure\src\main\resources\drivers\phantomjs-2.1.1-windows\drivers" />
-      <recent name="C:\Users\User\Documents\GitHub\OrangeHRMTestNGAllure\src\main\resources\drivers\phantomjs-2.1.1-windows" />
-      <recent name="C:\Users\User\Documents\GitHub\OrangeHRMTestNGAllure\src\main\resources\drivers" />
+      <recent name="C:\Users\User\Documents\GitHub\OrangeHRMTestNGAllure\src\test\java\features" />
+      <recent name="C:\Users\User\Documents\GitHub\OrangeHRMTestNGAllure\src\test\java" />
+      <recent name="C:\Users\User\Documents\GitHub\OrangeHRMTestNGAllure" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -351,7 +252,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.HomePageNavigationTest.TC02_home_navigation (1)">
+  <component name="RunManager" selected="TestNG.HomePageNavigationTest.TC07_home_navigation">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -605,10 +506,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.HomePageNavigationTest.TC07_home_navigation" />
         <item itemvalue="TestNG.HomePageNavigationTest.TC02_home_navigation (1)" />
         <item itemvalue="TestNG.HomePageNavigationTest.TC02_home_navigation" />
         <item itemvalue="TestNG.HomePageNavigationTest.TC05_home_navigation" />
-        <item itemvalue="TestNG.HomePageNavigationTest.TC07_home_navigation" />
       </list>
     </recent_temporary>
   </component>
@@ -626,43 +527,43 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HomePageNavigationTest_TC05_home_navigation_(1) - 2019.06.03 at 09h 37m 34s.xml">
-      <configuration name="HomePageNavigationTest.TC05_home_navigation (1)" configurationId="TestNG" />
+    <history-entry file="HomePageNavigationTest_TC07_home_navigation - 2019.06.08 at 12h 17m 07s.xml">
+      <configuration name="HomePageNavigationTest.TC07_home_navigation" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HomePageNavigationTest_TC05_home_navigation_(1) - 2019.06.03 at 09h 43m 25s.xml">
-      <configuration name="HomePageNavigationTest.TC05_home_navigation (1)" configurationId="TestNG" />
+    <history-entry file="HomePageNavigationTest_TC07_home_navigation - 2019.06.08 at 12h 18m 11s.xml">
+      <configuration name="HomePageNavigationTest.TC07_home_navigation" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HomePageNavigationTest_TC05_home_navigation_(1) - 2019.06.03 at 09h 44m 52s.xml">
-      <configuration name="HomePageNavigationTest.TC05_home_navigation (1)" configurationId="TestNG" />
+    <history-entry file="HomePageNavigationTest_TC07_home_navigation - 2019.06.08 at 12h 19m 09s.xml">
+      <configuration name="HomePageNavigationTest.TC07_home_navigation" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HomePageNavigationTest_TC05_home_navigation_(1) - 2019.06.03 at 10h 26m 06s.xml">
-      <configuration name="HomePageNavigationTest.TC05_home_navigation (1)" configurationId="TestNG" />
+    <history-entry file="HomePageNavigationTest_TC07_home_navigation - 2019.06.08 at 12h 21m 51s.xml">
+      <configuration name="HomePageNavigationTest.TC07_home_navigation" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HomePageNavigationTest_TC05_home_navigation_(1) - 2019.06.03 at 10h 35m 58s.xml">
-      <configuration name="HomePageNavigationTest.TC05_home_navigation (1)" configurationId="TestNG" />
+    <history-entry file="HomePageNavigationTest_TC07_home_navigation - 2019.06.08 at 12h 22m 19s.xml">
+      <configuration name="HomePageNavigationTest.TC07_home_navigation" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HomePageNavigationTest_TC05_home_navigation - 2019.06.03 at 11h 17m 59s.xml">
-      <configuration name="HomePageNavigationTest.TC05_home_navigation" configurationId="TestNG" />
+    <history-entry file="HomePageNavigationTest_TC07_home_navigation - 2019.06.08 at 12h 24m 01s.xml">
+      <configuration name="HomePageNavigationTest.TC07_home_navigation" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HomePageNavigationTest_TC02_home_navigation - 2019.06.06 at 17h 13m 07s.xml">
-      <configuration name="HomePageNavigationTest.TC02_home_navigation" configurationId="TestNG" />
+    <history-entry file="HomePageNavigationTest_TC07_home_navigation - 2019.06.08 at 12h 25m 54s.xml">
+      <configuration name="HomePageNavigationTest.TC07_home_navigation" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HomePageNavigationTest_TC02_home_navigation - 2019.06.06 at 17h 16m 40s.xml">
-      <configuration name="HomePageNavigationTest.TC02_home_navigation" configurationId="TestNG" />
+    <history-entry file="HomePageNavigationTest_TC07_home_navigation - 2019.06.08 at 12h 27m 38s.xml">
+      <configuration name="HomePageNavigationTest.TC07_home_navigation" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HomePageNavigationTest_TC02_home_navigation_(1) - 2019.06.06 at 17h 26m 03s.xml">
-      <configuration name="HomePageNavigationTest.TC02_home_navigation (1)" configurationId="TestNG" />
+    <history-entry file="HomePageNavigationTest_TC07_home_navigation - 2019.06.08 at 12h 28m 33s.xml">
+      <configuration name="HomePageNavigationTest.TC07_home_navigation" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HomePageNavigationTest_TC02_home_navigation_(1) - 2019.06.06 at 17h 32m 11s.xml">
-      <configuration name="HomePageNavigationTest.TC02_home_navigation (1)" configurationId="TestNG" />
+    <history-entry file="HomePageNavigationTest_TC07_home_navigation - 2019.06.08 at 12h 29m 11s.xml">
+      <configuration name="HomePageNavigationTest.TC07_home_navigation" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32656023" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -670,24 +571,23 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3280116" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.43396226" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.15965167" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.23076923" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19798657" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26979867" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32596686" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3756906" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4077348" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.3295302" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32656023" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32656023" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -699,31 +599,13 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/utils/ScreenShootComparison.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/BasePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/login/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="65" column="16" selection-start-line="65" selection-start-column="16" selection-end-line="65" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/utils/CreateRandomName.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/admin/UserMgn_UserPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2775">
-          <caret line="209" column="47" selection-start-line="209" selection-start-column="47" selection-end-line="209" selection-end-column="47" />
+        <state relative-caret-position="720">
+          <caret line="63" column="31" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -749,9 +631,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -943,23 +822,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="70" column="35" selection-start-line="70" selection-start-column="25" selection-end-line="70" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ohrm/utilities/OrangeHRMURL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="22" column="45" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -974,12 +836,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="23" column="40" lean-forward="true" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
-          <folding>
-            <element signature="e#710#711#0" expanded="true" />
-            <element signature="e#743#744#0" expanded="true" />
-            <element signature="e#788#789#0" expanded="true" />
-            <element signature="e#820#821#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -994,19 +850,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/BasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1014,16 +857,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="59" column="35" selection-start-line="59" selection-start-column="7" selection-end-line="59" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/features/Preparation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="63" column="16" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1062,10 +895,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/features/Preparation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="63" column="16" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/im4java/im4java/1.4.0/im4java-1.4.0.jar!/org/im4java/core/ImageCommand.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenshots/DashboardPage_Diff.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ohrm/utilities/OrangeHRMURL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="28" column="79" selection-start-line="28" selection-start-column="79" selection-end-line="28" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="41" column="34" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="106" selection-start-line="106" selection-end-line="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/utils/Listeners/TestListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/features/HomePageNavigationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
-          <caret line="72" column="35" selection-start-line="72" selection-start-column="35" selection-end-line="72" selection-end-column="35" />
+        <state relative-caret-position="177">
+          <caret line="45" column="36" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1074,21 +961,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pages/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="201" column="31" selection-start-line="201" selection-start-column="31" selection-end-line="201" selection-end-column="31" />
+        <state relative-caret-position="293">
+          <caret line="180" column="108" selection-start-line="180" selection-start-column="108" selection-end-line="180" selection-end-column="108" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/utils/Listeners/TestListener.java">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="116" column="153" selection-start-line="116" selection-start-column="153" selection-end-line="116" selection-end-column="153" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="1530">
+          <caret line="102" column="154" selection-start-line="102" selection-start-column="154" selection-end-line="102" selection-end-column="154" />
         </state>
       </provider>
     </entry>
