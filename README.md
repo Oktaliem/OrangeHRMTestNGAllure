@@ -51,7 +51,6 @@ allure serve
 ## Report Path
 #### Sample Report
 download allure-report.zip
-open:
 ```
 {your_project_path}/allure-report/index.html
 ```
