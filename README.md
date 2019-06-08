@@ -2,8 +2,8 @@
 ### Features
 - BDD reporting style with TestNG and Allure.
 - Page Object Model and Page Factory in Java
-- Generate Screenshot each test step (available on Allure report)
-- Generate Video on Failed Test (available on Allure report)
+- Generate Screenshot each test step (available in Allure report)
+- Generate Video on Failed Test (available in Allure report)
 - Visual Regression Testing/Screenshot Comparison with Selenium-Shutterbug, aShot, ImageMagick
 
 Environment : Windows & Docker
