@@ -112,6 +112,7 @@ https://youtu.be/ddq8hXksH_E
 ```
 
 # References :
+- https://www.seleniumhq.org/
 - https://testng.org/doc/
 - https://www.sonarqube.org/
 - https://jenkins.io/
