@@ -114,9 +114,6 @@ public class TestListener extends Preparation implements ITestListener {
             saveTextLog(getTestMethodName(iTestResult) + " failed and video taken! If video attachments are broken or incorrect "+
                     "then check the second video attachment if exist or check your Jenkins Slave path "+ VideoRecorder.getLastRecording().getAbsolutePath());
         }
-
-        saveTextLog(getTestMethodName(iTestResult) + " failed and video taken! If video attachments are broken or incorrect "+
-                "then check the second video attachment if exist or check your Jenkins Slave path "+ VideoRecorder.getLastRecording().getAbsolutePath());
     }
 
     @Override
