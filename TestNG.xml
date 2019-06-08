@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="OrangeHRM Test Suite" >
+<suite name="OrangeHRM Test Suite - Author : Okta Liem" >
     <listeners>
         <listener class-name="utils.Listeners.TestListener"/>
     </listeners>
-    <test name="Full Test">
+    <test name="Full Test (https://github.com/Oktaliem/OrangeHRMTestNGAllure)">
         <classes>
             <class name="features.LoginTest">
             <methods>

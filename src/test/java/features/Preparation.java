@@ -11,7 +11,6 @@ import pages.admin.UserMgn_UserPage;
 import pages.login.LoginPage;
 import utils.CreateRandomName;
 import utils.Listeners.TestListener;
-import utils.ScreenShootComparison;
 
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
@@ -27,7 +26,6 @@ public class Preparation {
     public HomePage homePage;
     public UserMgn_UserPage adminPage;
     public CreateRandomName name;
-    public ScreenShootComparison image;
     public WebDriver getDriver() {
         return driver;
     }
@@ -40,7 +38,6 @@ public class Preparation {
         homePage = new HomePage(driver);
         adminPage = new UserMgn_UserPage(driver);
         name = new CreateRandomName();
-        image = new ScreenShootComparison();
         Log.info("======================================================================================================");
         Log.info("=========================================TEST STARTED ================================================");
         Log.info("======================================================================================================");

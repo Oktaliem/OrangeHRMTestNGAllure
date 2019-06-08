@@ -2,6 +2,7 @@ package pages;
 
 import com.assertthat.selenium_shutterbug.core.Shutterbug;
 import com.assertthat.selenium_shutterbug.utils.web.ScrollStrategy;
+import com.ohrm.utilities.Log;
 import io.qameta.allure.Step;
 import org.im4java.core.IM4JavaException;
 import org.openqa.selenium.By;
@@ -101,21 +102,21 @@ public class HomePage extends BasePage {
         Shutterbug.shootPage(driver, ScrollStrategy.WHOLE_PAGE, 500, true).withName("DashboardPage").save(); // hasilnya valid
         WebElement myWebElement = driver.findElement(By.cssSelector("div#div_graph_display_emp_distribution > canvas:nth-of-type(2)"));
 
-        //aShot
+        //aShot sample 1
         Screenshot screenshot = new AShot().takeScreenshot(driver, myWebElement); //method bisa dipakai tp hasilnya tidak akurat kadang2;
         try {
             ImageIO.write(screenshot.getImage(), "PNG", new File(System.getProperty("user.dir") + ".\\screenshots\\dashboard_pie_chart_aShot.png"));
         } catch (IOException e) {
             e.printStackTrace();
         }
-
+        //aShot sample 2
         Screenshot screenshot2 = new AShot().coordsProvider(new WebDriverCoordsProvider()).takeScreenshot(driver, myWebElement); //method bisa dipakai tp hasilnya tidak akurat kadang2;
         try {
             ImageIO.write(screenshot2.getImage(), "PNG", new File(System.getProperty("user.dir") + ".\\screenshots\\dashboard_pie_chart_aShot_2.png"));
         } catch (IOException e) {
             e.printStackTrace();
         }
-
+        //aShot sample 3
         Screenshot screenshot3 = new AShot().shootingStrategy(ShootingStrategies.viewportPasting(500)).takeScreenshot(driver, myWebElement); //method bisa dipakai tp hasilnya tidak akurat kadang2;
         try {
             ImageIO.write(screenshot3.getImage(), "PNG", new File(System.getProperty("user.dir") + ".\\screenshots\\dashboard_pie_chart_aShot_3.png"));
@@ -176,13 +177,13 @@ public class HomePage extends BasePage {
                 break;
             case DIRECTORY_PAGE:
                 assertThat(driver.findElement(By.id("content")).getText(), containsString("Search Directory"));
-                imageComparisonWithShutterbug(driver, DIRECTORY_PAGE_BASE);
-                imageComparisonWithAshot(DIRECTORY_PAGE_BASE, DASHBOARD_PAGE_ACTUAL, DIRECTORY_PAGE_DIFF); //Result : aShot is able to compare image content
-                imageComparisonWithImageMagick(DIRECTORY_PAGE_BASE,DASHBOARD_PAGE_ACTUAL,DIRECTORY_PAGE_DIFF);
+                imageComparisonWithShutterbug(driver, DIRECTORY_PAGE_BASE); //success scenario
+                imageComparisonWithAshot(DIRECTORY_PAGE_BASE, DIRECTORY_PAGE_ACTUAL, DIRECTORY_PAGE_DIFF); //success scenario
+                imageComparisonWithImageMagick(DIRECTORY_PAGE_BASE,DIRECTORY_PAGE_ACTUAL,DIRECTORY_PAGE_DIFF); //success scenario
                 break;
             case TIME_PAGE:
                 assertThat(driver.findElement(By.id("defineTimesheet")).getText(), containsString("Define Timesheet Period"));
-                imageComparisonWithAshot(LEAVE_PAGE_ACTUAL, TIME_PAGE_ACTUAL, TIME_PAGE_DIFF); // success scenario
+                imageComparisonWithAshot(LEAVE_PAGE_ACTUAL, TIME_PAGE_ACTUAL, TIME_PAGE_DIFF);
                 break;
             case RECRUITMENT_PAGE:
                 assertThat(driver.findElement(By.id("srchCandidates")).getText(), containsString("Candidates"));
@@ -201,7 +202,7 @@ public class HomePage extends BasePage {
             wait.until(ExpectedConditions.visibilityOfElementLocated(menuLinkAbout));
             action.moveToElement(driver.findElement(menuLinkAbout)).click().build().perform();
         } catch (NoSuchElementException e) {
-            System.out.println("Cannot located web element");
+            Log.info("Cannot located web element");
         }
         TestListener.saveScreenshotPNG(driver);
     }

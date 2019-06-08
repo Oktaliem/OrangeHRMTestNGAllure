@@ -42,19 +42,19 @@ public class TestListener extends Preparation implements ITestListener {
 
     @Attachment(value = "Video record", type = "video/avi")
     static byte[] attachVideo(String methodName) throws IOException {
-        System.out.println("Informasi isFile: "+ VideoRecorder.getLastRecording().isFile());
-        System.out.println("Informasi getAbsolutePath: "+ VideoRecorder.getLastRecording().getAbsolutePath());
-        System.out.println("Informasi canRead: "+ VideoRecorder.getLastRecording().canRead());
-        System.out.println("Informasi canWrite: "+ VideoRecorder.getLastRecording().canWrite());
-        System.out.println("Informasi exists: "+ VideoRecorder.getLastRecording().exists());
+        Log.info("Checking isFile: "+ VideoRecorder.getLastRecording().isFile());
+        Log.info("Checking getAbsolutePath: "+ VideoRecorder.getLastRecording().getAbsolutePath());
+        Log.info("Checking canRead: "+ VideoRecorder.getLastRecording().canRead());
+        Log.info("Checking canWrite: "+ VideoRecorder.getLastRecording().canWrite());
+        Log.info("Checking exists: "+ VideoRecorder.getLastRecording().exists());
 
         byte[] video = new byte[0];
         breakForLoop:
-        for (int i = 1; i < 5; i++) {
+        for (int i = 1; i < 11; i++) {
             if (VideoRecorder.getLastRecording().getAbsolutePath().contains(methodName)){
-                System.out.println("Trial " + i +" "+methodName);
+                Log.info(" Attach Video -  Trial " + i +" "+ methodName);
                 video = toByteArray(VideoRecorder.getLastRecording());
-                System.out.println("Video attachment upload status ok" );
+                Log.info("Video attachment upload status: OK" );
                 break breakForLoop;
             }
             await().atMost(5, SECONDS);
@@ -76,55 +76,57 @@ public class TestListener extends Preparation implements ITestListener {
 
     @Override
     public void onStart(ITestContext iTestContext) {
-        System.out.println("I am in onStart method " + iTestContext.getName());
+        Log.info("I am in onStart method " + iTestContext.getName());
         iTestContext.setAttribute("WebDriver", this.driver);
     }
 
     @Override
     public void onFinish(ITestContext iTestContext) {
-        System.out.println("I am in onFinish method " + iTestContext.getName());
+        Log.info("I am in onFinish method " + iTestContext.getName());
     }
 
     @Override
     public void onTestStart(ITestResult iTestResult) {
-        System.out.println("I am in onTestStart method " + getTestMethodName(iTestResult) + " start");
+        Log.info("I am in onTestStart method " + getTestMethodName(iTestResult) + " start");
         Log.info(getTestMethodName(iTestResult) + " test is starting.");
     }
 
     @Override
     public void onTestSuccess(ITestResult iTestResult) {
-        System.out.println("I am in onTestSuccess method " + getTestMethodName(iTestResult) + " succeed");
+        Log.info("I am in onTestSuccess method " + getTestMethodName(iTestResult) + " succeed");
     }
 
     @Override
     public void onTestFailure(ITestResult iTestResult) {
-        System.out.println("I am in onTestFailure method " + getTestMethodName(iTestResult) + " failed");
+        Log.info("I am in onTestFailure method " + getTestMethodName(iTestResult) + " failed");
         Object testClass = iTestResult.getInstance();
         WebDriver driver = ((Preparation) testClass).getDriver();
         if (driver instanceof WebDriver) {
-            System.out.println("Screenshot captured for test case:" + getTestMethodName(iTestResult));
+            Log.info("Screenshot captured for test case:" + getTestMethodName(iTestResult));
             saveScreenshotPNG(driver);
+            saveTextLog(getTestMethodName(iTestResult) + " failed and screenshot taken!");
             if (getTestMethodName(iTestResult).equals(iTestResult.getTestContext().getAttribute("method"))) {
                 getBaseLineImage(iTestResult.getTestContext().getAttribute("base"));
                 getScreenshotDiffer(iTestResult.getTestContext().getAttribute("diff"));
             }
-            System.out.println("Video captured for test case:" + getTestMethodName(iTestResult));
+            Log.info("Video captured for test case:" + getTestMethodName(iTestResult));
             try { attachVideo(getTestMethodName(iTestResult) ); } catch (IOException e) { e.printStackTrace();}
+            saveTextLog(getTestMethodName(iTestResult) + " failed and video taken! If video attachments are broken or incorrect "+
+                    "then check the second video attachment if exist or check your Jenkins Slave path "+ VideoRecorder.getLastRecording().getAbsolutePath());
         }
-        saveTextLog(getTestMethodName(iTestResult) + " failed and screenshot taken!");
-        String folder = System.getProperty("user.dir");
+
         saveTextLog(getTestMethodName(iTestResult) + " failed and video taken! If video attachments are broken or incorrect "+
                 "then check the second video attachment if exist or check your Jenkins Slave path "+ VideoRecorder.getLastRecording().getAbsolutePath());
     }
 
     @Override
     public void onTestSkipped(ITestResult iTestResult) {
-        System.out.println("I am in onTestSkipped method " + getTestMethodName(iTestResult) + " skipped");
+        Log.info("I am in onTestSkipped method " + getTestMethodName(iTestResult) + " skipped");
     }
 
     @Override
     public void onTestFailedButWithinSuccessPercentage(ITestResult iTestResult) {
-        System.out.println("Test failed but it is in defined success ratio " + getTestMethodName(iTestResult));
+        Log.info("Test failed but it is in defined success ratio " + getTestMethodName(iTestResult));
     }
 
 
