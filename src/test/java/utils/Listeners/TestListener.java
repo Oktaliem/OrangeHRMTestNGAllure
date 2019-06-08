@@ -111,8 +111,8 @@ public class TestListener extends Preparation implements ITestListener {
             }
             Log.info("Video captured for test case:" + getTestMethodName(iTestResult));
             try { attachVideo(getTestMethodName(iTestResult) ); } catch (IOException e) { e.printStackTrace();}
-            saveTextLog(getTestMethodName(iTestResult) + " failed and video taken! If video attachments are broken or incorrect "+
-                    "then check the second video attachment if exist or check your Jenkins Slave path "+ VideoRecorder.getLastRecording().getAbsolutePath());
+            saveTextLog(getTestMethodName(iTestResult) + " failed and video taken! If video attachment is broken or incorrect "+
+                    "then check the second video attachment OR check your Jenkins Slave path : "+ VideoRecorder.getLastRecording().getAbsolutePath());
         }
     }
 
