@@ -7,6 +7,7 @@
 - Visual Regression Testing/Screenshot Comparison with Selenium-Shutterbug, aShot, ImageMagick
 
 Environment : Windows & Docker
+Environment : MacOs & Docker (inprogress)
 
 ## Download OrangeHRM
 Note : This repository is using OrangeHRM version 4.0 as System Under Test
