@@ -6,8 +6,9 @@
 - Generate Video on Failed Test (available in Allure report)
 - Visual Regression Testing/Screenshot Comparison with Selenium-Shutterbug, aShot, ImageMagick
 
-Environment : Windows & Docker
-Environment : MacOs & Docker (inprogress)
+Environment : 
+- Windows & Docker
+- MacOs & Docker (inprogress)
 
 ## Download OrangeHRM
 Note : This repository is using OrangeHRM version 4.0 as System Under Test
