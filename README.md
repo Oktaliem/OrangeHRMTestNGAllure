@@ -13,10 +13,10 @@ Environment :
 ## Download OrangeHRM
 Note : This repository is using OrangeHRM version 4.0 as System Under Test
 ```
-Windows
+Windows Only
 https://github.com/orangehrm/orangehrm
 or
-Mac/Linux
+Mac/Linux/Windows
 https://hub.docker.com/r/bitnami/orangehrm/
 ```
 
