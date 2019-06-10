@@ -122,3 +122,4 @@ https://youtu.be/ddq8hXksH_E
 - https://github.com/pazone/ashot
 - https://github.com/assertthat/selenium-shutterbug
 - https://imagemagick.org/index.php
+- https://docs.docker.com/
