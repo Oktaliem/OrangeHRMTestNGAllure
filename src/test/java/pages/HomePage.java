@@ -12,6 +12,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.ITestContext;
 import ru.yandex.qatools.ashot.AShot;
 import ru.yandex.qatools.ashot.Screenshot;
 import ru.yandex.qatools.ashot.coordinates.WebDriverCoordsProvider;
@@ -157,7 +158,7 @@ public class HomePage extends BasePage {
     }
 
     @Step("Then - User is Landing to Expected Page")
-    public void verifyLandingToCorrectPage(String page) throws IOException, IM4JavaException, InterruptedException {
+    public void verifyLandingToCorrectPage(String page,ITestContext context) throws IOException, IM4JavaException, InterruptedException {
         assertThat(driver.getCurrentUrl(), containsString(page));
         switch (page) {
             case ADMIN_PAGE:
@@ -168,24 +169,39 @@ public class HomePage extends BasePage {
                 assertThat(driver.findElement(By.id("employee-information")).getText(), containsString(getEmployeeInfo()));
                 break;
             case LEAVE_PAGE:
+                context.setAttribute("method", "TC03_home_navigation");
+                context.setAttribute("base",TIME_PAGE_BASE);
+                context.setAttribute("diff",LEAVE_PAGE_DIFF);
                 assertThat(driver.findElement(By.id("locationHeading")).getText(), containsString("Leave Period"));
                 imageComparisonWithImageMagick(TIME_PAGE_BASE,LEAVE_PAGE_ACTUAL,LEAVE_PAGE_DIFF);
                 break;
             case DASHBOARD_PAGE:
+                context.setAttribute("method","TC07_home_navigation" );
+                context.setAttribute("base",DASHBOARD_PAGE_BASE );
+                context.setAttribute("diff",DASHBOARD_PAGE_DIFF);
                 assertThat(driver.findElement(By.id("content")).getText(), containsString("Dashboard"));
                 imageComparisonWithImageMagick(DASHBOARD_PAGE_BASE,DASHBOARD_PAGE_ACTUAL,DASHBOARD_PAGE_DIFF);
                 break;
             case DIRECTORY_PAGE:
+                context.setAttribute("method","TC08_home_navigation" );
+                context.setAttribute("base",DIRECTORY_PAGE_BASE );
+                context.setAttribute("diff",DIRECTORY_PAGE_DIFF);
                 assertThat(driver.findElement(By.id("content")).getText(), containsString("Search Directory"));
                 imageComparisonWithShutterbug(driver, DIRECTORY_PAGE_BASE); //success scenario
                 imageComparisonWithAshot(DIRECTORY_PAGE_BASE, DIRECTORY_PAGE_ACTUAL, DIRECTORY_PAGE_DIFF); //success scenario
                 imageComparisonWithImageMagick(DIRECTORY_PAGE_BASE,DIRECTORY_PAGE_ACTUAL,DIRECTORY_PAGE_DIFF); //success scenario
                 break;
             case TIME_PAGE:
+                context.setAttribute("method", "TC04_home_navigation");
+                context.setAttribute("base",LEAVE_PAGE_ACTUAL);
+                context.setAttribute("diff",TIME_PAGE_DIFF);
                 assertThat(driver.findElement(By.id("defineTimesheet")).getText(), containsString("Define Timesheet Period"));
                 imageComparisonWithAshot(LEAVE_PAGE_ACTUAL, TIME_PAGE_ACTUAL, TIME_PAGE_DIFF);
                 break;
             case RECRUITMENT_PAGE:
+                context.setAttribute("method", "TC05_home_navigation");
+                context.setAttribute("base",RECRUITMENT_PAGE_BASE);
+                context.setAttribute("diff",RECRUITMENT_PAGE_DIFF);
                 assertThat(driver.findElement(By.id("srchCandidates")).getText(), containsString("Candidates"));
                 imageComparisonWithShutterbug(driver, RECRUITMENT_PAGE_BASE); //Shutterbug only able to compare screen dimension but unable to compare image content
                 imageComparisonWithAshot(RECRUITMENT_PAGE_BASE, RECRUITMENT_PAGE_ACTUAL, RECRUITMENT_PAGE_DIFF); //Result : aShot is able to compare image content
