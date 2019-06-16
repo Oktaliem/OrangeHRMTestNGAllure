@@ -23,7 +23,7 @@ https://hub.docker.com/r/bitnami/orangehrm/
 
 ## Precondition
 Install Allure :
-- MacOS or Linux --> brew install
+- MacOS or Linux --> brew install allure
 ```
 https://brew.sh/
 ```
