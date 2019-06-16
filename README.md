@@ -23,9 +23,11 @@ https://hub.docker.com/r/bitnami/orangehrm/
 
 ## Precondition
 Install Allure :
-- MacOS --> brew install allure
+- MacOS or Linux --> brew install
+```
+https://brew.sh/
+```
 - Windows PC --> scoop install allure
-- Linux ----> brew install allure
 ```
 https://docs.qameta.io/allure/#_installing_a_commandline
 https://scoop.sh/
@@ -121,4 +123,4 @@ https://youtu.be/ddq8hXksH_E
 - https://github.com/assertthat/selenium-shutterbug
 - https://imagemagick.org/index.php
 - https://docs.docker.com/
-- https://brew.sh/
+
