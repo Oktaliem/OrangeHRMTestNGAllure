@@ -25,9 +25,7 @@ https://hub.docker.com/r/bitnami/orangehrm/
 Install Allure :
 - MacOS --> brew install allure
 - Windows PC --> scoop install allure
-- Linux ----> sudo apt-add-repository ppa:qameta/allure
-              sudo apt-get update
-              sudo apt-get install allure
+- Linux ----> brew install allure
 ```
 https://docs.qameta.io/allure/#_installing_a_commandline
 https://scoop.sh/
@@ -123,3 +121,4 @@ https://youtu.be/ddq8hXksH_E
 - https://github.com/assertthat/selenium-shutterbug
 - https://imagemagick.org/index.php
 - https://docs.docker.com/
+- https://brew.sh/
