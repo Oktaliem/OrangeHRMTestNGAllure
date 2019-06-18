@@ -12,7 +12,6 @@ import pages.login.LoginPage;
 import utils.CreateRandomName;
 import utils.Listeners.TestListener;
 
-import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 import static com.ohrm.utilities.OrangeHRMURL.LOGIN_URL;
@@ -31,8 +30,10 @@ public class Preparation {
     }
 
     @BeforeMethod
-    public void beforeMethodSetup() throws IOException {
-        System.setProperty(CHROME_BROWSER, CHROMEDRIVER_PATH);
+    public void beforeMethodSetup() {
+        System.out.println(System.getProperty("user.dir"));
+        System.out.println(System.getProperty("user.dir")+ CHROMEDRIVER_PATH);
+        System.setProperty(CHROME_BROWSER, System.getProperty("user.dir")+ CHROMEDRIVER_PATH);
         driver = new ChromeDriver();
         loginPage = new LoginPage(driver);
         homePage = new HomePage(driver);
@@ -51,15 +52,15 @@ public class Preparation {
         if (page.equals("Login")) {
             TestListener.saveScreenshotPNG(driver);
         } else if (page.equals("User Management")) {
-            loginPage.loginToOHRM("admin","admin");
+            loginPage.loginToOHRM("admin","Bitnami.12345");
             adminPage.userGoToUsersForm();
         }else if(page.equals("home")){
-            loginPage.loginToOHRM("admin","admin");
+            loginPage.loginToOHRM("admin","Bitnami.12345");
         }
     }
 
     @AfterMethod
-    public void closeBrowser() throws IOException {
+    public void closeBrowser() {
         driver.quit();
         Log.info("======================================================================================================");
         Log.info("=========================================TEST FINISHED ================================================");

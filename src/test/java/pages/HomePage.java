@@ -60,9 +60,9 @@ public class HomePage extends BasePage {
         driver.findElement(menuPIMView).click();
         TestListener.saveScreenshotPNG(driver);
         takeFullPageScreenShootAndSave(driver, "PIMPage");
-        Screenshot screenshot = new AShot().shootingStrategy(ShootingStrategies.viewportPasting(500)).takeScreenshot(driver);// full page screen shot with aShot, hasilnya tidak akurat
+        Screenshot screenshot = new AShot().shootingStrategy(ShootingStrategies.viewportPasting(500)).takeScreenshot(driver);// full page screen shot with aShot, hasilnya akurat di MacOS
         try {
-            ImageIO.write(screenshot.getImage(), "PNG", new File(System.getProperty("user.dir") + ".\\screenshots\\PIMPage_aShot.png"));
+            ImageIO.write(screenshot.getImage(), "PNG", new File(System.getProperty("user.dir") + "/screenshots/PIMPage_aShot.png"));
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -104,31 +104,31 @@ public class HomePage extends BasePage {
         WebElement myWebElement = driver.findElement(By.cssSelector("div#div_graph_display_emp_distribution > canvas:nth-of-type(2)"));
 
         //aShot sample 1
-        Screenshot screenshot = new AShot().takeScreenshot(driver, myWebElement); //method bisa dipakai tp hasilnya tidak akurat kadang2;
+        Screenshot screenshot = new AShot().takeScreenshot(driver, myWebElement); //hasilny akurat di MacOS environment
         try {
-            ImageIO.write(screenshot.getImage(), "PNG", new File(System.getProperty("user.dir") + ".\\screenshots\\dashboard_pie_chart_aShot.png"));
+            ImageIO.write(screenshot.getImage(), "PNG", new File(System.getProperty("user.dir") + "/screenshots/dashboard_pie_chart_aShot.png"));
         } catch (IOException e) {
             e.printStackTrace();
         }
         //aShot sample 2
-        Screenshot screenshot2 = new AShot().coordsProvider(new WebDriverCoordsProvider()).takeScreenshot(driver, myWebElement); //method bisa dipakai tp hasilnya tidak akurat kadang2;
+        Screenshot screenshot2 = new AShot().coordsProvider(new WebDriverCoordsProvider()).takeScreenshot(driver, myWebElement); //hasilny akurat di MacOS environment
         try {
-            ImageIO.write(screenshot2.getImage(), "PNG", new File(System.getProperty("user.dir") + ".\\screenshots\\dashboard_pie_chart_aShot_2.png"));
+            ImageIO.write(screenshot2.getImage(), "PNG", new File(System.getProperty("user.dir") + "/screenshots/dashboard_pie_chart_aShot_2.png"));
         } catch (IOException e) {
             e.printStackTrace();
         }
         //aShot sample 3
-        Screenshot screenshot3 = new AShot().shootingStrategy(ShootingStrategies.viewportPasting(500)).takeScreenshot(driver, myWebElement); //method bisa dipakai tp hasilnya tidak akurat kadang2;
+        Screenshot screenshot3 = new AShot().shootingStrategy(ShootingStrategies.viewportPasting(500)).takeScreenshot(driver, myWebElement); //hasilny akurat di MacOS environment
         try {
-            ImageIO.write(screenshot3.getImage(), "PNG", new File(System.getProperty("user.dir") + ".\\screenshots\\dashboard_pie_chart_aShot_3.png"));
+            ImageIO.write(screenshot3.getImage(), "PNG", new File(System.getProperty("user.dir") + "/screenshots/dashboard_pie_chart_aShot_3.png"));
         } catch (IOException e) {
             e.printStackTrace();
         }
 
         //Shutterbug
-        Shutterbug.shootElement(driver, myWebElement).withName("dashboard_pie_chart").save(); //method bisa dipakai tp hasilnya tidak akurat
-        Shutterbug.shootPage(driver).highlightWithText(myWebElement, "dashboard_pie_chart_2").withName("dashboard_pie_chart_2").save();//method bisa dipakai tp hasilnya tidak akurat
-        Shutterbug.shootPage(driver).highlight(myWebElement).withName("dashboard_pie_chart_3").save();//method bisa dipakai tp hasilnya tidak akurat
+        Shutterbug.shootElement(driver, myWebElement).withName("dashboard_pie_chart").save(); //hasilny akurat di MacOS environment
+        Shutterbug.shootPage(driver).highlightWithText(myWebElement, "dashboard_pie_chart_2").withName("dashboard_pie_chart_2").save();////hasilny akurat di MacOS environment
+        Shutterbug.shootPage(driver).highlight(myWebElement).withName("dashboard_pie_chart_3").save();//hasilny akurat di MacOS environment
     }
 
     @Step("When - User goes to Directory Module")
