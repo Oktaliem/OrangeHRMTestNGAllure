@@ -8,7 +8,7 @@
 
 Environment : 
 - Windows & Docker  ---> checkout from branch : master
-- MacOs & Docker ---> checok out from branch : macOS
+- MacOs & Docker ---> checkout from branch : macOS
 - Ubuntu/Linux & Docker ---> checkout from branch : ubuntu
 
 ## Download OrangeHRM
