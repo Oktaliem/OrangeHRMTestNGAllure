@@ -73,7 +73,7 @@ public class BasePage {
         }
         */
 
-        // FOR MacOS
+        // FOR MacOS or Ubuntu/Linux
         //https://stackoverflow.com/questions/51460230/imagemagick-compare-command-issue-with-version-7
         ////https://stackoverflow.com/questions/40328791/org-im4java-core-commandexception-magick-no-images-found-for-operation/40535208#40535208
         ProcessStarter.setGlobalSearchPath(IMAGE_MAGICK);

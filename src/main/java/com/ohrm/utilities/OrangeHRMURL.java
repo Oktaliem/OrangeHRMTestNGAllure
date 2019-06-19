@@ -37,7 +37,7 @@ public class OrangeHRMURL {
 
     //public static final String IMAGE_MAGICK ="C:\\Program Files\\ImageMagick-7.0.8-Q16"; //windows
 
-    //for OrangeHRM in DOCKER (MAC/LINUX/WINDOWS
+    //for OrangeHRM in DOCKER (MAC/LINUX/WINDOWS)
     public static final String BASE_URL = "http://127.0.0.1/symfony/web/index.php/auth/login"; //OrangeHRM in Docker (tested in MacOS)
     public static final String BASE_URL_VERIFICATION = "http://127.0.0.1/symfony/web/index.php";
     public static final String LOGIN_URL = BASE_URL + "/auth/login";
@@ -50,7 +50,7 @@ public class OrangeHRMURL {
     public static final String DASHBOARD_PAGE = BASE_URL_VERIFICATION + "/dashboard";
     public static final String DIRECTORY_PAGE = BASE_URL_VERIFICATION+"/directory/viewDirectory/reset/1";
 
-    //For MACOS
+    //For MACOS or Linux/Ubuntu
     public static final String RECRUITMENT_PAGE_BASE = "/baseimages/RecruitmentPageFalse.png";
     public static final String RECRUITMENT_PAGE_DIFF = "/screenshots/RecruitmentPage_Diff.png";
     public static final String RECRUITMENT_PAGE_ACTUAL = "/screenshots/RecruitmentPage.png";
@@ -66,6 +66,7 @@ public class OrangeHRMURL {
     public static final String DASHBOARD_PAGE_ACTUAL="/screenshots/DashboardPage.png";
     public static final String DASHBOARD_PAGE_DIFF ="/screenshots/DashboardPage_Diff.png";
 
-    public static final String IMAGE_MAGICK ="/usr/local/bin/"; //macOS
+    //public static final String IMAGE_MAGICK ="/usr/local/bin/"; //macOS
+    public static final String IMAGE_MAGICK ="/home/linuxbrew/.linuxbrew/bin"; //Ubuntu imagemagick via homebrew insatallation
 
 }

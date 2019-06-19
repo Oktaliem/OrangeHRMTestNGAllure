@@ -100,25 +100,25 @@ public class HomePage extends BasePage {
     public void goToModuleDashboard() {
         driver.findElement(menuDashboard).click();
         TestListener.saveScreenshotPNG(driver);
-        Shutterbug.shootPage(driver, ScrollStrategy.WHOLE_PAGE, 500, true).withName("DashboardPage").save(); // hasilnya valid
+        Shutterbug.shootPage(driver, ScrollStrategy.WHOLE_PAGE, 500, true).withName("DashboardPage").save(); // hasilnya valid di ubuntu
         WebElement myWebElement = driver.findElement(By.cssSelector("div#div_graph_display_emp_distribution > canvas:nth-of-type(2)"));
 
         //aShot sample 1
         Screenshot screenshot = new AShot().takeScreenshot(driver, myWebElement); //hasilny akurat di MacOS environment
         try {
-            ImageIO.write(screenshot.getImage(), "PNG", new File(System.getProperty("user.dir") + "/screenshots/dashboard_pie_chart_aShot.png"));
+            ImageIO.write(screenshot.getImage(), "PNG", new File(System.getProperty("user.dir") + "/screenshots/dashboard_pie_chart_aShot.png")); //hasilnya akurat di ubuntu
         } catch (IOException e) {
             e.printStackTrace();
         }
         //aShot sample 2
-        Screenshot screenshot2 = new AShot().coordsProvider(new WebDriverCoordsProvider()).takeScreenshot(driver, myWebElement); //hasilny akurat di MacOS environment
+        Screenshot screenshot2 = new AShot().coordsProvider(new WebDriverCoordsProvider()).takeScreenshot(driver, myWebElement); //hasilny akurat di ubuntu
         try {
             ImageIO.write(screenshot2.getImage(), "PNG", new File(System.getProperty("user.dir") + "/screenshots/dashboard_pie_chart_aShot_2.png"));
         } catch (IOException e) {
             e.printStackTrace();
         }
         //aShot sample 3
-        Screenshot screenshot3 = new AShot().shootingStrategy(ShootingStrategies.viewportPasting(500)).takeScreenshot(driver, myWebElement); //hasilny akurat di MacOS environment
+        Screenshot screenshot3 = new AShot().shootingStrategy(ShootingStrategies.viewportPasting(500)).takeScreenshot(driver, myWebElement); //hasilny akurat di ubuntu
         try {
             ImageIO.write(screenshot3.getImage(), "PNG", new File(System.getProperty("user.dir") + "/screenshots/dashboard_pie_chart_aShot_3.png"));
         } catch (IOException e) {
@@ -126,9 +126,9 @@ public class HomePage extends BasePage {
         }
 
         //Shutterbug
-        Shutterbug.shootElement(driver, myWebElement).withName("dashboard_pie_chart").save(); //hasilny akurat di MacOS environment
-        Shutterbug.shootPage(driver).highlightWithText(myWebElement, "dashboard_pie_chart_2").withName("dashboard_pie_chart_2").save();////hasilny akurat di MacOS environment
-        Shutterbug.shootPage(driver).highlight(myWebElement).withName("dashboard_pie_chart_3").save();//hasilny akurat di MacOS environment
+        Shutterbug.shootElement(driver, myWebElement).withName("dashboard_pie_chart").save(); //hasilny akurat di ubuntu
+        Shutterbug.shootPage(driver).highlightWithText(myWebElement, "dashboard_pie_chart_2").withName("dashboard_pie_chart_2").save();////hasilny akurat di ubuntu
+        Shutterbug.shootPage(driver).highlight(myWebElement).withName("dashboard_pie_chart_3").save();//hasilny akurat di ubuntu
     }
 
     @Step("When - User goes to Directory Module")
