@@ -7,8 +7,9 @@
 - Visual Regression Testing/Screenshot Comparison with Selenium-Shutterbug, aShot, ImageMagick
 
 Environment : 
-- Windows & Docker
-- MacOs & Docker (inprogress)
+- Windows & Docker  ---> checkout from branch : master
+- MacOs & Docker ---> checok out from branch : macOS
+- Ubuntu/Linux & Docker ---> checkout from branch : ubuntu
 
 ## Download OrangeHRM
 Note : This repository is using OrangeHRM version 4.0 as System Under Test
@@ -23,7 +24,7 @@ https://hub.docker.com/r/bitnami/orangehrm/
 
 ## Precondition
 Install Allure :
-- MacOS or Linux --> brew install allure
+- MacOS or Ubuntu/Linux --> brew install allure
 ```
 https://brew.sh/
 ```
@@ -75,6 +76,12 @@ https://docs.docker.com/toolbox/toolbox_install_windows/
 ```
 https://docs.docker.com/docker-for-mac/install/
 ```
+
+### Docker installation - Ubuntu/Linux
+```
+https://docs.docker.com/install/linux/docker-ce/ubuntu/
+```
+
 ![image](https://user-images.githubusercontent.com/26521948/58690464-276c2580-83bc-11e9-9c6a-a2729cd0fba7.png)
 
 ## Demo in Youtube - Windows
@@ -86,6 +93,7 @@ https://youtu.be/MjgUgCN3WMg
 - Continuous Testing with TestNG/Allure & Continuous Inspection with SonarQube in Docker via Jenkins Continuous Integration Server
 
 Jenkins Scripted Pipeline ---> Windows Environment
+macOS/Ubuntu/Linux Environment ---> change "bat" to be "sh"
 ```
 node({slave}) {
       stage('Checkout') {git poll: true, branch: branch, credentialsId: {credential_name}, url: {URL of repository}}
