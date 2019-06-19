@@ -6,7 +6,7 @@
 - Generate Video on Failed Test (available in Allure report)
 - Visual Regression Testing/Screenshot Comparison with Selenium-Shutterbug, aShot, ImageMagick
 
-Environment : 
+### Environment :
 - Windows & Docker  ---> checkout from branch : master
 - MacOs & Docker ---> checkout from branch : macOS
 - Ubuntu/Linux & Docker ---> checkout from branch : ubuntu
