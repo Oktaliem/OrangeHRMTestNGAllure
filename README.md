@@ -92,8 +92,7 @@ https://youtu.be/MjgUgCN3WMg
 # Recap
 - Continuous Testing with TestNG/Allure & Continuous Inspection with SonarQube in Docker via Jenkins Continuous Integration Server
 
-Jenkins Scripted Pipeline ---> Windows Environment
-macOS/Ubuntu/Linux Environment ---> change "bat" to be "sh"
+Jenkins Scripted Pipeline ---> Windows Environment and for macOS/Ubuntu/Linux Environment ---> change "bat" to be "sh"
 ```
 node({slave}) {
       stage('Checkout') {git poll: true, branch: branch, credentialsId: {credential_name}, url: {URL of repository}}
