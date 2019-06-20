@@ -51,29 +51,6 @@ public class BasePage {
     }
 
     public void imageComparisonWithImageMagick(String base, String actual, String result) throws IOException, IM4JavaException, InterruptedException {
-        /* FOR WINDOWS
-        ProcessStarter.setGlobalSearchPath(IMAGE_MAGICK);
-        CompareCmd compare = new CompareCmd();
-        compare.setErrorConsumer(StandardStream.STDERR);
-        IMOperation cmpOp = new IMOperation();
-        cmpOp.fuzz(10.0);
-        cmpOp.metric("MAE");
-        cmpOp.addImage(System.getProperty("user.dir") + base);
-        cmpOp.addImage(System.getProperty("user.dir") + actual);
-        cmpOp.addImage(System.getProperty("user.dir") + result);
-        try {
-            Log.info("ImageMagick - Comparison Started!");
-            compare.run(cmpOp);
-            Log.info("ImageMagick - Comparison Finished!");
-        }
-        catch (Exception e) {
-            System.out.print(e);
-            Log.error("ImageMagick - Comparison Failed!");
-            throw e;
-        }
-        */
-
-        // FOR MacOS
         //https://stackoverflow.com/questions/51460230/imagemagick-compare-command-issue-with-version-7
         ////https://stackoverflow.com/questions/40328791/org-im4java-core-commandexception-magick-no-images-found-for-operation/40535208#40535208
         ProcessStarter.setGlobalSearchPath(IMAGE_MAGICK);
