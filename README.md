@@ -6,9 +6,10 @@
 - Generate Video on Failed Test (available in Allure report)
 - Visual Regression Testing/Screenshot Comparison with Selenium-Shutterbug, aShot, ImageMagick
 
-Environment : 
-- Windows & Docker
-- MacOs & Docker (inprogress)
+### Environment :
+- Windows ---> checkout from branch : master
+- MacOs   ---> checkout from branch : macOS
+- Ubuntu/Linux ---> checkout from branch : ubuntu
 
 ## Download OrangeHRM
 Note : This repository is using OrangeHRM version 4.0 as System Under Test
@@ -23,11 +24,11 @@ https://hub.docker.com/r/bitnami/orangehrm/
 
 ## Precondition
 Install Allure :
-- MacOS or Linux --> brew install allure
+- MacOS or Ubuntu/Linux --> brew install allure
 ```
 https://brew.sh/
 ```
-- Windows PC --> scoop install allure
+- Windows --> scoop install allure
 ```
 https://docs.qameta.io/allure/#_installing_a_commandline
 https://scoop.sh/
@@ -59,9 +60,7 @@ download allure-report.zip
 ![image](https://user-images.githubusercontent.com/26521948/58747219-b9e2f680-849a-11e9-8ae1-e5a9d5b32c0b.png)
 
 ## Demo in Youtube
-```
 https://youtu.be/EPd5iCTchuA
-```
 
 # DemoOrangeHRMTestNGAllure Code Quality
 - Continuous Inspection with SonarQube in Docker
@@ -75,17 +74,21 @@ https://docs.docker.com/toolbox/toolbox_install_windows/
 ```
 https://docs.docker.com/docker-for-mac/install/
 ```
+
+### Docker installation - Ubuntu/Linux
+```
+https://docs.docker.com/install/linux/docker-ce/ubuntu/
+```
+
 ![image](https://user-images.githubusercontent.com/26521948/58690464-276c2580-83bc-11e9-9c6a-a2729cd0fba7.png)
 
 ## Demo in Youtube - Windows
-```
 https://youtu.be/MjgUgCN3WMg
-```
 
 # Recap
 - Continuous Testing with TestNG/Allure & Continuous Inspection with SonarQube in Docker via Jenkins Continuous Integration Server
 
-Jenkins Scripted Pipeline ---> Windows Environment
+Jenkins Scripted Pipeline ---> Windows Environment and for macOS/Ubuntu/Linux Environment ---> change "bat" to be "sh"
 ```
 node({slave}) {
       stage('Checkout') {git poll: true, branch: branch, credentialsId: {credential_name}, url: {URL of repository}}
@@ -109,9 +112,7 @@ node({slave}) {
 ![image](https://user-images.githubusercontent.com/26521948/58901028-df8a2d00-8732-11e9-8ce5-2a708a718227.png)
 
 ## Demo in Youtube - Windows
-```
 https://youtu.be/ddq8hXksH_E
-```
 
 # References :
 - https://www.seleniumhq.org/
