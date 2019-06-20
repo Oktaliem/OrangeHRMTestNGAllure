@@ -8,7 +8,7 @@
 
 ### Environment :
 - Windows ---> checkout from branch : master
-- MacOs   ---> checkout from branch : macOS
+- MacOS   ---> checkout from branch : macOS
 - Ubuntu/Linux ---> checkout from branch : ubuntu
 
 ## Download OrangeHRM
