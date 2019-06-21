@@ -60,7 +60,7 @@ public class HomePage extends BasePage {
         driver.findElement(menuPIMView).click();
         TestListener.saveScreenshotPNG(driver);
         takeFullPageScreenShootAndSave(driver, "PIMPage");
-        Screenshot screenshot = new AShot().shootingStrategy(ShootingStrategies.viewportPasting(500)).takeScreenshot(driver);// full page screen shot with aShot, hasilnya akurat di MacOS
+        Screenshot screenshot = new AShot().shootingStrategy(ShootingStrategies.viewportPasting(500)).takeScreenshot(driver);// full page screen shot with aShot, hasilnya akurat di ubuntu
         try {
             ImageIO.write(screenshot.getImage(), "PNG", new File(System.getProperty("user.dir") + "/screenshots/PIMPage_aShot.png"));
         } catch (IOException e) {
@@ -104,7 +104,7 @@ public class HomePage extends BasePage {
         WebElement myWebElement = driver.findElement(By.cssSelector("div#div_graph_display_emp_distribution > canvas:nth-of-type(2)"));
 
         //aShot sample 1
-        Screenshot screenshot = new AShot().takeScreenshot(driver, myWebElement); //hasilny akurat di MacOS environment
+        Screenshot screenshot = new AShot().takeScreenshot(driver, myWebElement); //hasilny akurat di ubuntu environment
         try {
             ImageIO.write(screenshot.getImage(), "PNG", new File(System.getProperty("user.dir") + "/screenshots/dashboard_pie_chart_aShot.png")); //hasilnya akurat di ubuntu
         } catch (IOException e) {
