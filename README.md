@@ -64,7 +64,8 @@ download allure-report.zip
 ![image](https://user-images.githubusercontent.com/26521948/58747219-b9e2f680-849a-11e9-8ae1-e5a9d5b32c0b.png)
 
 ## Demo in Youtube
-https://youtu.be/EPd5iCTchuA
+   <a href="https://youtu.be/EPd5iCTchuA" target="_blank"><img src="https://user-images.githubusercontent.com/26521948/72658109-63a1d400-39e7-11ea-9667-c652586b4508.png" 
+   alt="CLICK HERE" width="140" height="80" border="10" /></a>
 
 # DemoOrangeHRMTestNGAllure Code Quality
 - Continuous Inspection with SonarQube in Docker
@@ -87,7 +88,8 @@ https://docs.docker.com/install/linux/docker-ce/ubuntu/
 ![image](https://user-images.githubusercontent.com/26521948/58690464-276c2580-83bc-11e9-9c6a-a2729cd0fba7.png)
 
 ## Demo in Youtube - Windows
-https://youtu.be/MjgUgCN3WMg
+   <a href="https://youtu.be/MjgUgCN3WMg" target="_blank"><img src="https://user-images.githubusercontent.com/26521948/72658109-63a1d400-39e7-11ea-9667-c652586b4508.png" 
+   alt="CLICK HERE" width="140" height="80" border="10" /></a>
 
 # Recap
 - Continuous Testing with TestNG/Allure & Continuous Inspection with SonarQube in Docker via Jenkins Continuous Integration Server
