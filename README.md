@@ -24,6 +24,8 @@ or
 Mac/Linux/Windows
 https://hub.docker.com/r/bitnami/orangehrm/
 ```
+## Architecture Diagram
+![Image](https://github.com/user-attachments/assets/d08d5d53-4f18-48f1-af2f-880175570a79)
 
 
 ## Precondition
